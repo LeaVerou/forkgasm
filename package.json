@@ -1,0 +1,28 @@
+{
+  "name": "forkgasm",
+  "version": "1.0.0",
+  "description": "Forkgasm website",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeaVerou/forkgasm.git"
+  },
+  "author": "Lea Verou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeaVerou/forkgasm/issues"
+  },
+  "homepage": "http://forkgasm.com",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "postcss-custom-properties": "^6.0.1",
+    "postcss-nesting": "^4.0.1",
+    "postcss-selector-matches": "^3.0.1"
+  }
+}

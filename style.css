@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,600i,700');
+
+body {
+	margin: 0;
+	font: 100%/1.5 Helvetica Neue, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Crimson Text, Adobe Caslon Pro, serif;
+	line-height: 1.2;
+}
+
+a {
+	color: inherit;
+}
+
+header {
+	padding: 1.5em;
+	padding-bottom: 0;
+	background: hsl(25, 100%, 50%);
+	color: white
+}
+
+header nav {
+	margin: auto;
+	margin-top: 1em;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	font-weight: bold;
+}
+
+header nav a {
+	padding: .8em;
+	text-decoration: none;
+	border-bottom: .4em solid transparent;
+}
+
+header nav a:hover {
+	border-bottom-color: hsla(0,0%,100%,.72);
+}
+
+h1 {
+	margin: 0;
+	line-height: 1;
+	font-weight: 600;
+	font-style: italic
+}
+
+h1 img {
+	display: block;
+	margin: auto;
+}
+
+h1 img[src*=logo] {
+	width: 3em;
+}
+
+h1 img[src*=wordmark] {
+	height: 2em;
+}
+
+body > section {
+	margin: 1em;
+	padding: 0 calc(50% - 60em/2 - 1em)
+}
+
+body > section h2 {
+	margin: 0;
+	color: hsl(25, 100%, 50%);
+	font-size: 250%;
+}
+
+body > section p[property=description] {
+	margin-top: 0;
+}
+
+
+[property="ingredient"] [property="preparation"] {
+	opacity: .5;
+	font-style: italic;
+}

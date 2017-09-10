@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 180" style="enable-background:new 0 0 100 180;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#997D6E;enable-background:new    ;}
+	.st1{display:none;fill:#FF6700;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#40060E;}
+	.st4{clip-path:url(#SVGID_2_);fill:#DD505A;}
+</style>
+<symbol  id="eye" viewBox="-7.7 -3.8 15.4 7.7">
+	<path class="st0" d="M7.7-3.8C6.5-2.1,2.3-0.4,0-0.4c-2.4,0-6.6-1.5-7.7-3.4c0,4.2,3.4,7.7,7.7,7.7S7.7,0.4,7.7-3.8z"/>
+</symbol>
+<rect x="-230.3" y="-80.2" class="st1" width="562" height="434"/>
+<path class="st2" d="M85.8,11.1c-1-3-5.4-2.2-5.4,1c0.1,10.2-0.1,47.3-0.6,54.8c-0.3,5.8-8.7,6.3-9.8,0.6c-2.3-12-4.7-52.9-6.1-60.5
+	c-0.6-3.2-5.3-3.3-5.6,0c-0.6,6.8-2,51.4-3.4,62.1c-0.8,5.7-9,5.7-9.8,0c-1.5-10.9-2.8-55.6-3.4-62c-0.3-3.3-5.1-3.4-5.6-0.2
+	c-1.1,7.2-3.3,47.9-5.3,59.9c-1,5.7-9.2,5.4-9.8-0.4c-0.8-8.5-1.4-45.9-1.3-54.4c0-3.1-4.4-3.9-5.4-0.9C4.6,39.8,0.6,74.7,0.6,93.7
+	c-0.1,60.7,26.3,80.4,49.4,80.4s50.1-19.7,49.6-80.4C99.5,61.8,91,26.6,85.8,11.1z"/>
+<g>
+	
+		<use xlink:href="#eye"  width="15.4" height="7.7" id="XMLID_1_" x="-7.7" y="-3.8" transform="matrix(1.3303 -0.4843 -0.4843 -1.3303 23.8526 91.2385)" style="overflow:visible;"/>
+	
+		<use xlink:href="#eye"  width="15.4" height="7.7" x="-7.7" y="-3.8" transform="matrix(1.3303 0.4843 0.4843 -1.3303 76.1474 90.6206)" style="overflow:visible;enable-background:new    ;"/>
+</g>
+<path class="st3" d="M14.8,121.8c27.6-8.3,43.1-7.2,70.4-1.4c-13.7,5.2-13.2,35.3-28.6,39c-3.1,0.7-10.1,0.7-13.2,0
+	C28,155.8,28,125.8,14.8,121.8z"/>
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M14.8,121.8c27.6-8.3,43.1-7.2,70.4-1.4c-13.7,5.2-13.2,35.3-28.6,39c-3.1,0.7-10.1,0.7-13.2,0
+				C28,155.8,28,125.8,14.8,121.8z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<path class="st4" d="M58.4,146.6c-2.8,0-5.8,3.2-8.4,3.2c-2.7,0-5.6-3.2-8.4-3.2c-5.2,0-9.3,4.2-9.3,9.3s14.9,9.3,17.7,9.3
+			s17.7-4.2,17.7-9.3S63.6,146.6,58.4,146.6z"/>
+	</g>
+</g>
+</svg>
