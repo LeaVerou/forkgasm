@@ -4,92 +4,10 @@
 	<meta charset="UTF-8">
 	<title>forkgasm — Lea & Chris’s culinary advenctures</title>
 	<link rel="stylesheet" href="style.css">
-	<!-- <link rel="stylesheet" href="../mavo/dist/mavo.css"><script src="../mavo/dist/mavo.js"></script> -->
-	<link rel="stylesheet" href="https://get.mavo.io/mavo.css"><script src="https://get.mavo.io/mavo.js"></script>
+	<link rel="stylesheet" href="../mavo/dist/mavo.css"><script src="../mavo/dist/mavo.js"></script>
+	<!-- <link rel="stylesheet" href="https://get.mavo.io/mavo.css"><script src="https://get.mavo.io/mavo.js"></script> -->
 </head>
 <body>
-
-<script type="application/json" id="data">{
-	"recipe": [
-		{
-			"name": "Khoresht Karafs",
-			"description": "A delicious Persian stew with beef and celery.",
-			"ingredient": [
-				{
-					"amount": "1",
-					"name": "large onion",
-					"preparation": "diced"
-				},
-				{
-					"amount": "4",
-					"unit": "cloves",
-					"name": "garlic",
-					"preparation": "finely chopped"
-				},
-				{
-					"amount": "1",
-					"unit": "bunch",
-					"name": "parsley"
-				},
-				{
-					"amount": "1",
-					"unit": "bunch",
-					"name": "fresh mint"
-				},
-				{
-					"amount": "1",
-					"unit": "pound",
-					"name": "stew beef",
-					"preparation": "cut in 1in cubes"
-				},
-				{
-					"amount": "1",
-					"unit": "head",
-					"name": "celery",
-					"preparation": "cut in 1in slices"
-				},
-				{
-					"amount": "1",
-					"unit": "tsp",
-					"name": "ground turmeric"
-				},
-				{
-					"name": "butter or oil"
-				},
-				{
-					"amount": "2",
-					"unit": "cup",
-					"name": "beef stock"
-				},
-				{
-					"amount": "0.5",
-					"name": "lemon",
-					"preparation": "juiced"
-				}
-			],
-			"step": [
-				{
-					"description": "Wash the mint and parsley and make sure they are *completely dry*. A salad spinner helps, if you don’t have one you can use paper towels."
-				},
-				{
-					"description": "Finely chop the mint and parsley, then sauté until just starting to turn crispy. Set aside."
-				},
-				{
-					"description": "Dice the onion and sauté with enough butter or oil until golden"
-				},
-				{
-					"description": "Finely chop the garlic and add to the onion. Sauté for 1-2 more minutes"
-				},
-				{
-					"description": "Add turmeric and sauté for 2 more minutes"
-				},
-				{
-					"description": "Cut the beef into 1 inch cubes and add to the onion"
-				}
-			]
-		}
-	]
-}</script>
 
 <header>
 	<h1>
@@ -102,7 +20,7 @@
 	</nav>
 </header>
 
-<section mv-app mv-storage="#data">
+<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json">
 	<article property="recipe" mv-multiple>
 		<h2 property="name"></h2>
 		<img property="image">
