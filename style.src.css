@@ -1,17 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,600i,700');
-
 :root {
 	--color1: hsl(25, 100%, 50%);
 	--color2: hsl(190, 67%, 42%);
 	--gray: hsl(190, 10%, 50%);
-	--body-font: Helvetica Neue, sans-serif;
-	--heading-font: Crimson Text, Adobe Caslon Pro, serif;
-	--section-width: 60em;
+	--body-font: Baskerville, Adobe Caslon Pro, serif;
+	--heading-font: Helvetica Neue, sans-serif;
+	--section-width: 50em;
 }
 
 body {
 	margin: 0;
-	font: 100%/1.5 var(--body-font);
+	font: 120%/1.5 var(--body-font);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,20 +19,35 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
-header {
+body > header {
 	padding: 1.5em;
-	padding-bottom: 0;
+	padding-bottom: 1em;
 	background: hsl(25, 100%, 50%);
 	color: white;
+
+	& p {
+		margin: 0;
+		text-align: center;
+		font-family: var(--heading-font);
+		font-weight: 900;
+		opacity: .6;
+	}
 
 	& nav {
 		margin: auto;
 		margin-top: 1em;
 		display: flex;
 		justify-content: center;
+		font-family: var(--heading-font);
 		font-weight: bold;
+		display: none;
 
 		& a {
 			padding: .8em;
@@ -68,6 +81,10 @@ h1 {
 	}
 }
 
+h3 {
+	color: var(--color2);
+}
+
 body > section {
 	margin: 1em;
 	padding: 0 calc(50% - var(--section-width)/2 - 1em);
@@ -83,6 +100,44 @@ body > section {
 	}
 }
 
+ol {
+	padding: 0;
+}
+
+article {
+	& > header {
+		& img {
+			max-height: 10em;
+			object-fit: cover;
+
+
+			&[mv-mode=edit] {
+				min-width: 2em;
+				min-height: 2em;
+				background: #ddd;
+			}
+		}
+	}
+}
+
+footer {
+	color: gray;
+	text-align: right;
+}
+
+.ingredients ol {
+	list-style: none;
+
+	& input[type=checkbox] {
+		position: absolute;
+		margin-left: -1.8em;
+		margin-top: .5em;
+
+		&:checked ~ span {
+			text-decoration: line-through;
+		}
+	}
+}
 
 [property="ingredient"] {
 	& [property="preparation"] {

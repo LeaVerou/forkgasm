@@ -1,27 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,600,600i,700');
-
 body {
 	margin: 0;
-	font: 100%/1.5 Helvetica Neue, sans-serif;
+	font: 120%/1.5 Baskerville, Adobe Caslon Pro, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Crimson Text, Adobe Caslon Pro, serif;
+	font-family: Helvetica Neue, sans-serif;
 	line-height: 1.2;
 }
 
 a {
 	color: inherit;
+	text-decoration: none
 }
 
-header {
+a:hover {
+	text-decoration: underline;
+}
+
+body > header {
 	padding: 1.5em;
-	padding-bottom: 0;
+	padding-bottom: 1em;
 	background: hsl(25, 100%, 50%);
 	color: white
 }
 
-header nav {
+body > header p {
+	margin: 0;
+	text-align: center;
+	font-family: Helvetica Neue, sans-serif;
+	font-weight: 900;
+	opacity: .6;
+}
+
+body > header nav {
 	margin: auto;
 	margin-top: 1em;
 	display: -webkit-box;
@@ -30,16 +41,18 @@ header nav {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+	font-family: Helvetica Neue, sans-serif;
 	font-weight: bold;
+	display: none;
 }
 
-header nav a {
+body > header nav a {
 	padding: .8em;
 	text-decoration: none;
 	border-bottom: .4em solid transparent;
 }
 
-header nav a:hover {
+body > header nav a:hover {
 	border-bottom-color: hsla(0,0%,100%,.72);
 }
 
@@ -63,9 +76,13 @@ h1 img[src*=wordmark] {
 	height: 2em;
 }
 
+h3 {
+	color: hsl(190, 67%, 42%);
+}
+
 body > section {
 	margin: 1em;
-	padding: 0 calc(50% - 60em/2 - 1em)
+	padding: 0 calc(50% - 50em/2 - 1em)
 }
 
 body > section h2 {
@@ -78,6 +95,40 @@ body > section p[property=description] {
 	margin-top: 0;
 }
 
+ol {
+	padding: 0;
+}
+
+article > header img {
+	max-height: 10em;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+article > header img[mv-mode=edit] {
+	min-width: 2em;
+	min-height: 2em;
+	background: #ddd;
+}
+
+footer {
+	color: gray;
+	text-align: right;
+}
+
+.ingredients ol {
+	list-style: none
+}
+
+.ingredients ol input[type=checkbox] {
+	position: absolute;
+	margin-left: -1.8em;
+	margin-top: .5em;
+}
+
+.ingredients ol input[type=checkbox]:checked ~ span {
+	text-decoration: line-through;
+}
 
 [property="ingredient"] [property="preparation"] {
 	opacity: .5;

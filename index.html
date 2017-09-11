@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>forkgasm — Lea & Chris’s culinary advenctures</title>
-	<link rel="stylesheet" href="style.css">
+	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
+
 	<link rel="stylesheet" href="../mavo/dist/mavo.css"><script src="../mavo/dist/mavo.js"></script>
 	<!-- <link rel="stylesheet" href="https://get.mavo.io/mavo.css"><script src="https://get.mavo.io/mavo.js"></script> -->
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -14,19 +15,22 @@
 		<img src="logo.svg" alt="">
 		<img src="wordmark.svg" alt="forkgasm">
 	</h1>
+	<p>Lea & Chris’ culinary advenctures</p>
 	<nav>
 		<a href="restaurants.html">Reviews</a>
 		<a href="recipes.html">Recipes</a>
 	</nav>
 </header>
 
-<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json">
+<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login">
 	<article property="recipe" mv-multiple>
-		<h2 property="name"></h2>
-		<img property="image">
-		<p property="description"></p>
+		<header>
+			<img property="image">
+			<h2 property="name"></h2>
+			<p property="description"></p>
+		</header>
 
-		<section>
+		<section class="ingredients">
 			<h3>Ingredients</h3>
 			<ol>
 				<li property="ingredient" mv-multiple>
@@ -39,8 +43,8 @@
 			</ol>
 		</section>
 
-		<section>
-			<h3>Execution</h3>
+		<section class="directions">
+			<h3>Directions</h3>
 			<ol>
 				<li property="step" mv-multiple>
 					<img property="image">
@@ -49,6 +53,12 @@
 			</ol>
 		</section>
 	</article>
+
+	<footer>
+		<p class="mv-logged-out">
+			<a href="?login" class="mv-login">Login to edit</a>
+		</p>
+	</footer>
 
 	<div >
 		<datalist id="units">
