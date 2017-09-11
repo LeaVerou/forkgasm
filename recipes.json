@@ -22,11 +22,11 @@
 				},
 				{
 					"amount": "1",
-					"unit": "bunch",
+					"unit": "small bunch",
 					"name": "fresh mint"
 				},
 				{
-					"amount": "1",
+					"amount": "1.5",
 					"unit": "pound",
 					"name": "stew beef",
 					"preparation": "cut in 1in cubes"
@@ -35,7 +35,7 @@
 					"amount": "1",
 					"unit": "head",
 					"name": "celery",
-					"preparation": "cut in 1in slices"
+					"preparation": "trimmed and chopped in 1in slices"
 				},
 				{
 					"amount": "1",
