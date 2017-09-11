@@ -6,7 +6,7 @@
 			"ingredient": [
 				{
 					"amount": "1",
-					"name": "large onion",
+					"name": "large yellow onion",
 					"preparation": "diced"
 				},
 				{
@@ -43,9 +43,6 @@
 					"name": "ground turmeric"
 				},
 				{
-					"name": "butter or oil"
-				},
-				{
 					"amount": "2",
 					"unit": "cup",
 					"name": "beef stock"
@@ -54,6 +51,9 @@
 					"amount": "0.5",
 					"name": "lemon",
 					"preparation": "juiced"
+				},
+				{
+					"name": "butter or oil"
 				}
 			],
 			"step": [
@@ -64,18 +64,31 @@
 					"description": "Finely chop the mint and parsley, then sauté until just starting to turn crispy. Set aside."
 				},
 				{
-					"description": "Dice the onion and sauté with enough butter or oil until golden"
+					"description": "Sauté the onion with enough butter or oil until golden"
 				},
 				{
-					"description": "Finely chop the garlic and add to the onion. Sauté for 1-2 more minutes"
+					"description": "Add the garlic and sauté for 1-2 more minutes"
 				},
 				{
-					"description": "Add turmeric and sauté for 2 more minutes"
+					"description": "Add the turmeric and sauté for 2 more minutes"
 				},
 				{
-					"description": "Cut the beef into 1 inch cubes and add to the onion"
+					"description": "Add the beef cubes and sauté until browned on the outside"
+				},
+				{
+					"description": "Pour in the beef stock and sautéed mint and parsley and simmer"
+				},
+				{
+					"description": "In a separate pan, sauté the celery until *just* starting to turn brown. Set aside."
+				},
+				{
+					"description": "After the stew has been simmering for 1.5 hour, pour in the sautéed celery and simmer for another 30 minutes. This is done so that the celery doesn’t become too mushy."
+				},
+				{
+					"description": "Finish with the lemon juice and serve."
 				}
-			]
+			],
+			"image": "images/pasted-image-1505088398106.png"
 		}
 	]
 }
