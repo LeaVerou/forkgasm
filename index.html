@@ -22,7 +22,7 @@
 	</nav>
 </header>
 
-<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login" mv-plugins="markdown">
+<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login" mv-plugins="markdown" id="[idify(name)]">
 	<div class="mv-bar mv-ui mv-fixed"></div>
 	<article property="recipe" mv-multiple style="--image: url([image])">
 		<header>
@@ -64,7 +64,7 @@
 
 		<footer class="[if(!forked, 'hide-on-read')]">
 			<span>Forked from</span>
-			<div property="forked"></div>
+			<div property="forked" class="markdown"></div>
 		</footer>
 	</article>
 
