@@ -88,7 +88,12 @@
 					"description": "Finish with the lemon juice and serve."
 				}
 			],
-			"image": "images/pasted-image-1505088398106.png"
+			"image": "images/pasted-image-1505088398106.png",
+			"tag": [
+				"Stew",
+				"Persian",
+				"Beef"
+			]
 		}
 	]
 }
