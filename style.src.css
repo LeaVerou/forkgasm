@@ -2,19 +2,24 @@
 	--color1: hsl(25, 100%, 50%);
 	--color2: hsl(190, 67%, 42%);
 	--gray: hsl(190, 10%, 50%);
-	--body-font: Baskerville, Adobe Caslon Pro, serif;
-	--heading-font: Helvetica Neue, sans-serif;
-	--section-width: 50em;
+	--serif: Baskerville, Adobe Caslon Pro, serif;
+	--sans-serif: Helvetica Neue, sans-serif;
+	--section-width: 60em;
 }
 
 body {
 	margin: 0;
-	font: 120%/1.5 var(--body-font);
+	font: 120%/1.5 var(--serif);
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: var(--heading-font);
+	font-family: var(--sans-serif);
 	line-height: 1.2;
+}
+
+h3 {
+	font-size: 200%;
+	margin: .5em 0;
 }
 
 a {
@@ -26,6 +31,14 @@ a {
 	}
 }
 
+p:first-of-type {
+	margin-top: 0;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
+}
+
 body > header {
 	padding: 1.5em;
 	padding-bottom: 1em;
@@ -35,7 +48,7 @@ body > header {
 	& p {
 		margin: 0;
 		text-align: center;
-		font-family: var(--heading-font);
+		font-family: var(--sans-serif);
 		font-weight: 900;
 		opacity: .6;
 	}
@@ -45,7 +58,7 @@ body > header {
 		margin-top: 1em;
 		display: flex;
 		justify-content: center;
-		font-family: var(--heading-font);
+		font-family: var(--sans-serif);
 		font-weight: bold;
 		display: none;
 
@@ -82,21 +95,25 @@ h1 {
 }
 
 h3 {
-	color: var(--color2);
+	color: var(--color1);
 }
 
 body > section {
-	margin: 1em;
+	margin: 1em 2em;
 	padding: 0 calc(50% - var(--section-width)/2 - 1em);
 
 	& h2 {
 		margin: 0;
-		color: var(--color1);
+		color: white;
 		font-size: 250%;
 	}
 
 	& p[property=description] {
 		margin-top: 0;
+	}
+
+	& > footer {
+		text-align: right;
 	}
 }
 
@@ -104,12 +121,152 @@ ol {
 	padding: 0;
 }
 
-article {
+[property="recipe"] {
 	& > header {
-		& img {
-			max-height: 10em;
-			object-fit: cover;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		color: white;
+		padding: 1em;
 
+		&::before {
+			content: "";
+			position: absolute;
+			top: -1em;
+			right: -1em;
+			bottom: -1em;
+			left: -1em;
+			z-index: -1;
+			background: var(--image) center / cover;
+			filter: blur(1em);
+		}
+
+		& h2 {
+			letter-spacing: -.02em;
+		}
+
+		& img {
+			width: 10em;
+			height: 10em;
+			object-fit: cover;
+			border-radius: 50%;
+			border: .5em solid hsla(0,0%,100%,.3);
+			margin: 0 0 1em;
+
+			&[mv-mode=edit] {
+				background: #ddd;
+				background-clip: padding-box;
+			}
+		}
+
+		& [property=tag] {
+			padding: .3em .5em;
+			border-radius: .3em;
+			margin: 0 .2em;
+			background: white;
+			color: black;
+			mix-blend-mode: screen;
+			font: bold 80%/1 var(--sans-serif);
+			text-transform: uppercase;
+		}
+	}
+
+	& > .content {
+		counter-reset: step;
+	}
+
+	@media (min-width: 800px) {
+		& > .content {
+			display: flex;
+		}
+
+		& .directions {
+			margin-left: 3em;
+		}
+	}
+
+	& > footer { /* Forked */
+		padding: .4em .8em .6em;
+		margin-top: 1em;
+		color: white;
+		font-style: italic;
+		font-size: 120%;
+		--fork: url(logo.svg) right / contain no-repeat content-box;
+		background: var(--fork) var(--color2);
+
+		@supports (background-blend-mode: inherit) {
+			background:  var(--fork), var(--image) center / cover var(--color2);
+			background-blend-mode: normal, multiply;
+		}
+
+		& > span {
+			font: bold 60%/1 var(--sans-serif);
+		}
+	}
+
+	&:not([mv-mode=edit]) .hide-on-read {
+		display: none;
+	}
+}
+
+.ingredients {
+	min-width: 15em;
+
+	& ol {
+		list-style: none;
+
+		& > li {
+			margin-bottom: .5em;
+		}
+
+		& input[type=checkbox] {
+			position: absolute;
+			margin-left: -1.8em;
+			margin-top: .5em;
+
+			&:checked ~ span {
+				text-decoration: line-through;
+			}
+		}
+	}
+}
+
+	[property="ingredient"] {
+		& [property="preparation"] {
+			opacity: .5;
+			font-style: italic;
+		}
+	}
+
+.directions {
+
+}
+
+	[property="step"] {
+		display: flex;
+		position: relative;
+		margin-bottom: .5em;
+		counter-increment: step;
+
+		&::before {
+			content: counter(step);
+			position: absolute;
+			right: 100%;
+			margin-right: .5em;
+			color: var(--color2);
+			font: bold 100% var(--sans-serif);
+		}
+
+		& > div {
+			flex: 1;
+		}
+
+		& p {
+			margin: 0;
+		}
+
+		& img {
+			margin-left: .5em;
 
 			&[mv-mode=edit] {
 				min-width: 2em;
@@ -118,30 +275,3 @@ article {
 			}
 		}
 	}
-}
-
-footer {
-	color: gray;
-	text-align: right;
-}
-
-.ingredients ol {
-	list-style: none;
-
-	& input[type=checkbox] {
-		position: absolute;
-		margin-left: -1.8em;
-		margin-top: .5em;
-
-		&:checked ~ span {
-			text-decoration: line-through;
-		}
-	}
-}
-
-[property="ingredient"] {
-	& [property="preparation"] {
-		opacity: .5;
-		font-style: italic;
-	}
-}

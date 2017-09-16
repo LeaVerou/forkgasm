@@ -22,36 +22,49 @@
 	</nav>
 </header>
 
-<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login">
-	<article property="recipe" mv-multiple>
+<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login" mv-plugins="markdown">
+	<article property="recipe" mv-multiple style="--image: url([image])">
 		<header>
-			<img property="image">
+			<a href="[image]" target="_blank"><img property="image"></a>
 			<h2 property="name"></h2>
 			<p property="description"></p>
+			<p class="tags">
+				<span property="tag" mv-multiple></span>
+			</p>
 		</header>
 
-		<section class="ingredients">
-			<h3>Ingredients</h3>
-			<ol>
-				<li property="ingredient" mv-multiple>
-					<input type="checkbox">
-					<span property="amount">1</span>
-					<span property="unit" mv-edit-list="units"></span>
-					<span property="name"></span>
-					<span property="preparation" mv-edit-list="#preparations"></span>
-				</li>
-			</ol>
-		</section>
+		<div class="content">
+			<section class="ingredients">
+				<h3>Ingredients</h3>
+				<ol>
+					<li property="ingredient" mv-multiple>
+						<input type="checkbox">
+						<span property="amount">1</span>
+						<span property="unit" mv-edit-list="units"></span>
+						<span property="name"></span>
+						<span property="preparation" mv-edit-list="#preparations"></span>
+					</li>
+				</ol>
+			</section>
 
-		<section class="directions">
-			<h3>Directions</h3>
-			<ol>
-				<li property="step" mv-multiple>
-					<img property="image">
-					<div property="description" class="markdown"></div>
-				</li>
-			</ol>
-		</section>
+			<section class="directions">
+				<h3>Directions</h3>
+				<ol>
+					<li property="step" mv-multiple>
+						<div property="description" class="markdown"></div>
+						<img property="image">
+					</li>
+				</ol>
+			</section>
+		</div>
+
+		<h3 class="[if(!notes, 'hide-on-read')]">Notes</h3>
+		<div property="notes" class="markdown"></div>
+
+		<footer class="[if(!forked, 'hide-on-read')]">
+			<span>Forked from</span>
+			<div property="forked"></div>
+		</footer>
 	</article>
 
 	<footer>
