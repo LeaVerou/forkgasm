@@ -164,6 +164,129 @@
 				}
 			],
 			"notes": "- Not low carbing? You can substitute Sukrin Gold for brown sugar and Icing erythritol for — you guessed it — icing sugar."
+		},
+		{
+			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21689067_474934149549613_1462757825410236416_n.jpg",
+			"name": "Curried Beef Stew",
+			"description": "Spicy, complex, and very flavorful, this Thai-inspired curry is perfect for cold winter nights.",
+			"tag": [
+				"Thai",
+				"Stew"
+			],
+			"ingredient": [
+				{
+					"amount": "2",
+					"name": "dried guajillo chillies",
+					"preparation": "stemmed and seeded"
+				},
+				{
+					"amount": "0.5",
+					"unit": "tsp",
+					"name": "kosher salt"
+				},
+				{
+					"amount": "1",
+					"name": "lemongrass stalk",
+					"preparation": "bottom 4\" only, tough outer layer removed, cut into 1\" pieces"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "peeled fresh ginger"
+				},
+				{
+					"amount": "2",
+					"unit": "tsp",
+					"name": "galangal powder"
+				},
+				{
+					"amount": "2",
+					"unit": "tbsp",
+					"name": "peeled fresh turmeric"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "shallots",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "shallots",
+					"preparation": "halved"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "Thai shrimp paste"
+				},
+				{
+					"amount": "2",
+					"unit": "pounds",
+					"name": "beef chuck",
+					"preparation": "trimmed and cut into 1.5-2\" cubes"
+				},
+				{
+					"amount": "6",
+					"unit": "tbsp",
+					"name": "unrefined coconut oil",
+					"preparation": "melted"
+				},
+				{
+					"amount": "3",
+					"unit": "tbsp",
+					"name": "soy sauce"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "ground chipotle"
+				},
+				{
+					"amount": "9",
+					"unit": "cup",
+					"name": "beef broth"
+				},
+				{
+					"amount": "1",
+					"name": "medium turnip",
+					"preparation": "cut in 1\" cubes"
+				},
+				{
+					"amount": "0.125",
+					"unit": "tsp",
+					"name": "Kaffir lime leave powder",
+					"preparation": "(or 6 leaves)"
+				},
+				{
+					"amount": "Some",
+					"name": "Fresh cilantro",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "Some",
+					"name": "Thai basil"
+				}
+			],
+			"step": [
+				{
+					"description": "**Curry paste**: In a mini blender or food processor, blend chiles and salt until pulverized. Add lemongrasss, ginger, galangal, turmeric, chopped shallots, shrimp paste one by one in order listed, fully pulverizing each before adding the next."
+				},
+				{
+					"description": "Combine curry paste, beef, soy sauce, and ground dried chiles in a pot; stir to evenly coat beef. Add coconut oil and cook, stirring occasionally, over medium heat for 5 minutes. Add broth and bring to a boil. Cover, reduce heat to medium-low, and simmer, stirring occasionally, until beef is tender but not falling apart, 2-2 1/2 hours."
+				},
+				{
+					"description": "30 minutes before stew is done, stir in the turnip."
+				},
+				{
+					"description": "5 minutes before stew is done, add the halved shallots."
+				},
+				{
+					"description": "Garnish with cilantro and basil."
+				}
+			],
+			"forked": "[Curried Beef Stew](https://www.epicurious.com/recipes/food/views/curried-beef-stew-380591)"
 		}
 	]
 }
