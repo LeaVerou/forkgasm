@@ -110,10 +110,15 @@ body > section p[property=description] {
 
 body > section > footer {
 	text-align: right;
+	color: gray;
 }
 
 ol {
 	padding: 0;
+}
+
+[property="recipe"] {
+	margin-bottom: 1em
 }
 
 [property="recipe"] > header {
@@ -132,7 +137,7 @@ ol {
 	bottom: -1em;
 	left: -1em;
 	z-index: -1;
-	background: var(--image) center / cover;
+	background: var(--image) center / cover hsl(190, 67%, 42%);
 	-webkit-filter: blur(1em);
 	        filter: blur(1em);
 }
@@ -239,7 +244,9 @@ ol {
 }
 
 .directions {
-
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
 }
 
 	[property="step"] {

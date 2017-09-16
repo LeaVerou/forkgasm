@@ -114,6 +114,7 @@ body > section {
 
 	& > footer {
 		text-align: right;
+		color: gray;
 	}
 }
 
@@ -122,6 +123,8 @@ ol {
 }
 
 [property="recipe"] {
+	margin-bottom: 1em;
+
 	& > header {
 		position: relative;
 		overflow: hidden;
@@ -137,7 +140,7 @@ ol {
 			bottom: -1em;
 			left: -1em;
 			z-index: -1;
-			background: var(--image) center / cover;
+			background: var(--image) center / cover var(--color2);
 			filter: blur(1em);
 		}
 
@@ -239,7 +242,7 @@ ol {
 	}
 
 .directions {
-
+	flex: 1;
 }
 
 	[property="step"] {
