@@ -1,0 +1,22 @@
+@@include("_head.html")
+
+<main class="index">
+	<section mv-app="recipes" mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login" mv-plugins="markdown" class="index">
+		<article property="recipe" mv-multiple style="--image: url([image])" class="recipe-card" mv-order="desc">
+			<a href="[image]" target="_blank"><img property="image"></a>
+			<a href="/recipe/[id]"><h2 property="name"></h2></a>
+			<p property="description"></p>
+			<p class="tags">
+				<span property="tag" mv-multiple></span>
+			</p>
+		</article>
+	</section>
+</main>
+
+<footer>
+	<p class="mv-logged-out">
+		<a href="?login" class="mv-login">Login to edit</a>
+	</p>
+</footer>
+
+@@include("_foot.html")

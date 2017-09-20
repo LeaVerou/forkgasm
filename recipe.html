@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../mavo/dist/mavo.css"><script src="../mavo/dist/mavo.js"></script>
+	<!-- <link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script> -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>
+		<img src="logo.svg" alt="">
+		<img src="wordmark.svg" alt="forkgasm">
+	</h1>
+	<p>Lea & Chris’ culinary advenctures</p>
+	<nav>
+		<a href="restaurants.html">Reviews</a>
+		<a href="recipes.html">Recipes</a>
+	</nav>
+</header>
+
+
+<main>
+
+<section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json"
+         mv-bar="no-login" mv-plugins="markdown" id="[idify(name)]">
+
+	<div class="mv-bar mv-ui mv-fixed"></div>
+	<meta property="selectedRecipe" mv-value="url('recipe')" />
+
+	<article property="recipe" mv-multiple style="--image: url([image])" mv-multiple-path="[if(selectedRecipe)]">
+		<header class="recipe-card">
+			<a href="[image]" target="_blank"><img property="image"></a>
+			<h2 property="name"></h2>
+			<p class="hide-on-read">
+				http://forkgasm.com/recipe/<span property="id" mv-default="[idify(name)]"></span>
+			</p>
+			<p property="description"></p>
+			<p class="tags">
+				<span property="tag" mv-multiple></span>
+			</p>
+		</header>
+
+		<div class="content">
+			<section class="ingredients">
+				<h3>Ingredients</h3>
+				<ol>
+					<li property="ingredient" mv-multiple>
+						<input type="checkbox">
+						<span property="amount">1</span>
+						<span property="unit" mv-edit-list="units"></span>
+						<span property="name"></span>
+						<span property="preparation" mv-edit-list="#preparations"></span>
+					</li>
+				</ol>
+			</section>
+
+			<section class="directions">
+				<h3>Directions</h3>
+				<ol>
+					<li property="step" mv-multiple>
+						<div property="description" class="markdown"></div>
+						<img property="image">
+					</li>
+				</ol>
+			</section>
+		</div>
+
+		<h3 class="[if(!notes, 'hide-on-read')]">Notes</h3>
+		<div property="notes" class="markdown"></div>
+
+		<footer class="[if(!forked, 'hide-on-read')]">
+			<span>Forked from</span>
+			<div property="forked" class="markdown"></div>
+		</footer>
+	</article>
+
+	<footer>
+		<p class="mv-logged-out">
+			<a href="?login" class="mv-login">Login to edit</a>
+		</p>
+	</footer>
+
+	<div>
+		<datalist id="units">
+			<option>g</option>
+			<optgroup label="Small amounts">
+				<option>tsp</option>
+				<option>tbsp</option>
+				<option>oz</option>
+				<option>pinch</option>
+			</optgroup>
+			<optgroup label="Large amounts">
+				<option>cup</option>
+				<option>pound</option>
+				<option>kg</option>
+			</optgroup>
+			<optgroup label="Volume">
+				<option>ml</option>
+				<option>floz</option>
+			</optgroup>
+		</datalist>
+
+		<datalist id="preparations">
+			<option>diced</option>
+			<option>minced</option>
+			<option>sliced</option>
+		</datalist>
+	</div>
+</section>
+
+</main>
+
+</body>
+</html>
+
