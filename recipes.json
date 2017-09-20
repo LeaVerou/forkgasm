@@ -1,6 +1,90 @@
 {
 	"recipe": [
 		{
+			"image": "http://forkgasm.com/images/pasted-image-1505872093194.png",
+			"name": "Sfouggato",
+			"description": "A Lesbian delicacy that is super easy to make and can be eaten hot or cold.",
+			"tag": [
+				"Greek"
+			],
+			"id": "sfouggato",
+			"ingredient": [
+				{
+					"amount": "7",
+					"name": "eggs"
+				},
+				{
+					"amount": "6",
+					"name": "zucchinis",
+					"preparation": "grated"
+				},
+				{
+					"amount": "0.5",
+					"unit": "bunch",
+					"name": "parsley",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "0.5",
+					"unit": "bunch",
+					"name": "dill",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "dried mint"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "graviera",
+					"preparation": "grated"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "feta",
+					"preparation": "crumbled"
+				},
+				{
+					"amount": "1",
+					"name": "red onion",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "1",
+					"name": "spring onion",
+					"preparation": "finely chopped"
+				},
+				{
+					"name": "salt"
+				},
+				{
+					"name": "pepper"
+				}
+			],
+			"step": [
+				{
+					"description": "Add a lot of salt to the grated zucchini and squeeze well with a towel or cheesecloth to remove moisture."
+				},
+				{
+					"description": "Beat the eggs in a bowl and set aside."
+				},
+				{
+					"description": "In a large bowl, mix the zucchini, parsley, dill, onion, spring onion, cheeses, pepper."
+				},
+				{
+					"description": "Add the olive oil to the mix."
+				},
+				{
+					"description": "Spread on a deep, oiled baking tray and bake at 180-200C (350-390F) for about 40 minutes or until golden."
+				}
+			],
+			"notes": "- Graviera is a Greek hard light yellow cheese. Can’t find graviera? Use any yellow cheese that melts. We've had success with cheddar.\n- Don’t have all the ingredients? Worry not! This is a dish with many variations. Most of the ingredients are optional. What is absolutely mandatory is the eggs, zucchinis, some herbs (parsley, dill, and/or mint), some kind of cheese, and some kind of onion (only red onion or only spring onion is ok).",
+			"forked": "[Σφουγγάτο το Μυτιληνιό](https://akispetretzikis.com/el/categories/almyres-pites-tartes/sfoyggato-to-mytilhnio), [Σφουγγάτο Μυτιλήνης με κολοκυθάκια](https://www.madameginger.com/syntages/syntages-mageirikis/ayga/sfouggato-mutilinis/)"
+		},
+		{
 			"name": "Khoresht Karafs",
 			"description": "A delicious Persian stew with beef and celery.",
 			"ingredient": [
