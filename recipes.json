@@ -7,7 +7,54 @@
 			"tag": [
 				"Greek"
 			],
-			"id": "sfouggato"
+			"id": "sfouggato",
+			"ingredient": [
+				{
+					"amount": "7",
+					"name": "eggs"
+				},
+				{
+					"amount": "6",
+					"name": "zucchinis",
+					"preparation": "grated"
+				},
+				{
+					"amount": "0.5",
+					"unit": "bunch",
+					"name": "parsley",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "0.5",
+					"unit": "bunch",
+					"name": "dill",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "graviera or other yellow cheese that melts"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "feta"
+				},
+				{
+					"amount": "1",
+					"name": "red onion",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "1",
+					"name": "green onion",
+					"preparation": "finely chopped"
+				}
+			],
+			"step": [
+				{}
+			],
+			"forked": "[Σφουγγάτο το Μυτιληνιό](https://akispetretzikis.com/el/categories/almyres-pites-tartes/sfoyggato-to-mytilhnio), [Σφουγγάτο Μυτιλήνης με κολοκυθάκια](https://www.madameginger.com/syntages/syntages-mageirikis/ayga/sfouggato-mutilinis/)"
 		},
 		{
 			"name": "Khoresht Karafs",
