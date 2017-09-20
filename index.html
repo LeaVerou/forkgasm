@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="../mavo/dist/mavo.css"><script src="../mavo/dist/mavo.js"></script>
-	<!-- <link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script> -->
+	<!-- <link rel="stylesheet" href="../mavo/dist/mavo.css"><script src="../mavo/dist/mavo.js"></script> -->
+	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -28,6 +28,9 @@
 		<article property="recipe" mv-multiple style="--image: url([image])" class="recipe-card" mv-order="desc">
 			<a href="[image]" target="_blank"><img property="image"></a>
 			<a href="/recipe/[id]"><h2 property="name"></h2></a>
+			<p class="hide-on-read">
+				http://forkgasm.com/recipe/<span property="id" mv-default="[idify(name)]"></span>
+			</p>
 			<p property="description"></p>
 			<p class="tags">
 				<span property="tag" mv-multiple></span>
