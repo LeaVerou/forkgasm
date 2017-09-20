@@ -33,12 +33,14 @@
 				{
 					"amount": "0.5",
 					"unit": "cup",
-					"name": "graviera or other yellow cheese that melts"
+					"name": "graviera or other yellow cheese that melts",
+					"preparation": "grated"
 				},
 				{
 					"amount": "0.5",
 					"unit": "cup",
-					"name": "feta"
+					"name": "feta",
+					"preparation": "crumbled"
 				},
 				{
 					"amount": "1",
@@ -49,10 +51,30 @@
 					"amount": "1",
 					"name": "green onion",
 					"preparation": "finely chopped"
+				},
+				{
+					"name": "salt"
+				},
+				{
+					"name": "pepper"
 				}
 			],
 			"step": [
-				{}
+				{
+					"description": "Add a lot of salt to the grated zucchini and squeeze well with a towel or cheesecloth to remove moisture."
+				},
+				{
+					"description": "Beat the eggs in a bowl and set aside."
+				},
+				{
+					"description": "In a large bowl, mix the zucchini, parsley, dill, onion, green onion, cheeses, pepper."
+				},
+				{
+					"description": "Add the olive oil to the mix."
+				},
+				{
+					"description": "Spread on a deep, oiled baking tray and bake at 180-200C (350-390F) for about 40 minutes or until golden."
+				}
 			],
 			"forked": "[Σφουγγάτο το Μυτιληνιό](https://akispetretzikis.com/el/categories/almyres-pites-tartes/sfoyggato-to-mytilhnio), [Σφουγγάτο Μυτιλήνης με κολοκυθάκια](https://www.madameginger.com/syntages/syntages-mageirikis/ayga/sfouggato-mutilinis/)"
 		},
