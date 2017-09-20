@@ -9,7 +9,61 @@
 				"Greek",
 				"Stew",
 				"Seafood"
-			]
+			],
+			"ingredient": [
+				{
+					"amount": "2",
+					"name": "whole octopus"
+				},
+				{
+					"amount": "1",
+					"unit": "bottle",
+					"name": "red wine"
+				},
+				{
+					"amount": "6",
+					"name": "cloves"
+				},
+				{
+					"amount": "4",
+					"name": "bay leaves"
+				},
+				{
+					"name": "extra virgin olive oil"
+				},
+				{
+					"amount": "1",
+					"unit": "large",
+					"name": "potato or turnip",
+					"preparation": "in 1in cubes"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "Kalamata olives"
+				}
+			],
+			"step": [
+				{
+					"description": "Wash the octopus, remove the beak, and separate the tentacles. Cut each tentacle in 2-3 pieces of roughly equal volume."
+				},
+				{
+					"description": "Put tentacles in a large pot with nothing else and boil over medium heat."
+				},
+				{
+					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour the wine."
+				},
+				{
+					"description": "Once you've poured all wine, add cloves and bay leaves."
+				},
+				{
+					"description": "Simmer for about two hours. Half an hour before done, add the potatoes or turnips and the olives."
+				},
+				{
+					"description": "Once it's reduced and the octopus and vegetables are tender, serve! Makes about 5 portions."
+				}
+			],
+			"forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)"
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21827214_104384856976628_7867512374029189120_n.jpg",
