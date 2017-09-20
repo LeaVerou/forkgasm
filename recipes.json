@@ -1,6 +1,14 @@
 {
 	"recipe": [
 		{
+			"image": "http://forkgasm.com/images/pasted-image-1505872093194.png",
+			"name": "Sfouggato",
+			"description": "A Lesbian delicacy that is super easy to make and can be eaten hot or cold.",
+			"tag": [
+				"Greek"
+			]
+		},
+		{
 			"name": "Khoresht Karafs",
 			"description": "A delicious Persian stew with beef and celery.",
 			"ingredient": [
