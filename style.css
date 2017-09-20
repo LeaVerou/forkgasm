@@ -290,25 +290,28 @@ ol {
 	background: #ddd;
 }
 
-.index [mv-app="recipes"] {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-flow: row wrap;
-	        flex-flow: row wrap;
-	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
-}
+@media (min-width: 700px) {
 
-.index [mv-app="recipes"] > * {
-	width: calc(50% - .5em);
-}
+	.index [mv-app="recipes"] {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-flow: row wrap;
+		        flex-flow: row wrap;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+	}
 
-.index [mv-app="recipes"] .mv-bar {
-	width: 100%;
+	.index [mv-app="recipes"] > * {
+		width: calc(50% - .5em);
+	}
+
+	.index [mv-app="recipes"] .mv-bar {
+		width: 100%;
+	}
 }
 
 .index [property=recipe] {

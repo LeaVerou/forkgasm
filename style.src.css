@@ -284,18 +284,19 @@ ol {
 
 .index {
 
+	@media (min-width: 700px) {
+		& [mv-app="recipes"] {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
 
-	& [mv-app="recipes"] {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
+			& > * {
+				width: calc(50% - .5em);
+			}
 
-		& > * {
-			width: calc(50% - .5em);
-		}
-
-		& .mv-bar {
-			width: 100%;
+			& .mv-bar {
+				width: 100%;
+			}
 		}
 	}
 
