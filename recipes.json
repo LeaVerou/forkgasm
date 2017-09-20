@@ -1,6 +1,27 @@
 {
 	"recipe": [
 		{
+			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/17596788_657147984472298_8902849764404494336_n.jpg",
+			"name": "Octopus in Wine",
+			"id": "octopus-in-wine",
+			"description": "A traditional Greek dish (Htapodi Krasato).",
+			"tag": [
+				"Greek",
+				"Stew",
+				"Seafood"
+			]
+		},
+		{
+			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21827214_104384856976628_7867512374029189120_n.jpg",
+			"name": "Sous Vide Teriyaki Salmon",
+			"id": "teriyaki-salmon",
+			"description": "Tender, refreshing and very easy to make",
+			"tag": [
+				"Asian",
+				"Seafood"
+			]
+		},
+		{
 			"image": "http://forkgasm.com/images/pasted-image-1505872093194.png",
 			"name": "Sfouggato",
 			"description": "A Lesbian delicacy that is super easy to make and can be eaten hot or cold.",
