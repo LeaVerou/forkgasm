@@ -114,6 +114,7 @@ body > main {
 	}
 
 	& section > footer {
+		width: 100%;
 		text-align: right;
 		color: gray;
 	}
@@ -290,7 +291,7 @@ ol {
 			flex-flow: row wrap;
 			justify-content: space-between;
 
-			& > * {
+			& > article {
 				width: calc(50% - .5em);
 			}
 

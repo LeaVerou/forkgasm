@@ -3,8 +3,10 @@
 <main class="index">
 	<section mv-app="recipes" mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login" mv-plugins="markdown" class="index">
 		<article property="recipe" mv-multiple style="--image: url([image])" class="recipe-card" mv-order="desc">
-			<a href="[image]" target="_blank"><img property="image"></a>
-			<a href="/recipe/[id]"><h2 property="name"></h2></a>
+			<a href="/recipe/[id]">
+				<img property="image">
+				<h2 property="name"></h2>
+			</a>
 			<p class="hide-on-read">
 				http://forkgasm.com/recipe/<span property="id" mv-default="[idify(name)]"></span>
 			</p>
@@ -13,13 +15,15 @@
 				<span property="tag" mv-multiple></span>
 			</p>
 		</article>
+
+		<footer>
+			<p class="mv-logged-out">
+				<a href="?login" class="mv-login">Login to edit</a>
+			</p>
+		</footer>
 	</section>
 </main>
 
-<footer>
-	<p class="mv-logged-out">
-		<a href="?login" class="mv-login">Login to edit</a>
-	</p>
-</footer>
+
 
 @@include("_foot.html")

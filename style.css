@@ -110,6 +110,7 @@ body > main p[property=description] {
 }
 
 body > main section > footer {
+	width: 100%;
 	text-align: right;
 	color: gray;
 }
@@ -305,7 +306,7 @@ ol {
 		        justify-content: space-between;
 	}
 
-	.index [mv-app="recipes"] > * {
+	.index [mv-app="recipes"] > article {
 		width: calc(50% - .5em);
 	}
 
