@@ -1,6 +1,151 @@
 {
 	"recipe": [
 		{
+			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/17596788_657147984472298_8902849764404494336_n.jpg",
+			"name": "Octopus in Wine",
+			"id": "octopus-in-wine",
+			"description": "A traditional Greek dish (Htapodi Krasato).",
+			"tag": [
+				"Greek",
+				"Stew",
+				"Seafood"
+			],
+			"ingredient": [
+				{
+					"amount": "2",
+					"name": "whole octopus"
+				},
+				{
+					"amount": "1",
+					"unit": "bottle",
+					"name": "red wine"
+				},
+				{
+					"amount": "6",
+					"name": "cloves"
+				},
+				{
+					"amount": "4",
+					"name": "bay leaves"
+				},
+				{
+					"name": "extra virgin olive oil"
+				},
+				{
+					"amount": "1",
+					"unit": "large",
+					"name": "potato or turnip",
+					"preparation": "in 1in cubes"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "Kalamata olives"
+				}
+			],
+			"step": [
+				{
+					"description": "Wash the octopus, remove the beak, and separate the tentacles. Cut each tentacle in 2-3 pieces of roughly equal volume."
+				},
+				{
+					"description": "Put tentacles in a large pot with nothing else and boil over medium heat."
+				},
+				{
+					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour the wine."
+				},
+				{
+					"description": "Once you've poured all wine, add cloves and bay leaves."
+				},
+				{
+					"description": "Simmer for about two hours. Half an hour before done, add the potatoes or turnips and the olives."
+				},
+				{
+					"description": "Once it's reduced and the octopus and vegetables are tender, serve! Makes about 5 portions."
+				}
+			],
+			"notes": "The original version uses potatoes, but we have used turnips, okra and other vegetables with good success. Turnips also make the dish low carb. The one in the photo uses okra.",
+			"forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)"
+		},
+		{
+			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21827214_104384856976628_7867512374029189120_n.jpg",
+			"name": "Sous Vide Salmon Teriyaki",
+			"id": "salmon-teriyaki",
+			"description": "Tender, refreshing and very easy to make",
+			"tag": [
+				"Asian",
+				"Seafood",
+				"Sous Vide"
+			],
+			"ingredient": [
+				{
+					"amount": "2",
+					"name": "half pound salmon fillets"
+				},
+				{
+					"amount": "1",
+					"unit": "lbs",
+					"name": "bean sprouts"
+				},
+				{
+					"amount": "0.25",
+					"unit": "cup",
+					"name": "soy sauce"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "erythritol"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "fresh ginger"
+				},
+				{
+					"amount": "4",
+					"unit": "cloves",
+					"name": "garlic"
+				},
+				{
+					"amount": "2",
+					"unit": "tbsp",
+					"name": "mirin or dry sherry"
+				},
+				{
+					"amount": "2",
+					"unit": "tsp",
+					"name": "toasted sesame oil"
+				},
+				{
+					"amount": "1",
+					"name": "spring onion",
+					"preparation": "sliced"
+				}
+			],
+			"step": [
+				{
+					"description": "In a small saucepan over medium-high heat, combine the soy sauce, erythritol, ginger, garlic, mirin and sesame oil. Bring to a simmer, stirring until the erythritol has dissolved, about 1 minute. Let cool to room temperature. Reserve 1/4 cup (2 fl. oz./60 ml) of the sauce."
+				},
+				{
+					"description": "Place the salmon fillets in separate zip lock bags and pour the remaining sauce into the bags, dividing evenly. If you have time you can let them marinate for 1-4 hours, but you don’t have to."
+				},
+				{
+					"description": "Prepare a sous vide immersion circulator for use according to the manufacturer’s instructions. Preheat the water to 122°F (50°C). Place the bags into the circulating water and cook for 40 minutes for medium doneness."
+				},
+				{
+					"description": "5 minutes before the salmon is done, stir fry the bean sprouts in a large pan with a tsp of sesame oil and a splash of soy sauce. Divide evenly in two plates."
+				},
+				{
+					"description": "Once the salmon is done, sear the skin in the same pan for 30 seconds. Place each fillet on top of the bean sprouts and pour the saved sauce on it. Optionally, you can also use the sauce from the ziplock bags, but keep in mind it will be more watery (we did anyway)."
+				},
+				{
+					"description": "Garnish with the sliced spring onion and serve!"
+				}
+			],
+			"notes": "Not low carbing? You can use brown sugar in place of the erythritol.",
+			"forked": "[Sous Vide Salmon Teriyaki](https://www.williams-sonoma.com/recipe/sous-vide-salmon-teriyaki.html)"
+		},
+		{
 			"image": "http://forkgasm.com/images/sfouggato.png",
 			"name": "Sfouggato",
 			"description": "A Lesbian delicacy that is super easy to make and can be eaten hot or cold.",
@@ -81,7 +226,7 @@
 					"description": "Spread on a deep, oiled baking tray and bake at 180-200C (350-390F) for about 40 minutes or until golden."
 				}
 			],
-			"notes": "- Graviera is a Greek hard light yellow cheese. Can’t find graviera? Use any yellow cheese that melts. We've had success with cheddar.\n- Don’t have all the ingredients? Worry not! This is a dish with many variations. Most of the ingredients are optional. What is absolutely mandatory is the eggs, zucchinis, some herbs (parsley, dill, and/or mint), some kind of cheese, and some kind of onion (only red onion or only spring onion is ok).",
+			"notes": "- Graviera is a Greek hard light yellow cheese. Can’t find graviera? Use any yellow cheese that melts. The sfouggato in this photo was actually made with cheddar!\n- Don’t have all the ingredients? Worry not! This is a dish with many variations. Most of the ingredients are optional. What is absolutely mandatory is the eggs, zucchinis, some herbs (parsley, dill, and/or mint), some kind of cheese, and some kind of onion (only red onion or only spring onion is ok).",
 			"forked": "[Σφουγγάτο το Μυτιληνιό](https://akispetretzikis.com/el/categories/almyres-pites-tartes/sfoyggato-to-mytilhnio), [Σφουγγάτο Μυτιλήνης με κολοκυθάκια](https://www.madameginger.com/syntages/syntages-mageirikis/ayga/sfouggato-mutilinis/)"
 		},
 		{
