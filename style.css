@@ -205,8 +205,18 @@ ol {
 }
 
 .recipe-card img[mv-mode=edit] {
-	background: #ddd;
+	background: hsl(25, 100%, 50%);
 	background-clip: padding-box;
+}
+
+.recipe-card img[mv-mode=edit][src=""] {
+	content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">\
+		<rect width="100%" height="100%" fill="hsl(25, 100%, 50%)" />\
+		<text x="19" y="1.25em" font-size="60">🍽</text>\
+	</svg>');
+	content: url("logo.svg");
+	-o-object-fit: scale-down;
+	   object-fit: scale-down;
 }
 
 .recipe-card [property=tag] {
@@ -218,6 +228,10 @@ ol {
 	mix-blend-mode: screen;
 	font: bold 80%/1 Helvetica Neue, sans-serif;
 	text-transform: uppercase;
+}
+
+.recipe-card .mv-empty[mv-mode="edit"] {
+	opacity: 1;
 }
 
 .ingredients {
@@ -306,7 +320,8 @@ ol {
 		        justify-content: space-between;
 	}
 
-	.index [mv-app="recipes"] > article {
+	.index [mv-app="recipes"] > article,
+			.index [mv-app="recipes"] > .mv-add-recipe {
 		width: calc(50% - .5em);
 	}
 
