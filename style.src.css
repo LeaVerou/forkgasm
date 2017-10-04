@@ -113,10 +113,19 @@ body > main {
 		margin-top: 0;
 	}
 
-	& section > footer {
-		width: 100%;
-		text-align: right;
-		color: gray;
+	& .mv-login {
+		position: absolute;
+		top: .5em;
+		right: .5em;
+		padding: .3em .5em;
+		border-radius: .3em;
+		background: rgba(0,0,0,.4);
+		color: white;
+		font: bold 70% var(--sans-serif);
+
+		&:hover {
+			background: rgba(0,0,0,.6);
+		}
 	}
 }
 

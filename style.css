@@ -109,10 +109,19 @@ body > main p[property=description] {
 	margin-top: 0;
 }
 
-body > main section > footer {
-	width: 100%;
-	text-align: right;
-	color: gray;
+body > main .mv-login {
+	position: absolute;
+	top: .5em;
+	right: .5em;
+	padding: .3em .5em;
+	border-radius: .3em;
+	background: rgba(0,0,0,.4);
+	color: white;
+	font: bold 70% Helvetica Neue, sans-serif;
+}
+
+body > main .mv-login:hover {
+	background: rgba(0,0,0,.6);
 }
 
 ol {
