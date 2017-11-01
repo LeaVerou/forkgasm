@@ -8,7 +8,7 @@
 	<div class="mv-bar mv-ui mv-fixed"></div>
 	<meta property="selectedRecipe" mv-value="url('recipe')" />
 
-	<article property="recipe" mv-multiple style="--image: url([image])" mv-multiple-path="[if(selectedRecipe)]">
+	<article property="recipe" mv-multiple style="--image: url([image])" mv-multiple-path="id=[if(selectedRecipe)]">
 		<header class="recipe-card">
 			<a href="[image]" target="_blank"><img property="image"></a>
 			<h2 property="name"></h2>
