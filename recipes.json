@@ -5,7 +5,60 @@
 			"name": "Chicken Liver Pâté",
 			"id": "chicken-liver-pate",
 			"description": "Rich and creamy, delicious on bread or even on its own",
-			"tag": []
+			"tag": [],
+			"ingredient": [
+				{
+					"amount": "500",
+					"unit": "g",
+					"name": "raw chicken liver"
+				},
+				{
+					"amount": "1",
+					"name": "medium white onion",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "2",
+					"unit": "cloves",
+					"name": "garlic",
+					"preparation": "minced"
+				},
+				{
+					"amount": "150",
+					"unit": "ml",
+					"name": "Metaxa or other brandy/cognac"
+				},
+				{
+					"amount": "50",
+					"unit": "ml",
+					"name": "heavy cream"
+				},
+				{
+					"name": "Butter"
+				},
+				{
+					"name": "Salt, pepper",
+					"preparation": "to taste"
+				}
+			],
+			"step": [
+				{
+					"description": "Sauté garlic and onion in a bit of the butter."
+				},
+				{
+					"description": "Sauté the cleaned livers on both sides till it has a bit colour but is still pink inside. Season with salt and pepper."
+				},
+				{
+					"description": "Add the Metaxa and let it steam away."
+				},
+				{
+					"description": "Put all in a tall blender glass and add the remaining butter and cream and blend till smooth"
+				},
+				{
+					"description": "Put aside in fridge for at least 4 hours and serve. "
+				}
+			],
+			"forked": "Original recipe by Lea Dam Jensen"
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/17596788_657147984472298_8902849764404494336_n.jpg",
