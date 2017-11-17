@@ -5,17 +5,20 @@
 			"name": "Chicken Liver Pâté",
 			"id": "chicken-liver-pate",
 			"description": "Rich and creamy, delicious on bread or even on its own",
-			"tag": [],
+			"tag": [
+				"Chicken",
+				"Offal"
+			],
 			"ingredient": [
 				{
 					"amount": "500",
 					"unit": "g",
-					"name": "raw chicken liver"
+					"name": "raw chicken liver",
+					"preparation": "cleaned"
 				},
 				{
 					"amount": "1",
-					"name": "medium white onion",
-					"preparation": "chopped"
+					"name": "large white onion"
 				},
 				{
 					"amount": "2",
@@ -34,28 +37,39 @@
 					"name": "heavy cream"
 				},
 				{
-					"name": "Butter"
+					"name": "Butter",
+					"amount": "50",
+					"unit": "g"
 				},
 				{
 					"name": "Salt, pepper",
 					"preparation": "to taste"
+				},
+				{
+					"name": "Parsley"
+				},
+				{
+					"name": "balsamic reduction"
 				}
 			],
 			"step": [
 				{
-					"description": "Sauté garlic and onion in a bit of the butter."
+					"description": "Chop most of the onion but set a little aside for garnish"
 				},
 				{
-					"description": "Sauté the cleaned livers on both sides till it has a bit colour but is still pink inside. Season with salt and pepper."
+					"description": "Sauté garlic and onion in a bit of butter."
+				},
+				{
+					"description": "Add the livers and sauté on both sides until they have a bit color but are still pink inside. Season with salt and pepper."
 				},
 				{
 					"description": "Add the Metaxa and let it steam away."
 				},
 				{
-					"description": "Put all in a tall blender glass and add the remaining butter and cream and blend till smooth"
+					"description": "Put all in a tall blender glass and add the cream and remaining butter and blend until smooth"
 				},
 				{
-					"description": "Put aside in fridge for at least 4 hours and serve. "
+					"description": "Put aside in fridge for at least 4 hours and serve, garnishing with the balsamic reduction, parsley and the onion from step 1."
 				}
 			],
 			"forked": "Original recipe by Lea Dam Jensen"
