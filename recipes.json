@@ -26,7 +26,14 @@
 				{
 					"amount": "10",
 					"unit": "cloves",
-					"name": "garlic"
+					"name": "garlic",
+					"preparation": "finely chopped"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "cheddar",
+					"preparation": "grated"
 				},
 				{
 					"amount": "1",
@@ -49,14 +56,10 @@
 					"name": "Thyme"
 				},
 				{
-					"amount": "0.5",
-					"unit": "tsp",
-					"name": "Nutmeg",
-					"preparation": "freshly grated"
+					"amount": "0.2",
+					"name": "whole nutmeg"
 				},
 				{
-					"amount": "1",
-					"unit": "splash",
 					"name": "Worcestershire sauce"
 				},
 				{
@@ -69,21 +72,37 @@
 					"description": "Cut each strip of bacon into 4mm [lardons](https://en.wikipedia.org/wiki/Lardon)."
 				},
 				{
-					"description": "Fry the bacon in the butter until starting to turn translucent"
+					"description": "Fry the bacon in the butter on medium-high heat until starting to turn translucent"
 				},
 				{
 					"description": "Add sliced mushrooms. Season with black pepper."
 				},
 				{
-					"description": "Continue to fry until mushrooms release their liquid and are turning darker."
+					"description": "Continue to fry until mushrooms release their liquid and are turning darker. "
 				},
 				{
 					"description": "In a separate pan, fry the pepper in the coconut oil until softened and just starting to turn brown."
 				},
 				{
-					"description": "Add thyme to the mushrooms"
+					"description": "Add garlic to the mushrooms and stir until fragrant."
+				},
+				{
+					"description": "Add thyme and stir. Then add a generous splash of Worcestershire sauce."
+				},
+				{
+					"description": "Pour the cream into the mushrooms, bring to a low boil, then reduce heat."
+				},
+				{
+					"description": "Add the green peppers"
+				},
+				{
+					"description": "When the cream reduces a bit, add the grated cheese and stir until melted."
+				},
+				{
+					"description": "Grate the nutmeg into the mixture and serve."
 				}
-			]
+			],
+			"notes": "- If you can find smoked cheddar, use a mixture of 50% smoked cheddar and 50% normal cheddar (it's very strong so not 100%). \n- Don’t allow the cream to overcook or it will separate!\n- You can probably cook the pepper in with the mushrooms and ignore the coconut oil, if desired."
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e15/10950411_1396491380655064_1716161381_n.jpg",
