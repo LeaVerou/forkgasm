@@ -5,7 +5,72 @@
 			"name": "Mushrooms a la crème with lardons and green pepper",
 			"id": "mushrooms-a-la-creme-with-lardons-and-green-pepper",
 			"description": "Not the most photogenic dish, but really easy, quick and delicious!",
-			"tag": []
+			"tag": [],
+			"ingredient": [
+				{
+					"amount": "10",
+					"unit": "oz",
+					"name": "mushrooms",
+					"preparation": "sliced"
+				},
+				{
+					"amount": "7",
+					"unit": "oz",
+					"name": "thick cut smoked bacon"
+				},
+				{
+					"amount": "1",
+					"name": "green bell pepper",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "heavy cream"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "butter"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "coconut oil"
+				},
+				{
+					"amount": "1",
+					"unit": "pinch",
+					"name": "Thyme"
+				},
+				{
+					"amount": "0.5",
+					"unit": "tsp",
+					"name": "Nutmeg",
+					"preparation": "freshly grated"
+				},
+				{
+					"amount": "1",
+					"unit": "splash",
+					"name": "Worcestershire sauce"
+				},
+				{
+					"name": "Salt, pepper",
+					"preparation": "to taste"
+				}
+			],
+			"step": [
+				{
+					"description": "Cut each strip of bacon into 4mm [lardons](https://en.wikipedia.org/wiki/Lardon)."
+				},
+				{
+					"description": "Fry the bacon in the butter until starting to turn translucent"
+				},
+				{
+					"description": "Add sliced mushrooms. Season with black pepper."
+				},
+				{}
+			]
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e15/10950411_1396491380655064_1716161381_n.jpg",
