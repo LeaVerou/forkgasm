@@ -2,8 +2,8 @@
 	"recipe": [
 		{
 			"image": "https://instagram.fbed1-1.fna.fbcdn.net/t51.2885-15/e35/23667828_365707817211709_824187065708052480_n.jpg",
-			"name": "Mushrooms a la crème with lardons and green pepper",
-			"id": "mushrooms-a-la-creme-with-lardons-and-green-pepper",
+			"name": "Garlic mushrooms a la crème with lardons and green pepper",
+			"id": "garlic-mushrooms-a-la-creme-with-lardons-and-green-pepper",
 			"description": "Not the most photogenic dish, but really easy, quick and delicious!",
 			"tag": [],
 			"ingredient": [
@@ -22,6 +22,11 @@
 					"amount": "1",
 					"name": "green bell pepper",
 					"preparation": "chopped"
+				},
+				{
+					"amount": "10",
+					"unit": "cloves",
+					"name": "garlic"
 				},
 				{
 					"amount": "1",
@@ -69,7 +74,15 @@
 				{
 					"description": "Add sliced mushrooms. Season with black pepper."
 				},
-				{}
+				{
+					"description": "Continue to fry until mushrooms release their liquid and are turning darker."
+				},
+				{
+					"description": "In a separate pan, fry the pepper in the coconut oil until softened and just starting to turn brown."
+				},
+				{
+					"description": "Add thyme to the mushrooms"
+				}
 			]
 		},
 		{
