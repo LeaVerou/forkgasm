@@ -5,7 +5,68 @@
 			"name": "Fathead Pineapple Pizza",
 			"id": "fathead-pineapple-pizza",
 			"description": "Low carb and delicious!",
-			"tag": []
+			"tag": [],
+			"ingredient": [
+				{
+					"amount": "130",
+					"unit": "g",
+					"name": "almond flour"
+				},
+				{
+					"amount": "40",
+					"unit": "g",
+					"name": "nutritional yeast"
+				},
+				{
+					"amount": "500",
+					"unit": "g",
+					"name": "mozzarella",
+					"preparation": "grated"
+				},
+				{
+					"amount": "4",
+					"unit": "tbsp",
+					"name": "mascarpone"
+				},
+				{
+					"amount": "3",
+					"name": "eggs",
+					"preparation": "beaten"
+				},
+				{
+					"amount": "0.5",
+					"unit": "tsp",
+					"name": "cumin",
+					"preparation": "freshly ground"
+				},
+				{
+					"amount": "0.5",
+					"unit": "tsp",
+					"name": "garlic powder"
+				}
+			],
+			"step": [
+				{
+					"description": "Mix two thirds of the grated mozzarella, the almond flour, and the nutritional yeast in a microwaveable bowl. Add the mascarpone. Microwave on HIGH for 1 minute."
+				},
+				{
+					"description": "Add cumin, garlic, salt, pepper."
+				},
+				{
+					"description": "Stir then microwave on HIGH for another minute. Repeat until it's soft, usually doesn’t need more than 2 minutes total."
+				},
+				{
+					"description": "Add the eggs and mix gently."
+				},
+				{
+					"description": "Put a piece of parchment paper over your pizza stone, add the dough on top of it and then another piece of parchment paper. Use a rolling pin to roll it as close as possible to the pizza stone shape and evenly around 5mm thick or less. Remove the top sheet of parchment paper."
+				},
+				{
+					"description": "Make fork holes all over the pizza base to ensure it cooks evenly."
+				},
+				{}
+			],
+			"forked": "[Fat Head Pizza - The HOLY GRAIL Of Low Carb Pizzas ](https://www.ditchthecarbs.com/fat-head-pizza/)"
 		},
 		{
 			"image": "https://instagram.fbed1-1.fna.fbcdn.net/t51.2885-15/e35/23667828_365707817211709_824187065708052480_n.jpg",
