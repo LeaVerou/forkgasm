@@ -24,6 +24,12 @@
 					"preparation": "grated"
 				},
 				{
+					"amount": "250",
+					"unit": "g",
+					"name": "cheddar, gouda, gruyere or similar",
+					"preparation": "grated"
+				},
+				{
 					"amount": "4",
 					"unit": "tbsp",
 					"name": "mascarpone"
@@ -43,6 +49,60 @@
 					"amount": "0.5",
 					"unit": "tsp",
 					"name": "garlic powder"
+				},
+				{
+					"amount": "200",
+					"unit": "g",
+					"name": "tomato concentrate or paste"
+				},
+				{
+					"amount": "5",
+					"unit": "cloves",
+					"name": "garlic"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "dried basil (or 1 tbsp fresh)"
+				},
+				{
+					"amount": "1",
+					"unit": "splash",
+					"name": "dry red wine"
+				},
+				{
+					"amount": "1",
+					"unit": "splash",
+					"name": "Worcestershire sauce"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "Sukrin Gold"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"amount": "5",
+					"unit": "oz",
+					"name": "bacon"
+				},
+				{
+					"amount": "1",
+					"name": "green bell pepper"
+				},
+				{
+					"amount": "6",
+					"unit": "oz",
+					"name": "mushrooms",
+					"preparation": "sliced"
+				},
+				{
+					"amount": "200",
+					"unit": "g",
+					"name": "pineapple",
+					"preparation": "in small pieces"
 				}
 			],
 			"step": [
@@ -64,7 +124,24 @@
 				{
 					"description": "Make fork holes all over the pizza base to ensure it cooks evenly."
 				},
-				{}
+				{
+					"description": "Bake at 215C/420F for 15 minutes or until golden brown."
+				},
+				{
+					"description": "If you can manage to flip the pizza over without breaking it, flip it and bake a bit longer to make it crispy. If you’re worried it will break don't flip it, we never do and it’s fine!"
+				},
+				{
+					"description": "While the base is baking, make the tomato sauce: in a mini-blender of food processor blend the tomato paste, garlic wine, basil, Worcestershire sauce, oregano. Cook at medium-low heat for 5-10 minutes or until thickened a bit."
+				},
+				{
+					"description": "While the base is baking and the sauce simmering, cut the bacon into 5mm lardons and sauté with the mushrooms until almost (but not completely) cooked to your liking."
+				},
+				{
+					"description": "Once the pizza base is done, spread the sauce over it as evenly as you can (a brush or rubber spatula helps). Then add the remaining grated cheeses, the bacon, the mushrooms, the pepper, the pineapple."
+				},
+				{
+					"description": "Broil at 260C/500F for about 5 minutes, checking frequently because ovens vary. Enjoy!"
+				}
 			],
 			"forked": "[Fat Head Pizza - The HOLY GRAIL Of Low Carb Pizzas ](https://www.ditchthecarbs.com/fat-head-pizza/)"
 		},
