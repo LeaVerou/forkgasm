@@ -26,7 +26,7 @@
 				},
 				{
 					"amount": "1",
-					"unit": "Tsp",
+					"unit": "tsp",
 					"name": "Dijon Mustard"
 				},
 				{
@@ -40,8 +40,8 @@
 					"name": "Extra-virgin Greek olive oil"
 				},
 				{
-					"amount": "4",
-					"unit": "Tbsp",
+					"amount": "0.5",
+					"unit": "cup",
 					"name": "Parmesan",
 					"preparation": "Finely grated"
 				},
@@ -54,7 +54,7 @@
 				},
 				{
 					"amount": "2",
-					"unit": "Tbsp",
+					"unit": "tbsp",
 					"name": "Lemon juice"
 				},
 				{
