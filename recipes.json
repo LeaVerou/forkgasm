@@ -7,7 +7,65 @@
 			"tag": [
 				"Italian-American",
 				"Salad"
-			]
+			],
+			"image": "https://www.bonappetit.com/recipe/classic-caesar-salad#recipe-ingredients",
+			"ingredient": [
+				{
+					"amount": "0.5",
+					"unit": "Head",
+					"name": "Garlic",
+					"preparation": "Minced"
+				},
+				{
+					"amount": "5",
+					"name": "Anchovies"
+				},
+				{
+					"amount": "3",
+					"name": "Egg yolks"
+				},
+				{
+					"amount": "1",
+					"unit": "Tsp",
+					"name": "Dijon Mustard"
+				},
+				{
+					"amount": "1",
+					"unit": "Good splash",
+					"name": "Worcestershire sauce"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "Extra-virgin Greek olive oil"
+				},
+				{
+					"amount": "4",
+					"unit": "Tbsp",
+					"name": "Parmesan",
+					"preparation": "Finely grated"
+				},
+				{
+					"name": "Black pepper",
+					"preparation": "Freshly grated"
+				},
+				{
+					"name": "Sea salt"
+				},
+				{
+					"amount": "2",
+					"unit": "Tbsp",
+					"name": "Lemon juice"
+				},
+				{
+					"amount": "2",
+					"name": "Romaine hearts"
+				}
+			],
+			"step": [
+				{}
+			],
+			"forked": "[Classic Caesar Salad](https://www.bonappetit.com/recipe/classic-caesar-salad#recipe-ingredients)"
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/23735404_146589679310163_1584154461851353088_n.jpg",
