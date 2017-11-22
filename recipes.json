@@ -22,7 +22,7 @@
 				},
 				{
 					"amount": "3",
-					"name": "Egg yolks"
+					"name": "Free-range egg yolks"
 				},
 				{
 					"amount": "1",
@@ -63,9 +63,27 @@
 				}
 			],
 			"step": [
-				{}
+				{
+					"description": "Traditionally using a mortar and pestle (but a hand blender works just as well, we find) turn the garlic, anchovies and a pinch of salt into a fine paste."
+				},
+				{
+					"description": "Add the egg yolks, lemon juice, Worcestershire sauce and mustard. This can be done in a bowl with a whisk, or if using a blender continue with that."
+				},
+				{
+					"description": "Gradually at first, add the oil and whisk/blend with each addition."
+				},
+				{
+					"description": "Add the Parmesan and mix well."
+				},
+				{
+					"description": "Taste, adjust with salt, pepper, lemon as desired."
+				},
+				{
+					"description": "Either shred the romaine hearts and toss with the sauce, or serve individual leaves for dipping."
+				}
 			],
-			"forked": "[Classic Caesar Salad](https://www.bonappetit.com/recipe/classic-caesar-salad#recipe-ingredients)"
+			"forked": "[Classic Caesar Salad](https://www.bonappetit.com/recipe/classic-caesar-salad#recipe-ingredients)",
+			"notes": "We don't use croutons but if you want them, go ahead!\nSauce keeps well in a fridge for a few days.\n"
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/23735404_146589679310163_1584154461851353088_n.jpg",
