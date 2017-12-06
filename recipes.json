@@ -8,7 +8,130 @@
 				"Arabic",
 				"Israeli",
 				"Breakfast"
-			]
+			],
+			"ingredient": [
+				{
+					"amount": "3",
+					"unit": "tbsp",
+					"name": "Olive oil"
+				},
+				{
+					"amount": "2",
+					"unit": "medium",
+					"name": "Yellow onions",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "1.5",
+					"unit": "lb",
+					"name": "Miced lamb or beef"
+				},
+				{
+					"amount": "1",
+					"unit": "large",
+					"name": "Organic green bell pepper",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "1",
+					"name": "Jalapeño chilli",
+					"preparation": "deseeded & chopped"
+				},
+				{
+					"amount": "1",
+					"unit": "head",
+					"name": "Garlic",
+					"preparation": "minced"
+				},
+				{
+					"amount": "1",
+					"unit": "7 oz jar",
+					"name": "Tomato concentrate"
+				},
+				{
+					"amount": "1",
+					"unit": "28 oz tin",
+					"name": "Chopped peeled tomatoes"
+				},
+				{
+					"amount": "3",
+					"name": "Bay leaves"
+				},
+				{
+					"amount": "2",
+					"unit": "tbsp",
+					"name": "Erythritol"
+				},
+				{
+					"amount": "1.5",
+					"unit": "tbsp",
+					"name": "Sea salt"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "Smoked Paprika"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "Cumin seed",
+					"preparation": "ground"
+				},
+				{
+					"amount": "1.5",
+					"unit": "tsp",
+					"name": "Black pepper",
+					"preparation": "ground"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "Caraway seed",
+					"preparation": "ground"
+				},
+				{
+					"amount": "0.5",
+					"unit": "bunch",
+					"name": "Swiss chard",
+					"preparation": "destemmed"
+				},
+				{
+					"amount": "8",
+					"name": "Freerange eggs"
+				}
+			],
+			"step": [
+				{
+					"description": "Heat oil in a large, deep, preferably ceramic, frying pan on medium heat"
+				},
+				{
+					"description": "Cook onions until translucent, 5-10 min"
+				},
+				{
+					"description": "Add minced meat, stir until browned"
+				},
+				{
+					"description": "Reduce heat a little, add jalapeño and bell pepper, cook until slightly soft. 3-4 min, do not overcook"
+				},
+				{
+					"description": "Add garlic and tomato concentrate, stir for 2 min until tmato tastes cooked not raw"
+				},
+				{
+					"description": "Add canned tomatoes, spices. Bring to low boil, reduce heat, simmer for 20 min"
+				},
+				{
+					"description": "Place de-stemmed Swiss chard leaves on top of cooked tomato mixture. Make 8 small depressions with a spoon"
+				},
+				{
+					"description": "Crack one egg into each depression. Cover (a transparent lid is ideal)"
+				},
+				{
+					"description": "Cook until egg white is just set. Serve immediately"
+				}
+			],
+			"notes": "We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarera or other sugar can be substituted",
+			"forked": "[Israeli Breakfast Of Champions: Shakshuka](http://www.foodrepublic.com/recipes/israeli-breakfast-of-champions-shakshuka/)"
 		},
 		{
 			"name": "Real Caesar Salad",
