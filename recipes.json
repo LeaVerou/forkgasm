@@ -1,6 +1,16 @@
 {
 	"recipe": [
 		{
+			"name": "Shakshuka",
+			"id": "shakshuka",
+			"description": "Breakfast of champions (one of them)",
+			"tag": [
+				"Arabic",
+				"Israeli",
+				"Breakfast"
+			]
+		},
+		{
 			"name": "Real Caesar Salad",
 			"id": "real-caesar-salad",
 			"description": "Based on the original 1920's Italian-American table-side recipie",
