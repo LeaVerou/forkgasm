@@ -54,6 +54,11 @@
 					"name": "Chopped peeled tomatoes"
 				},
 				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "Red wine"
+				},
+				{
 					"amount": "3",
 					"name": "Bay leaves"
 				},
@@ -130,7 +135,7 @@
 					"description": "Cook until egg white is _just_ set. Serve immediately"
 				}
 			],
-			"notes": "We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarera or other sugar can be substituted.\nBell peppers are bad for absorbing pesticides, so we always use organic because the skin is eaten.\nThe tomato sauce keeps for a couple of days in the fridge. If eating over two days, crack only 4 eggs. Next time, reheat sauce then make 4 more depressions and crack the other 4.",
+			"notes": "We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarera or other sugar can be substituted.\nBell peppers are bad for absorbing pesticides, so we always use organic because the skin is eaten.\nThe type of red wine is not critical, honestly. We use small (187ml) “individual” bottles of fairly cheap red wine.\nThe tomato sauce keeps for a couple of days in the fridge. If eating over two days, crack only 4 eggs. Next time, reheat sauce then make 4 more depressions and crack the other 4.",
 			"forked": "[Israeli Breakfast Of Champions: Shakshuka](http://www.foodrepublic.com/recipes/israeli-breakfast-of-champions-shakshuka/)"
 		},
 		{
