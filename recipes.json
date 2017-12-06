@@ -109,13 +109,13 @@
 					"description": "Cook onions until translucent, 5-10 min"
 				},
 				{
-					"description": "Add minced meat, stir until browned"
+					"description": "Add minced meat, stir until lightly browned"
 				},
 				{
 					"description": "Reduce heat a little, add jalapeño and bell pepper, cook until slightly soft. 3-4 min, do not overcook"
 				},
 				{
-					"description": "Add garlic and tomato concentrate, stir for 2 min until tmato tastes cooked not raw"
+					"description": "Add garlic and tomato concentrate, stir for 2 min until tomato tastes cooked not raw"
 				},
 				{
 					"description": "Add canned tomatoes, spices. Bring to low boil, reduce heat, simmer for 20 min"
@@ -127,10 +127,10 @@
 					"description": "Crack one egg into each depression. Cover (a transparent lid is ideal)"
 				},
 				{
-					"description": "Cook until egg white is just set. Serve immediately"
+					"description": "Cook until egg white is _just_ set. Serve immediately"
 				}
 			],
-			"notes": "We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarera or other sugar can be substituted",
+			"notes": "We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarera or other sugar can be substituted.\nBell peppers are bad for absorbing pesticides, so we always use organic because the skin is eaten.\nThe tomato sauce keeps for a couple of days in the fridge. If eating over two days, crack only 4 eggs. Next time, reheat sauce then make 4 more depressions and crack the other 4.",
 			"forked": "[Israeli Breakfast Of Champions: Shakshuka](http://www.foodrepublic.com/recipes/israeli-breakfast-of-champions-shakshuka/)"
 		},
 		{
