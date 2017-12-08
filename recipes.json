@@ -982,6 +982,10 @@
 				},
 				{
 					"amount": "1",
+					"name": "garlic head"
+				},
+				{
+					"amount": "1",
 					"unit": "tbsp",
 					"name": "peeled fresh ginger"
 				},
@@ -1056,7 +1060,7 @@
 			],
 			"step": [
 				{
-					"description": "**Curry paste**: In a mini blender or food processor, blend chiles and salt until pulverized. Add lemongrasss, ginger, galangal, turmeric, chopped shallots, shrimp paste one by one in order listed, fully pulverizing each before adding the next."
+					"description": "**Curry paste**: In a mini blender or food processor, blend chiles and salt until pulverized. Add lemongrasss, ginger, galangal, turmeric, chopped shallots, garlic, shrimp paste one by one in order listed, fully pulverizing each before adding the next."
 				},
 				{
 					"description": "Combine curry paste, beef, soy sauce, and ground dried chiles in a pot; stir to evenly coat beef. Add coconut oil and cook, stirring occasionally, over medium heat for 5 minutes. Add broth and bring to a boil. Cover, reduce heat to medium-low, and simmer, stirring occasionally, until beef is tender but not falling apart, 2-2 1/2 hours."
