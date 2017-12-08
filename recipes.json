@@ -961,6 +961,12 @@
 			"ingredient": [
 				{
 					"amount": "2",
+					"unit": "pounds",
+					"name": "beef chuck",
+					"preparation": "trimmed and cut into 1.5-2\" cubes"
+				},
+				{
+					"amount": "2",
 					"name": "dried guajillo chillies",
 					"preparation": "stemmed and seeded"
 				},
@@ -1007,12 +1013,6 @@
 					"name": "Thai shrimp paste"
 				},
 				{
-					"amount": "2",
-					"unit": "pounds",
-					"name": "beef chuck",
-					"preparation": "trimmed and cut into 1.5-2\" cubes"
-				},
-				{
 					"amount": "6",
 					"unit": "tbsp",
 					"name": "unrefined coconut oil",
@@ -1041,7 +1041,7 @@
 				{
 					"amount": "0.125",
 					"unit": "tsp",
-					"name": "Kaffir lime leave powder",
+					"name": "Kaffir lime leaf powder",
 					"preparation": "(or 6 leaves)"
 				},
 				{
