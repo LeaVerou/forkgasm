@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="http://localhost:8000/dist/mavo.css"><script src="http://localhost:8000/dist/mavo.js"></script> -->
+	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+	<h1>
+		<img src="/logo.svg" alt="">
+		<a href="/"><img src="/wordmark.svg" alt="forkgasm"></a>
+	</h1>
+	<p>Lea & Chris’ culinary adventures</p>
+	<nav>
+		<a href="/restaurants.html">Reviews</a>
+		<a href="/recipes.html">Recipes</a>
+	</nav>
+</header>
+
+
+<main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
+
+<p>Ate a total of [count(dish)] dishes in [count(restaurant)] restaurants.</p>
+
+<a href="#none" class="close" onclick='history.replaceState(null, "", "#");'>✖</a>
+
+<section>
+	<article property="restaurant" mv-multiple>
+		<header>
+			<img property="image" mv-default="[first(dish.image)]">
+			<a property="url" mv-default="[facebook]">
+				<h2 property="name"></h2>
+				<p class="hide-on-read">
+					http://forkgasm.com/restaurant/<span property="id" mv-default="[idify(name)]"></span>
+				</p>
+				<meta property="facebook" content="https://facebook.com/[facebook_places_id]" />
+			</a>
+
+			<span property="rating" data-class="[round(rating)]">[average(dish.rating)]</span>
+
+			<p class="location">
+				<span property="city"></span>
+			</p>
+
+			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes">[count(dish)]</span> dishes</p>
+		</header>
+
+		<article property="visit" mv-multiple>
+			<header>
+				<h3>
+					<time datetime="2016-03-15" property="date">15 Mar 2016</time>
+					<div property="comment"></div>
+				</h3>
+				<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.rating)]</span>
+			</header>
+
+			<section class="dishes">
+				<article property="dish" mv-multiple title="[name]" id="[id]">
+					<a href="#[id]">
+						<img property="image">
+						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
+					</a>
+					<div class="content">
+						<h4 property="name"></h4>
+						<div property="comment"></div>
+						<meta property="id" content="[restaurant.id]-[visit.$index]-[$index]" />
+						<a href="#[$next.id]" class="next" mv-if="$next">Next</a>
+					</div>
+				</article>
+			</section>
+		</article>
+	</article>
+
+	<a href="?login" class="mv-login mv-logged-out">Login to edit</a>
+</section>
+
+</main>
+
+<script src="debug.js" async></script>
+</body>
+</html>
+

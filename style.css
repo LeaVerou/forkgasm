@@ -132,28 +132,29 @@ ol {
 	display: none;
 }
 
-[property="recipe"] {
+[property="recipe"],
+[property="restaurant"] {
 	margin-bottom: 1em
 }
 
-[property="recipe"] > .content {
+[property="recipe"] > .content, [property="restaurant"] > .content {
 	counter-reset: step;
 }
 
 @media (min-width: 800px) {
 
-	[property="recipe"] > .content {
+	[property="recipe"] > .content, [property="restaurant"] > .content {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 	}
 
-	[property="recipe"] .directions {
+	[property="recipe"] .directions, [property="restaurant"] .directions {
 		margin-left: 3em;
 	}
 }
 
-[property="recipe"] > footer {
+[property="recipe"] > footer, [property="restaurant"] > footer {
 	/* Forked */
 	padding: .4em .8em .6em;
 	margin-top: 1em;
@@ -166,13 +167,13 @@ ol {
 
 @supports (background-blend-mode: inherit) {
 
-	[property="recipe"] > footer {
+	[property="recipe"] > footer, [property="restaurant"] > footer {
 		background:  var(--fork), var(--image) center / cover hsl(190, 67%, 42%);
 		background-blend-mode: normal, multiply;
 	}
 }
 
-[property="recipe"] > footer > span {
+[property="recipe"] > footer > span, [property="restaurant"] > footer > span {
 	font: bold 60%/1 Helvetica Neue, sans-serif;
 }
 
@@ -355,4 +356,263 @@ ol {
 	font: bold 150% Helvetica Neue, sans-serif;
 	margin-bottom: .66em;
 	color: hsl(190, 67%, 42%);
+}
+
+[property="restaurant"] {
+	position: relative;
+	border: 1px solid rgba(0,0,0,.2)
+}
+
+[property="restaurant"] > header {
+	padding: 1em;
+	padding-right: 3em;
+	padding-left: 10em;
+	background: hsl(220, 10%, 95%);
+}
+
+[property="restaurant"] > header > * {
+	margin: 0;
+}
+
+[property="restaurant"] > header h2 {
+	font: bold 300%/1 Baskerville, Adobe Caslon Pro, serif;
+	color: hsl(25, 100%, 50%);
+}
+
+[property="restaurant"] > header [property=rating] {
+	position: absolute;
+	top: .5em;
+	right: .5em;
+	font-size: 150%;
+	min-width: 2em;
+	line-height: 2;
+}
+
+[property="restaurant"] > header img {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	width: 8em;
+	height: 8em;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	margin-right: 1em;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 0 .3em rgba(0,0,0,.15);
+	        box-shadow: 0 0 0 .3em rgba(0,0,0,.15);
+}
+
+[property="restaurant"] > header .stats {
+	margin: 0;
+	font-style: italic;
+	opacity: .6;
+}
+
+.visits {
+}
+
+[property="visit"] {
+	padding: 1em
+
+
+}
+
+[property="visit"] > header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+[property="visit"] > header h3 {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+}
+
+[property="visit"] > header [property=rating] {
+}
+
+.close {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	width: 1em;
+	z-index: 2;
+	line-height: 1;
+	padding: .5em;
+	border-radius: 50%;
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 150%
+}
+
+.close:hover {
+	background: #c00;
+	text-decoration: none;
+}
+
+[mv-app]:not(.mv-target-within) .close {
+	display: none;
+}
+
+.dishes {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+[property="dish"] {
+	position: relative;
+	margin: 1px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+
+[property="dish"] img {
+	display: block;
+	--size: 11em;
+	width: var(--size);
+	height: var(--size);
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+[property="dish"] [property=rating] {
+	position: absolute;
+	right: .5em;
+	bottom: .5em;
+}
+
+[property="dish"] {
+
+	[property=comment] {
+		font-style: italic;
+	}
+}
+
+[property="dish"]:not(:target) .content,
+		[property="dish"]:not(:target) .next {
+	display: none;
+}
+
+[property="dish"] .next {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	padding: .5em .5em;
+	background: black;
+	border-radius: .2em;
+	font: bold 80%/1 Helvetica Neue, sans-serif;
+	text-transform: uppercase;
+}
+
+[property="dish"] .next:hover {
+	text-decoration: none;
+	background: hsl(190, 67%, 42%);
+}
+
+[property="dish"] .next::after {
+	content: " ▸";
+}
+
+[property="dish"]:target {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 1em;
+	overflow: auto;
+	background: rgba(0,0,0,.85);
+	-webkit-backdrop-filter: blur(10px);
+	        backdrop-filter: blur(10px);
+	color: white;
+	font-size: 150%;
+	xborder-radius: .2em;
+	xbox-shadow: .1em .2em 1.5em rgba(0,0,0,.5);
+}
+
+[property="dish"]:target .content {
+	max-width: 30vw;
+	overflow: auto;
+}
+
+[property="dish"]:target .content h4 {
+	margin: 0;
+}
+
+[property="dish"]:target [property=rating] {
+	top: 1em;
+	left: 1em;
+	font-size: 150%;
+	right: auto;
+	bottom: auto;
+}
+
+[property="dish"]:target img {
+	--size: calc(100vmin - 2em);
+	width: auto;
+	min-width: var(--size);
+	margin-right: 1em;
+}
+
+[property=rating] {
+	display: inline-block;
+	background: hsl(190, 67%, 42%);
+	color: white;
+	padding: .25em;
+	min-width: 1.5em;
+	border-radius: .3em;
+	text-align: center;
+	font: bold 100%/1.5 Helvetica Neue, sans-serif
+}
+
+[property=rating][data-class="10"] {
+	--stripe: .2em;
+	background: repeating-radial-gradient(hsl(330, 100%, 50%) 0, transparent var(--stripe),
+		 hsl(330, 100%, 50%) calc(2 * var(--stripe))) hsl(330, 100%, 70%);
+}
+
+[property=rating][data-class="9"] {
+	background: hsl(150, 100%, 35%);
+}
+
+[property=rating][data-class="8"] {
+	background: hsl(100, 60%, 50%);
+}
+
+[property=rating][data-class="7"] {
+	background: hsl(70, 70%, 50%);
+}
+
+[property=rating][data-class="6"] {
+	background: hsl(50, 100%, 50%);
+}
+
+[property=rating][data-class="5"] {
+	background: hsl(30, 100%, 50%);
+}
+
+[property=rating][data-class="4"],
+	[property=rating][data-class="3"],
+	[property=rating][data-class="2"],
+	[property=rating][data-class="1"] {
+	background: hsl(10, 100%, 45%);
+}
+
+[property=rating][data-class="0"] {
+	display: none;
 }
