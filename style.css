@@ -132,29 +132,28 @@ ol {
 	display: none;
 }
 
-[property="recipe"],
-[property="restaurant"] {
+[property="recipe"] {
 	margin-bottom: 1em
 }
 
-[property="recipe"] > .content, [property="restaurant"] > .content {
+[property="recipe"] > .content {
 	counter-reset: step;
 }
 
 @media (min-width: 800px) {
 
-	[property="recipe"] > .content, [property="restaurant"] > .content {
+	[property="recipe"] > .content {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 	}
 
-	[property="recipe"] .directions, [property="restaurant"] .directions {
+	[property="recipe"] .directions {
 		margin-left: 3em;
 	}
 }
 
-[property="recipe"] > footer, [property="restaurant"] > footer {
+[property="recipe"] > footer {
 	/* Forked */
 	padding: .4em .8em .6em;
 	margin-top: 1em;
@@ -167,13 +166,13 @@ ol {
 
 @supports (background-blend-mode: inherit) {
 
-	[property="recipe"] > footer, [property="restaurant"] > footer {
+	[property="recipe"] > footer {
 		background:  var(--fork), var(--image) center / cover hsl(190, 67%, 42%);
 		background-blend-mode: normal, multiply;
 	}
 }
 
-[property="recipe"] > footer > span, [property="restaurant"] > footer > span {
+[property="recipe"] > footer > span {
 	font: bold 60%/1 Helvetica Neue, sans-serif;
 }
 
@@ -365,8 +364,6 @@ ol {
 
 [property="restaurant"] > header {
 	padding: 1em;
-	padding-right: 3em;
-	padding-left: 10em;
 	background: hsl(220, 10%, 95%);
 }
 
@@ -375,7 +372,8 @@ ol {
 }
 
 [property="restaurant"] > header h2 {
-	font: bold 300%/1 Baskerville, Adobe Caslon Pro, serif;
+	font: bold 300%/1 Helvetica Neue, sans-serif;
+	letter-spacing: -.05em;
 	color: hsl(25, 100%, 50%);
 }
 
@@ -389,9 +387,6 @@ ol {
 }
 
 [property="restaurant"] > header img {
-	position: absolute;
-	top: 1em;
-	left: 1em;
 	width: 8em;
 	height: 8em;
 	-o-object-fit: cover;
@@ -400,6 +395,20 @@ ol {
 	border-radius: 50%;
 	-webkit-box-shadow: 0 0 0 .3em rgba(0,0,0,.15);
 	        box-shadow: 0 0 0 .3em rgba(0,0,0,.15);
+}
+
+@media (min-width: 650px) {
+
+	[property="restaurant"] > header {
+		padding-right: 4em;
+		padding-left: 10em;
+	}
+
+	[property="restaurant"] > header img {
+		position: absolute;
+		top: 1em;
+		left: 1em;
+	}
 }
 
 [property="restaurant"] > header .stats {
@@ -488,6 +497,10 @@ ol {
 	position: absolute;
 	right: .5em;
 	bottom: .5em;
+}
+
+[property="dish"] [property=rating] + [property=rating] {
+	right: 3em;
 }
 
 [property="dish"] {

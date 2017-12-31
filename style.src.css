@@ -137,8 +137,7 @@ ol {
 	display: none;
 }
 
-[property="recipe"],
-[property="restaurant"] {
+[property="recipe"] {
 	margin-bottom: 1em;
 
 	& > .content {
@@ -349,8 +348,6 @@ ol {
 
 	& > header {
 		padding: 1em;
-		padding-right: 3em;
-		padding-left: 10em;
 		background: hsl(220, 10%, 95%);
 
 		& > * {
@@ -358,7 +355,8 @@ ol {
 		}
 
 		& h2 {
-			font: bold 300%/1 var(--serif);
+			font: bold 300%/1 var(--sans-serif);
+			letter-spacing: -.05em;
 			color: var(--color1);
 
 		}
@@ -373,15 +371,24 @@ ol {
 		}
 
 		& img {
-			position: absolute;
-			top: 1em;
-			left: 1em;
+
 			width: 8em;
 			height: 8em;
 			object-fit: cover;
 			margin-right: 1em;
 			border-radius: 50%;
 			box-shadow: 0 0 0 .3em rgba(0,0,0,.15);
+		}
+
+		@media (min-width: 650px) {
+			padding-right: 4em;
+			padding-left: 10em;
+
+			& img {
+				position: absolute;
+				top: 1em;
+				left: 1em;
+			}
 		}
 
 		& .stats {
@@ -460,6 +467,10 @@ ol {
 		position: absolute;
 		right: .5em;
 		bottom: .5em;
+
+		& + [property=rating] {
+			right: 3em;
+		}
 	}
 
 	[property=comment] {
