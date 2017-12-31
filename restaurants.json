@@ -21,8 +21,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21373651_212623795940053_1085752292021370880_n.jpg?ig_cache_key=MTU5ODE1MzAyOTU5MjA0MDM4NA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BYtx7aJjEPA",
-							"rating": 7.25,
-							"dissent": 2.5,
+							"rating": [
+								6,
+								8.5
+							],
 							"name": "Baby prawn cone",
 							"comment": "8.5/10 for Chris, 6/10 for me"
 						},
@@ -41,8 +43,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21373214_258050744715687_2343283957119844352_n.jpg?ig_cache_key=MTU5ODE3ODM3NjQ5MjYzODE1Mw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BYt3sQSjd_J",
-							"rating": 7,
-							"dissent": 2,
+							"rating": [
+								6,
+								8
+							],
 							"name": "Negroni “a la valenciana”",
 							"comment": "8/10 for Chris, 6/10 for me"
 						},
@@ -504,8 +508,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/16123566_249674905472719_289159923038683136_n.jpg?ig_cache_key=MTQzMjk2MDg5MjYzNTI2MzIyMQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BPi5lb2jTD1",
-							"rating": 8,
-							"dissent": 1,
+							"rating": [
+								8.5,
+								7.5
+							],
 							"name": "\"Pasticcio\": Thick pasta, braised oxtail, shiitake, foamy béchamel",
 							"comment": "8.5/10 for me, 7.5/10 for Chris"
 						},
@@ -776,8 +782,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13391293_1144567552231052_2096246728_n.jpg?ig_cache_key=MTI3MDU4MjgyNjY3NDI2NDI1MA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BGiBFlZoZi6",
-							"rating": 9.5,
-							"dissent": 1,
+							"rating": [
+								9,
+								10
+							],
 							"name": "Spring squid, red Yusuf Josh's ponzu, ginger juice, shiso",
 							"comment": "9/10 for me, 10/10 for Chris"
 						},
@@ -809,8 +817,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13413291_1009715779124265_305910506_n.jpg?ig_cache_key=MTI3MDYwMjQ4MTg5NTg0MDYyNw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BGiFjmwIZtz",
-							"rating": 9,
-							"dissent": 2,
+							"rating": [
+								8,
+								10
+							],
 							"name": "Shima Aji & Santa Barbara sea urchin, ceviche vinaigrette, coriander.",
 							"comment": "8/10 from me, 10/10 from Chris"
 						},
@@ -841,8 +851,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13381109_248149315541303_742760730_n.jpg?ig_cache_key=MTI3MDYzMzAzNjAzMzEzNzUyMA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BGiMgOgoZtw",
-							"rating": 9.25,
-							"dissent": 1.5,
+							"rating": [
+								10,
+								8.5
+							],
 							"name": "Smoked ocean trout Donabe, furikake, katsobushi, green onion, rainbow trout roe, and quail egg.",
 							"comment": "10/10 for me, 8.5/10 for Chris"
 						},
@@ -850,8 +862,10 @@
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/s640x640/e15/13395113_592196890939694_1192311517_n.jpg?ig_cache_key=MTI3MDYzNzkxNzg1MDY3MTEzNQ%3D%3D.2",
 							"instagram_url": "https://www.instagram.com/p/BGiNnRDoZgf",
 							"media_type": 2,
-							"rating": 9.5,
-							"dissent": 1,
+							"rating": [
+								10,
+								9
+							],
 							"name": "”Fabergé” onsen egg, ossetra caviar, gold leaf, dash I sauce, and green onion.",
 							"comment": "10/10 for me, 9/10 for Chris"
 						},
@@ -865,8 +879,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13355484_917233611720272_281102048_n.jpg?ig_cache_key=MTI3MDY1MDMxOTMwODY5MTg4OQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BGiQbu0IZmx",
-							"rating": 5,
-							"dissent": 2,
+							"rating": [
+								6,
+								4
+							],
 							"name": "Wagyu seared petit strip loin.",
 							"comment": "6/10 from me, 4/10 from Chris. Did not like."
 						},
@@ -987,8 +1003,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13561763_1747315082153823_1255806365_n.jpg?ig_cache_key=MTI4ODYyMDgxNjMxMzg2MTU4NQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BHiGc4Wj8XR",
-							"rating": 7,
-							"dissent": 4,
+							"rating": [
+								9,
+								5
+							],
 							"name": "Lokum with ash",
 							"comment": "9/10 from me, 5/10 from Chris"
 						},
@@ -1683,8 +1701,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/16110265_1409445549126084_6550829006285963264_n.jpg?ig_cache_key=MTQzMTUwNTU2MjExODMwNzAyMA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BPdurlsDrzM",
-							"rating": 6,
-							"dissent": 4,
+							"rating": [
+								8,
+								4
+							],
 							"name": "Pasta cacio e Pepe with papaya seeds",
 							"comment": "8/10 for me, 4/10 for Chris"
 						},
@@ -1986,8 +2006,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/22637247_2025049977729259_1751539069772365824_n.jpg?ig_cache_key=MTYyOTMzNDgyOTAwNTY2MTY5OA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/Bacj2T3DeYC",
-							"rating": 8,
-							"dissent": 3,
+							"rating": [
+								6.5,
+								9.5
+							],
 							"name": "Rooster cockscomb and wattle, with mushrooms",
 							"comment": "6.5/10 for me, 9.5/10 for Chris"
 						},
@@ -2386,8 +2408,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/20225818_1282910535168941_9139719547241103360_n.jpg?ig_cache_key=MTU2NzQ2MjU3NjI5MTE1MDU2MQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BXAvuiKjXrh",
-							"rating": 7,
-							"dissent": 2,
+							"rating": [
+								8,
+								6
+							],
 							"name": "Charcoal black lip abalone, mustard and cipollini onion, sweet onion dashi, mukago yam, ice plant, chicken skin",
 							"comment": "8/10 for me, 6/10 for Chris"
 						},
@@ -2591,8 +2615,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14241005_528758737324822_28936916_n.jpg?ig_cache_key=MTMzMDgyNjk4MjY3MDE1ODYwMg%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJ4DBb3j0sK",
-							"rating": 8,
-							"dissent": 2,
+							"rating": [
+								9,
+								7
+							],
 							"name": "Sweet potato tortellini, charred bread, taro",
 							"comment": "9/10 for me, 7/10 for Chris"
 						},
@@ -2644,8 +2670,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/15251632_1310057325700755_1034337620773044224_n.jpg?ig_cache_key=MTM5MTk4MTE4OTg1ODA1NDUwMQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BNRT4Rjg9Fl",
-							"rating": 7.75,
-							"dissent": 1.5,
+							"rating": [
+								8.5,
+								7
+							],
 							"name": "Amuse bouche 1: Sweet corn with chipotle mayo,",
 							"comment": "7/10 for Chris, 8.5/10 for me & Sarah"
 						},
@@ -2684,8 +2712,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14624588_1820772044833379_8547632106186997760_n.jpg?ig_cache_key=MTM5MjAxMzI1NDMwNTI3NTI1MQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BNRbK35gF1z",
-							"rating": 8,
-							"dissent": 2,
+							"rating": [
+								9,
+								7
+							],
 							"name": "Pumpkin granola, burrata curd and white truffle sorbet, and sage milk",
 							"comment": "9/10 for me, 7/10 for Chris, and 7.5/10 for Sarah"
 						},
@@ -2704,16 +2734,20 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14596679_1179519115429204_1691860301625950208_n.jpg?ig_cache_key=MTM5MjAyNTc2NjQyNjA0NTA1OA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BNReA8uA-qC",
-							"rating": 7,
-							"dissent": 2,
+							"rating": [
+								6,
+								8
+							],
 							"name": "Cure Christmas Pudding Parfait, Connemara Whiskey Ice Cream",
 							"comment": "8/10 for Chris, 6/10 for me & Sarah"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/15099504_1820079334901786_7407275605714010112_n.jpg?ig_cache_key=MTM5MjAyODQ3NTQ1MTQxMTQzMQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BNReoXsgovn",
-							"rating": 7,
-							"dissent": 2,
+							"rating": [
+								8,
+								4
+							],
 							"name": "Guinness ice cream sandwich,",
 							"comment": "8/10 for me, 6/10 for Sarah, 4/10 for Chris"
 						}
@@ -2945,16 +2979,20 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14026781_1236504583080102_336959864_n.jpg?ig_cache_key=MTMyOTM3MTI0NTkyNjI1MjcwNw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJy4BrYDYCj",
-							"rating": 7.75,
-							"dissent": 1.5,
+							"rating": [
+								7,
+								8.5
+							],
 							"name": "Scallops with Tucupi and caviar, water yam and coconut purée",
 							"comment": "8.5/10 for Chris, 7/10 for me"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14052406_1285828751435863_1656611067_n.jpg?ig_cache_key=MTMyOTM3MzI0Mzc5MDcyMzgzMg%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJy4ewCDgr4",
-							"rating": 7.75,
-							"dissent": 1.5,
+							"rating": [
+								7,
+								8.5
+							],
 							"name": "Snapper with Napa cabbage kimchi, bone marrow and hot gamay vinaigrette",
 							"comment": "8.5/10 for Chris, 7/10 for me. Chris thought the fish was firm and flavorful, I thought it was dry and flavorless. The bone marrow was undetectable for both"
 						},
@@ -2979,8 +3017,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14033599_1262223570457352_1713825094_n.jpg?ig_cache_key=MTMyOTM5NDYxNzk1NTQwMDc0OA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJy9VyRjDws",
-							"rating": 9,
-							"dissent": 1,
+							"rating": [
+								8.5,
+								9.5
+							],
 							"name": "Caramelized passion fruit pancake soufflé",
 							"comment": "9.5/10 for Chris, 8.5/10 for me (I found it a bit too sweet)"
 						}
@@ -3587,8 +3627,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/18094840_1282084911906459_8090068203394301952_n.jpg?ig_cache_key=MTQ5ODU3OTMxNzYwNDM4MDIzNg%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BTMBfMVjm5M",
-							"rating": 8,
-							"dissent": 2,
+							"rating": [
+								7,
+								9
+							],
 							"name": "Sashimi with razor clam, seasonal fresh fish, jellied sake lees, ginger in vinegar",
 							"comment": "7/10 for me, 9/10 for Chris"
 						},
@@ -3883,8 +3925,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/17076349_1921381191427092_3990201020880781312_n.jpg?ig_cache_key=MTQ2MTM0NDc3NzMyMDQyMzcwNQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BRHvVUajmEZ",
-							"rating": 7,
-							"dissent": 2,
+							"rating": [
+								6,
+								8
+							],
 							"name": "Squid & Kimchi Okonomiyaki with pork belly, cabbage, mountain yam, hojjoko honkytong sauce, so nori, and kewpie",
 							"comment": "6/10 for me, 8/10 for Chris"
 						},
@@ -4205,8 +4249,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/20634646_122987075002939_593648962313912320_n.jpg?ig_cache_key=MTU3NjE2NDEzODA2NDc5OTUyMQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BXfqO7FD-ch",
-							"rating": 7.75,
-							"dissent": 1.5,
+							"rating": [
+								7,
+								8.5
+							],
 							"name": "Double boiled milk pudding with ginger and egg white",
 							"comment": "7/10 for me, 8.5/10 for Chris"
 						}
@@ -4429,8 +4475,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13767553_1048386735239170_1845447525_n.jpg?ig_cache_key=MTMwMTE1ODI2Nzc3OTQ2OTY2Mg%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIOpIz7jtFe",
-							"rating": 8.5,
-							"dissent": 1,
+							"rating": [
+								9,
+								8
+							],
 							"name": "Shrimps with garlic",
 							"comment": "8/10 for Chris, 9/10 for me"
 						},
@@ -4521,8 +4569,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13743297_1081704895251027_1105524057_n.jpg?ig_cache_key=MTMwNDA0MTM4MDg2ODIzOTQwMA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIY4roPD7Ao",
-							"rating": 8.25,
-							"dissent": 1.5,
+							"rating": [
+								9,
+								7.5
+							],
 							"name": "BBQ shortribs with sour cherries, pomegranate, babaganoush, walnuts",
 							"comment": "9/10 for me, 7.5/10 for Chris"
 						},
@@ -4720,8 +4770,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14052387_1646986295616620_1801322402_n.jpg?ig_cache_key=MTMzMTYyMTMyODEwNTMwOTQ2NQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJ63ortDQUZ",
-							"rating": 7.25,
-							"dissent": 1.5,
+							"rating": [
+								8,
+								6.5
+							],
 							"name": "Entraña (cut of beef popular in Panama) with truffle",
 							"comment": "8/10 for me, 6.5/10 for Chris"
 						},
@@ -4764,16 +4816,20 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13628439_1218587154839902_1599690582_n.jpg?ig_cache_key=MTMxOTA5MTU5MDI1ODI5MDU4OQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJOWs__jO-d",
-							"rating": 8.75,
-							"dissent": 1.5,
+							"rating": [
+								9.5,
+								8
+							],
 							"name": "Achinosalata (sea urchin salad): Raw sea urchin with olive oil and a squeeze of lemon",
 							"comment": "9.5/10 for me, 8/10 for Chris"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13706979_1764357307113796_990452420_n.jpg?ig_cache_key=MTMxOTA5MzM5OTYzOTIwMzY0NQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJOXHVHDp89",
-							"rating": 8.5,
-							"dissent": 1,
+							"rating": [
+								8,
+								9
+							],
 							"name": "Octopus in wine",
 							"comment": "9/10 for Chris, 8/10 for me"
 						},
@@ -4796,16 +4852,20 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13731191_1760057987598501_1742155952_n.jpg?ig_cache_key=MTMxMTgxMTg2NzcwMjQ3NjU1Mw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BI0ffGCjD8J",
-							"rating": 8.5,
-							"dissent": 1,
+							"rating": [
+								8,
+								9
+							],
 							"name": "Fried octopus",
 							"comment": "9/10 for Chris, 8/10 for me"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13712165_1742232552693235_1995851611_n.jpg?ig_cache_key=MTMxMTgxNDA0NzA3OTYyMjM1OA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BI0f-zvjGbW",
-							"rating": 8,
-							"dissent": 1,
+							"rating": [
+								8.5,
+								7.5
+							],
 							"name": "Prawns in spicy sauce",
 							"comment": "8.5/10 for me, 7.5/10 for Chris"
 						},
@@ -5190,8 +5250,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14714479_744104429070319_6377554348934692864_n.jpg?ig_cache_key=MTM3ODA0MTQ5NjI3MjI0ODY0Ng%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BMfyXCPDh9G",
-							"rating": 8.25,
-							"dissent": 1.5,
+							"rating": [
+								7.5,
+								9
+							],
 							"name": "Red Kale Caesar salad with duck confit and duck fat dressing",
 							"comment": "7.5/10 for me, 9/10 for Chris"
 						},
@@ -5370,8 +5432,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13722305_1325993820761286_706077273_n.jpg?ig_cache_key=MTMwODM5NTE5MzUwMjU4ODc2MQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIoWn8OjN9Z",
-							"rating": 6.75,
-							"dissent": 1.5,
+							"rating": [
+								6,
+								7.5
+							],
 							"name": "Seared cuttlefish with lemon and garlic",
 							"comment": "7.5/10 for Chris, 6/10 for me"
 						},
@@ -5495,24 +5559,30 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13652173_1574020552901442_789131786_n.jpg?ig_cache_key=MTMwNTQ5NDUzMTkyNDI4Njk5OA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIeDFwnj94W",
-							"rating": 7.5,
-							"dissent": 1,
+							"rating": [
+								8,
+								7
+							],
 							"name": "Corn on the cob with harissa butter, scallions, feta",
 							"comment": "7/10 for Chris, 8/10 for me"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13712731_1456485824378105_1670953792_n.jpg?ig_cache_key=MTMwNTQ5NTg3NjA0NzU4NDkxMw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIeDZUbjb6R",
-							"rating": 7.5,
-							"dissent": 1,
+							"rating": [
+								8,
+								7
+							],
 							"name": "Mussels with tarama butter, scallion, lemon, Cretan olive oil",
 							"comment": "7/10 for Chris, 8/10 for me"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13687030_1574526439515867_585048905_n.jpg?ig_cache_key=MTMwNTUwODAyOTQ3OTc1MzQ2OA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIeGKLMj5b8",
-							"rating": 6.5,
-							"dissent": 1,
+							"rating": [
+								7,
+								6
+							],
 							"name": "Loukaniko dolmades with onion ash yoghurt and harissa",
 							"comment": "6/10 for Chris, 7/10 for me"
 						},
@@ -5947,8 +6017,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14590903_1799494976991833_8798393913497878528_n.jpg?ig_cache_key=MTM1ODQ2MzU0NDE2MTI2MjM5MQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BLaO2VeDNs3",
-							"rating": 8,
-							"dissent": 1,
+							"rating": [
+								7.5,
+								8.5
+							],
 							"name": "Smoked pork porterhouse",
 							"comment": "8.5/10 for Chris, 7.5/10 for me"
 						},
@@ -6230,8 +6302,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14033458_1826653144245844_1505679655_n.jpg?ig_cache_key=MTMyNzY5MDQ5NzUxNTE1Mjk5Mg%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BJs53kcDWZg",
-							"rating": 5,
-							"dissent": 2,
+							"rating": [
+								6,
+								4
+							],
 							"name": "Charki carreteiro",
 							"comment": "4/10 from Chris, 6/10 from me, 7/10 for Ruth (guest star)"
 						},
@@ -6316,16 +6390,20 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13743305_1577595092536471_1517237687_n.jpg?ig_cache_key=MTMwMTc5NDMyNzg4MjUxMDYzMw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIQ5wtEDjEp",
-							"rating": 7.5,
-							"dissent": 1,
+							"rating": [
+								8,
+								7
+							],
 							"name": "Lamb tartare with charred leek, cucumber, radish, duck fat fried bread, bang-bang sauce (whatever that is) and coriander",
 							"comment": "7/10 from Chris, 8/10 from me"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13704233_116321618807867_54034304_n.jpg?ig_cache_key=MTMwMTc5NTc2NDU5OTUxMTY2NQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIQ6FnHD9px",
-							"rating": 7.5,
-							"dissent": 1,
+							"rating": [
+								7,
+								8
+							],
 							"name": "Veal sweetbreads with salsa verde, black beans, chorizo verde, Oaxaca cheese, huitlacoche (?)",
 							"comment": "8/10 from Chris, 7/10 from me"
 						},
@@ -6506,16 +6584,20 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14359436_1186432661392009_6778979949677117440_n.jpg?ig_cache_key=MTM0OTU3NTY3NDc2NzkzMDk4NA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BK6p-0EDPZo",
-							"rating": 7.25,
-							"dissent": 1.5,
+							"rating": [
+								8,
+								6.5
+							],
 							"name": "Pork taco,",
 							"comment": "8/10 for me, 6.5/10 for Chris"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/14350472_1833158083581541_5015627018306322432_n.jpg?ig_cache_key=MTM0OTU3OTI1NDMxMjk4NTYxNw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BK6qy5xj-QR",
-							"rating": 7.75,
-							"dissent": 1.5,
+							"rating": [
+								7,
+								8.5
+							],
 							"name": "Porcetta a la Plancha",
 							"comment": "8.5/10 for Chris, 7/10 for me"
 						},
@@ -6613,8 +6695,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/15099491_370306296636982_8102125890286125056_n.jpg?ig_cache_key=MTM4ODY4MjI1NDc2MjUwNDU1NA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BNFlyc1AfFq",
-							"rating": 7,
-							"dissent": 4,
+							"rating": [
+								9,
+								5
+							],
 							"name": "Jerusalem artichoke velouté with truffle oil",
 							"comment": "5/10 for Chris, 9/10 for me"
 						},
@@ -6742,10 +6826,12 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13741488_170179336736330_1570305030_n.jpg?ig_cache_key=MTMwMDMwNDg0MDgxNTgzMjM5MA%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BILnF0IjG1G",
-							"rating": 8,
-							"dissent": 0,
+							"rating": [
+								8,
+								7
+							],
 							"name": "Front: Fried kalamata olives with carrot and za'atar",
-							"comment": "Middle: Warm buttered hummus wrapped in basturma 8/10 from me, 7/10 from Chris\nBack: Shrimp with fava purée tomato and fava beans 8.5/10"
+							"comment": "8/10\nMiddle: Warm buttered hummus wrapped in basturma 8/10 from me, 7/10 from Chris\nBack: Shrimp with fava purée tomato and fava beans 8.5/10"
 						},
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13740929_629149067236968_1728777445_n.jpg?ig_cache_key=MTMwMDMwOTI5NDQxMTgyNDUzNg%3D%3D.2&se=7",
@@ -6756,8 +6842,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13696773_1659647941022008_767538554_n.jpg?ig_cache_key=MTMwMDMzMDc4MDU5ODA0NDY4Nw%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BILs_ScDYgP",
-							"rating": 8.5,
-							"dissent": 1,
+							"rating": [
+								8,
+								9
+							],
 							"name": "Trout spanakopita, cucumber, avocado and roe",
 							"comment": "9/10 from Chris, 8/10 from me"
 						},
@@ -6883,8 +6971,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13712701_1572783816357710_1155145853_n.jpg?ig_cache_key=MTMwMzMwNjg1NzYwNzg3NTc1MQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIWRq6JDEyn",
-							"rating": 8,
-							"dissent": 2,
+							"rating": [
+								7,
+								9
+							],
 							"name": "Tinned eel in garlic and olive oil",
 							"comment": "7/10 for me, 9/10 for Chris"
 						},
@@ -7709,8 +7799,10 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13636207_2058978460994577_134401936_n.jpg?ig_cache_key=MTI5Mjg1MDIyMTUyMTA2NDA4OQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BHxIG05jFCZ",
-							"rating": 9.5,
-							"dissent": 1,
+							"rating": [
+								10,
+								8
+							],
 							"name": "Eating fish cooked in banana leaf, on a real banana leaf tray!",
 							"comment": "9/10\nAlso octopus (not shown) 10/10 for me, 8/10 for Chris"
 						},
@@ -8337,9 +8429,12 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13628273_676992522470287_1289154221_n.jpg?ig_cache_key=MTI5MDYxMzU5MzA5MjMzNjA1MQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BHpLjmWjymz",
-							"rating": 10,
+							"rating": [
+								10,
+								9.5
+							],
 							"name": "Our mains!\nMalabar fish curry, with curry leaves and garlic, finished with coconut milk:",
-							"comment": "for me, 9.5/10 for Chris\nZaffrani Malai Kofta: Paneer dumplings with raisins and almonds in saffron & cardamom gravy 9.5/10 for me, 8.5/10 for Chris"
+							"comment": "10/10 for me, 9.5/10 for Chris\nZaffrani Malai Kofta: Paneer dumplings with raisins and almonds in saffron & cardamom gravy 9.5/10 for me, 8.5/10 for Chris"
 						}
 					]
 				}
@@ -8509,9 +8604,12 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13473210_1026614350719782_99784977_n.jpg?ig_cache_key=MTI3NjMyMzAwODA2MDk1NTA1NQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BG2aQN6IZmv",
-							"rating": 9.5,
+							"rating": [
+								8.5,
+								9.5
+							],
 							"name": "Front: Tante bean cremeux with walnut ice cream, hazelnuts, chocolate cookie crumble",
-							"comment": "for Chris, 8.5/10 for me\nBack: Mango panacotta with coconut 7.5/10 for me, 6.5/10 for Chris"
+							"comment": "9.5/10 for Chris, 8.5/10 for me\nBack: Mango panacotta with coconut 7.5/10 for me, 6.5/10 for Chris"
 						}
 					]
 				}
@@ -9987,9 +10085,12 @@
 						{
 							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13736000_1116142305102311_313356263_n.jpg?ig_cache_key=MTMwNzY5NTg0NTg0ODU2MTgxMQ%3D%3D.2&se=7",
 							"instagram_url": "https://www.instagram.com/p/BIl3nF-DriT",
-							"rating": 9,
+							"rating": [
+								8,
+								6
+							],
 							"name": "Clams with miso butter",
-							"comment": "Mussels 8.5/10\nJerk chicken wings 5/10\nBuffalo Brussels sprouts 7/10\nOctopus 8/10 for me, 6/10 for Chris\nGoat curry stew with coconut and plantains (not shown) 9/10 for me, 8/10 for Chris"
+							"comment": "9/10\nMussels 8.5/10\nJerk chicken wings 5/10\nBuffalo Brussels sprouts 7/10\nOctopus 8/10 for me, 6/10 for Chris\nGoat curry stew with coconut and plantains (not shown) 9/10 for me, 8/10 for Chris"
 						}
 					]
 				}
