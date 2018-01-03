@@ -425,8 +425,9 @@ ol {
 .button {
 	padding: .5em .5em;
 	background: black;
+	color: white;
 	border-radius: .2em;
-	font: bold 80%/1 var(--sans-serif);
+	font: bold 1.2rem/1 var(--sans-serif);
 	text-transform: uppercase;
 
 	&:hover {
@@ -454,8 +455,8 @@ ol {
 .next {
 	position: absolute;
 	bottom: 1em;
-	right: 1em;
-	
+	right: 7em;
+
 	&::after {
 		content: " ▸";
 	}
