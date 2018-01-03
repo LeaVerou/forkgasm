@@ -7,7 +7,7 @@
 <a href="#none" class="close" onclick='history.replaceState(null, "", "#");'>✖</a>
 
 <section>
-	<article property="restaurant" mv-multiple>
+	<article property="restaurant" mv-multiple id="[id]">
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">
 			<a property="url" mv-default="[facebook]">
@@ -18,7 +18,7 @@
 				<meta property="facebook" content="https://facebook.com/[facebook_places_id]" />
 			</a>
 
-			<span property="rating" data-class="[round(rating)]">[average(dish.rating)]</span>
+			<span property="rating" data-class="[round(rating)]">[average(dish.averageRating)]</span>
 
 			<p class="location">
 				<span property="city"></span>
@@ -33,19 +33,20 @@
 					<time datetime="2016-03-15" property="date">15 Mar 2016</time>
 					<div property="comment"></div>
 				</h3>
-				<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.rating)]</span>
+				<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.averageRating)]</span>
 			</header>
 
 			<section class="dishes">
 				<article property="dish" mv-multiple title="[name]" id="[id]">
 					<a href="#[id]">
 						<img property="image">
-						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
+						<span property="rating" mv-multiple data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
 					</a>
 					<div class="content">
 						<h4 property="name"></h4>
 						<div property="comment"></div>
 						<meta property="id" content="[restaurant.id]-[visit.$index]-[$index]" />
+						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
 						<a href="#[$next.id]" class="next" mv-if="$next">Next</a>
 					</div>
 				</article>

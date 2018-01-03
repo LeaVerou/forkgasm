@@ -345,6 +345,7 @@ ol {
 [property="restaurant"] {
 	position: relative;
 	border: 1px solid rgba(0,0,0,.2);
+	margin: 1em 0;
 
 	& > header {
 		padding: 1em;
@@ -421,23 +422,42 @@ ol {
 
 }
 
+.button {
+	padding: .5em .5em;
+	background: black;
+	border-radius: .2em;
+	font: bold 80%/1 var(--sans-serif);
+	text-transform: uppercase;
+
+	&:hover {
+		text-decoration: none;
+		background: var(--color2);
+	}
+}
+
 .close {
 	position: fixed;
-	top: 1em;
+	bottom: 1em;
 	right: 1em;
-	width: 1em;
 	z-index: 2;
-	line-height: 1;
-	padding: .5em;
-	border-radius: 50%;
-	text-align: center;
-	background: black;
-	color: white;
-	font-size: 150%;
+
+	&::after {
+		content: ' Close';
+	}
 
 	&:hover {
 		background: #c00;
 		text-decoration: none;
+	}
+}
+
+.next {
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	
+	&::after {
+		content: " ▸";
 	}
 }
 
@@ -484,26 +504,6 @@ ol {
 		}
 	}
 
-	& .next {
-		position: absolute;
-		bottom: 1em;
-		right: 1em;
-		padding: .5em .5em;
-		background: black;
-		border-radius: .2em;
-		font: bold 80%/1 var(--sans-serif);
-		text-transform: uppercase;
-
-		&:hover {
-			text-decoration: none;
-			background: var(--color2);
-		}
-
-		&::after {
-			content: " ▸";
-		}
-	}
-
 	&:target {
 		position: fixed;
 		top: 0;
@@ -537,6 +537,10 @@ ol {
 			font-size: 150%;
 			right: auto;
 			bottom: auto;
+
+			& + [property=rating] {
+				top: 3.5em;
+			}
 		}
 
 		& img {

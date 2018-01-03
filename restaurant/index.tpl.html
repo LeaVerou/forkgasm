@@ -1,36 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link rel="stylesheet" href="http://localhost:8000/dist/mavo.css"><script src="http://localhost:8000/dist/mavo.js"></script> -->
-	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script>
-	<link rel="stylesheet" href="/style.css">
-</head>
-<body>
-
-<header>
-	<h1>
-		<img src="/logo.svg" alt="">
-		<a href="/"><img src="/wordmark.svg" alt="forkgasm"></a>
-	</h1>
-	<p>Lea & Chris’ culinary adventures</p>
-	<nav>
-		<a href="/restaurants.html">Reviews</a>
-		<a href="/recipes.html">Recipes</a>
-	</nav>
-</header>
-
+@@include("_head.html")
 
 <main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
 
-<p>Ate a total of [count(dish)] dishes in [count(restaurant)] restaurants.</p>
-
-<a href="#none" class="close" onclick='history.replaceState(null, "", "#");'>✖</a>
-
+<a href="#none" class="close button" onclick='history.replaceState(null, "", "#");'>✖</a>
+<meta property="selectedRestaurant" content="[url('restaurant')]">
 <section>
-	<article property="restaurant" mv-multiple id="[id]">
+	<article property="restaurant" mv-multiple mv-multiple-path="id=[if(selectedRestaurant)]">
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">
 			<a property="url" mv-default="[facebook]">
@@ -69,8 +44,8 @@
 						<h4 property="name"></h4>
 						<div property="comment"></div>
 						<meta property="id" content="[restaurant.id]-[visit.$index]-[$index]" />
-						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
-						<a href="#[$next.id]" class="next" mv-if="$next">Next</a>
+						<meta property="averageRating" content="[if(count(rating), average(rating), "")]">
+						<a href="#[$next.id]" class="next button" mv-if="$next">Next</a>
 					</div>
 				</article>
 			</section>
@@ -82,7 +57,4 @@
 
 </main>
 
-<script src="debug.js" async></script>
-</body>
-</html>
-
+@@include("_foot.html")

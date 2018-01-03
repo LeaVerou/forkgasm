@@ -25,12 +25,10 @@
 
 <main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
 
-<p>Ate a total of [count(dish)] dishes in [count(restaurant)] restaurants.</p>
-
-<a href="#none" class="close" onclick='history.replaceState(null, "", "#");'>✖</a>
-
+<a href="#none" class="close button" onclick='history.replaceState(null, "", "#");'>✖</a>
+<meta property="selectedRestaurant" content="[url('restaurant')]">
 <section>
-	<article property="restaurant" mv-multiple id="[id]">
+	<article property="restaurant" mv-multiple mv-multiple-path="id=[if(selectedRestaurant)]">
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">
 			<a property="url" mv-default="[facebook]">
@@ -69,8 +67,8 @@
 						<h4 property="name"></h4>
 						<div property="comment"></div>
 						<meta property="id" content="[restaurant.id]-[visit.$index]-[$index]" />
-						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
-						<a href="#[$next.id]" class="next" mv-if="$next">Next</a>
+						<meta property="averageRating" content="[if(count(rating), average(rating), "")]">
+						<a href="#[$next.id]" class="next button" mv-if="$next">Next</a>
 					</div>
 				</article>
 			</section>
