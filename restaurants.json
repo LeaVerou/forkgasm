@@ -1359,8 +1359,8 @@
 			"pk": "683879635"
 		},
 		{
-			"id": "hytra-restaurant-bar",
-			"name": "Hytra Restaurant & Bar",
+			"id": "hytra",
+			"name": "Hytra",
 			"dishes": 19,
 			"visit": [
 				{
