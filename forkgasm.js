@@ -33,7 +33,7 @@ if (!self.document) {
 	return;
 }
 
-var src = document.currentScript ? document.currentScript.src : "debug.js";
+var src = document.currentScript ? document.currentScript.src : "forkgasm.js";
 
 if ("serviceWorker" in navigator) {
 	// Register this script as a service worker
