@@ -527,15 +527,24 @@ ol {
 		backdrop-filter: blur(10px);
 		color: white;
 		font-size: 150%;
-		xborder-radius: .2em;
-		xbox-shadow: .1em .2em 1.5em rgba(0,0,0,.5);
+
+		@media (max-aspect-ratio: 1/1) {
+			flex-flow: column;
+		}
 
 		& .content {
-			max-width: 30vw;
 			overflow: auto;
 
 			& h4 {
 				margin: 0;
+			}
+
+			@media (min-aspect-ratio: 1/1) {
+				max-width: 30vw;
+			}
+
+			@media (max-aspect-ratio: 1/1) {
+				margin-top: .5em;
 			}
 		}
 

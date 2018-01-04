@@ -566,17 +566,38 @@ ol {
 	        backdrop-filter: blur(10px);
 	color: white;
 	font-size: 150%;
-	xborder-radius: .2em;
-	xbox-shadow: .1em .2em 1.5em rgba(0,0,0,.5);
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+	[property="dish"]:target {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-flow: column;
+		        flex-flow: column;
+	}
 }
 
 [property="dish"]:target .content {
-	max-width: 30vw;
 	overflow: auto;
 }
 
 [property="dish"]:target .content h4 {
 	margin: 0;
+}
+
+@media (min-aspect-ratio: 1/1) {
+
+	[property="dish"]:target .content {
+		max-width: 30vw;
+	}
+}
+
+@media (max-aspect-ratio: 1/1) {
+
+	[property="dish"]:target .content {
+		margin-top: .5em;
+	}
 }
 
 [property="dish"]:target [property=rating] {
