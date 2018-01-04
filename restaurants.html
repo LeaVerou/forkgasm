@@ -33,12 +33,11 @@
 	<article property="restaurant" mv-multiple id="[id]">
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">
-			<a property="url" mv-default="[facebook]">
+			<a href="/restaurant/[id]">
 				<h2 property="name"></h2>
 				<p class="hide-on-read">
 					http://forkgasm.com/restaurant/<span property="id" mv-default="[idify(name)]"></span>
 				</p>
-				<meta property="facebook" content="https://facebook.com/[facebook_places_id]" />
 			</a>
 
 			<span property="rating" data-class="[round(rating)]">[average(dish.averageRating)]</span>
@@ -61,17 +60,11 @@
 
 			<section class="dishes">
 				<article property="dish" mv-multiple title="[name]" id="[id]">
-					<a href="#[id]">
-						<img property="image">
+					<a href="/restaurant/[restaurant.id]/#[visit.$index]-[$index]">
+						<img src="[thumbnail(image, 240)]">
 						<span property="rating" mv-multiple data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
-					</a>
-					<div class="content">
-						<h4 property="name"></h4>
-						<div property="comment"></div>
-						<meta property="id" content="[restaurant.id]-[visit.$index]-[$index]" />
 						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
-						<a href="#[$next.id]" class="next" mv-if="$next">Next</a>
-					</div>
+					</a>
 				</article>
 			</section>
 		</article>

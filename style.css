@@ -514,6 +514,17 @@ ol {
 	   object-fit: cover;
 }
 
+.index [property="dish"] img {
+	--size: 7.5em;
+}
+
+@media (max-width: 550px) {
+
+	[property="dish"] img {
+		--size: 7.5em;
+	}
+}
+
 [property="dish"] [property=rating] {
 	position: absolute;
 	right: .5em;

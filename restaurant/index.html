@@ -23,7 +23,7 @@
 </header>
 
 
-<main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
+<main mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
 
 <a href="#none" class="close button" onclick='history.replaceState(null, "", "#");'>✖</a>
 <meta property="selectedRestaurant" content="[url('restaurant')]">
@@ -66,7 +66,7 @@
 					<div class="content">
 						<h4 property="name"></h4>
 						<div property="comment"></div>
-						<meta property="id" content="[restaurant.id]-[visit.$index]-[$index]" />
+						<meta property="id" content="[visit.$index]-[$index]" />
 						<meta property="averageRating" content="[if(count(rating), average(rating), "")]">
 						<a href="#[$next.id]" class="next button" mv-if="$next">Next</a>
 					</div>
@@ -80,7 +80,7 @@
 
 </main>
 
-<script src="debug.js" async></script>
+<script src="forkgasm.js" async></script>
 </body>
 </html>
 

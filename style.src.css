@@ -372,7 +372,6 @@ ol {
 		}
 
 		& img {
-
 			width: 8em;
 			height: 8em;
 			object-fit: cover;
@@ -482,6 +481,14 @@ ol {
 		width: var(--size);
 		height: var(--size);
 		object-fit: cover;
+
+		@nest .index & {
+			--size: 7.5em;
+		}
+
+		@media (max-width: 550px) {
+			--size: 7.5em;
+		}
 	}
 
 	& [property=rating] {
