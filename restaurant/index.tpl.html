@@ -2,7 +2,8 @@
 
 <main mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
 
-<a href="#none" class="close button" onclick='history.replaceState(null, "", "#");'>✖</a>
+<a href="#none" class="close button" onclick='requestAnimationFrame(() => history.replaceState(null, "", "#"));'>✖</a>
+
 <meta property="selectedRestaurant" content="[url('restaurant')]">
 <section>
 	<article property="restaurant" mv-multiple mv-multiple-path="id=[if(selectedRestaurant)]">
