@@ -905,8 +905,10 @@
 			"pk": "235501400"
 		},
 		{
-			"id": "varoulko-seaside",
+			"id": "varoulko",
 			"name": "Varoulko Seaside",
+			"city": "Piraeus",
+			"country": "gr",
 			"dishes": 28,
 			"visit": [
 				{
@@ -2685,7 +2687,9 @@
 		},
 		{
 			"id": "riwaz-the-ritz-carlton-bangalore",
-			"name": "Riwaz, the Ritz Carlton, Bangalore",
+			"name": "Riwaz",
+			"city": "Bangalore",
+			"country": "in",
 			"dishes": 12,
 			"visit": [
 				{
