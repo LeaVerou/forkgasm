@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link rel="stylesheet" href="http://localhost:8000/dist/mavo.css"><script src="http://localhost:8000/dist/mavo.js"></script> -->
 	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script>
 	<link rel="stylesheet" href="/style.css">
 </head>
@@ -17,14 +16,15 @@
 	</h1>
 	<p>Lea & Chris’ culinary adventures</p>
 	<nav>
-		<a href="/restaurants.html">Reviews</a>
-		<a href="/recipes.html">Recipes</a>
+		<a href="/index.html">Recipes</a>
+		<a href="/restaurants.html">Restaurants <sup>β</sup></a>
+		<!-- <a href="/about">About</a> -->
 	</nav>
 </header>
 
 
-<main mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
-
+<main mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-plugins="sort" mv-bar="with export">
+<div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
 <a href="#none" class="close button" onclick='requestAnimationFrame(() => history.replaceState(null, "", "#"));'>✖</a>
 
 <meta property="selectedRestaurant" content="[url('restaurant')]">
@@ -43,7 +43,8 @@
 			<span property="rating" data-class="[round(rating)]">[average(dish.averageRating)]</span>
 
 			<p class="location">
-				<span property="city"></span>
+				<span property="city"></span>[if(city and country, ',')]
+				<span property="country" mv-edit="#countries" style="--flag: url(/flags/[country].png)"></span>
 			</p>
 
 			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes">[count(dish)]</span> dishes</p>
@@ -68,7 +69,7 @@
 					<div class="content">
 						<h4 property="name"></h4>
 						<div property="comment"></div>
-						<meta property="id" content="[visit.$index]-[$index]" />
+						<meta property="id" content="visit[visit.$index + 1]-dish[$index + 1]" />
 						<a href="#[$next.id]" class="next button" mv-if="$next">Next</a>
 					</div>
 				</article>
@@ -78,8 +79,14 @@
 
 	<a href="?login" class="mv-login mv-logged-out">Login to edit</a>
 </section>
-
 </main>
+
+<div hidden mv-app="countries" mv-source="/countries.json" mv-mode="read">
+	<select id="countries">
+		<option value=""></option>
+		<option value="[code]" property="country" mv-multiple typeof>[name]</option>
+	</select>
+</div>
 
 <script src="forkgasm.js" async></script>
 </body>

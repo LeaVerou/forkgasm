@@ -32,10 +32,32 @@ p:last-of-type {
 }
 
 body > header {
-	padding: 1.5em;
-	padding-bottom: 1em;
+	padding: 0;
+	padding-top: 1.5em;
 	background: hsl(25, 100%, 50%);
-	color: white
+	color: white;
+	overflow: hidden
+}
+
+body > header h1 {
+	margin: 0;
+	padding: 0 .5em;
+	line-height: 1;
+	font-weight: 600;
+	font-style: italic;
+}
+
+body > header h1 img {
+	display: block;
+	margin: auto;
+}
+
+body > header h1 img[src*=logo] {
+	width: 3em;
+}
+
+body > header h1 img[src*=wordmark] {
+	height: 2em;
 }
 
 body > header p {
@@ -43,12 +65,12 @@ body > header p {
 	text-align: center;
 	font-family: Helvetica Neue, sans-serif;
 	font-weight: 900;
-	opacity: .6;
+	color: black;
 }
 
 body > header nav {
 	margin: auto;
-	margin-top: 1em;
+	margin-top: .5em;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -57,37 +79,64 @@ body > header nav {
 	        justify-content: center;
 	font-family: Helvetica Neue, sans-serif;
 	font-weight: bold;
-	display: none;
+	background: black;
+	--secondary-color: hsl(25, 100%, 50%);
 }
 
 body > header nav a {
-	padding: .8em;
+	padding: .5em;
+	padding-bottom: .1em;
 	text-decoration: none;
 	border-bottom: .4em solid transparent;
 }
 
 body > header nav a:hover {
-	border-bottom-color: hsla(0,0%,100%,.72);
+	border-bottom-color: var(--secondary-color);
+	text-decoration: none;
 }
 
-h1 {
-	margin: 0;
-	line-height: 1;
-	font-weight: 600;
-	font-style: italic
+body > header nav a sup {
+	display: inline-block;
+	vertical-align: .5em;
+	font-size: 60%;
+	color: var(--secondary-color);
 }
 
-h1 img {
-	display: block;
-	margin: auto;
-}
+@media (max-width: 600px) {
 
-h1 img[src*=logo] {
-	width: 3em;
-}
+	body > header {
+		position: relative;
+		font-size: 90%;
+	}
 
-h1 img[src*=wordmark] {
-	height: 2em;
+	body > header h1,
+		body > header p,
+		body > header nav {
+		padding-left: 7rem;
+	}
+
+	body > header p {
+		text-align: left;
+	}
+
+	body > header h1 img {
+		margin: 0;
+	}
+
+	body > header h1 img[src*=logo] {
+		position: absolute;
+		top: .5em;
+		bottom: 0;
+		left: .5em;
+		width: auto;
+		height: calc(100% - .8em);
+	}
+
+	body > header nav {
+		-webkit-box-pack: start;
+		    -ms-flex-pack: start;
+		        justify-content: flex-start;
+	}
 }
 
 h3 {

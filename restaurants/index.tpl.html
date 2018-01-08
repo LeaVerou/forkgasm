@@ -21,6 +21,7 @@
 
 			<p class="location">
 				<span property="city"></span>
+				<span property="country" mv-edit="#countries"></span>
 			</p>
 
 			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes">[count(dish)]</span> dishes</p>
@@ -36,8 +37,8 @@
 			</header>
 
 			<section class="dishes">
-				<article property="dish" mv-multiple title="[name]" id="[id]">
-					<a href="/restaurant/[restaurant.id]/#[visit.$index]-[$index]">
+				<article property="dish" mv-multiple title="[name]">
+					<a href="/restaurants/[restaurant.id]/#visit[visit.$index + 1]-dish[$index + 1]">
 						<img src="[thumbnail(image, 240)]">
 						<span property="rating" mv-multiple data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
 						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
@@ -51,5 +52,12 @@
 </section>
 
 </main>
+
+<div hidden mv-app="countries" mv-source="countries.json" mv-mode="read">
+	<select id="countries">
+		<option value=""></option>
+		<option value="[code]" property="country" mv-multiple typeof>[name]</option>
+	</select>
+</div>
 
 @@include("_foot.html")
