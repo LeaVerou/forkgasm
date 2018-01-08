@@ -10145,29 +10145,6 @@
 			"pk": "291461876"
 		},
 		{
-			"id": "hellenic-tastes",
-			"name": "Γιουβετσάκια  καλοφαγάδικο. Hellenic Tastes.",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2016-08-05",
-					"dish": [
-						{
-							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/13737055_1222729267771126_376965389_n.jpg?ig_cache_key=MTMxMDM0Mjc4OTI1NTE0MDMzOQ%3D%3D.2&se=7",
-							"instagram_url": "https://www.instagram.com/p/BIvRdMHjBPz",
-							"name": "Amazing food but the best part is the kittens running around and asking for food <3"
-						}
-					]
-				}
-			],
-			"address": "Ιθώμηs 20  & Μωρέως 45  Γλυφάδα .",
-			"lat": 37.88549,
-			"lng": 23.75415,
-			"facebook_places_id": "309348565837221",
-			"city": "Glyfáda, Greece",
-			"pk": "508588393"
-		},
-		{
 			"id": "the-mina-test-kitchen",
 			"name": "The MINA Test Kitchen",
 			"dishes": 1,
@@ -10654,6 +10631,8 @@
 		{
 			"id": "century-royal-hotel",
 			"name": "Century Royal Hotel",
+			"city": "Sapporo",
+			"country": "jp",
 			"dishes": 1,
 			"visit": [
 				{
@@ -10670,7 +10649,6 @@
 			"lat": 43.066671467662,
 			"lng": 141.34839104841,
 			"facebook_places_id": "124463021057515",
-			"city": "北5条",
 			"pk": "263925644"
 		},
 		{
@@ -10766,51 +10744,6 @@
 			"pk": "679735303"
 		},
 		{
-			"id": "cambridge-brewing-company",
-			"name": "Cambridge Brewing Company",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2015-09-22",
-					"dish": [
-						{
-							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/11950418_1631838887099775_806520423_n.jpg?ig_cache_key=MTA3OTc4MzMwNjQ5NjY3ODM2NA%3D%3D.2&se=7",
-							"instagram_url": "https://www.instagram.com/p/78KTJCIZnc",
-							"name": "Farewell Guillaume lunch with the W3C/MIT crowd!"
-						}
-					]
-				}
-			],
-			"address": "1 Kendall Sq",
-			"lat": 42.366345200174,
-			"lng": -71.091279750887,
-			"facebook_places_id": "45120837507",
-			"city": "Cambridge, MA",
-			"pk": "30199"
-		},
-		{
-			"id": "γλυφαδα",
-			"name": "Γλυφαδα",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2016-01-18",
-					"dish": [
-						{
-							"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/12543289_1040399519336236_1721230011_n.jpg?ig_cache_key=MTE2NTQzNzU0Njk3OTc2MDUyMQ%3D%3D.2&se=7",
-							"instagram_url": "https://www.instagram.com/p/BAsd0YzoZmJ",
-							"name": "Dinner at our friends Dina & Stavros. Dina could easily be a chef at a high class restaurant! Shown here is only the first course: Cauliflower and mushroom soup with truffle, bacon and pomegranate seeds. #omnomnomnom "
-						}
-					]
-				}
-			],
-			"address": "αριστοτελους κ αγησιλάου",
-			"lat": 37.880587633734,
-			"lng": 23.763497471832,
-			"facebook_places_id": "475450912492040",
-			"pk": "235470370"
-		},
-		{
 			"id": "cafe-luna",
 			"name": "Cafe Luna",
 			"dishes": 1,
@@ -10831,6 +10764,7 @@
 			"lng": -71.0927848,
 			"facebook_places_id": "128187787867",
 			"city": "Cambridge, MA",
+			"country": "us",
 			"pk": "5978"
 		},
 		{
@@ -10878,8 +10812,10 @@
 			"pk": "214559200"
 		},
 		{
-			"id": "うに虎-本店",
-			"name": "うに虎 本店",
+			"id": "uni-tora",
+			"name": "うに虎 本店 (Uni Tora)",
+			"city": "Tokyo",
+			"country": "jp",
 			"dishes": 1,
 			"visit": [
 				{
