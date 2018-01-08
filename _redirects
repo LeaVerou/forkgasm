@@ -1,3 +1,3 @@
-/recipe/:id /recipe.html 200
+/recipes/:id /recipes/index.html 200
 /tag/:id /index.html 200
 /restaurants/:id /restaurants/one.html 200

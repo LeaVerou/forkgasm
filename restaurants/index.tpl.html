@@ -1,6 +1,7 @@
 @@include("_head.html")
 
 <main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
+<div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
 
 <p>Ate a total of [count(dish)] dishes in [count(restaurant)] restaurants.</p>
 
@@ -13,7 +14,7 @@
 			<a href="/restaurant/[id]">
 				<h2 property="name"></h2>
 				<p class="hide-on-read">
-					http://forkgasm.com/restaurant/<span property="id" mv-default="[idify(name)]"></span>
+					http://forkgasm.com/restaurants/<span property="id" mv-default="[idify(name)]"></span>
 				</p>
 			</a>
 
