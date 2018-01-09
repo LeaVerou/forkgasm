@@ -18,13 +18,14 @@
 	<nav>
 		<a href="/index.html">Recipes</a>
 		<a href="/restaurants.html">Restaurants <sup>β</sup></a>
-		<!-- <a href="/about">About</a> -->
+		<a href="/about">About</a>
 	</nav>
 </header>
 
 
 <main class="index">
-	<section mv-app="recipes" mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-bar="no-login" mv-plugins="markdown" class="index">
+	<section mv-app="recipes" mv-storage="https://github.com/leaverou/forkgasm/recipes.json" mv-plugins="markdown" class="index">
+		<div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
 		<article property="recipe" mv-multiple style="--image: url([image])" class="recipe-card" mv-order="desc">
 			<a href="/recipes/[id]">
 				<img property="image">

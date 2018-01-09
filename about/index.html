@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>forkgasm — Lea & Chris’ culinary advenctures</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://dev.mavo.io/dist/mavo.css"><script src="https://dev.mavo.io/dist/mavo.js"></script>
+	<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+	<h1>
+		<img src="/logo.svg" alt="">
+		<a href="/"><img src="/wordmark.svg" alt="forkgasm"></a>
+	</h1>
+	<p>Lea & Chris’ culinary adventures</p>
+	<nav>
+		<a href="/index.html">Recipes</a>
+		<a href="/restaurants.html">Restaurants <sup>β</sup></a>
+		<a href="/about">About</a>
+	</nav>
+</header>
+
+
+<main mv-app="about" mv-storage="https://github.com/leaverou/forkgasm/about/data.json" mv-plugins="markdown">
+<div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
+<h2>About</h2>
+
+<img property="image" src="/images/chrislea.jpg" alt="" style="float: right; width: 20em; margin-left: 1em">
+
+<div property="content" mv-markdown-options="minHeadingLevel: 3">
+We are Lea & Chris, a couple of computer scientists who love food and travel a lot.
+Lea is from Greece and Chris is from Scotland.
+We currently live in Boston, MA, but who knows what the future may hold.
+When we’re at home we love to cook, and when we travel we love to try out the most interesting restaurants we can find.
+
+# Recipes
+
+We started keeping track of our recipes, because we realized we kept making changes to the ones we were using, and we couldn't always remember what the changes were.
+This is why, at the end of many recipes you will sometimes find a "Forked from" section with links to the original recipes our recipe is based on, often more than one.
+*"Forked from"* is a term that comes from Open Source software development: we say that an open source project is "forked from" another open source project when it uses the latter as a starting point to build upon.
+
+# Restaurant ratings
+
+We visit a lot of restaurants, mostly while travelling, and we often struggled to remember which dishes we liked when coming back to a restaurant or recommending restaurants to friends.
+So, at some point we started photographing every dish and adding our rating from 1-10 that reflects what we thought of it.
+We were (and still are) posting our photos and ratings to [Lea’s Instagram page](https://instagram.com/leaverou).
+At some point, Instagram removed the ability to search one’s own photos via a map, which made it impossible to find our reviews for a given restaurant or restaurants in a city.
+We realized we need to find or make an alternative way to organize all this data and Forkgasm was born!
+
+# For Fellow Geeks: Making Of
+
+This website was created with [Mavo](https://mavo.io) and is hosted on [Netlify](https://netlify.com).
+It’s open source and you can find its code on [Github](https://github.com/leaverou/forkgasm).
+</div>
+
+</main>
+
+<script src="/forkgasm.js" async></script>
+</body>
+</html>
+
