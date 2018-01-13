@@ -17,13 +17,16 @@
   },
   "homepage": "http://forkgasm.com",
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
+    "autoprefixer": "^7.2.4",
     "gulp": "^3.9.1",
     "gulp-file-include": "^1.2.0",
-    "gulp-postcss": "^7.0.0",
+    "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
-    "postcss-custom-properties": "^6.0.1",
-    "postcss-nesting": "^4.0.1",
+    "postcss-custom-properties": "^6.2.0",
+    "postcss-nesting": "^4.2.1",
     "postcss-selector-matches": "^3.0.1"
+  },
+  "dependencies": {
+    "stable": "^0.1.6"
   }
 }
