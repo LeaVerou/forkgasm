@@ -444,6 +444,12 @@ ol {
 			opacity: .6;
 		}
 	}
+
+	& .location {
+		&::before {
+			content: var(--flag);
+		}
+	}
 }
 
 .visits {

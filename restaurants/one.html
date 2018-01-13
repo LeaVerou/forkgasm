@@ -42,9 +42,9 @@
 
 			<span property="rating" data-class="[round(rating)]">[average(dish.averageRating)]</span>
 
-			<p class="location">
+			<p class="location" style="--flag: url(/flags/[country].png)">
 				<span property="city"></span>[if(city and country, ',')]
-				<span property="country" mv-edit="#countries" style="--flag: url(/flags/[country].png)"></span>
+				<span property="country" mv-edit="#countries"></span>
 			</p>
 
 			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes">[count(dish)]</span> dishes</p>

@@ -20,8 +20,8 @@
 
 			<span property="rating" data-class="[round(rating)]">[average(dish.averageRating)]</span>
 
-			<p class="location">
-				<span property="city"></span>
+			<p class="location" style="--flag: url(/flags/[country].png)">
+				<span property="city"></span>[if(city and country, ',')]
 				<span property="country" mv-edit="#countries"></span>
 			</p>
 
@@ -54,7 +54,7 @@
 
 </main>
 
-<div hidden mv-app="countries" mv-source="countries.json" mv-mode="read">
+<div hidden mv-app="countries" mv-source="/countries.json" mv-mode="read">
 	<select id="countries">
 		<option value=""></option>
 		<option value="[code]" property="country" mv-multiple typeof>[name]</option>

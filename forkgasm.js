@@ -3,7 +3,7 @@
 var rules = new Map([
 	[/https?:\/\/get\.mavo\.io\/mavo\./, "http://localhost:8000/dist/mavo."],
 	[/https?:\/\/dev\.mavo\.io\/dist\/mavo\./, "http://localhost:8000/dist/mavo."],
-	[/https?:\/\/plugins\.mavo\.io\//, "http://localhost:8002/mavo/plugins/"],
+	[/https?:\/\/plugins\.mavo\.io\/(?!plugins.json)/, "http://localhost:8002/mavo/plugins/"],
 ]);
 
 if (!self.document) {

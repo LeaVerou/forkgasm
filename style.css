@@ -468,6 +468,10 @@ ol {
 	opacity: .6;
 }
 
+[property="restaurant"] .location::before {
+	content: var(--flag);
+}
+
 .visits {
 }
 
