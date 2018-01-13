@@ -55,6 +55,12 @@ try {
 			$obj['location'] = array_filter((array) $item['location']);
 			$obj['instagram_url'] = 'https://www.instagram.com/p/' . $item['code'];
 
+			unset($obj['location']['external_source']);
+
+			if ($obj['location']['short_name'] === $obj['location']['name']) {
+				unset($obj['location']['short_name']);
+			}
+
 			if ($last_place != $item['location']['pk']) {
 				$places_count++;
 			}
