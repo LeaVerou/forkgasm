@@ -111,7 +111,7 @@ initialData.then(restaurants => {
 		});
 
 		// Turn from object literal to array
-		restaurants = Object.values(restaurants)//, (a, b) => b.dishes - a.dishes);
+		restaurants = stable(Object.values(restaurants), (a, b) => b.dishes - a.dishes);
 
 		// Merge consecutive visits (probably due to timezone issues)
 		// This assumes we never visit the same restaurant two days in a row
@@ -127,7 +127,7 @@ initialData.then(restaurants => {
 			}
 
 			// Sort visits by date in descending order
-			//r.visit = stable(r.visit, (a, b) => new Date(b.date) - new Date(a.date));
+			r.visit = stable(r.visit, (a, b) => new Date(b.date) - new Date(a.date));
 		});
 
 		return writeFile(output, JSON.stringify({restaurant: restaurants}, null, "\t")).then(err => {
