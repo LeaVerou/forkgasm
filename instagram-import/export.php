@@ -23,6 +23,10 @@ $mediaCount = $user->media_count;
 $cutoff = strtotime($cutoff);
 $places_count = 0;
 
+if ($argv[1]) {
+	$places_cutoff = $argv[1];
+}
+
 function removeNulls(&$array) {
 	foreach ($array as $key => $value) {
 		if (is_array($value)) {

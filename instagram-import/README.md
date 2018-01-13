@@ -4,4 +4,6 @@ The PHP code is based on https://github.com/vintagesucks/instagram-export
 To use it, first run `composer install` to install all necessary packages (you may need to install Composer too).
 Then, copy `config.sample.php`, edit it with your info and rename it to `config.php`.
 Then, run `php export.php`. Your data will be in `export.json`.
+You can override the number of restaurants to import by a command line argument, e.g. `php export.php 1`.
+
 Running `node transform.js` will import that data in `restaurants.json`.
