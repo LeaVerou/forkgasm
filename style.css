@@ -57,7 +57,7 @@ body > header h1 img[src*=logo] {
 }
 
 body > header h1 img[src*=wordmark] {
-	height: 2em;
+	height: 2.8em;
 }
 
 body > header p {
@@ -79,7 +79,7 @@ body > header nav {
 	        justify-content: center;
 	font-family: Helvetica Neue, sans-serif;
 	font-weight: bold;
-	background: black;
+	background: #40060e;
 	--secondary-color: hsl(25, 100%, 50%);
 }
 
@@ -586,7 +586,7 @@ ol {
 }
 
 [property="dish"] [property=rating] + [property=rating] {
-	right: 3em;
+	right: 2.8em;
 }
 
 [property="dish"] {

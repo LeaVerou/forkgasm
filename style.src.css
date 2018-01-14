@@ -63,7 +63,7 @@ body > header {
 			}
 
 			&[src*=wordmark] {
-				height: 2em;
+				height: 2.8em;
 			}
 		}
 	}
@@ -83,7 +83,7 @@ body > header {
 		justify-content: center;
 		font-family: var(--sans-serif);
 		font-weight: bold;
-		background: black;
+		background: #40060e;
 		--secondary-color: var(--color1);
 
 		& a {
@@ -550,7 +550,7 @@ ol {
 		bottom: .5em;
 
 		& + [property=rating] {
-			right: 3em;
+			right: 2.8em;
 		}
 	}
 
