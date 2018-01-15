@@ -536,11 +536,11 @@ ol {
 		object-fit: cover;
 
 		@nest .index & {
-			--size: 7.5em;
+			--size: 140px;
 		}
 
 		@media (max-width: 550px) {
-			--size: 7.5em;
+			--size: 140px;
 		}
 	}
 
