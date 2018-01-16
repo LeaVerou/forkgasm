@@ -9685,37 +9685,6 @@
 			"pk": "451825783"
 		},
 		{
-			"id": "alkaios-hotel-molyvos-greece",
-			"name": "Alkaios Hotel, Molyvos, Greece",
-			"dishes": 2,
-			"visit": [
-				{
-					"date": "2015-08-14",
-					"dish": [
-						{
-							"image": "/images/dishes/11875338_464607237052702_1094123170_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/6XFybvoZkK",
-							"name": "My office today."
-						}
-					]
-				},
-				{
-					"date": "2015-08-08",
-					"dish": [
-						{
-							"image": "/images/dishes/11381365_868161993273544_1652995477_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/6Ik8HXoZhN"
-						}
-					]
-				}
-			],
-			"address": "Eftalou Lesvos",
-			"lat": 39.373415506801,
-			"lng": 26.194657283949,
-			"facebook_places_id": "221503324544367",
-			"pk": "310123430"
-		},
-		{
 			"id": "ο-τζίτζικας-και-ο-μέρμηγκας",
 			"name": "Ο Τζίτζικας Και Ο Μέρμηγκας",
 			"dishes": 2,
