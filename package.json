@@ -17,9 +17,10 @@
   },
   "homepage": "http://forkgasm.com",
   "devDependencies": {
-    "autoprefixer": "^7.2.4",
+    "autoprefixer": "^7.2.5",
     "gulp": "^3.9.1",
     "gulp-file-include": "^1.2.0",
+    "gulp-image-resize": "^0.13.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
     "postcss-custom-properties": "^6.2.0",
