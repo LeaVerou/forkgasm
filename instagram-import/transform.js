@@ -1,5 +1,7 @@
-fs = require("fs");
-stable = require("stable");
+const fs = require("fs");
+const stable = require("stable");
+const https = require("https");
+const { URL } = require('url');
 
 var input = process.argv[2] || "export.json";
 var output = process.argv[3] || "../restaurants.json";
@@ -17,7 +19,7 @@ initialData.then(restaurants => {
 	return readJSON(input).then(data => {
 		data = data.photo || data || [];
 
-		data.forEach(photo => {
+		for (var photo of data) {
 			if (photo.location) {
 				var loc = photo.location;
 				var restaurant = restaurants["pk" + loc.pk];
@@ -91,6 +93,37 @@ initialData.then(restaurants => {
 
 				photo.date = new Date(photo.date * 1000).toISOString().match(/^[\d-]+/)[0];
 
+				// Download image from Instagram
+				let url = new URL(photo.image);
+				let filename = url.pathname.match(/[^\/]+$/);
+				let imagePath = "/images/dishes/" + filename;
+				let tempPath = "../images/" + filename;
+				let file = fs.createWriteStream(tempPath);
+
+				file.on("error", err => {
+					console.log("Error while writing stream", err);
+					process.exit();
+				});
+
+				https.get(photo.image, function(response) {
+					response.pipe(file);
+
+					response.on("end", () => {
+						var cwd = process.cwd();
+
+						fs.rename(cwd + "/../images/" + filename, cwd + "/.." + imagePath, err => {
+							if (err) {
+								console.log("Error", err);
+							}
+							else {
+								console.log(`Downloaded ${imagePath} successfully!`);
+							}
+						});
+					});
+				});
+
+				photo.image = imagePath;
+
 				for (let v of restaurant.visit) {
 					if (v.date == photo.date) {
 						var visit = v;
@@ -108,7 +141,7 @@ initialData.then(restaurants => {
 				visit.dish.unshift(photo);
 				restaurant.dishes++;
 			}
-		});
+		}
 
 		// Turn from object literal to array
 		restaurants = stable(Object.values(restaurants), (a, b) => b.dishes - a.dishes);
