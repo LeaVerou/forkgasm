@@ -6856,6 +6856,62 @@
 			"pk": "2035"
 		},
 		{
+			"id": "telemachos-athens",
+			"name": "Telemachos Athens",
+			"dishes": 6,
+			"visit": [
+				{
+					"date": "2018-01-16",
+					"dish": [
+						{
+							"image": "/images/dishes/26070784_160653284710502_7693183010148974592_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bd_OVGjD8FV",
+							"rating": 7,
+							"name": "Amuse bouche: Goat cheese cream wrapped in zucchini"
+						},
+						{
+							"image": "/images/dishes/26073555_353130311828211_3756813198095810560_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bd_OxNpjYu5",
+							"rating": 6.5,
+							"name": "Salad with mango, cilantro, avocado, and lime-ginger dressing",
+							"comment": "Had a lot of potential but was spoiled by how unripe the mango was."
+						},
+						{
+							"image": "/images/dishes/26266644_1821583214581231_6733962447532589056_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bd_PHAfj-0B",
+							"rating": 8.5,
+							"name": "Kokoretsi",
+							"comment": "Probably the best kokoretsi we’ve ever had!"
+						},
+						{
+							"image": "/images/dishes/26224495_139977166679373_9222278456576835584_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bd_PgL_D6tI",
+							"rating": 9,
+							"name": "Picanha"
+						},
+						{
+							"image": "/images/dishes/26264343_501721916888229_7475882026025877504_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bd_Q99yDIfT",
+							"rating": 7,
+							"name": "Lamb chops",
+							"comment": "(Lea’s rating. Chris refrains from rating, he didn’t like them at all)"
+						},
+						{
+							"image": "/images/dishes/26068771_816669261854434_7568426974842978304_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bd_Z4fdjLRg",
+							"rating": 5,
+							"name": "“Fillomila”: Mille-feuille variation with phyllo, almonds, cream of Madagascar vanilla and morello cherries and blackcurrants"
+						}
+					]
+				}
+			],
+			"address": "Panepistimiou 10",
+			"lat": 37.977627240184,
+			"lng": 23.735446929932,
+			"facebook_places_id": "1734972160049972",
+			"pk": "1734972160049972"
+		},
+		{
 			"id": "cafe-du-pays",
 			"name": "Café du Pays",
 			"dishes": 5,
