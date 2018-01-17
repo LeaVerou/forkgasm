@@ -5846,7 +5846,7 @@
 			"pk": "252626006"
 		},
 		{
-			"id": "premiere-restaurant-lounge-bar",
+			"id": "premiere",
 			"name": "Première Restaurant & Lounge Bar",
 			"dishes": 7,
 			"visit": [
@@ -5899,6 +5899,7 @@
 				}
 			],
 			"address": "89-93 Syngrou Avenue, Athenaeum InterContinental, 10th floor",
+			"country": "gr",
 			"lat": 37.960157,
 			"lng": 23.7216634,
 			"facebook_places_id": "584961705018958",
@@ -5960,6 +5961,7 @@
 				}
 			],
 			"address": "Καλογριώνη 6",
+			"country": "gr",
 			"lat": 37.97529,
 			"lng": 23.72758,
 			"facebook_places_id": "215626528823874",
@@ -6104,11 +6106,11 @@
 					]
 				}
 			],
-			"address": "Λεσβος",
+			"city": "Molyvos, Lesbos",
+			"country": "gr",
 			"lat": 39.368984161165,
 			"lng": 26.168484091759,
 			"facebook_places_id": "462901963879789",
-			"city": "Μήθυμνα Λέσβου",
 			"pk": "1014402286"
 		},
 		{
