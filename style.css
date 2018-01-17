@@ -566,6 +566,7 @@ ol {
 	height: var(--size);
 	-o-object-fit: cover;
 	   object-fit: cover;
+	background: hsl(220, 10%, 95%);
 }
 
 .index [property="dish"] img {

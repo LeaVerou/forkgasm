@@ -2,6 +2,7 @@
 	--color1: hsl(25, 100%, 50%);
 	--color2: hsl(190, 67%, 42%);
 	--gray: hsl(190, 10%, 50%);
+	--light-gray: hsl(220, 10%, 95%);
 	--serif: Baskerville, Adobe Caslon Pro, serif;
 	--sans-serif: Helvetica Neue, sans-serif;
 	--section-width: 60em;
@@ -396,7 +397,7 @@ ol {
 
 	& > header {
 		padding: 1em;
-		background: hsl(220, 10%, 95%);
+		background: var(--light-gray);
 
 		& > * {
 			margin: 0;
@@ -534,6 +535,7 @@ ol {
 		width: var(--size);
 		height: var(--size);
 		object-fit: cover;
+		background: var(--light-gray);
 
 		@nest .index & {
 			--size: 140px;
