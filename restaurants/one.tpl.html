@@ -39,8 +39,8 @@
 			<section class="dishes">
 				<article property="dish" mv-multiple title="[name]" id="[id]">
 					<a href="#[id]">
-						<img property="image">
-						<span property="rating" mv-multiple data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
+						<img property="image" mv-uploads="images/dishes">
+						<span property="rating" mv-multiple data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
 						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
 					</a>
 					<div class="content">
