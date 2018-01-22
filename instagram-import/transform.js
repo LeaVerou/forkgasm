@@ -53,7 +53,7 @@ initialData.then(restaurants => {
 
 						if (ratings.length > 1) {
 							// More than 1 ratings
-							var lea = caption.match(/[\d.]+(?=\/10 (for|from) me)/g);
+							var lea = caption.match(/[\d.]+(?=\/10 (for|from) (me|Lea))/g);
 							var chris = caption.match(/[\d.]+(?=\/10 (for|from) Chris)/g);
 
 							if (lea && chris) {
@@ -97,7 +97,7 @@ initialData.then(restaurants => {
 				let url = new URL(photo.image);
 				let filename = url.pathname.match(/[^\/]+$/);
 				let imagePath = "/images/dishes/" + filename;
-				let tempPath = "../images/" + filename;
+				let tempPath = "../images/dishes" + filename + ".tmp";
 				let file = fs.createWriteStream(tempPath);
 
 				file.on("error", err => {
@@ -111,7 +111,8 @@ initialData.then(restaurants => {
 					response.on("end", () => {
 						var cwd = process.cwd();
 
-						fs.rename(cwd + "/../images/" + filename, cwd + "/.." + imagePath, err => {
+						// Move from temporary location to proper location
+						fs.rename(cwd + "/" + tempPath, cwd + "/.." + imagePath, err => {
 							if (err) {
 								console.log("Error", err);
 							}
