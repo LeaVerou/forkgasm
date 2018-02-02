@@ -593,7 +593,8 @@
 				{
 					"amount": "0.5",
 					"unit": "cup",
-					"name": "Kalamata olives"
+					"name": "Kalamata olives",
+					"preparation": "pitted"
 				}
 			],
 			"step": [
