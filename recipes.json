@@ -757,6 +757,11 @@
 					"preparation": "finely chopped"
 				},
 				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "olive oil"
+				},
+				{
 					"name": "salt"
 				},
 				{
@@ -771,7 +776,7 @@
 					"description": "Beat the eggs in a bowl and set aside."
 				},
 				{
-					"description": "In a large bowl, mix the zucchini, parsley, dill, onion, spring onion, cheeses, pepper."
+					"description": "In a large bowl, mix the zucchini, parsley, dill, onion, spring onion, cheeses, pepper, eggs."
 				},
 				{
 					"description": "Add the olive oil to the mix."
