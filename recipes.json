@@ -10,11 +10,59 @@
 			],
 			"ingredient": [
 				{
-					"amount": "1"
+					"amount": "2",
+					"unit": "lbs",
+					"name": "shelled and deveined shrimp"
+				},
+				{
+					"amount": "1",
+					"unit": "head",
+					"name": "garlic",
+					"preparation": "thinly sliced"
+				},
+				{
+					"amount": "1.25",
+					"unit": "cup",
+					"name": "extra-virgin olive oil"
+				},
+				{
+					"amount": "1",
+					"name": "dried hot red chile",
+					"preparation": "seeded and crumbled"
+				},
+				{
+					"amount": "2",
+					"unit": "tbsp",
+					"name": "dry sherry"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "lemon zest"
+				},
+				{
+					"name": "smoked paprika"
+				},
+				{
+					"name": "salt"
 				}
 			],
 			"step": [
-				{}
+				{
+					"description": "In a large bowl, toss the shrimp with 1 teaspoon of kosher salt and let stand for 10 minutes. "
+				},
+				{
+					"description": "Meanwhile, in a 9- to 10-inch enameled cast-iron skillet, combine the garlic and olive oil and cook over moderately low heat, stirring occasionally, until the garlic is very fragrant and just starts to brown, 8 to  10 minutes. "
+				},
+				{
+					"description": "Add the chile and smoked paprika and cook, stirring, until fragrant, 15 to 30 seconds.  "
+				},
+				{
+					"description": "Add the shrimp to the skillet and cook over medium heat, stirring and turning the shrimp occasionally, until barely pink, about 5 minutes."
+				},
+				{
+					"description": "Stir in the parsley, sherry, lemon zest and a generous pinch of salt. Remove from the heat and let stand until the shrimp are cooked through, 3 to 5 minutes. Serve in the skillet, passing crusty bread at the table.  "
+				}
 			],
 			"forked": "[Gambas al Ajillo ](http://www.foodandwine.com/recipes/gambas-al-ajillo),\n[Sizzling Shrimp with Garlic (Gambas al Pil Pil)](https://www.williams-sonoma.com/recipe/sizzling-shrimp-with-garlic-gambas-al-pil-pil.html)"
 		},
