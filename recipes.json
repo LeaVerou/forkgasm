@@ -1,6 +1,15 @@
 {
 	"recipe": [
 		{
+			"image": "http://forkgasm.com/images/gambas.png",
+			"name": "Gambas al Ajilo",
+			"id": "gambas-al-ajilo",
+			"description": "Quick and garlicky!",
+			"tag": [
+				"Seafood"
+			]
+		},
+		{
 			"name": "Shakshuka",
 			"id": "shakshuka",
 			"description": "Breakfast of champions (one of them)",
