@@ -7,7 +7,16 @@
 			"description": "Quick and garlicky!",
 			"tag": [
 				"Seafood"
-			]
+			],
+			"ingredient": [
+				{
+					"amount": "1"
+				}
+			],
+			"step": [
+				{}
+			],
+			"forked": "[Gambas al Ajillo ](http://www.foodandwine.com/recipes/gambas-al-ajillo),\n[Sizzling Shrimp with Garlic (Gambas al Pil Pil)](https://www.williams-sonoma.com/recipe/sizzling-shrimp-with-garlic-gambas-al-pil-pil.html)"
 		},
 		{
 			"name": "Shakshuka",
