@@ -1,6 +1,178 @@
 {
 	"recipe": [
 		{
+			"name": "Papoutsakia",
+			"id": "papoutsakia",
+			"description": "A traditional Greek dish that tastes very similar to moussaka, but is much quicker to cook. Fun fact: Papoutsakia in Greek means \"little shoes\"!",
+			"tag": [
+				"Greek"
+			],
+			"ingredient": [
+				{
+					"amount": "3",
+					"unit": "small",
+					"name": "eggplants"
+				},
+				{
+					"unit": "extra virgin olive oil"
+				},
+				{
+					"name": "thyme"
+				},
+				{
+					"name": "salt, black pepper"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"name": "Mince",
+					"ingredient": [
+						{
+							"amount": "2",
+							"unit": "lbs",
+							"name": "beef or lamb",
+							"preparation": "minced"
+						},
+						{
+							"amount": "2",
+							"name": "yellow onions",
+							"preparation": "chopped"
+						},
+						{
+							"amount": "6",
+							"name": "garlic cloves",
+							"preparation": "chopped"
+						},
+						{
+							"amount": "500",
+							"unit": "g",
+							"name": "passata"
+						},
+						{
+							"name": "cinammon",
+							"preparation": "ground"
+						},
+						{
+							"name": "cloves",
+							"preparation": "ground"
+						},
+						{
+							"name": "allspice"
+						},
+						{
+							"amount": "4",
+							"unit": "tsp",
+							"name": "Better than Bouillon or other beef bouillon base"
+						},
+						{
+							"amount": "0.5",
+							"unit": "cup",
+							"name": "Metaxa or other cognac"
+						},
+						{
+							"amount": "2",
+							"unit": "tbsp",
+							"name": "Sukrin Gold or brown sugar"
+						},
+						{
+							"amount": "4",
+							"name": "bay leaves"
+						},
+						{
+							"name": "butter"
+						},
+						{
+							"name": "black pepper"
+						},
+						{
+							"name": "Worcestershire sauce"
+						}
+					]
+				}
+			],
+			"step": [
+				{
+					"description": "Cut the eggplants in half and scoop out the center. Leave about 1-1.5cm of flesh. Carve the flesh crosswise."
+				},
+				{
+					"description": "Season the eggplants well with olive oil, salt, pepper, thyme. Use your hands to make sure it goes everywhere. Be fast, because they absorb the oil very quickly!"
+				},
+				{
+					"description": "Put eggplants on a large baking tray, cut side down and bake at 200C (392F) for 30-40 minutes."
+				},
+				{
+					"description": "**Mince**: \n1. Fry the onions in the butter in high heat.\n2. Once the onions have started to caramelize, add the garlic and fry for a few more minutes.\n3. Add the cinnammon, cloves, allspice, black pepper and give it a stir.\n4. Add the mince and bay leaves and reduce heat to medium.\n5. Once the meat has started to brown, pour the Metaxa.\n6. Add the tomato pureé, Sukrin Gold, bouillon base, and Worcestershire sauce and stir well.\n5. Reduce heat and simmer for about half an hour or until the tomato tastes cooked and any liquids have been reduced."
+				}
+			],
+			"forked": "[Παπουτσάκια με μπεσαμέλ](https://akispetretzikis.com/el/categories/kreas/melitzanes-papoytsakia-me-mpesamel),\nMaria’s moussaka recipe"
+		},
+		{
+			"image": "http://forkgasm.com/images/gambas.png",
+			"name": "Gambas al Ajilo",
+			"id": "gambas-al-ajilo",
+			"description": "Quick and garlicky!",
+			"tag": [
+				"Seafood"
+			],
+			"ingredient": [
+				{
+					"amount": "2",
+					"unit": "lbs",
+					"name": "shelled and deveined shrimp"
+				},
+				{
+					"amount": "1",
+					"unit": "head",
+					"name": "garlic",
+					"preparation": "thinly sliced"
+				},
+				{
+					"amount": "1.25",
+					"unit": "cup",
+					"name": "extra-virgin olive oil"
+				},
+				{
+					"amount": "1",
+					"name": "dried hot red chile",
+					"preparation": "seeded and crumbled"
+				},
+				{
+					"amount": "2",
+					"unit": "tbsp",
+					"name": "dry sherry"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "lemon zest"
+				},
+				{
+					"name": "smoked paprika"
+				},
+				{
+					"name": "salt"
+				}
+			],
+			"step": [
+				{
+					"description": "In a large bowl, toss the shrimp with 1 teaspoon of kosher salt and let stand for 10 minutes. "
+				},
+				{
+					"description": "Meanwhile, in a 9- to 10-inch enameled cast-iron skillet, combine the garlic and olive oil and cook over moderately low heat, stirring occasionally, until the garlic is very fragrant and just starts to brown, 8 to  10 minutes. "
+				},
+				{
+					"description": "Add the chile and smoked paprika and cook, stirring, until fragrant, 15 to 30 seconds.  "
+				},
+				{
+					"description": "Add the shrimp to the skillet and cook over medium heat, stirring and turning the shrimp occasionally, until barely pink, about 5 minutes."
+				},
+				{
+					"description": "Stir in the parsley, sherry, lemon zest and a generous pinch of salt. Remove from the heat and let stand until the shrimp are cooked through, 3 to 5 minutes. Serve in the skillet, passing crusty bread at the table.  "
+				}
+			],
+			"forked": "[Gambas al Ajillo ](http://www.foodandwine.com/recipes/gambas-al-ajillo),\n[Sizzling Shrimp with Garlic (Gambas al Pil Pil)](https://www.williams-sonoma.com/recipe/sizzling-shrimp-with-garlic-gambas-al-pil-pil.html)"
+		},
+		{
 			"name": "Shakshuka",
 			"id": "shakshuka",
 			"description": "Breakfast of champions (one of them)",
@@ -593,15 +765,16 @@
 				{
 					"amount": "0.5",
 					"unit": "cup",
-					"name": "Kalamata olives"
+					"name": "Kalamata olives",
+					"preparation": "pitted"
 				}
 			],
 			"step": [
 				{
-					"description": "Wash the octopus, remove the beak, and separate the tentacles. Cut each tentacle in 2-3 pieces of roughly equal volume."
+					"description": "Wash the octopus, remove the eyes and beak, and separate the tentacles. Cut each tentacle in 2-3 pieces of roughly equal volume, same for the head."
 				},
 				{
-					"description": "Put tentacles in a large pot with nothing else and boil over medium heat."
+					"description": "Put tentacles and head in a large pot with nothing else and boil over medium heat."
 				},
 				{
 					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour the wine."
@@ -613,7 +786,7 @@
 					"description": "Simmer for about two hours. Half an hour before done, add the potatoes or turnips and the olives."
 				},
 				{
-					"description": "Once it's reduced and the octopus and vegetables are tender, serve! Makes about 5 portions."
+					"description": "Once it's reduced and the octopus and vegetables are tender add 1tbsp olive oil, mix, and serve! Makes about 6 portions."
 				}
 			],
 			"notes": "The original version uses potatoes, but we have used turnips, okra and other vegetables with good success. Turnips also make the dish low carb. The one in the photo uses okra.\nΧταπόδι κρασάτο is the Greek name.",
@@ -756,6 +929,11 @@
 					"preparation": "finely chopped"
 				},
 				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "olive oil"
+				},
+				{
 					"name": "salt"
 				},
 				{
@@ -770,7 +948,7 @@
 					"description": "Beat the eggs in a bowl and set aside."
 				},
 				{
-					"description": "In a large bowl, mix the zucchini, parsley, dill, onion, spring onion, cheeses, pepper."
+					"description": "In a large bowl, mix the zucchini, parsley, dill, onion, spring onion, cheeses, pepper, eggs."
 				},
 				{
 					"description": "Add the olive oil to the mix."
@@ -947,7 +1125,23 @@
 				}
 			],
 			"notes": "- Not low carbing? You can substitute Sukrin Gold for brown sugar and Icing erythritol for — you guessed it — icing sugar.",
-			"id": "cheesecake"
+			"id": "cheesecake",
+			"ingredientGroup": [
+				{
+					"name": "Base",
+					"ingredient": [
+						{}
+					]
+				},
+				{
+					"name": "Cream",
+					"ingredient": []
+				},
+				{
+					"name": "Topping",
+					"ingredient": []
+				}
+			]
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21689067_474934149549613_1462757825410236416_n.jpg",
