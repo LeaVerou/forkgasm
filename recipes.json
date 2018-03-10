@@ -30,19 +30,57 @@
 							"preparation": "chopped"
 						},
 						{
-							"amount": "5",
+							"amount": "6",
 							"name": "garlic cloves",
 							"preparation": "chopped"
 						},
 						{
-							"amount": "500"
+							"amount": "500",
+							"unit": "g",
+							"name": "passata"
+						},
+						{
+							"name": "cinammon",
+							"preparation": "ground"
+						},
+						{
+							"name": "cloves",
+							"preparation": "ground"
+						},
+						{
+							"amount": "4",
+							"unit": "tsp",
+							"name": "beef bouillon base"
+						},
+						{
+							"amount": "0.5",
+							"unit": "cup",
+							"name": "Metaxa or other cognac"
+						},
+						{
+							"amount": "2",
+							"unit": "tbsp",
+							"name": "Sukrin Gold or brown sugar"
+						},
+						{
+							"amount": "4",
+							"name": "bay leaves"
+						},
+						{
+							"name": "butter"
+						},
+						{
+							"name": "black pepper"
+						},
+						{
+							"name": "Worcestershire sauce"
 						}
 					]
 				}
 			],
 			"step": [
 				{
-					"description": "3 garlic cloves\n* Olive oil, enough to cover the bottom of the pot very well\n* 700gr tomato pureé\n* 3 tbsp sugar\n* Metaxa or (if not available) other cognac\n* 1 cinammon stick\n* 4 bay leaves\n* Salt & **black** pepper to taste\n\nFinely chop the onions and garlic cloves and fry them in the olive oil in high heat.\nAdd the mince and bay leaves and reduce heat to medium.\nPour the Metaxa.\nAdd the cinnamon stick and remove it after 10 minutes.\nAdd the tomato pureé and sugar and stir well.\nCook the mixture until the mince is brown."
+					"description": "**Mince**: \n1. Finely chop the onions and garlic cloves and fry them in the olive oil in high heat.\n2. Add the mince and bay leaves and reduce heat to medium.\nPour the Metaxa.\n3. Add the cinnamon stick and remove it after 10 minutes.\n4. Add the tomato pureé and sugar and stir well.\n5. Cook the mixture until the mince is brown."
 				}
 			],
 			"forked": "[Παπουτσάκια με μπεσαμέλ](https://akispetretzikis.com/el/categories/kreas/melitzanes-papoytsakia-me-mpesamel),\nMaria’s moussaka recipe"
