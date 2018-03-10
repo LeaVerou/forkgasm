@@ -1019,7 +1019,15 @@
 				}
 			],
 			"notes": "- Not low carbing? You can substitute Sukrin Gold for brown sugar and Icing erythritol for — you guessed it — icing sugar.",
-			"id": "cheesecake"
+			"id": "cheesecake",
+			"ingredientGroup": [
+				{
+					"name": "Base",
+					"ingredient": [
+						{}
+					]
+				}
+			]
 		},
 		{
 			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21689067_474934149549613_1462757825410236416_n.jpg",
