@@ -6,7 +6,46 @@
 			"description": "A traditional Greek dish that tastes very similar to moussaka, but is much quicker to cook. Fun fact: Papoutsakia in Greek means \"little shoes\"!",
 			"tag": [
 				"Greek"
-			]
+			],
+			"ingredient": [
+				{
+					"amount": "3",
+					"unit": "small",
+					"name": "eggplants"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"name": "Mince",
+					"ingredient": [
+						{
+							"amount": "2",
+							"unit": "lbs",
+							"name": "beef or lamb",
+							"preparation": "minced"
+						},
+						{
+							"amount": "2",
+							"name": "yellow onions",
+							"preparation": "chopped"
+						},
+						{
+							"amount": "5",
+							"name": "garlic cloves",
+							"preparation": "chopped"
+						},
+						{
+							"amount": "500"
+						}
+					]
+				}
+			],
+			"step": [
+				{
+					"description": "3 garlic cloves\n* Olive oil, enough to cover the bottom of the pot very well\n* 700gr tomato pureé\n* 3 tbsp sugar\n* Metaxa or (if not available) other cognac\n* 1 cinammon stick\n* 4 bay leaves\n* Salt & **black** pepper to taste\n\nFinely chop the onions and garlic cloves and fry them in the olive oil in high heat.\nAdd the mince and bay leaves and reduce heat to medium.\nPour the Metaxa.\nAdd the cinnamon stick and remove it after 10 minutes.\nAdd the tomato pureé and sugar and stir well.\nCook the mixture until the mince is brown."
+				}
+			],
+			"forked": "[Παπουτσάκια με μπεσαμέλ](https://akispetretzikis.com/el/categories/kreas/melitzanes-papoytsakia-me-mpesamel),\nMaria’s moussaka recipe"
 		},
 		{
 			"image": "http://forkgasm.com/images/gambas.png",
