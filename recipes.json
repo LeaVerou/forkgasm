@@ -12,6 +12,15 @@
 					"amount": "3",
 					"unit": "small",
 					"name": "eggplants"
+				},
+				{
+					"unit": "extra virgin olive oil"
+				},
+				{
+					"name": "thyme"
+				},
+				{
+					"name": "salt, black pepper"
 				}
 			],
 			"ingredientGroup": [
@@ -48,9 +57,12 @@
 							"preparation": "ground"
 						},
 						{
+							"name": "allspice"
+						},
+						{
 							"amount": "4",
 							"unit": "tsp",
-							"name": "beef bouillon base"
+							"name": "Better than Bouillon or other beef bouillon base"
 						},
 						{
 							"amount": "0.5",
@@ -80,7 +92,11 @@
 			],
 			"step": [
 				{
-					"description": "**Mince**: \n1. Finely chop the onions and garlic cloves and fry them in the olive oil in high heat.\n2. Add the mince and bay leaves and reduce heat to medium.\nPour the Metaxa.\n3. Add the cinnamon stick and remove it after 10 minutes.\n4. Add the tomato pureé and sugar and stir well.\n5. Cook the mixture until the mince is brown."
+					"description": "Cut the eggplants in half and scoop out the center. Leave about 1-1.5cm of flesh. Carve the flesh crosswise."
+				},
+				{},
+				{
+					"description": "**Mince**: \n1. Fry the onions in the butter in high heat.\n2. Once the onions have started to caramelize, add the garlic and fry for a few more minutes.\n3. Add the cinnammon, cloves, allspice, black pepper and give it a stir.\n4. Add the mince and bay leaves and reduce heat to medium.\n5. Once the meat has started to brown, pour the Metaxa.\n6. Add the tomato pureé, Sukrin Gold, bouillon base, and Worcestershire sauce and stir well.\n5. Reduce heat and simmer for about half an hour or until the tomato tastes cooked and any liquids have been reduced."
 				}
 			],
 			"forked": "[Παπουτσάκια με μπεσαμέλ](https://akispetretzikis.com/el/categories/kreas/melitzanes-papoytsakia-me-mpesamel),\nMaria’s moussaka recipe"
