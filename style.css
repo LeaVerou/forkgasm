@@ -315,6 +315,10 @@ ol {
 	text-decoration: line-through;
 }
 
+.ingredients h4 {
+	font-weight: bold;
+}
+
 	[property="ingredient"] [property="preparation"] {
 	opacity: .5;
 	font-style: italic;

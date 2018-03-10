@@ -306,6 +306,10 @@ ol {
 			}
 		}
 	}
+
+	& h4 {
+		font-weight: bold;
+	}
 }
 
 	[property="ingredient"] {

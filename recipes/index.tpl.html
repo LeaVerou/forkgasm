@@ -3,7 +3,7 @@
 <main>
 
 <section mv-app mv-storage="https://github.com/leaverou/forkgasm/recipes.json"
-         mv-bar="no-login" mv-plugins="markdown" id="[idify(name)]">
+         mv-bar="no-login" mv-plugins="markdown" id="[idify(name)]" class="mv-autoedit">
 
 	<div class="mv-bar mv-ui mv-fixed"></div>
 	<meta property="selectedRecipe" mv-value="url('recipes')" />
@@ -25,12 +25,18 @@
 			<section class="ingredients">
 				<h3>Ingredients</h3>
 				<ol>
-					<li property="ingredient" mv-multiple>
+					<li property="ingredient" mv-multiple mv-accepts="ingredient">
 						<input type="checkbox">
 						<span property="amount">1</span>
 						<span property="unit" mv-edit-list="units"></span>
 						<span property="name"></span>
 						<span property="preparation" mv-edit-list="#preparations"></span>
+					</li>
+					<li property="ingredientGroup" mv-multiple mv-optional>
+						<h4 property="name"></h4>
+						<ol>
+							<li property="ingredient" mv-multiple mv-like="ingredient"></li>
+						</ol>
 					</li>
 				</ol>
 			</section>
