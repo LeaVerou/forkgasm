@@ -1,6 +1,14 @@
 {
 	"recipe": [
 		{
+			"name": "Papoutsakia",
+			"id": "papoutsakia",
+			"description": "A traditional Greek dish that tastes very similar to moussaka, but is much quicker to cook. Fun fact: Papoutsakia in Greek means \"little shoes\"!",
+			"tag": [
+				"Greek"
+			]
+		},
+		{
 			"image": "http://forkgasm.com/images/gambas.png",
 			"name": "Gambas al Ajilo",
 			"id": "gambas-al-ajilo",
