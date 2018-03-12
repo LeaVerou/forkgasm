@@ -533,14 +533,26 @@ ol {
 	text-decoration: none;
 }
 
+.previous,
 .next {
 	position: absolute;
 	bottom: 1em;
+}
+
+.next {
 	right: 7em
 }
 
 .next::after {
 	content: " ▸";
+}
+
+.previous {
+	right: 12em
+}
+
+.previous::before {
+	content: "◂ ";
 }
 
 [mv-app]:not(.mv-target-within) .close {
@@ -602,7 +614,8 @@ ol {
 }
 
 [property="dish"]:not(:target) .content,
-		[property="dish"]:not(:target) .next {
+		[property="dish"]:not(:target) .next,
+		[property="dish"]:not(:target) .previous {
 	display: none;
 }
 

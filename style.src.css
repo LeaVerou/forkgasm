@@ -509,13 +509,25 @@ ol {
 	}
 }
 
+.previous,
 .next {
 	position: absolute;
 	bottom: 1em;
+}
+
+.next {
 	right: 7em;
 
 	&::after {
 		content: " ▸";
+	}
+}
+
+.previous {
+	right: 12em;
+
+	&::before {
+		content: "◂ ";
 	}
 }
 
@@ -566,7 +578,8 @@ ol {
 
 	&:not(:target) {
 		& .content,
-		& .next {
+		& .next,
+		& .previous {
 			display: none;
 		}
 	}
