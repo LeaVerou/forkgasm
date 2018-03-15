@@ -147,11 +147,12 @@
 		},
 		{
 			"image": "http://forkgasm.com/images/gambas.png",
-			"name": "Gambas al Ajilo",
-			"id": "gambas-al-ajilo",
+			"name": "Gambas al Ajillo",
+			"id": "gambas-al-ajillo",
 			"description": "Quick and garlicky!",
 			"tag": [
-				"Seafood"
+				"Seafood",
+				"Spanish"
 			],
 			"ingredient": [
 				{
