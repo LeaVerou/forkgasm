@@ -3750,6 +3750,158 @@
 			"pk": "391798"
 		},
 		{
+			"id": "craigie-on-main",
+			"name": "Craigie On Main",
+			"dishes": 12,
+			"visit": [
+				{
+					"date": "2018-04-06",
+					"dish": [
+						{
+							"image": "/images/dishes/27892678_1679564285455923_7405170513393221632_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUfCNjDf1a",
+							"rating": 4,
+							"name": "Hama Hama oyster, with elderflower vinegar, Buddha hand jelly, coconut snow",
+							"comment": "Good idea in theory but in practice the flavors did not go together at all, totally overpowered the oyster and did not combine to form a good composition but remained disparate."
+						},
+						{
+							"image": "/images/dishes/27580995_225260888043136_4365132909699399680_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUis3LDgkn",
+							"rating": 8.5,
+							"name": "Beef tartare with micro salad, bottarga, quail yolk"
+						},
+						{
+							"image": "/images/dishes/28158384_170660236797745_4204238620132900864_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUjLAYjrAG",
+							"rating": 8,
+							"name": "Hamachi crudo with Seville orange soda, passion fruit, hibiscus"
+						},
+						{
+							"image": "/images/dishes/27891211_2048818228726806_6265008802572009472_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUor_TjI-5",
+							"rating": 7.5,
+							"name": "Fried brussels sprouts with apple butter, fermented cabbage, caraway, pickled mustard seeds",
+							"comment": "Chris thought the brussels sprouts were too burned and the dish would be better without them. Lea liked both he brussels sprouts and the fermented cabbage but not their combination"
+						},
+						{
+							"image": "/images/dishes/27581910_577715259247220_144018220599214080_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUs5tXjsZj",
+							"rating": 8,
+							"name": "Foie gras with quince jam, apple, brioche"
+						},
+						{
+							"image": "/images/dishes/27879867_764559987060595_7941051293697572864_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUtjizjSfS",
+							"rating": 9,
+							"name": "Arctic char with daikon noodle, kimchi, bok choy, combu dashi broth"
+						},
+						{
+							"image": "/images/dishes/27582199_728531177339615_6224057281542094848_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUu5UTjpdH",
+							"rating": 7.5,
+							"name": "Honey lavender dry-aged duck with sprouted grains, hazelnut, huckleberry jam, macamber turnip"
+						},
+						{
+							"image": "/images/dishes/28154595_1471531982969151_122004017831215104_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUvZhLjurW",
+							"rating": 9,
+							"name": "Coconut tres leches with Thai basil coconut jam, finger lime, cinnamon Thai basil ice cream"
+						},
+						{
+							"image": "/images/dishes/27580712_524994161234570_5987863234500100096_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BfUv5kRjmCQ",
+							"rating": 8.5,
+							"name": "Cheese plate",
+							"comment": "(Chris’ rating. I refrain from rating it)"
+						},
+						{
+							"image": "/images/dishes/29716864_209913019601002_5587556197860376576_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNuE44DzSA",
+							"name": "Amuse bouche 1"
+						},
+						{
+							"image": "/images/dishes/29737913_234948303915981_3708640986637795328_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNuOpxDhUe",
+							"name": "Amuse bouche 2: Chicken rillette"
+						},
+						{
+							"image": "/images/dishes/29738179_1885537291456715_7984847045150113792_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNuo4yD4rU",
+							"rating": 7,
+							"name": "Harbor oysters with anise hyssop mignonette"
+						},
+						{
+							"image": "/images/dishes/29714710_243065342904608_5677372631263739904_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNvKJdD1dE",
+							"rating": 8.5,
+							"name": "Spanish octopus à la plancha with pumpernickel bagna cauda, roasted celery root, chorizo oil, winter citrus"
+						},
+						{
+							"image": "/images/dishes/29737379_163400101035795_776161999829598208_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNveTMjQIw",
+							"rating": 6.5,
+							"name": "Jerusalem artichoke velouté with pork belly croutons and hawaij spice",
+							"comment": "Could have been great but was over salted and over seasoned."
+						},
+						{
+							"image": "/images/dishes/29417218_173713423283719_2679554689233584128_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNv8Xgjpks",
+							"rating": 9,
+							"name": "Confit and roasted milk fed pig’s head with spicy pumpkin sambal and boudin noir-hoisin sauce",
+							"comment": "Excellent"
+						},
+						{
+							"image": "/images/dishes/29416790_791127787747528_8773797567801589760_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNwQ8YDf7c",
+							"rating": 4,
+							"name": "Bone marrow",
+							"comment": "Large portion, but disappointing lack of flavor. We usually love marrow but this was underseasoned and just generally not there."
+						},
+						{
+							"image": "/images/dishes/29417784_208494736583345_7406182338968682496_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BhNwfzLDMPA",
+							"rating": 7.5,
+							"name": "Pork fat roasted Brussels sprouts with saucisson sec"
+						}
+					]
+				},
+				{
+					"date": "2016-06-04",
+					"dish": [
+						{
+							"image": "/images/dishes/13269451_1114571628562999_212927632_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BGN8LMBIZoC",
+							"rating": 8,
+							"name": "Excellent food! \nFront: Octopus",
+							"comment": "Middle: Triple foie 8/10\nBack: Pig tails 10/10 incredible!"
+						},
+						{
+							"image": "/images/dishes/13329071_1569967513301925_425498245_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BGN81-koZpT",
+							"rating": 9,
+							"name": "Miso glazed sirloin",
+							"comment": "Trout with tzatziki and spinach 7/10"
+						},
+						{
+							"image": "/images/dishes/13355449_1125768284133059_264928692_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BGN9LCiIZqF"
+						},
+						{
+							"image": "/images/dishes/13269307_479148068962869_274728897_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BGN-URJIZsh",
+							"name": "Sheep's milk cheesecake with kumquats"
+						}
+					]
+				}
+			],
+			"address": "853 Main St",
+			"lat": 42.36345,
+			"lng": -71.09866,
+			"facebook_places_id": "43420979382",
+			"city": "Cambridge, MA",
+			"pk": "368670"
+		},
+		{
 			"id": "olympe",
 			"name": "Olympe",
 			"dishes": 11,
@@ -5027,6 +5179,18 @@
 			"facebook_places_id": "133092190098115",
 			"pk": "224673919",
 			"short_name": "Papaioannou"
+		},
+		{
+			"id": "cafe-artscience",
+			"name": "Cafe ArtScience",
+			"dishes": 9,
+			"visit": [],
+			"address": "650 E Kendall St",
+			"lat": 42.36453,
+			"lng": -71.08107,
+			"facebook_places_id": "695734907187972",
+			"city": "Cambridge, Massachusetts",
+			"pk": "438608080"
 		},
 		{
 			"id": "flower-drum",
@@ -8323,47 +8487,6 @@
 			"facebook_places_id": "235541826470274",
 			"pk": "35240070",
 			"short_name": "Tudor Hall"
-		},
-		{
-			"id": "craigie-on-main",
-			"name": "Craigie On Main",
-			"dishes": 4,
-			"visit": [
-				{
-					"date": "2016-06-04",
-					"dish": [
-						{
-							"image": "/images/dishes/13269451_1114571628562999_212927632_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BGN8LMBIZoC",
-							"rating": 8,
-							"name": "Excellent food! \nFront: Octopus",
-							"comment": "Middle: Triple foie 8/10\nBack: Pig tails 10/10 incredible!"
-						},
-						{
-							"image": "/images/dishes/13329071_1569967513301925_425498245_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BGN81-koZpT",
-							"rating": 9,
-							"name": "Miso glazed sirloin",
-							"comment": "Trout with tzatziki and spinach 7/10"
-						},
-						{
-							"image": "/images/dishes/13355449_1125768284133059_264928692_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BGN9LCiIZqF"
-						},
-						{
-							"image": "/images/dishes/13269307_479148068962869_274728897_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BGN-URJIZsh",
-							"name": "Sheep's milk cheesecake with kumquats"
-						}
-					]
-				}
-			],
-			"address": "853 Main St",
-			"lat": 42.36345,
-			"lng": -71.09866,
-			"facebook_places_id": "43420979382",
-			"city": "Cambridge, MA",
-			"pk": "368670"
 		},
 		{
 			"id": "kin-khao",
