@@ -1,18 +1,21 @@
 var gulp = require("gulp");
 var rename = require("gulp-rename");
-var postcss = require('gulp-postcss');
+var postcss = require("gulp-postcss");
 var fileinclude = require("gulp-file-include");
 var resize = require("gulp-image-resize");
 var fs = require("fs");
+var path = require("path");
+var filter = require("gulp-filter");
+var exists = require("file-exists");
 
-gulp.task('css', function () {
+gulp.task("css", function () {
 	return gulp.src(["**/*.src.css", "!node_modules/**"])
 		.pipe(postcss([
-			require('postcss-nesting')(),
+			require("postcss-nesting")(),
 			require("postcss-selector-matches")({
 				lineBreak: true
 			}),
-			require('autoprefixer')({
+			require("autoprefixer")({
 				browsers: ["last 2 versions"]
 			}),
 			require("postcss-custom-properties")({
@@ -22,7 +25,7 @@ gulp.task('css', function () {
 		]))
 		.pipe(rename({ extname: "" }))
 		.pipe(rename({ extname: ".css" }))
-		.pipe(gulp.dest('.'));
+		.pipe(gulp.dest("."));
 });
 
 gulp.task("html", function() {
@@ -34,12 +37,17 @@ gulp.task("html", function() {
 		}))
 		.pipe(rename({ extname: "" }))
 		.pipe(rename({ extname: ".html" }))
-		.pipe(gulp.dest("."))
+		.pipe(gulp.dest("."));
 });
 
-function makeThumbnails(src) {
+function makeThumbnails(src, force) {
 	console.log("Making thumbnails for ", src, "...");
 	return gulp.src(src)
+		.pipe(filter(async file => {
+			var thumbsPath = file.path.replace(/\/[^/]+$/, "/thumbs$&");
+			var thumbExists = await exists(thumbsPath);
+			return !thumbExists;
+		}))
 		.pipe(resize({
 			width: 140,
 			height: 140,
@@ -50,17 +58,17 @@ function makeThumbnails(src) {
 			sharpen: true,
 			filter: "Catrom"
 		}))
-		.pipe(gulp.dest("images/dishes/thumbs"))
+		.pipe(gulp.dest(file => path.join(path.dirname(file.path), "thumbs")));
 }
 
 gulp.task("thumbnails", function() {
-	return makeThumbnails("images/dishes/*.jpg");
+	return makeThumbnails(["images/*.jpg", "images/dishes/*.jpg"]);
 });
 
 gulp.task("watch", function() {
 	gulp.watch(["**/*.src.css"], ["css"]);
 	gulp.watch(["**/*.tpl.html", "./templates/*.html"], ["html"]);
-	gulp.watch("images/dishes/*.jpg", obj => {
+	gulp.watch(["images/*.jpg", "images/dishes/*.jpg"], obj => {
 		if (obj.type == "deleted") {
 			// Delete file
 			var thumb = obj.path.replace("/dishes/", "/dishes/thumbs/");
@@ -75,7 +83,7 @@ gulp.task("watch", function() {
 			// Regenerate thumbnail
 			makeThumbnails(obj.path.replace(process.cwd() + "/", ""));
 		}
-	})
+	});
 });
 
 gulp.task("default", ["css"]);
