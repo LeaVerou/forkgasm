@@ -1,7 +1,7 @@
 const fs = require("fs");
 const stable = require("stable");
 const https = require("https");
-const { URL } = require('url');
+const { URL } = require("url");
 
 var input = process.argv[2] || "export.json";
 var output = process.argv[3] || "../restaurants.json";

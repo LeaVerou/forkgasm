@@ -28,6 +28,8 @@
     "postcss-selector-matches": "^3.0.1"
   },
   "dependencies": {
+    "file-exists": "^5.0.1",
+    "gulp-filter": "^5.1.0",
     "stable": "^0.1.6"
   }
 }
