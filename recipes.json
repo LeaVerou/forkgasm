@@ -448,90 +448,7 @@
 			"id": "fathead-pineapple-pizza",
 			"description": "Low carb and delicious!",
 			"tag": [],
-			"ingredient": [
-				{
-					"amount": "130",
-					"unit": "g",
-					"name": "almond flour"
-				},
-				{
-					"amount": "500",
-					"unit": "g",
-					"name": "mozzarella",
-					"preparation": "grated"
-				},
-				{
-					"amount": "250",
-					"unit": "g",
-					"name": "cheddar, gouda, gruyere or similar",
-					"preparation": "grated"
-				},
-				{
-					"amount": "0.5",
-					"unit": "tsp",
-					"name": "cumin",
-					"preparation": "freshly ground"
-				},
-				{
-					"amount": "0.5",
-					"unit": "tsp",
-					"name": "garlic powder"
-				},
-				{
-					"amount": "200",
-					"unit": "g",
-					"name": "tomato concentrate or paste"
-				},
-				{
-					"amount": "5",
-					"unit": "cloves",
-					"name": "garlic"
-				},
-				{
-					"amount": "1",
-					"unit": "tsp",
-					"name": "dried basil (or 1 tbsp fresh)"
-				},
-				{
-					"amount": "1",
-					"unit": "splash",
-					"name": "dry red wine"
-				},
-				{
-					"amount": "1",
-					"unit": "splash",
-					"name": "Worcestershire sauce"
-				},
-				{
-					"amount": "1",
-					"unit": "tsp",
-					"name": "Sukrin Gold"
-				},
-				{
-					"name": "oregano"
-				},
-				{
-					"amount": "5",
-					"unit": "oz",
-					"name": "bacon"
-				},
-				{
-					"amount": "1",
-					"name": "green bell pepper"
-				},
-				{
-					"amount": "6",
-					"unit": "oz",
-					"name": "mushrooms",
-					"preparation": "sliced"
-				},
-				{
-					"amount": "200",
-					"unit": "g",
-					"name": "pineapple",
-					"preparation": "in small pieces"
-				}
-			],
+			"ingredient": [],
 			"step": [
 				{
 					"description": "Mix two thirds of the grated mozzarella, the almond flour, and the nutritional yeast in a microwaveable bowl. Add the mascarpone. Microwave on HIGH for 1 minute."
@@ -611,6 +528,82 @@
 							"amount": "0.5",
 							"unit": "tsp",
 							"name": "garlic powder"
+						}
+					]
+				},
+				{
+					"name": "Tomato sauce",
+					"ingredient": [
+						{
+							"amount": "200",
+							"unit": "g",
+							"name": "tomato concentrate/paste"
+						},
+						{
+							"amount": "5",
+							"unit": "cloves",
+							"name": "garlic"
+						},
+						{
+							"amount": "1",
+							"unit": "tsp",
+							"name": "dried basil (or 1 tbsp fresh)"
+						},
+						{
+							"amount": "1",
+							"unit": "splash",
+							"name": "dry red wine"
+						},
+						{
+							"amount": "1",
+							"unit": "splash",
+							"name": "Worcestershire sauce "
+						},
+						{
+							"amount": "1",
+							"unit": "tsp",
+							"name": "Sukrin Gold "
+						},
+						{
+							"name": "oregano"
+						}
+					]
+				},
+				{
+					"name": "Toppings",
+					"ingredient": [
+						{
+							"amount": "170",
+							"unit": "g",
+							"name": "mozarella",
+							"preparation": "grated"
+						},
+						{
+							"amount": "250",
+							"unit": "g",
+							"name": "cheddar, gouda, gruyere or similar grated"
+						},
+						{
+							"amount": "5",
+							"unit": "oz",
+							"name": "bacon",
+							"preparation": "sliced and chopped in 1cm pieces"
+						},
+						{
+							"amount": "1",
+							"name": "green bell pepper "
+						},
+						{
+							"amount": "6",
+							"unit": "oz",
+							"name": "mushrooms",
+							"preparation": "sliced"
+						},
+						{
+							"amount": "200",
+							"unit": "g",
+							"name": "pineapple",
+							"preparation": "in small pieces"
 						}
 					]
 				}
