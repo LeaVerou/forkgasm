@@ -455,11 +455,6 @@
 					"name": "almond flour"
 				},
 				{
-					"amount": "40",
-					"unit": "g",
-					"name": "nutritional yeast"
-				},
-				{
 					"amount": "500",
 					"unit": "g",
 					"name": "mozzarella",
@@ -470,16 +465,6 @@
 					"unit": "g",
 					"name": "cheddar, gouda, gruyere or similar",
 					"preparation": "grated"
-				},
-				{
-					"amount": "4",
-					"unit": "tbsp",
-					"name": "mascarpone"
-				},
-				{
-					"amount": "3",
-					"name": "eggs",
-					"preparation": "beaten"
 				},
 				{
 					"amount": "0.5",
@@ -585,7 +570,51 @@
 					"description": "Broil at 260C/500F for about 5 minutes, checking frequently because ovens vary. Enjoy!"
 				}
 			],
-			"forked": "[Fat Head Pizza - The HOLY GRAIL Of Low Carb Pizzas ](https://www.ditchthecarbs.com/fat-head-pizza/)"
+			"forked": "[Fat Head Pizza - The HOLY GRAIL Of Low Carb Pizzas ](https://www.ditchthecarbs.com/fat-head-pizza/)",
+			"ingredientGroup": [
+				{
+					"name": "Dough",
+					"ingredient": [
+						{
+							"amount": "130",
+							"unit": "g",
+							"name": "almond flour"
+						},
+						{
+							"amount": "40",
+							"unit": "g",
+							"name": "nutritional yeast"
+						},
+						{
+							"amount": "330",
+							"unit": "g",
+							"name": "mozarella",
+							"preparation": "grated"
+						},
+						{
+							"amount": "3",
+							"name": "eggs",
+							"preparation": "beaten"
+						},
+						{
+							"amount": "4",
+							"unit": "tbsp",
+							"name": "mascarpone"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tsp",
+							"name": "cumin",
+							"preparation": "freshly ground"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tsp",
+							"name": "garlic powder"
+						}
+					]
+				}
+			]
 		},
 		{
 			"image": "https://instagram.fbed1-1.fna.fbcdn.net/t51.2885-15/e35/23667828_365707817211709_824187065708052480_n.jpg",
