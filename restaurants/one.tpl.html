@@ -24,7 +24,7 @@
 				<span property="country" mv-edit="#countries"></span>
 			</p>
 
-			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes">[count(dish)]</span> dishes</p>
+			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes" mv-storage="inherit">[count(dish)]</span> dishes</p>
 		</header>
 
 		<article property="visit" mv-multiple>
@@ -40,7 +40,8 @@
 				<article property="dish" mv-multiple title="[name]" id="[id]">
 					<a href="#[id]">
 						<img property="image" mv-uploads="images/dishes">
-						<span property="rating" mv-multiple data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
+						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
+						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
 						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
 					</a>
 					<div class="content">

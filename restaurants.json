@@ -237,6 +237,7 @@
 		{
 			"id": "oleana",
 			"name": "Oleana",
+			"dishes": 11,
 			"visit": [
 				{
 					"date": "2018-05-02",
