@@ -237,7 +237,6 @@
 		{
 			"id": "oleana",
 			"name": "Oleana",
-			"dishes": 11,
 			"visit": [
 				{
 					"date": "2018-05-02",
@@ -338,7 +337,10 @@
 			"lng": -71.09713,
 			"facebook_places_id": "135284166498331",
 			"city": "Cambridge, MA",
-			"pk": "1509727"
+			"pk": "1509727",
+			"image": "/images/dishes/30829912_2110832805804981_919183843850715136_n.jpg",
+			"url": "https://facebook.com/135284166498331",
+			"country": "us"
 		},
 		{
 			"id": "la-boite-aux-lettres",
