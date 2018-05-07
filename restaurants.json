@@ -3688,7 +3688,9 @@
 			"lng": 2.26106,
 			"facebook_places_id": "671678923039078",
 			"pk": "671678923039078",
-			"image": "/images/dishes/22277435_1869488733065387_584005334805250048_n.jpg"
+			"image": "/images/dishes/22277435_1869488733065387_584005334805250048_n.jpg",
+			"city": "Paris",
+			"country": "fr"
 		},
 		{
 			"id": "brasserie-5-sens",
@@ -3711,9 +3713,10 @@
 			"lat": 48.90724,
 			"lng": 2.26185,
 			"facebook_places_id": "161367473885606",
-			"city": "Bois-Colombes, France",
+			"city": "Paris",
 			"pk": "1019026450",
-			"image": "/images/dishes/22220699_119533115382766_1057450424635752448_n.jpg"
+			"image": "/images/dishes/22220699_119533115382766_1057450424635752448_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "cafe-du-pays",
@@ -3760,9 +3763,10 @@
 			"lat": 42.367676308265,
 			"lng": -71.091198921204,
 			"facebook_places_id": "232765707214160",
-			"city": "Cambridge, Massachusetts",
+			"city": "Cambridge, MA",
 			"pk": "232765707214160",
-			"image": "/images/dishes/22070627_1646366868741575_3178120656231333888_n.jpg"
+			"image": "/images/dishes/22070627_1646366868741575_3178120656231333888_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "north-square-oyster",
@@ -3816,9 +3820,10 @@
 			"lat": 42.36399,
 			"lng": -71.05356,
 			"facebook_places_id": "1323508011059489",
-			"city": "Boston, Massachusetts",
+			"city": "Boston, MA",
 			"pk": "1323508011059489",
-			"image": "/images/dishes/21984706_153733508556194_1592939942009372672_n.jpg"
+			"image": "/images/dishes/21984706_153733508556194_1592939942009372672_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "ramon-freixa-madrid",
@@ -4017,13 +4022,14 @@
 			"lat": 40.42846,
 			"lng": -3.6862,
 			"facebook_places_id": "182847601732588",
-			"city": "Madrid, Spain",
+			"city": "Madrid",
 			"pk": "235501400",
-			"image": "/images/dishes/21435890_879019282246112_2557800277721743360_n.jpg"
+			"image": "/images/dishes/21435890_879019282246112_2557800277721743360_n.jpg",
+			"country": "es"
 		},
 		{
-			"id": "mavrikos-restaurant-lindos",
-			"name": "Mavrikos Restaurant Lindos",
+			"id": "mavrikos-restaurant",
+			"name": "Mavrikos Restaurant",
 			"dishes": 6,
 			"visit": [
 				{
@@ -4077,7 +4083,8 @@
 			"facebook_places_id": "395953733859149",
 			"city": "Lindos",
 			"pk": "282899533",
-			"image": "/images/dishes/21227344_1915066958819445_2726263184427057152_n.jpg"
+			"image": "/images/dishes/21227344_1915066958819445_2726263184427057152_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "alexis-4-seasons-seafood-restaurant-rhodes",
@@ -4119,9 +4126,10 @@
 			"lat": 36.443207695849,
 			"lng": 28.229295015335,
 			"facebook_places_id": "41261257985",
-			"city": "Ρόδος (πόλη)",
+			"city": "Rhodes",
 			"pk": "835312106",
-			"image": "/images/dishes/21107315_774492299398081_8349864143699836928_n.jpg"
+			"image": "/images/dishes/21107315_774492299398081_8349864143699836928_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "meltemi",
@@ -4156,9 +4164,10 @@
 			"lat": 36.454613162831,
 			"lng": 28.222888723551,
 			"facebook_places_id": "924685137554251",
-			"city": "Rhodes, Greece",
+			"city": "Rhodes",
 			"pk": "876575610",
-			"image": "/images/dishes/21149121_1537488916307566_2012501106583666688_n.jpg"
+			"image": "/images/dishes/21149121_1537488916307566_2012501106583666688_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "ο-τζίτζικας-και-ο-μέρμηγκας",
@@ -4187,7 +4196,9 @@
 			"lng": 23.804797743494,
 			"facebook_places_id": "269513349745508",
 			"pk": "297679070",
-			"image": "/images/dishes/20759797_142627866324829_6943697434446921728_n.jpg"
+			"image": "/images/dishes/20759797_142627866324829_6943697434446921728_n.jpg",
+			"city": "Chalandri",
+			"country": "gr"
 		},
 		{
 			"id": "flower-drum",
@@ -4257,9 +4268,10 @@
 			"lat": -37.81213797311,
 			"lng": 144.96931933784,
 			"facebook_places_id": "111558598905989",
-			"city": "Melbourne, VIC",
+			"city": "Melbourne",
 			"pk": "1100941",
-			"image": "/images/dishes/20634625_1897244950599270_238947945712451584_n.jpg"
+			"image": "/images/dishes/20634625_1897244950599270_238947945712451584_n.jpg",
+			"country": "au"
 		},
 		{
 			"id": "chin-chin",
@@ -4294,7 +4306,9 @@
 			"lng": 144.97035,
 			"facebook_places_id": "113419432071898",
 			"pk": "3183153",
-			"image": "/images/dishes/20481856_114187285847698_4571024721222565888_n.jpg"
+			"image": "/images/dishes/20481856_114187285847698_4571024721222565888_n.jpg",
+			"city": "Melbourne",
+			"country": "au"
 		},
 		{
 			"id": "nomad",
@@ -4341,9 +4355,10 @@
 			"lat": -33.8799078,
 			"lng": 151.2103019,
 			"facebook_places_id": "214879741880603",
-			"city": "Sydney, Australia",
+			"city": "Sydney",
 			"pk": "217893780",
-			"image": "/images/dishes/20398502_327648217692534_745813829635538944_n.jpg"
+			"image": "/images/dishes/20398502_327648217692534_745813829635538944_n.jpg",
+			"country": "au"
 		},
 		{
 			"id": "room-ten",
@@ -4366,9 +4381,10 @@
 			"lat": -33.8724201,
 			"lng": 151.2245982,
 			"facebook_places_id": "179939578687217",
-			"city": "Potts Point, NSW",
+			"city": "Sydney",
 			"pk": "1541927",
-			"image": "/images/dishes/20393763_2077775685783381_4920978347263000576_n.jpg"
+			"image": "/images/dishes/20393763_2077775685783381_4920978347263000576_n.jpg",
+			"country": "au"
 		},
 		{
 			"id": "sepia",
@@ -4464,9 +4480,10 @@
 			"lat": -33.872454404277,
 			"lng": 151.20391433939,
 			"facebook_places_id": "128634303855334",
-			"city": "Sydney, Australia",
+			"city": "Sydney",
 			"pk": "391798",
-			"image": "/images/dishes/20393523_1045047812299228_6244203723292147712_n.jpg"
+			"image": "/images/dishes/20393523_1045047812299228_6244203723292147712_n.jpg",
+			"country": "au"
 		},
 		{
 			"id": "la-pantera-negra",
@@ -4527,7 +4544,7 @@
 			"lat": 37.97529,
 			"lng": 23.72758,
 			"facebook_places_id": "215626528823874",
-			"city": "Athens, Greece",
+			"city": "Athens",
 			"pk": "215626528823874",
 			"image": "/images/dishes/19985540_1863331327327760_9170365302834200576_n.jpg"
 		},
@@ -4692,9 +4709,10 @@
 			"lat": 42.381890882552,
 			"lng": -71.106098610897,
 			"facebook_places_id": "48543295897",
-			"city": "Somerville, Massachusetts",
+			"city": "Somerville, MA",
 			"pk": "815516363",
-			"image": "/images/dishes/19120802_381762118885325_8463974471202504704_n.jpg"
+			"image": "/images/dishes/19120802_381762118885325_8463974471202504704_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "patio",
@@ -4769,9 +4787,10 @@
 			"lat": 37.8135128,
 			"lng": 23.7742616,
 			"facebook_places_id": "1763874400532664",
-			"city": "Βουλιαγμένη Αττικής",
+			"city": "Athens",
 			"pk": "1763874400532664",
-			"image": "/images/dishes/18878880_1981601858734758_2041678971204009984_n.jpg"
+			"image": "/images/dishes/18878880_1981601858734758_2041678971204009984_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "hama-20",
@@ -4820,9 +4839,10 @@
 			"lat": 37.865621773576,
 			"lng": 23.755853176117,
 			"facebook_places_id": "228868870461494",
-			"city": "Glyfádas, Attiki, Greece",
+			"city": "Athens",
 			"pk": "216011410",
-			"image": "/images/dishes/18812560_440772572954201_328802273612267520_n.jpg"
+			"image": "/images/dishes/18812560_440772572954201_328802273612267520_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "ark",
@@ -4909,9 +4929,10 @@
 			"lat": 37.8603249,
 			"lng": 23.7506695,
 			"facebook_places_id": "1583097508612580",
-			"city": "Glyfáda, Greece",
+			"city": "Athens",
 			"pk": "789823128",
-			"image": "/images/dishes/18812231_1094845077286396_1687377524000030720_n.jpg"
+			"image": "/images/dishes/18812231_1094845077286396_1687377524000030720_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "david-bouley",
@@ -5014,7 +5035,8 @@
 			"facebook_places_id": "104003084297",
 			"city": "New York, NY",
 			"pk": "218732211",
-			"image": "/images/dishes/18513936_327535674331063_6784523378066718720_n.jpg"
+			"image": "/images/dishes/18513936_327535674331063_6784523378066718720_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "estela",
@@ -5072,7 +5094,8 @@
 			"facebook_places_id": "122103961333484",
 			"city": "New York, NY",
 			"pk": "105579323",
-			"image": "/images/dishes/18645235_182863098904447_7552931394263973888_n.jpg"
+			"image": "/images/dishes/18645235_182863098904447_7552931394263973888_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "beatrice-inn",
@@ -5120,9 +5143,10 @@
 			"lat": 40.73765,
 			"lng": -74.00411,
 			"facebook_places_id": "111768382195723",
-			"city": "New York, New York",
+			"city": "New York, NY",
 			"pk": "10303496",
-			"image": "/images/dishes/18580112_1672511683055732_217435863276060672_n.jpg"
+			"image": "/images/dishes/18580112_1672511683055732_217435863276060672_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "casa-enrique-lic",
@@ -5164,9 +5188,10 @@
 			"lat": 40.74341988309,
 			"lng": -73.954414937146,
 			"facebook_places_id": "116364858466882",
-			"city": "New York, New York",
+			"city": "New York, NY",
 			"pk": "10727247",
-			"image": "/images/dishes/18644815_224819774674972_2664180394236051456_n.jpg"
+			"image": "/images/dishes/18644815_224819774674972_2664180394236051456_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "ootoya-ny",
@@ -5225,7 +5250,8 @@
 			"facebook_places_id": "435716963171121",
 			"city": "New York, NY",
 			"pk": "217227888",
-			"image": "/images/dishes/18579975_1872216596382489_4042190062400569344_n.jpg"
+			"image": "/images/dishes/18579975_1872216596382489_4042190062400569344_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "cholon",
@@ -5274,7 +5300,8 @@
 			"facebook_places_id": "374128931852",
 			"city": "Denver, CO",
 			"pk": "244651",
-			"image": "/images/dishes/18380524_521606014896513_1195006656484737024_n.jpg"
+			"image": "/images/dishes/18380524_521606014896513_1195006656484737024_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "rioja",
@@ -5305,7 +5332,8 @@
 			"facebook_places_id": "46822988900",
 			"city": "Denver, CO",
 			"pk": "135012",
-			"image": "/images/dishes/18300082_622086127990889_3737773715446824960_n.jpg"
+			"image": "/images/dishes/18300082_622086127990889_3737773715446824960_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "uni-tora",
