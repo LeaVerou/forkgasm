@@ -237,7 +237,8 @@
 			"facebook_places_id": "43420979382",
 			"city": "Cambridge, MA",
 			"pk": "368670",
-			"image": "/images/dishes/31571426_634434460233097_2149758674996822016_n.jpg"
+			"image": "/images/dishes/31571426_634434460233097_2149758674996822016_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "oleana",
@@ -433,9 +434,10 @@
 			"lat": 48.88684,
 			"lng": 2.33819,
 			"facebook_places_id": "300366403429831",
-			"city": "Paris, France",
+			"city": "Paris",
 			"pk": "106283558",
-			"image": "/images/dishes/30084761_1765107663510154_4853419383575281664_n.jpg"
+			"image": "/images/dishes/30084761_1765107663510154_4853419383575281664_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "table-restaurant---bruno-verjus",
@@ -494,7 +496,8 @@
 			"facebook_places_id": "100780473450219",
 			"city": "Paris",
 			"pk": "85356035",
-			"image": "/images/dishes/30078611_1900524080238263_8458390382357512192_n.jpg"
+			"image": "/images/dishes/30078611_1900524080238263_8458390382357512192_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "restaurant-pottoka-paris",
@@ -548,9 +551,10 @@
 			"lat": 48.85816,
 			"lng": 2.30253,
 			"facebook_places_id": "238820949462345",
-			"city": "Paris, France",
+			"city": "Paris",
 			"pk": "240313507",
-			"image": "/images/dishes/30077589_166949994132204_426766517674180608_n.jpg"
+			"image": "/images/dishes/30077589_166949994132204_426766517674180608_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "pierre-sang-in-oberkampf-restaurant",
@@ -605,7 +609,9 @@
 			"lng": 2.37236,
 			"facebook_places_id": "242260742559573",
 			"pk": "689988161",
-			"image": "/images/dishes/30084567_2032667667002250_2416988726950363136_n.jpg"
+			"image": "/images/dishes/30084567_2032667667002250_2416988726950363136_n.jpg",
+			"city": "Paris",
+			"country": "fr"
 		},
 		{
 			"id": "butterbrot",
@@ -630,7 +636,9 @@
 			"lng": 13.41737,
 			"facebook_places_id": "539153632917200",
 			"pk": "1019502159",
-			"image": "/images/dishes/30084707_216161588966532_2489408588594806784_n.jpg"
+			"image": "/images/dishes/30084707_216161588966532_2489408588594806784_n.jpg",
+			"city": "Berlin",
+			"country": "de"
 		},
 		{
 			"id": "monsieur-vuong",
@@ -673,7 +681,8 @@
 			"facebook_places_id": "169618269756125",
 			"city": "Berlin",
 			"pk": "239645",
-			"image": "/images/dishes/29740105_899222123592793_2869048526074019840_n.jpg"
+			"image": "/images/dishes/29740105_899222123592793_2869048526074019840_n.jpg",
+			"country": "de"
 		},
 		{
 			"id": "cafe-artscience",
@@ -749,7 +758,8 @@
 			"facebook_places_id": "695734907187972",
 			"city": "Cambridge, Massachusetts",
 			"pk": "438608080",
-			"image": "/images/dishes/27892678_1679564285455923_7405170513393221632_n.jpg"
+			"image": "/images/dishes/27892678_1679564285455923_7405170513393221632_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "hytra",
@@ -1073,9 +1083,10 @@
 			"lat": 37.958088970417,
 			"lng": 23.718867224884,
 			"facebook_places_id": "459740384118510",
-			"city": "Athens, Greece",
+			"city": "Athens",
 			"pk": "229851042",
-			"image": "/images/dishes/26287653_148368602619419_1619460858256031744_n.jpg"
+			"image": "/images/dishes/26287653_148368602619419_1619460858256031744_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "premiere",
@@ -1196,7 +1207,7 @@
 			"lat": 37.960157,
 			"lng": 23.7216634,
 			"facebook_places_id": "584961705018958",
-			"city": "Athens, Greece",
+			"city": "Athens",
 			"pk": "584961705018958",
 			"image": "/images/dishes/26155285_1671257416272672_3076878630568067072_n.jpg"
 		},
@@ -1255,7 +1266,9 @@
 			"lng": 23.735446929932,
 			"facebook_places_id": "1734972160049972",
 			"pk": "1734972160049972",
-			"image": "/images/dishes/26070784_160653284710502_7693183010148974592_n.jpg"
+			"image": "/images/dishes/26070784_160653284710502_7693183010148974592_n.jpg",
+			"city": "Athens",
+			"country": "gr"
 		},
 		{
 			"id": "estiatorio-milos",
@@ -1321,7 +1334,9 @@
 			"lng": 23.749580096281,
 			"facebook_places_id": "1951332135139018",
 			"pk": "1951332135139018",
-			"image": "/images/dishes/26067449_1901371423508713_1241666554123255808_n.jpg"
+			"image": "/images/dishes/26067449_1901371423508713_1241666554123255808_n.jpg",
+			"city": "Athens",
+			"country": "gr"
 		},
 		{
 			"id": "aleria",
