@@ -41,14 +41,21 @@ gulp.task("html", function() {
 });
 
 function makeThumbnails(src, force) {
-	console.log("Making thumbnails for ", src, "...");
-	return gulp.src(src)
-		.pipe(filter(async file => {
+	if (src) {
+		console.log("Making thumbnails for ", src, "...");
+		var ret = gulp.src(src);
+	}
+	else {
+		src = ["images/*.jpg", "images/dishes/*.jpg"];
+		
+		var ret = gulp.src(src).pipe(filter(async file => {
 			var thumbsPath = file.path.replace(/\/[^/]+$/, "/thumbs$&");
 			var thumbExists = await exists(thumbsPath);
 			return !thumbExists;
-		}))
-		.pipe(resize({
+		}));
+	}
+
+	return ret.pipe(resize({
 			width: 140,
 			height: 140,
 			crop: true,
