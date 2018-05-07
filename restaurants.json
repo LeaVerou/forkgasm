@@ -9581,11 +9581,11 @@
 			"lng": 26.168484091759,
 			"facebook_places_id": "462901963879789",
 			"pk": "1014402286",
-			"image": "/images/dishes/13628439_1218587154839902_1599690582_n.jpg"
+			"image": "/images/dishes/12424802_152211385150801_247084899_n.jpg"
 		},
 		{
-			"id": "θαλασσα-βατερα",
-			"name": "Θαλασσα Βατερα",
+			"id": "thalassa",
+			"name": "Thalassa",
 			"dishes": 3,
 			"visit": [
 				{
@@ -9616,9 +9616,10 @@
 			"lat": 39.019313562495,
 			"lng": 26.198068252462,
 			"facebook_places_id": "568450069879642",
-			"city": "Βατερα ",
+			"city": "Vatera, Lesbos",
 			"pk": "327786537",
-			"image": "/images/dishes/13687397_316036568744631_408314943_n.jpg"
+			"image": "/images/dishes/13687397_316036568744631_408314943_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "blue-star-1",
@@ -9668,7 +9669,8 @@
 			"lng": 23.625099,
 			"facebook_places_id": "213070562057864",
 			"pk": "9462337",
-			"image": "/images/dishes/13744098_1570512239921077_662954066_n.jpg"
+			"image": "/images/dishes/13744098_1570512239921077_662954066_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "estragon",
@@ -9729,7 +9731,8 @@
 			"facebook_places_id": "113436712023152",
 			"city": "Boston, MA",
 			"pk": "3956663",
-			"image": "/images/dishes/13722305_1325993820761286_706077273_n.jpg"
+			"image": "/images/dishes/13722305_1325993820761286_706077273_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "highland-kitchen",
@@ -9758,7 +9761,8 @@
 			"facebook_places_id": "147418678636441",
 			"city": "Somerville, MA",
 			"pk": "512162",
-			"image": "/images/dishes/13736000_1116142305102311_313356263_n.jpg"
+			"image": "/images/dishes/13736000_1116142305102311_313356263_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "bin-26-enoteca",
@@ -9801,9 +9805,10 @@
 			"lat": 42.35687,
 			"lng": -71.06994,
 			"facebook_places_id": "235443933206217",
-			"city": "Boston, Massachusetts",
+			"city": "Boston, MA",
 			"pk": "1728178",
-			"image": "/images/dishes/13732137_1749189225337392_606207114_n.jpg"
+			"image": "/images/dishes/13732137_1749189225337392_606207114_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "wink-nod",
@@ -9869,7 +9874,9 @@
 			"lng": -71.06966,
 			"facebook_places_id": "695699633783696",
 			"pk": "234287525",
-			"image": "/images/dishes/13734501_1750893125135525_1523039192_n.jpg"
+			"image": "/images/dishes/13734501_1750893125135525_1523039192_n.jpg",
+			"city": "Boston, MA",
+			"country": "us"
 		},
 		{
 			"id": "uni",
@@ -9960,7 +9967,8 @@
 			"facebook_places_id": "48221002185",
 			"city": "Boston, MA",
 			"pk": "1383628",
-			"image": "/images/dishes/13732073_1751142935152067_1439326348_n.jpg"
+			"image": "/images/dishes/13732073_1751142935152067_1439326348_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "sarma",
@@ -10031,7 +10039,9 @@
 			"lng": -71.095265,
 			"facebook_places_id": "1433012753577711",
 			"pk": "218370771",
-			"image": "/images/dishes/13743096_1029648767118819_643271479_n.jpg"
+			"image": "/images/dishes/13743096_1029648767118819_643271479_n.jpg",
+			"city": "Boston, MA",
+			"country": "us"
 		},
 		{
 			"id": "saltie-girl",
@@ -10083,9 +10093,10 @@
 			"lat": 42.3511377,
 			"lng": -71.0776626,
 			"facebook_places_id": "338446053024994",
-			"city": "Boston, Massachusetts",
+			"city": "Boston, MA",
 			"pk": "756583796",
-			"image": "/images/dishes/13712701_1572783816357710_1155145853_n.jpg"
+			"image": "/images/dishes/13712701_1572783816357710_1155145853_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "dali-restaurant-tapas-bar",
@@ -10122,7 +10133,8 @@
 			"facebook_places_id": "106160332771255",
 			"city": "Somerville, MA",
 			"pk": "224433978",
-			"image": "/images/dishes/13732184_1740043636256064_736650955_n.jpg"
+			"image": "/images/dishes/13732184_1740043636256064_736650955_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "bergamot",
@@ -10178,7 +10190,8 @@
 			"facebook_places_id": "289267167369",
 			"city": "Somerville, MA",
 			"pk": "1342751",
-			"image": "/images/dishes/13743305_1577595092536471_1517237687_n.jpg"
+			"image": "/images/dishes/13743305_1577595092536471_1517237687_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "toro",
@@ -10248,13 +10261,14 @@
 			"lat": 42.33693,
 			"lng": -71.07588,
 			"facebook_places_id": "57909700259",
-			"city": "Boston",
+			"city": "Boston, MA",
 			"pk": "258628",
-			"image": "/images/dishes/13767553_1048386735239170_1845447525_n.jpg"
+			"image": "/images/dishes/13767553_1048386735239170_1845447525_n.jpg",
+			"country": "us"
 		},
 		{
-			"id": "tatte-bakery-cafe-beacon-hill",
-			"name": "Tatte Bakery & Café, Beacon Hill",
+			"id": "tatte-bakery",
+			"name": "Tatte Bakery",
 			"dishes": 1,
 			"visit": [
 				{
@@ -10274,7 +10288,9 @@
 			"lng": -71.07047,
 			"facebook_places_id": "1586300111656651",
 			"pk": "645426046",
-			"image": "/images/dishes/13734486_1738395296448850_318397130_n.jpg"
+			"image": "/images/dishes/13734486_1738395296448850_318397130_n.jpg",
+			"city": "Boston, MA",
+			"country": "us"
 		},
 		{
 			"id": "russell-house-tavern",
@@ -10305,7 +10321,8 @@
 			"facebook_places_id": "153388104674944",
 			"city": "Cambridge, MA",
 			"pk": "2773",
-			"image": "/images/dishes/13725578_1594815624150427_1746703173_n.jpg"
+			"image": "/images/dishes/13725578_1594815624150427_1746703173_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "shabu-mein",
@@ -10328,7 +10345,9 @@
 			"lng": -71.077877962978,
 			"facebook_places_id": "813055368707158",
 			"pk": "340814652",
-			"image": "/images/dishes/13739449_300974136914701_958339098_n.jpg"
+			"image": "/images/dishes/13739449_300974136914701_958339098_n.jpg",
+			"city": "Cambridge, MA",
+			"country": "us"
 		},
 		{
 			"id": "lifealive-cafe",
@@ -10351,7 +10370,9 @@
 			"lng": -71.10547,
 			"facebook_places_id": "420323301325327",
 			"pk": "637826466",
-			"image": "/images/dishes/13725470_148060632285987_596971913_n.jpg"
+			"image": "/images/dishes/13725470_148060632285987_596971913_n.jpg",
+			"city": "Cambridge, MA",
+			"country": "us"
 		},
 		{
 			"id": "dakshin-by-itc-windsor",
@@ -10374,12 +10395,14 @@
 			"lng": 77.58557753,
 			"facebook_places_id": "1690714234511391",
 			"pk": "1690714234511391",
-			"image": "/images/dishes/13725699_141303296299977_1104748160_n.jpg"
+			"image": "/images/dishes/13725699_141303296299977_1104748160_n.jpg",
+			"city": "Bangalore",
+			"country": "in"
 		},
 		{
 			"id": "riwaz-the-ritz-carlton-bangalore",
 			"name": "Riwaz",
-			"city": "BENGALURU",
+			"city": "Bangalore",
 			"country": "in",
 			"dishes": 12,
 			"visit": [
@@ -10509,30 +10532,9 @@
 			"lng": 77.602018618333,
 			"facebook_places_id": "447892122087946",
 			"pk": "1023385626",
-			"image": "/images/dishes/13686924_946422342147982_1027978023_n.jpg"
-		},
-		{
-			"id": "the-ritz-carlton-bangalore",
-			"name": "The Ritz-Carlton, Bangalore",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2016-07-13",
-					"dish": [
-						{
-							"image": "/images/dishes/13628418_835888136546397_1403169856_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BHye8iDjMn1",
-							"name": "This is what happens when you have unlimited capers in a buffet and Lea comes along (yes, I did eat them all)"
-						}
-					]
-				}
-			],
-			"address": "No. 99 Residency Road",
-			"lat": 12.967591401143,
-			"lng": 77.601772063398,
-			"facebook_places_id": "349575685176280",
-			"pk": "213481817",
-			"image": "/images/dishes/13628418_835888136546397_1403169856_n.jpg"
+			"image": "/images/dishes/13686924_946422342147982_1027978023_n.jpg",
+			"city": "Bangalore",
+			"country": "in"
 		},
 		{
 			"id": "karavalli",
@@ -10577,9 +10579,10 @@
 			"lat": 12.97200489,
 			"lng": 77.608897415,
 			"facebook_places_id": "1389576004649052",
-			"city": "Bengaluru",
+			"city": "Bangalore",
 			"pk": "1024763059",
-			"image": "/images/dishes/13636207_2058978460994577_134401936_n.jpg"
+			"image": "/images/dishes/13636207_2058978460994577_134401936_n.jpg",
+			"country": "in"
 		},
 		{
 			"id": "all-senses-gastronomy",
@@ -10707,9 +10710,10 @@
 			"lat": 37.862295942188,
 			"lng": 23.749872773906,
 			"facebook_places_id": "492940794152154",
-			"city": "Glyfáda, Greece",
+			"city": "Athens",
 			"pk": "683879635",
-			"image": "/images/dishes/13597748_1765081173709521_293500271_n.jpg"
+			"image": "/images/dishes/13597748_1765081173709521_293500271_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "kohilia-beach-bar",
@@ -10731,9 +10735,10 @@
 			"lat": 39.056672015634,
 			"lng": 26.602307631749,
 			"facebook_places_id": "548857068504691",
-			"city": "Mytilene, Lesvos, Greece",
+			"city": "Mytilene, Lesbos",
 			"pk": "268968293",
-			"image": "/images/dishes/13597809_1635118530139568_117818266_n.jpg"
+			"image": "/images/dishes/13597809_1635118530139568_117818266_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "kuzina",
@@ -10761,7 +10766,9 @@
 			"lng": 23.72218,
 			"facebook_places_id": "108214302594022",
 			"pk": "2210049",
-			"image": "/images/dishes/13557069_544452759080234_1485467511_n.jpg"
+			"image": "/images/dishes/13557069_544452759080234_1485467511_n.jpg",
+			"city": "Athens",
+			"country": "gr"
 		},
 		{
 			"id": "zepra",
@@ -10803,9 +10810,10 @@
 			"lat": 32.06952,
 			"lng": 34.79403,
 			"facebook_places_id": "132197973629088",
-			"city": "Tel Aviv, Israel",
+			"city": "Tel Aviv",
 			"pk": "214525075",
-			"image": "/images/dishes/13551618_1257515534260483_1669323905_n.jpg"
+			"image": "/images/dishes/13551618_1257515534260483_1669323905_n.jpg",
+			"country": "il"
 		},
 		{
 			"id": "benedict-ben-yehuda",
@@ -10829,54 +10837,8 @@
 			"facebook_places_id": "134520419934320",
 			"city": "Tel Aviv",
 			"pk": "135869",
-			"image": "/images/dishes/13573570_210697299329030_1881924256_n.jpg"
-		},
-		{
-			"id": "spicehaus",
-			"name": "SPICEHAUS",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2016-06-27",
-					"dish": [
-						{
-							"image": "/images/dishes/13534536_1748572295420445_1462862316_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BHKevX4j6Gd",
-							"name": "Awesome cocktails, brilliant presentation!"
-						}
-					]
-				}
-			],
-			"address": "Dizengoff 117",
-			"lat": 32.08077,
-			"lng": 34.77359,
-			"facebook_places_id": "1512123875713080",
-			"pk": "464091277",
-			"image": "/images/dishes/13534536_1748572295420445_1462862316_n.jpg"
-		},
-		{
-			"id": "imperial-craft-cocktail-bar",
-			"name": "Imperial Craft Cocktail Bar",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2016-06-25",
-					"dish": [
-						{
-							"image": "/images/dishes/13402516_1713382098930240_652102124_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BHF-qDTjQ3h",
-							"name": "Awesome cocktails!"
-						}
-					]
-				}
-			],
-			"address": "66, Hayarkon Street",
-			"lat": 32.07569,
-			"lng": 34.76681,
-			"facebook_places_id": "291550917633917",
-			"city": "Tel Aviv, Israel",
-			"pk": "316285897",
-			"image": "/images/dishes/13402516_1713382098930240_652102124_n.jpg"
+			"image": "/images/dishes/13573570_210697299329030_1881924256_n.jpg",
+			"country": "il"
 		},
 		{
 			"id": "the-seafood-bar",
@@ -10900,7 +10862,8 @@
 			"facebook_places_id": "334483716627095",
 			"city": "Amsterdam",
 			"pk": "21854768",
-			"image": "/images/dishes/13392837_1646825148970520_1282394476_n.jpg"
+			"image": "/images/dishes/13392837_1646825148970520_1282394476_n.jpg",
+			"country": "nl"
 		},
 		{
 			"id": "the-lobby-nesplein",
@@ -10941,9 +10904,10 @@
 			"lat": 52.37094,
 			"lng": 4.89364,
 			"facebook_places_id": "432617056818423",
-			"city": "Amsterdam, Netherlands",
+			"city": "Amsterdam",
 			"pk": "214610779",
-			"image": "/images/dishes/13402461_1150134368372692_1222689274_n.jpg"
+			"image": "/images/dishes/13402461_1150134368372692_1222689274_n.jpg",
+			"country": "nl"
 		},
 		{
 			"id": "hotel-de-goudfazant",
@@ -10970,7 +10934,9 @@
 			"lng": 4.9300687139857,
 			"facebook_places_id": "172951059391743",
 			"pk": "13965",
-			"image": "/images/dishes/13397672_1136959712992312_1152725446_n.jpg"
+			"image": "/images/dishes/13397672_1136959712992312_1152725446_n.jpg",
+			"city": "Amsterdam",
+			"country": "nl"
 		},
 		{
 			"id": "o-ya",
@@ -11145,7 +11111,8 @@
 			"facebook_places_id": "108101482564833",
 			"city": "Boston, MA",
 			"pk": "1112293",
-			"image": "/images/dishes/13398949_258492737845693_1331088969_n.jpg"
+			"image": "/images/dishes/13398949_258492737845693_1331088969_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "le-grand-balcon",
@@ -11170,7 +11137,9 @@
 			"lng": 7.2719,
 			"facebook_places_id": "168161753203030",
 			"pk": "14148408",
-			"image": "/images/dishes/13181460_602433063255011_1810893386_n.jpg"
+			"image": "/images/dishes/13181460_602433063255011_1810893386_n.jpg",
+			"city": "Nice",
+			"country": "fr"
 		},
 		{
 			"id": "lescalinada",
@@ -11194,7 +11163,8 @@
 			"facebook_places_id": "1557126891223900",
 			"city": "Nice",
 			"pk": "679735303",
-			"image": "/images/dishes/13259051_1727906584165069_162466642_n.jpg"
+			"image": "/images/dishes/13259051_1727906584165069_162466642_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "terres-de-truffes",
@@ -11242,9 +11212,10 @@
 			"lat": 43.69571571647,
 			"lng": 7.2704703283719,
 			"facebook_places_id": "121285921261010",
-			"city": "Nice, France",
+			"city": "Nice",
 			"pk": "7356435",
-			"image": "/images/dishes/13108956_1040110899416996_1102086236_n.jpg"
+			"image": "/images/dishes/13108956_1040110899416996_1102086236_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "kin-khao",
@@ -11287,9 +11258,10 @@
 			"lat": 37.785217163583,
 			"lng": -122.40922584727,
 			"facebook_places_id": "201569603357635",
-			"city": "San Francisco, California",
+			"city": "San Francisco, CA",
 			"pk": "220803772",
-			"image": "/images/dishes/13108759_1644904575730291_1759593385_n.jpg"
+			"image": "/images/dishes/13108759_1644904575730291_1759593385_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "aster",
@@ -11334,9 +11306,10 @@
 			"lat": 37.754948,
 			"lng": -122.422943,
 			"facebook_places_id": "280448048829614",
-			"city": "San Francisco, California",
+			"city": "San Francisco, CA",
 			"pk": "512189728",
-			"image": "/images/dishes/13130003_257289764625333_845527546_n.jpg"
+			"image": "/images/dishes/13130003_257289764625333_845527546_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "commonwealthsf",
@@ -11402,7 +11375,8 @@
 			"facebook_places_id": "376075667438",
 			"city": "San Francisco, CA",
 			"pk": "31038",
-			"image": "/images/dishes/13181257_1181685151842123_370880771_n.jpg"
+			"image": "/images/dishes/13181257_1181685151842123_370880771_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "the-mina-test-kitchen",
@@ -11424,9 +11398,10 @@
 			"lat": 37.7991104,
 			"lng": -122.435463,
 			"facebook_places_id": "1586390774956860",
-			"city": "San Francisco, California",
+			"city": "San Francisco, CA",
 			"pk": "904233317",
-			"image": "/images/dishes/13151202_1002829866478315_3701508_n.jpg"
+			"image": "/images/dishes/13151202_1002829866478315_3701508_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "spoke-wine-bar",
@@ -11453,9 +11428,10 @@
 			"lat": 42.39888,
 			"lng": -71.12423,
 			"facebook_places_id": "400369520035544",
-			"city": "Somerville, Massachusetts",
+			"city": "Somerville, MA",
 			"pk": "221398589",
-			"image": "/images/dishes/13129537_977415342349166_1851887937_n.jpg"
+			"image": "/images/dishes/13129537_977415342349166_1851887937_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "bisq",
@@ -11487,13 +11463,14 @@
 			"lat": 42.37307,
 			"lng": -71.09512,
 			"facebook_places_id": "364535557032439",
-			"city": "Cambridge, Massachusetts",
+			"city": "Cambridge, MA",
 			"pk": "712459874",
-			"image": "/images/dishes/13129707_1565360860423620_167957108_n.jpg"
+			"image": "/images/dishes/13129707_1565360860423620_167957108_n.jpg",
+			"country": "us"
 		},
 		{
-			"id": "life-alive-urban-oasis-organic-cafe",
-			"name": "Life Alive Urban Oasis & Organic Cafe",
+			"id": "life-alive",
+			"name": "Life Alive",
 			"dishes": 1,
 			"visit": [
 				{
@@ -11511,13 +11488,14 @@
 			"lat": 42.645230619073,
 			"lng": -71.312147525232,
 			"facebook_places_id": "180486401239",
-			"city": "Boston, MA",
+			"city": "Cambridge, MA",
 			"pk": "291461876",
-			"image": "/images/dishes/13150861_962309997219600_2023961240_n.jpg"
+			"image": "/images/dishes/13150861_962309997219600_2023961240_n.jpg",
+			"country": "us"
 		},
 		{
-			"id": "bistro-du-midi-boston",
-			"name": "Bistro du Midi Boston",
+			"id": "bistro-du-midi",
+			"name": "Bistro du Midi",
 			"dishes": 5,
 			"visit": [
 				{
@@ -11557,7 +11535,8 @@
 			"facebook_places_id": "172796177821",
 			"city": "Boston, MA",
 			"pk": "1765633",
-			"image": "/images/dishes/12912535_593837570790525_300751461_n.jpg"
+			"image": "/images/dishes/12912535_593837570790525_300751461_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "red-lantern",
@@ -11591,7 +11570,8 @@
 			"facebook_places_id": "389863477874672",
 			"city": "Boston, MA",
 			"pk": "1033644187",
-			"image": "/images/dishes/12918639_1042441482514884_705143753_n.jpg"
+			"image": "/images/dishes/12918639_1042441482514884_705143753_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "cuchi-cuchi",
@@ -11627,7 +11607,9 @@
 			"lng": -71.09713,
 			"facebook_places_id": "120882861257634",
 			"pk": "405102",
-			"image": "/images/dishes/12934905_223619394668529_310692925_n.jpg"
+			"image": "/images/dishes/12934905_223619394668529_310692925_n.jpg",
+			"city": "Cambridge, MA",
+			"country": "us"
 		},
 		{
 			"id": "loyal-nine",
@@ -11650,7 +11632,9 @@
 			"lng": -71.08761,
 			"facebook_places_id": "934254446593137",
 			"pk": "687635304",
-			"image": "/images/dishes/12818893_1586156628376610_1414210731_n.jpg"
+			"image": "/images/dishes/12818893_1586156628376610_1414210731_n.jpg",
+			"city": "Boston, MA",
+			"country": "us"
 		},
 		{
 			"id": "legal-seafoods-kendall-sq",
@@ -11683,7 +11667,8 @@
 			"facebook_places_id": "108494675902589",
 			"city": "Cambridge, MA",
 			"pk": "605473",
-			"image": "/images/dishes/12819054_1306284242721070_1495467764_n.jpg"
+			"image": "/images/dishes/12819054_1306284242721070_1495467764_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "rincon-mexicano",
@@ -11706,7 +11691,9 @@
 			"lng": -71.08281,
 			"facebook_places_id": "709719352431833",
 			"pk": "479356811",
-			"image": "/images/dishes/12826311_1164732006872784_137447180_n.jpg"
+			"image": "/images/dishes/12826311_1164732006872784_137447180_n.jpg",
+			"city": "Somerville, CA",
+			"country": "us"
 		},
 		{
 			"id": "coda-bar-kitchen",
@@ -11730,7 +11717,8 @@
 			"facebook_places_id": "282819598396231",
 			"city": "Boston, MA",
 			"pk": "644690",
-			"image": "/images/dishes/12819080_1575336319457708_689389757_n.jpg"
+			"image": "/images/dishes/12819080_1575336319457708_689389757_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "orinoco",
@@ -11754,7 +11742,8 @@
 			"facebook_places_id": "146399635474979",
 			"city": "Cambridge, MA",
 			"pk": "9167883",
-			"image": "/images/dishes/12797784_798629276909321_83913851_n.jpg"
+			"image": "/images/dishes/12797784_798629276909321_83913851_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "trigono-kalyvia",
@@ -11775,13 +11764,14 @@
 			"lat": 37.842526728348,
 			"lng": 23.929714981907,
 			"facebook_places_id": "121212624623171",
-			"city": "Athens, Greece",
+			"city": "Athens",
 			"pk": "51890125",
-			"image": "/images/dishes/12407432_182471275445890_2068713529_n.jpg"
+			"image": "/images/dishes/12407432_182471275445890_2068713529_n.jpg",
+			"country": "gr"
 		},
 		{
-			"id": "matsuhisa-athens-astir-palace-resort",
-			"name": "Matsuhisa Athens | Astir Palace Resort",
+			"id": "matsuhisa-athens",
+			"name": "Matsuhisa Athens",
 			"dishes": 5,
 			"visit": [
 				{
@@ -11819,9 +11809,10 @@
 			"lat": 37.806802474726,
 			"lng": 23.771800742756,
 			"facebook_places_id": "121887111223807",
-			"city": "Vouliagméni, Greece",
+			"city": "Athens",
 			"pk": "222083381",
-			"image": "/images/dishes/12543388_1677951375823801_1578652629_n.jpg"
+			"image": "/images/dishes/12543388_1677951375823801_1578652629_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "ιώδιο",
@@ -11853,13 +11844,14 @@
 			"lat": 37.929977791574,
 			"lng": 23.712363147697,
 			"facebook_places_id": "299162980108101",
-			"city": "Athens, Greece",
+			"city": "Athens",
 			"pk": "257125961",
-			"image": "/images/dishes/12547319_142373819474225_684145617_n.jpg"
+			"image": "/images/dishes/12547319_142373819474225_684145617_n.jpg",
+			"country": "gr"
 		},
 		{
-			"id": "furin-kazan-official",
-			"name": "Furin Kazan 風林火山 official",
+			"id": "furin-kazan",
+			"name": "Furin Kazan",
 			"dishes": 1,
 			"visit": [
 				{
@@ -11878,30 +11870,9 @@
 			"lng": 23.73286,
 			"facebook_places_id": "371911532943792",
 			"pk": "214559200",
-			"image": "/images/dishes/12407260_988051037942140_878913334_n.jpg"
-		},
-		{
-			"id": "to-ouzadiko-tou-mpampoukou",
-			"name": "To Ouzadiko Tou Mpampoukou",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2016-01-09",
-					"dish": [
-						{
-							"image": "/images/dishes/12424802_152211385150801_247084899_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BAVRKiVIZnR",
-							"name": "Excellent Greek food. Best octopus in wine I've had in the last decade."
-						}
-					]
-				}
-			],
-			"lat": 39.369047662711,
-			"lng": 26.168415578662,
-			"facebook_places_id": "463839323694753",
-			"city": "Molivos",
-			"pk": "848608988",
-			"image": "/images/dishes/12424802_152211385150801_247084899_n.jpg"
+			"image": "/images/dishes/12407260_988051037942140_878913334_n.jpg",
+			"city": "Athens",
+			"country": "gr"
 		},
 		{
 			"id": "nirvana-wine-coffee-bar",
@@ -11933,9 +11904,10 @@
 			"lat": 39.103110699418,
 			"lng": 26.556281326055,
 			"facebook_places_id": "1391808837737740",
-			"city": "Mytilene, Lesvos, Greece",
+			"city": "Mytilene, Lesbos",
 			"pk": "237986770",
-			"image": "/images/dishes/12479308_123472304696572_1518884357_n.jpg"
+			"image": "/images/dishes/12479308_123472304696572_1518884357_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "hanamaru-sushi",
@@ -11956,9 +11928,10 @@
 			"lat": 43.067192330444,
 			"lng": 141.35064269333,
 			"facebook_places_id": "113058945461411",
-			"city": "北海道札幌市",
+			"city": "Sapporo",
 			"pk": "514494238",
-			"image": "/images/dishes/11906332_571500359669193_1480767794_n.jpg"
+			"image": "/images/dishes/11906332_571500359669193_1480767794_n.jpg",
+			"country": "jp"
 		},
 		{
 			"id": "ねぎま",
@@ -11985,7 +11958,9 @@
 			"lng": 141.35125377604,
 			"facebook_places_id": "308460969177659",
 			"pk": "451825783",
-			"image": "/images/dishes/12120283_1650362635240609_2081958000_n.jpg"
+			"image": "/images/dishes/12120283_1650362635240609_2081958000_n.jpg",
+			"city": "Sapporo",
+			"country": "jp"
 		},
 		{
 			"id": "century-royal-hotel",
@@ -12033,7 +12008,8 @@
 			"facebook_places_id": "115666261795800",
 			"city": "Cambridge, MA",
 			"pk": "671758",
-			"image": "/images/dishes/12070794_773012462821045_521611836_n.jpg"
+			"image": "/images/dishes/12070794_773012462821045_521611836_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "study",
@@ -12056,7 +12032,9 @@
 			"lng": -71.087978516522,
 			"facebook_places_id": "571447026292917",
 			"pk": "416947639",
-			"image": "/images/dishes/12105226_307612316076056_2018197190_n.jpg"
+			"image": "/images/dishes/12105226_307612316076056_2018197190_n.jpg",
+			"city": "Cambridge, MA",
+			"country": "us"
 		},
 		{
 			"id": "grotto",
@@ -12080,7 +12058,8 @@
 			"facebook_places_id": "175267619193135",
 			"city": "Boston, MA",
 			"pk": "9964678",
-			"image": "/images/dishes/12106162_1658791397722887_2125163928_n.jpg"
+			"image": "/images/dishes/12106162_1658791397722887_2125163928_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "ristorante-a-mano",
@@ -12104,7 +12083,8 @@
 			"facebook_places_id": "153161404795927",
 			"city": "Berlin",
 			"pk": "9047623",
-			"image": "/images/dishes/11251998_1500579616922727_621754267_n.jpg"
+			"image": "/images/dishes/11251998_1500579616922727_621754267_n.jpg",
+			"country": "de"
 		},
 		{
 			"id": "bissac---restaurant---paris",
@@ -12128,7 +12108,8 @@
 			"facebook_places_id": "261660044014729",
 			"city": "Paris",
 			"pk": "253332456",
-			"image": "/images/dishes/11363972_958832080847392_648594118_n.jpg"
+			"image": "/images/dishes/11363972_958832080847392_648594118_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "au-pied-du-sacre-coeur",
@@ -12155,9 +12136,10 @@
 			"lat": 48.8903,
 			"lng": 2.3356499,
 			"facebook_places_id": "134746753261750",
-			"city": "Paris, France",
+			"city": "Paris",
 			"pk": "10341005",
-			"image": "/images/dishes/11881750_451793025003121_231146788_n.jpg"
+			"image": "/images/dishes/11881750_451793025003121_231146788_n.jpg",
+			"country": "fr"
 		},
 		{
 			"id": "au-general-la-fayette",
@@ -12180,7 +12162,9 @@
 			"lng": 2.34132,
 			"facebook_places_id": "506741689340595",
 			"pk": "1199212",
-			"image": "/images/dishes/11820514_1038913576143546_336749_n.jpg"
+			"image": "/images/dishes/11820514_1038913576143546_336749_n.jpg",
+			"city": "Paris",
+			"country": "fr"
 		},
 		{
 			"id": "jgo",
@@ -12203,7 +12187,9 @@
 			"lng": 2.34039,
 			"facebook_places_id": "121997651189321",
 			"pk": "602221",
-			"image": "/images/dishes/11326046_1214085511950520_1470424733_n.jpg"
+			"image": "/images/dishes/11326046_1214085511950520_1470424733_n.jpg",
+			"city": "Paris",
+			"country": "fr"
 		},
 		{
 			"id": "sansibal",
@@ -12225,7 +12211,9 @@
 			"lng": 26.1735572499,
 			"facebook_places_id": "488180447859746",
 			"pk": "274254286",
-			"image": "/images/dishes/11881630_418646145005880_419137847_n.jpg"
+			"image": "/images/dishes/11881630_418646145005880_419137847_n.jpg",
+			"city": "Molyvos, Lesbos",
+			"country": "gr"
 		},
 		{
 			"id": "shiki",
@@ -12249,7 +12237,8 @@
 			"facebook_places_id": "117741074919395",
 			"city": "Brookline, MA",
 			"pk": "191559",
-			"image": "/images/dishes/11375996_100230443655957_1879486219_n.jpg"
+			"image": "/images/dishes/11375996_100230443655957_1879486219_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "ootoya",
@@ -12283,7 +12272,8 @@
 			"facebook_places_id": "152851078252945",
 			"city": "New York, NY",
 			"pk": "124776325",
-			"image": "/images/dishes/11358226_856449217781884_534560184_n.jpg"
+			"image": "/images/dishes/11358226_856449217781884_534560184_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "danji",
@@ -12307,7 +12297,8 @@
 			"facebook_places_id": "130224970345976",
 			"city": "New York, NY",
 			"pk": "235928904",
-			"image": "/images/dishes/11378452_1613801068877610_1942678468_n.jpg"
+			"image": "/images/dishes/11378452_1613801068877610_1942678468_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "cafe-luna",
@@ -12359,9 +12350,10 @@
 			"lat": 40.762657977378,
 			"lng": -73.97142469883,
 			"facebook_places_id": "43002604570",
-			"city": "New York",
+			"city": "New York, NY",
 			"pk": "144279",
-			"image": "/images/dishes/11272427_420270611477528_551396491_n.jpg"
+			"image": "/images/dishes/11272427_420270611477528_551396491_n.jpg",
+			"country": "us"
 		}
 	]
 }
