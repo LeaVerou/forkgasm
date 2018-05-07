@@ -5633,7 +5633,7 @@
 		{
 			"id": "ruka-restobar",
 			"name": "Ruka Restobar",
-			"dishes": 8,
+			"dishes": 10,
 			"visit": [
 				{
 					"date": "2017-03-17",
@@ -5649,6 +5649,12 @@
 							"instagram_url": "https://www.instagram.com/p/BRuTMZRjAKi",
 							"rating": 8,
 							"name": "\"Toro Wasabi\": spicy tuna roll with tempura, toro, aji panca, wasabi relish, caviar"
+						},
+						{
+							"image": "/images/dishes/17333308_1478223818863372_1415406511051505664_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BRuU11QD21c",
+							"rating": 6.5,
+							"name": "Diver scallop ceviche: sugar cane juice, lime yogurt, Pisco chips"
 						},
 						{
 							"image": "/images/dishes/17332469_272345259871136_3443879888044425216_n.jpg",
@@ -5685,6 +5691,12 @@
 							"instagram_url": "https://www.instagram.com/p/BRuZ_feDq8q",
 							"rating": 8.5,
 							"name": "Sichuan king trumpet mushrooms with la brasa sauce, hot mustard mayo, sesame batter bits"
+						},
+						{
+							"image": "/images/dishes/17333844_1702511460047480_6494562203109163008_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BRuUfPMDrBx",
+							"rating": 7.5,
+							"name": "Chilled oysters Chalaca: East Coast oysters, salsa Criolla, aji crema, Peruvian black mint"
 						}
 					]
 				}
@@ -5697,35 +5709,6 @@
 			"pk": "576020351",
 			"image": "/images/dishes/17265432_750366965130021_8951853653329707008_n.jpg",
 			"country": "us"
-		},
-		{
-			"id": "boston-massachusetts",
-			"name": "Boston, Massachusetts",
-			"dishes": 2,
-			"visit": [
-				{
-					"date": "2017-03-17",
-					"dish": [
-						{
-							"image": "/images/dishes/17333844_1702511460047480_6494562203109163008_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BRuUfPMDrBx",
-							"rating": 7.5,
-							"name": "Chilled oysters Chalaca: East Coast oysters, salsa Criolla, aji crema, Peruvian black mint"
-						},
-						{
-							"image": "/images/dishes/17333308_1478223818863372_1415406511051505664_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BRuU11QD21c",
-							"rating": 6.5,
-							"name": "Diver scallop ceviche: sugar cane juice, lime yogurt, Pisco chips"
-						}
-					]
-				}
-			],
-			"lat": 42.3578,
-			"lng": -71.0617,
-			"facebook_places_id": "106003956105810",
-			"pk": "206698624",
-			"image": "/images/dishes/17333844_1702511460047480_6494562203109163008_n.jpg"
 		},
 		{
 			"id": "puritan-company",
