@@ -117,7 +117,8 @@
 			"facebook_places_id": "118543211568090",
 			"city": "Seattle, WA",
 			"pk": "250635788",
-			"image": "/images/dishes/31725108_249499358954461_4233731537784274944_n.jpg"
+			"image": "/images/dishes/31725108_249499358954461_4233731537784274944_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "craigie-on-main",
