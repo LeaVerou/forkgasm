@@ -20,9 +20,11 @@ initialData.then(restaurants => {
 		data = data.photo || data || [];
 
 		for (var photo of data) {
+			let loc, restaurant;
+
 			if (photo.location) {
-				var loc = photo.location;
-				var restaurant = restaurants["pk" + loc.pk];
+				loc = photo.location;
+				restaurant = restaurants["pk" + loc.pk];
 
 				if (!restaurant) {
 					if (!photo.caption) {
@@ -125,9 +127,11 @@ initialData.then(restaurants => {
 
 				photo.image = imagePath;
 
+				let visit;
+
 				for (let v of restaurant.visit) {
 					if (v.date == photo.date) {
-						var visit = v;
+						visit = v;
 						break;
 					}
 				}
