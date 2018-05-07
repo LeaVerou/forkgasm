@@ -5435,9 +5435,10 @@
 			"lat": 35.647583659153,
 			"lng": 139.75255343092,
 			"facebook_places_id": "140158476047539",
-			"city": "東京都港区",
+			"city": "Tokyo",
 			"pk": "331971",
-			"image": "/images/dishes/18011936_1897349843823266_8113855360072155136_n.jpg"
+			"image": "/images/dishes/18011936_1897349843823266_8113855360072155136_n.jpg",
+			"country": "jp"
 		},
 		{
 			"id": "つじ半",
@@ -5465,9 +5466,10 @@
 			"lat": 35.680777708636,
 			"lng": 139.77148603337,
 			"facebook_places_id": "450106595035136",
-			"city": "東京都中央区 (Chuo-ku, Tokyo, Japan)",
+			"city": "Tokyo",
 			"pk": "42908244",
-			"image": "/images/dishes/17934631_1896899567249006_7695935298206695424_n.jpg"
+			"image": "/images/dishes/17934631_1896899567249006_7695935298206695424_n.jpg",
+			"country": "jp"
 		},
 		{
 			"id": "shinjuku-kappou-nakajima",
@@ -5541,9 +5543,10 @@
 			"lat": 35.690322458571,
 			"lng": 139.70373840524,
 			"facebook_places_id": "768775139833071",
-			"city": "新宿",
+			"city": "Tokyo",
 			"pk": "412544546",
-			"image": "/images/dishes/18013313_222402368240728_630606734989197312_n.jpg"
+			"image": "/images/dishes/18013313_222402368240728_630606734989197312_n.jpg",
+			"country": "jp"
 		},
 		{
 			"id": "little-donkey",
@@ -5622,9 +5625,10 @@
 			"lat": 42.3642899,
 			"lng": -71.10154,
 			"facebook_places_id": "799858680114697",
-			"city": "Cambridge, Massachusetts",
+			"city": "Cambridge, MA",
 			"pk": "799858680114697",
-			"image": "/images/dishes/17933826_1364289886950808_1382152576438370304_n.jpg"
+			"image": "/images/dishes/17933826_1364289886950808_1382152576438370304_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "ruka-restobar",
@@ -5689,9 +5693,10 @@
 			"lat": 42.3547484,
 			"lng": -71.0616134,
 			"facebook_places_id": "328951427249018",
-			"city": "Boston",
+			"city": "Boston, MA",
 			"pk": "576020351",
-			"image": "/images/dishes/17265432_750366965130021_8951853653329707008_n.jpg"
+			"image": "/images/dishes/17265432_750366965130021_8951853653329707008_n.jpg",
+			"country": "us"
 		},
 		{
 			"id": "boston-massachusetts",
