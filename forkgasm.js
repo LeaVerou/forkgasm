@@ -1,15 +1,18 @@
 (function() {
 
-var rules = new Map([
-	[/https?:\/\/get\.mavo\.io\/mavo\./, "http://localhost:8000/dist/mavo."],
-	[/https?:\/\/dev\.mavo\.io\/dist\/mavo\./, "http://localhost:8000/dist/mavo."],
-	[/https?:\/\/plugins\.mavo\.io\/(?!plugins.json)/, "http://localhost:8002/mavo/plugins/"],
-]);
+if (location.hostname === "localhost") {
+	// We're testing locally, use local URLs
 
-if (!self.document) {
-	// We're in a service worker! Oh man, we’re living in the future! 🌈🦄
-	if (location.hostname === "localhost") {
-		// We're testing locally, use local URLs
+	var rules = new Map([
+		[/https?:\/\/get\.mavo\.io\/mavo\./, "http://localhost:8000/dist/mavo."],
+		[/https?:\/\/dev\.mavo\.io\/dist\/mavo\./, "http://localhost:8000/dist/mavo."],
+		[/https?:\/\/plugins\.mavo\.io\/(?!plugins.json)/, "http://localhost:8002/mavo/plugins/"],
+	]);
+
+	if (!self.document) {
+		// We're in a service worker! Oh man, we’re living in the future! 🌈🦄
+
+
 		self.addEventListener("fetch", function(evt) {
 			var url = evt.request.url, newURL = url;
 
@@ -28,20 +31,20 @@ if (!self.document) {
 				evt.respondWith(response);
 			}
 		});
+
+
+		return;
 	}
 
-	return;
+	var src = document.currentScript ? document.currentScript.src : "forkgasm.js";
+
+	if ("serviceWorker" in navigator ) {
+		// Register this script as a service worker
+		addEventListener("load", function() {
+			navigator.serviceWorker.register(src).catch(e => console.error(e));
+		});
+	}
 }
-
-var src = document.currentScript ? document.currentScript.src : "forkgasm.js";
-
-if ("serviceWorker" in navigator) {
-	// Register this script as a service worker
-	addEventListener("load", function() {
-		navigator.serviceWorker.register(src).catch(e => console.error(e));
-	});
-}
-
 
 })();
 
@@ -52,5 +55,5 @@ function thumbnail(url) {
 	}
 
 	// else it's an Instagram URL
-	return url.replace(/\/(e\d5)\//, `/s240x240/$1/`);
+	return url.replace(/\/(e\d5)\//, "/s240x240/$1/");
 }
