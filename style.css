@@ -613,13 +613,14 @@ ol {
 	}
 }
 
-[property="dish"]:not(:target) .content,
-		[property="dish"]:not(:target) .next,
-		[property="dish"]:not(:target) .previous {
+[property="dish"]:not(:target):not(.mv-target-within) .content,
+		[property="dish"]:not(:target):not(.mv-target-within) .next,
+		[property="dish"]:not(:target):not(.mv-target-within) .previous {
 	display: none;
 }
 
-[property="dish"]:target {
+[property="dish"]:target,
+	[property="dish"].mv-target-within {
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -642,7 +643,8 @@ ol {
 
 @media (max-aspect-ratio: 1/1) {
 
-	[property="dish"]:target {
+	[property="dish"]:target,
+	[property="dish"].mv-target-within {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		    -ms-flex-flow: column;
@@ -650,29 +652,29 @@ ol {
 	}
 }
 
-[property="dish"]:target .content {
+[property="dish"]:target .content, [property="dish"].mv-target-within .content {
 	overflow: auto;
 }
 
-[property="dish"]:target .content h4 {
+[property="dish"]:target .content h4, [property="dish"].mv-target-within .content h4 {
 	margin: 0;
 }
 
 @media (min-aspect-ratio: 1/1) {
 
-	[property="dish"]:target .content {
+	[property="dish"]:target .content, [property="dish"].mv-target-within .content {
 		max-width: 30vw;
 	}
 }
 
 @media (max-aspect-ratio: 1/1) {
 
-	[property="dish"]:target .content {
+	[property="dish"]:target .content, [property="dish"].mv-target-within .content {
 		margin-top: .5em;
 	}
 }
 
-[property="dish"]:target [property=rating] {
+[property="dish"]:target [property=rating], [property="dish"].mv-target-within [property=rating] {
 	top: 1em;
 	left: 1em;
 	font-size: 150%;
@@ -680,11 +682,11 @@ ol {
 	bottom: auto;
 }
 
-[property="dish"]:target [property=rating] + [property=rating] {
+[property="dish"]:target [property=rating] + [property=rating], [property="dish"].mv-target-within [property=rating] + [property=rating] {
 	top: 3.5em;
 }
 
-[property="dish"]:target img {
+[property="dish"]:target img, [property="dish"].mv-target-within img {
 	--size: calc(100vmin - 2em);
 	width: auto;
 	min-width: var(--size);

@@ -576,7 +576,7 @@ ol {
 		font-style: italic;
 	}
 
-	&:not(:target) {
+	&:not(:target):not(.mv-target-within) {
 		& .content,
 		& .next,
 		& .previous {
@@ -584,7 +584,8 @@ ol {
 		}
 	}
 
-	&:target {
+	&:target,
+	&.mv-target-within {
 		position: fixed;
 		top: 0;
 		right: 0;
