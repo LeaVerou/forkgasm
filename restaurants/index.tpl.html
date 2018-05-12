@@ -39,7 +39,7 @@
 
 			<section class="dishes">
 				<article property="dish" mv-multiple title="[name]">
-					<a href="/restaurants/[restaurant.id]/#visit[visit.$index + 1]-dish[$index + 1]">
+					<a href="/restaurants/[restaurant.id]/#dish-[$index + 1]-on-[date]">
 						<img src="[thumbnail(image)]">
 						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
 						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
