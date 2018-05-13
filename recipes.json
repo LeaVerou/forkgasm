@@ -1210,6 +1210,9 @@
 							"amount": ".5",
 							"name": "lemon",
 							"preparation": "juiced"
+						},
+						{
+							"name": "erythritol"
 						}
 					]
 				}
