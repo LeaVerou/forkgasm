@@ -1,6 +1,16 @@
 {
 	"recipe": [
 		{
+			"image": "https://k61.kn3.net/taringa/A/4/2/9/D/1/EliasChirinos/B6E.jpg",
+			"name": "Ceviche",
+			"id": "ceviche",
+			"description": "Peruvian ceviche is a traditional dish widely eaten in Peru. The method of preparing it is different to that of ceviche in other places, using lemon, fish, potatoes and other foods.",
+			"tag": [
+				"SEAFOOD",
+				"PERUVIAN"
+			]
+		},
+		{
 			"name": "Papoutsakia",
 			"id": "papoutsakia",
 			"description": "A traditional Greek dish that tastes very similar to moussaka, but is much quicker to cook. Fun fact: Papoutsakia in Greek means \"little shoes\" and a portion usually has two. However, when cooking with large American eggplants, you'll likely find that one per portion is enough.",
