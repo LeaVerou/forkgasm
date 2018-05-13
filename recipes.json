@@ -1131,52 +1131,7 @@
 			"tag": [
 				"Dessert"
 			],
-			"ingredient": [
-				{
-					"amount": "1.5",
-					"unit": "cup",
-					"name": "almond flour"
-				},
-				{
-					"amount": "A little",
-					"name": "coconut flour"
-				},
-				{
-					"amount": "200",
-					"unit": "g",
-					"name": "butter"
-				},
-				{
-					"name": "Sukrin Gold or similar"
-				},
-				{
-					"name": "Vanilla"
-				},
-				{
-					"name": "Cinammon"
-				},
-				{
-					"amount": "35",
-					"unit": "oz",
-					"name": "Mascarpone"
-				},
-				{
-					"name": "Icing erythritol"
-				},
-				{
-					"amount": "1",
-					"name": "lemon",
-					"preparation": "juiced"
-				},
-				{
-					"amount": "1",
-					"unit": "pound",
-					"name": "strawberries"
-				},
-				{
-					"name": "Gelatin or pectin"
-				}
-			],
+			"ingredient": [],
 			"step": [
 				{
 					"description": "**Base:** Lightly toast the almond flour and coconut flour, then add the butter and stir until it melts, then vanilla, cinnamon and Sukrin Gold to taste. Once the mixture is even, press into a 9\" springform cake tray. Let it cool down, ideally in the fridge."
@@ -1197,16 +1152,66 @@
 				{
 					"name": "Base",
 					"ingredient": [
-						{}
+						{
+							"amount": "1.5",
+							"unit": "cup",
+							"name": "almond flour"
+						},
+						{
+							"amount": "200",
+							"unit": "g",
+							"name": "butter or ghee"
+						},
+						{
+							"amount": "A little",
+							"name": "coconut flour"
+						},
+						{
+							"name": "Sukrin Gold or similar"
+						},
+						{
+							"name": "Vanilla extract"
+						},
+						{
+							"name": "Cinammon"
+						}
 					]
 				},
 				{
 					"name": "Cream",
-					"ingredient": []
+					"ingredient": [
+						{
+							"amount": "32",
+							"unit": "oz",
+							"name": "Mascarpone"
+						},
+						{
+							"name": "Icing erythritol"
+						},
+						{
+							"amount": ".5",
+							"name": "lemon",
+							"preparation": "jiced"
+						}
+					]
 				},
 				{
 					"name": "Topping",
-					"ingredient": []
+					"ingredient": [
+						{
+							"amount": "1",
+							"unit": "lbs",
+							"name": "strawberries"
+						},
+						{
+							"name": "Gelatin or pectin"
+						},
+						{
+							"amount": ".5",
+							"name": "lemon",
+							"preparation": "juiced"
+						}
+					]
 				}
 			]
 		},
