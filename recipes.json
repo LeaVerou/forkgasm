@@ -1,16 +1,6 @@
 {
 	"recipe": [
 		{
-			"image": "https://k61.kn3.net/taringa/A/4/2/9/D/1/EliasChirinos/B6E.jpg",
-			"name": "Ceviche",
-			"id": "ceviche",
-			"description": "Peruvian ceviche is a traditional dish widely eaten in Peru. The method of preparing it is different to that of ceviche in other places, using lemon, fish, potatoes and other foods.",
-			"tag": [
-				"SEAFOOD",
-				"PERUVIAN"
-			]
-		},
-		{
 			"name": "Papoutsakia",
 			"id": "papoutsakia",
 			"description": "A traditional Greek dish that tastes very similar to moussaka, but is much quicker to cook. Fun fact: Papoutsakia in Greek means \"little shoes\" and a portion usually has two. However, when cooking with large American eggplants, you'll likely find that one per portion is enough.",
@@ -362,7 +352,7 @@
 			],
 			"notes": "- The tomato sauce keeps for a couple of days in the fridge. If eating over two days, crack only 4 eggs. Next time, reheat sauce then make 4 more depressions and crack the other 4.\n- We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarara or other sugar can be substituted.\n- Bell peppers are bad for absorbing pesticides, so we always use organic because the skin is eaten.\n- The type of red wine is not critical, honestly. We use small (187ml) “individual” bottles of fairly cheap red wine.",
 			"forked": "[Israeli Breakfast Of Champions: Shakshuka](http://www.foodrepublic.com/recipes/israeli-breakfast-of-champions-shakshuka/)",
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/19764711_129491094310344_9006008981864316928_n.jpg?ig_cache_key=MTU1MzUzMjcwNTk4Mjg5MjcwMg%3D%3D.2&se=7"
+			"image": "http://forkgasm.com/images/shakshuka.jpg"
 		},
 		{
 			"name": "Real Caesar Salad",
@@ -453,7 +443,7 @@
 			"notes": "We don't use croutons but if you want them, go ahead!\nSauce keeps well in a fridge for a few days.\n"
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/23735404_146589679310163_1584154461851353088_n.jpg",
+			"image": "http://forkgasm.com/images/fathead-pineapple.jpg",
 			"name": "Fathead Pineapple Pizza",
 			"id": "fathead-pineapple-pizza",
 			"description": "Low carb and delicious!",
@@ -625,7 +615,7 @@
 			]
 		},
 		{
-			"image": "https://instagram.fbed1-1.fna.fbcdn.net/t51.2885-15/e35/23667828_365707817211709_824187065708052480_n.jpg",
+			"image": "http://forkgasm.com/images/mushrooms.jpg",
 			"name": "Garlic mushrooms a la crème with lardons and green pepper",
 			"id": "garlic-mushrooms-a-la-creme-with-lardons-and-green-pepper",
 			"description": "Not the most photogenic dish, but really easy, quick and delicious!",
@@ -729,7 +719,7 @@
 			"notes": "- If you can find smoked cheddar, use a mixture of 50% smoked cheddar and 50% normal cheddar (it's very strong so not 100%). \n- Don’t allow the cream to overcook or it will separate!\n- You can probably cook the pepper in with the mushrooms and ignore the coconut oil, if desired."
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e15/10950411_1396491380655064_1716161381_n.jpg",
+			"image": "http://forkgasm.com/images/chicken-liver-pate.jpg",
 			"name": "Chicken Liver Pâté",
 			"id": "chicken-liver-pate",
 			"description": "Rich and creamy, delicious on bread or even on its own",
@@ -803,7 +793,7 @@
 			"forked": "Original recipe by Lea Dam Jensen"
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/17596788_657147984472298_8902849764404494336_n.jpg",
+			"image": "http://forkgasm.com/images/htapodi-krasato.jpg",
 			"name": "Octopus in Wine",
 			"id": "octopus-in-wine",
 			"description": "A traditional Greek dish (Htapodi Krasato).",
@@ -815,12 +805,12 @@
 			"ingredient": [
 				{
 					"amount": "2",
-					"name": "whole octopus"
+					"name": "whole raw octopus"
 				},
 				{
 					"amount": "1",
 					"unit": "bottle",
-					"name": "red wine"
+					"name": "dry red cooking wine"
 				},
 				{
 					"amount": "6",
@@ -854,7 +844,7 @@
 					"description": "Put tentacles and head in a large pot with nothing else and boil over medium heat."
 				},
 				{
-					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour the wine."
+					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour in the wine."
 				},
 				{
 					"description": "Once you've poured all wine, add cloves and bay leaves."
@@ -867,10 +857,11 @@
 				}
 			],
 			"notes": "The original version uses potatoes, but we have used turnips, okra and other vegetables with good success. Turnips also make the dish low carb. The one in the photo uses okra.\nΧταπόδι κρασάτο is the Greek name.",
-			"forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)"
+			"forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)",
+			"ingredientGroup": []
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21827214_104384856976628_7867512374029189120_n.jpg",
+			"image": "http://forkgasm.com/images/salmon-sous-vide.jpg",
 			"name": "Sous Vide Salmon Teriyaki",
 			"id": "salmon-teriyaki",
 			"description": "Tender, refreshing and very easy to make",
@@ -1229,7 +1220,7 @@
 			]
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21689067_474934149549613_1462757825410236416_n.jpg",
+			"image": "http://forkgasm.com/images/curried-beef-stew.jpg",
 			"name": "Curried Beef Stew",
 			"description": "Spicy, complex, and very flavorful, this Thai-inspired curry is perfect for cold winter nights.",
 			"tag": [
@@ -1356,6 +1347,95 @@
 			],
 			"forked": "[Curried Beef Stew](https://www.epicurious.com/recipes/food/views/curried-beef-stew-380591)",
 			"id": "curried-beef-stew"
+		},
+		{
+			"id": "ceviche",
+			"tag": [],
+			"ingredient": [
+				{
+					"amount": "1 1/2",
+					"name": "pounds very fresh and high quality fish filets (corvina, halibut, escolar, hamachi, mahi-mahi)"
+				},
+				{
+					"amount": "1",
+					"name": "red onion, thinly sliced"
+				},
+				{
+					"amount": "1",
+					"name": "cup freshly squeezed lime juice, from about 35- 40 key limes, or 15-20 Peruvian limes"
+				},
+				{
+					"amount": "1-2",
+					"name": "habanero peppers, cut in half, without seeds and deveined"
+				},
+				{
+					"amount": "2-3",
+					"name": "sprigs of fresh cilantro"
+				},
+				{
+					"name": "Salt to taste"
+				},
+				{
+					"name": "Finely chopped cilantro to taste"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"name": "To serve",
+					"ingredient": [
+						{
+							"name": "Lettuce leaves"
+						},
+						{
+							"name": "Cancha, tostado or chulpe corn nuts"
+						},
+						{
+							"name": "Fresh boiled corn"
+						},
+						{
+							"name": "Sweet potato: thinly fried or baked chips or boiled thick slices"
+						},
+						{
+							"name": "Chifles or fried green plantain chips"
+						},
+						{
+							"name": "Diced or sliced hot peppers - optional"
+						},
+						{
+							"name": "Olive oil - optional"
+						},
+						{
+							"name": "Lime slices"
+						}
+					]
+				}
+			],
+			"step": [
+				{
+					"description": "Cut the fish into small cubes, place in a glass bowl and cover with cold water and 1 tablespoon of salt, cover and refrigerate while you prepare the onions and juice the limes."
+				},
+				{
+					"description": "Rub the thin onion slices with 1/2 tablespoon of salt and rinse in cold water."
+				},
+				{
+					"description": "Rinse the fish to remove the salt"
+				},
+				{
+					"description": "Place the cubes of fish, half of the sliced onions, and hot peppers in a glass bowl and pour the lime juice over the ingredients. Sprinkle with a little bit of salt. To minimize the acidity of the limes you can put a few ice cubes in the mix."
+				},
+				{
+					"description": "Cover and refrigerate for about 5-15 minutes."
+				},
+				{
+					"description": "Remove the cilantro sprigs and the hot peppers from the mix. Taste the fish ceviche and add additional salt if needed."
+				},
+				{
+					"description": "Use a spoon to place the ceviche in each serving bowl, add additional sliced onions to each bowl, sprinkle with finely chopped cilantro, and diced or sliced hot peppers."
+				},
+				{
+					"description": "Serve immediately with your choice of sides and garnishes."
+				}
+			]
 		}
 	]
 }
