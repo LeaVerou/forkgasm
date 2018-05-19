@@ -1168,13 +1168,19 @@
 							"name": "coconut flour"
 						},
 						{
-							"name": "Sukrin Gold or similar"
+							"name": "Sukrin Gold or similar",
+							"amount": "3",
+							"unit": "tbsp"
 						},
 						{
-							"name": "Vanilla extract"
+							"name": "vanilla extract",
+							"amount": "3",
+							"unit": "tbsp"
 						},
 						{
-							"name": "Cinammon"
+							"name": "cinammon",
+							"amount": "1",
+							"unit": "tsp"
 						}
 					]
 				},
@@ -1182,17 +1188,19 @@
 					"name": "Cream",
 					"ingredient": [
 						{
-							"amount": "32",
+							"amount": "40",
 							"unit": "oz",
 							"name": "Mascarpone"
 						},
 						{
-							"name": "Icing erythritol"
+							"name": "Icing erythritol",
+							"amount": "4",
+							"unit": "tbsp"
 						},
 						{
-							"amount": ".5",
+							"amount": "1",
 							"name": "lemon",
-							"preparation": "jiced"
+							"preparation": "juiced"
 						}
 					]
 				},
@@ -1213,7 +1221,7 @@
 							"preparation": "juiced"
 						},
 						{
-							"name": "erythritol"
+							"name": "Sukrin Gold or similar"
 						}
 					]
 				}
