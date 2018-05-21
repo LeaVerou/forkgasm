@@ -1141,7 +1141,7 @@
 					"description": "**Cream**: With a mixer beat the mascarpone on its own for a bit, then slowly add icing erythritol to taste, then the rest of the ingredients. Blend until even, then spread over the base in the cake tray. Put it back in the fridge."
 				},
 				{
-					"description": "**Topping**: Blend half of the strawberries and cut the other half into slices. Using a small pot, heat up the blended strawberries, erythritol to taste, lemon juice and stir frequently until all heated up and mixed well, then add the sliced strawberries and stir until heated. Add the gelatin or pectin (read the instructions, each one works differently), stir well and let it cool down. Once it starts getting viscous, spread it over the cream and put it back in the fridge."
+					"description": "**Topping**: Blend half of the fruits and cut the other half into slices. Using a small pot, heat up the blended strawberries, Sukrin Gold, lemon juice and stir frequently until all heated up and mixed well. Add the gelatin slowly by sprinkling and stirring so that it doesn't clump. Then add the sliced fruits and stir. Simmer for a bit, then take it off the heat and let it cool down a bit. Once it starts getting viscous, spread it over the cream and put it back in the fridge."
 				},
 				{
 					"description": "Chill in the fridge for at least 3 hours, then enjoy!"
@@ -1210,18 +1210,22 @@
 						{
 							"amount": "1",
 							"unit": "lbs",
-							"name": "strawberries"
+							"name": "strawberries or other berries"
 						},
 						{
-							"name": "Gelatin or pectin"
+							"name": "gelatin",
+							"amount": "0.5",
+							"unit": "scoop"
 						},
 						{
-							"amount": ".5",
+							"amount": "1",
 							"name": "lemon",
 							"preparation": "juiced"
 						},
 						{
-							"name": "Sukrin Gold or similar"
+							"name": "Sukrin Gold or similar",
+							"amount": "2",
+							"unit": "tbsp"
 						}
 					]
 				}
