@@ -1350,7 +1350,10 @@
 		},
 		{
 			"id": "ceviche",
-			"tag": [],
+			"tag": [
+				"ceviche",
+				"seafood"
+			],
 			"ingredient": [
 				{
 					"amount": "1 1/2",
@@ -1435,7 +1438,10 @@
 				{
 					"description": "Serve immediately with your choice of sides and garnishes."
 				}
-			]
+			],
+			"image": "https://www.laylita.com/recipes/wp-content/uploads/2013/07/2-Peruvian-ceviche.jpg",
+			"name": "Ceviche",
+			"description": "El cebiche, ceviche, sebiche o seviche (según la Real Academia Española, puede ser escrito de estas cuatro formas, dependiendo del lugar) es un plato consistente en carne marinada ―pescado, mariscos o ambos― en aliños cítricos. Diferentes versiones del cebiche forman parte de la culinaria de diversos países latinoamericanos litorales del océano Pacífico, de donde es nativo, siendo estos Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá y Perú, en este último se lo considera como patrimonio cultural."
 		}
 	]
 }
