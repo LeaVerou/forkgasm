@@ -1248,11 +1248,6 @@
 					"preparation": "trimmed and cut into 1.5-2\" cubes"
 				},
 				{
-					"amount": "2",
-					"name": "dried guajillo chillies",
-					"preparation": "stemmed and seeded"
-				},
-				{
 					"amount": "0.5",
 					"unit": "tsp",
 					"name": "kosher salt"
@@ -1310,11 +1305,6 @@
 					"name": "soy sauce"
 				},
 				{
-					"amount": "1",
-					"unit": "tbsp",
-					"name": "ground chipotle"
-				},
-				{
 					"amount": "9",
 					"unit": "cup",
 					"name": "beef broth"
@@ -1338,6 +1328,11 @@
 				{
 					"amount": "Some",
 					"name": "Thai basil"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "ground chipotle"
 				}
 			],
 			"step": [
@@ -1358,7 +1353,19 @@
 				}
 			],
 			"forked": "[Curried Beef Stew](https://www.epicurious.com/recipes/food/views/curried-beef-stew-380591)",
-			"id": "curried-beef-stew"
+			"id": "curried-beef-stew",
+			"ingredientGroup": [
+				{
+					"name": "Curry paste",
+					"ingredient": [
+						{
+							"amount": "2",
+							"name": "dried guajillo chillies",
+							"preparation": "stemmed and seeded"
+						}
+					]
+				}
+			]
 		}
 	]
 }
