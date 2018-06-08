@@ -1248,50 +1248,10 @@
 					"preparation": "trimmed and cut into 1.5-2\" cubes"
 				},
 				{
-					"amount": "0.5",
-					"unit": "tsp",
-					"name": "kosher salt"
-				},
-				{
-					"amount": "1",
-					"name": "lemongrass stalk",
-					"preparation": "bottom 4\" only, tough outer layer removed, cut into 1\" pieces"
-				},
-				{
-					"amount": "1",
-					"name": "garlic head"
-				},
-				{
-					"amount": "1",
-					"unit": "tbsp",
-					"name": "peeled fresh ginger"
-				},
-				{
-					"amount": "2",
-					"unit": "tsp",
-					"name": "galangal powder"
-				},
-				{
-					"amount": "2",
-					"unit": "tbsp",
-					"name": "peeled fresh turmeric"
-				},
-				{
-					"amount": "0.5",
-					"unit": "cup",
-					"name": "shallots",
-					"preparation": "chopped"
-				},
-				{
 					"amount": "1",
 					"unit": "cup",
 					"name": "shallots",
 					"preparation": "halved"
-				},
-				{
-					"amount": "1",
-					"unit": "tbsp",
-					"name": "Thai shrimp paste"
 				},
 				{
 					"amount": "6",
@@ -1362,6 +1322,46 @@
 							"amount": "2",
 							"name": "dried guajillo chillies",
 							"preparation": "stemmed and seeded"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tsp",
+							"name": "kosher salt"
+						},
+						{
+							"amount": "1",
+							"name": "lemongrass stalk",
+							"preparation": "bottom 4\" only, tough outer layer removed, cut into 1\" pieces"
+						},
+						{
+							"amount": "1",
+							"name": "garlic head"
+						},
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "peeled fresh ginger"
+						},
+						{
+							"amount": "2",
+							"unit": "tsp",
+							"name": "galangal powder"
+						},
+						{
+							"amount": "2",
+							"unit": "tbsp",
+							"name": "peeled fresh turmeric"
+						},
+						{
+							"amount": "0.5",
+							"unit": "cup",
+							"name": "shallots",
+							"preparation": "chopped"
+						},
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "Thai shrimp paste"
 						}
 					]
 				}
