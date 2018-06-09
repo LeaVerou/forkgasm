@@ -29,7 +29,7 @@ initialData.then(restaurants => {
 				if (!restaurant) {
 					if (!photo.caption) {
 						// Not a restaurant and no caption? Dump.
-						return;
+						continue;
 					}
 
 					// Initialize restaurant
