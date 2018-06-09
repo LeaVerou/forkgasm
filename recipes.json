@@ -352,7 +352,7 @@
 			],
 			"notes": "- The tomato sauce keeps for a couple of days in the fridge. If eating over two days, crack only 4 eggs. Next time, reheat sauce then make 4 more depressions and crack the other 4.\n- We use Sukrin Gold erythritol, which looks and tastes like light brown sugar. If not low-carbing, demarara or other sugar can be substituted.\n- Bell peppers are bad for absorbing pesticides, so we always use organic because the skin is eaten.\n- The type of red wine is not critical, honestly. We use small (187ml) “individual” bottles of fairly cheap red wine.",
 			"forked": "[Israeli Breakfast Of Champions: Shakshuka](http://www.foodrepublic.com/recipes/israeli-breakfast-of-champions-shakshuka/)",
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/19764711_129491094310344_9006008981864316928_n.jpg?ig_cache_key=MTU1MzUzMjcwNTk4Mjg5MjcwMg%3D%3D.2&se=7"
+			"image": "http://forkgasm.com/images/shakshuka.jpg"
 		},
 		{
 			"name": "Real Caesar Salad",
@@ -443,7 +443,7 @@
 			"notes": "We don't use croutons but if you want them, go ahead!\nSauce keeps well in a fridge for a few days.\n"
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/23735404_146589679310163_1584154461851353088_n.jpg",
+			"image": "http://forkgasm.com/images/fathead-pineapple.jpg",
 			"name": "Fathead Pineapple Pizza",
 			"id": "fathead-pineapple-pizza",
 			"description": "Low carb and delicious!",
@@ -615,7 +615,7 @@
 			]
 		},
 		{
-			"image": "https://instagram.fbed1-1.fna.fbcdn.net/t51.2885-15/e35/23667828_365707817211709_824187065708052480_n.jpg",
+			"image": "http://forkgasm.com/images/mushrooms.jpg",
 			"name": "Garlic mushrooms a la crème with lardons and green pepper",
 			"id": "garlic-mushrooms-a-la-creme-with-lardons-and-green-pepper",
 			"description": "Not the most photogenic dish, but really easy, quick and delicious!",
@@ -719,7 +719,7 @@
 			"notes": "- If you can find smoked cheddar, use a mixture of 50% smoked cheddar and 50% normal cheddar (it's very strong so not 100%). \n- Don’t allow the cream to overcook or it will separate!\n- You can probably cook the pepper in with the mushrooms and ignore the coconut oil, if desired."
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e15/10950411_1396491380655064_1716161381_n.jpg",
+			"image": "http://forkgasm.com/images/chicken-liver-pate.jpg",
 			"name": "Chicken Liver Pâté",
 			"id": "chicken-liver-pate",
 			"description": "Rich and creamy, delicious on bread or even on its own",
@@ -793,7 +793,7 @@
 			"forked": "Original recipe by Lea Dam Jensen"
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/17596788_657147984472298_8902849764404494336_n.jpg",
+			"image": "http://forkgasm.com/images/htapodi-krasato.jpg",
 			"name": "Octopus in Wine",
 			"id": "octopus-in-wine",
 			"description": "A traditional Greek dish (Htapodi Krasato).",
@@ -805,12 +805,12 @@
 			"ingredient": [
 				{
 					"amount": "2",
-					"name": "whole octopus"
+					"name": "whole raw octopus"
 				},
 				{
 					"amount": "1",
 					"unit": "bottle",
-					"name": "red wine"
+					"name": "dry red cooking wine"
 				},
 				{
 					"amount": "6",
@@ -844,7 +844,7 @@
 					"description": "Put tentacles and head in a large pot with nothing else and boil over medium heat."
 				},
 				{
-					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour the wine."
+					"description": "You will notice that the octopus is releasing juices and slowly become redder. As the juices start to evaporate, slowly pour in the wine."
 				},
 				{
 					"description": "Once you've poured all wine, add cloves and bay leaves."
@@ -857,10 +857,11 @@
 				}
 			],
 			"notes": "The original version uses potatoes, but we have used turnips, okra and other vegetables with good success. Turnips also make the dish low carb. The one in the photo uses okra.\nΧταπόδι κρασάτο is the Greek name.",
-			"forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)"
+			"forked": "[Χταπόδι κρασάτο: ξεχωριστός μεζές με τρία μόνο υλικά!](https://www.cretangastronomy.gr/2013/04/%CF%87%CF%84%CE%B1%CF%80%CF%8C%CE%B4%CE%B9-%CE%BA%CF%81%CE%B1%CF%83%CE%AC%CF%84%CE%BF-%CE%BE%CE%B5%CF%87%CF%89%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82-%CE%BC%CE%B5%CE%B6%CE%AD%CF%82-%CE%BC%CE%B5-%CF%84-2/)",
+			"ingredientGroup": []
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21827214_104384856976628_7867512374029189120_n.jpg",
+			"image": "http://forkgasm.com/images/salmon-sous-vide.jpg",
 			"name": "Sous Vide Salmon Teriyaki",
 			"id": "salmon-teriyaki",
 			"description": "Tender, refreshing and very easy to make",
@@ -1131,87 +1132,107 @@
 			"tag": [
 				"Dessert"
 			],
-			"ingredient": [
-				{
-					"amount": "1.5",
-					"unit": "cup",
-					"name": "almond flour"
-				},
-				{
-					"amount": "A little",
-					"name": "coconut flour"
-				},
-				{
-					"amount": "200",
-					"unit": "g",
-					"name": "butter"
-				},
-				{
-					"name": "Sukrin Gold or similar"
-				},
-				{
-					"name": "Vanilla"
-				},
-				{
-					"name": "Cinammon"
-				},
-				{
-					"amount": "35",
-					"unit": "oz",
-					"name": "Mascarpone"
-				},
-				{
-					"name": "Icing erythritol"
-				},
-				{
-					"amount": "1",
-					"name": "lemon",
-					"preparation": "juiced"
-				},
-				{
-					"amount": "1",
-					"unit": "pound",
-					"name": "strawberries"
-				},
-				{
-					"name": "Gelatin or pectin"
-				}
-			],
+			"ingredient": [],
 			"step": [
 				{
-					"description": "**Base:** Lightly toast the almond flour and coconut flour, then add the butter and stir until it melts, then vanilla, cinnamon and Sukrin Gold to taste. Once the mixture is even, press into a 9\" springform cake tray. Let it cool down, ideally in the fridge."
+					"description": "**Base:** \n1. In a medium frying pan, melt the ghee under low heat. \n2. Add the almond and coconut flour and stir continuously. \n3. It will look very runny at first, that's normal. When it starts darkening and becoming more viscous, add the cinnamon and sweetener. \n4. When it's light brown and most of the the ghee has been absorbed, it's about done. At that point, add the vanilla extract. It will foam, that's ok. Stir until it goes down again.\n5. Press into a 9\" springform cake tray. Let it cool down in the fridge."
 				},
 				{
-					"description": "**Cream**: With a mixer beat the mascarpone on its own for a bit, then slowly add icing erythritol to taste, then the rest of the ingredients. Blend until even, then spread over the base in the cake tray. Put it back in the fridge."
+					"description": "**Cream**: With a mixer beat the mascarpone on its own for a bit, then add icing sugar substitute to taste, then the rest of the ingredients. Blend until even. If you want the cheesecake to be extra fluffy, just beat it longer. Make sure the ghee in the bottom layer has solidified, then spread over the base in the cake tray. Put it back in the fridge."
 				},
 				{
-					"description": "**Topping**: Blend half of the strawberries and cut the other half into slices. Using a small pot, heat up the blended strawberries, erythritol to taste, lemon juice and stir frequently until all heated up and mixed well, then add the sliced strawberries and stir until heated. Add the gelatin or pectin (read the instructions, each one works differently), stir well and let it cool down. Once it starts getting viscous, spread it over the cream and put it back in the fridge."
+					"description": "**Topping**: Blend half of the fruits and cut the other half into slices. Using a small pot, heat up the blended strawberries, Sukrin Gold, lemon juice and stir frequently until all heated up and mixed well. Add the gelatin slowly by sprinkling and stirring so that it doesn't clump. Then add the sliced fruits and stir. Simmer for a bit, then take it off the heat and let it cool down a bit. Once it starts getting viscous, spread it over the cream and put it back in the fridge."
 				},
 				{
 					"description": "Chill in the fridge for at least 3 hours, then enjoy!"
 				}
 			],
-			"notes": "- Not low carbing? You can substitute Sukrin Gold for brown sugar and Icing erythritol for — you guessed it — icing sugar.",
+			"notes": "- We use Sukrin Gold and Sukrin Icing for sweetening. We've tried many and think those are as close as it gets to the sugar equivalents and have no aftertaste.\n- You can use less mascarpone, the middle layer will just be less thick. Adjust the rest of the quantities accordingly in that case.",
 			"id": "cheesecake",
 			"ingredientGroup": [
 				{
 					"name": "Base",
 					"ingredient": [
-						{}
+						{
+							"amount": "1.5",
+							"unit": "cup",
+							"name": "almond flour"
+						},
+						{
+							"amount": "200",
+							"unit": "g",
+							"name": "butter or ghee"
+						},
+						{
+							"amount": "A little",
+							"name": "coconut flour"
+						},
+						{
+							"name": "brown sugar substitute",
+							"amount": "3",
+							"unit": "tbsp"
+						},
+						{
+							"name": "vanilla extract",
+							"amount": "3",
+							"unit": "tbsp"
+						},
+						{
+							"name": "cinammon",
+							"amount": "1",
+							"unit": "tsp"
+						}
 					]
 				},
 				{
 					"name": "Cream",
-					"ingredient": []
+					"ingredient": [
+						{
+							"amount": "40",
+							"unit": "oz",
+							"name": "Mascarpone"
+						},
+						{
+							"name": "icing sugar substitute",
+							"amount": "4",
+							"unit": "tbsp"
+						},
+						{
+							"amount": "1",
+							"name": "lemon",
+							"preparation": "juiced"
+						}
+					]
 				},
 				{
 					"name": "Topping",
-					"ingredient": []
+					"ingredient": [
+						{
+							"amount": "1",
+							"unit": "lbs",
+							"name": "strawberries or other berries"
+						},
+						{
+							"name": "gelatin",
+							"amount": "0.5",
+							"unit": "scoop"
+						},
+						{
+							"amount": "1",
+							"name": "lemon",
+							"preparation": "juiced"
+						},
+						{
+							"name": "Sukrin Gold or similar",
+							"amount": "2",
+							"unit": "tbsp"
+						}
+					]
 				}
 			]
 		},
 		{
-			"image": "https://instagram.fbed1-2.fna.fbcdn.net/t51.2885-15/e35/21689067_474934149549613_1462757825410236416_n.jpg",
+			"image": "http://forkgasm.com/images/curried-beef-stew.jpg",
 			"name": "Curried Beef Stew",
 			"description": "Spicy, complex, and very flavorful, this Thai-inspired curry is perfect for cold winter nights.",
 			"tag": [
@@ -1227,55 +1248,10 @@
 					"preparation": "trimmed and cut into 1.5-2\" cubes"
 				},
 				{
-					"amount": "2",
-					"name": "dried guajillo chillies",
-					"preparation": "stemmed and seeded"
-				},
-				{
-					"amount": "0.5",
-					"unit": "tsp",
-					"name": "kosher salt"
-				},
-				{
-					"amount": "1",
-					"name": "lemongrass stalk",
-					"preparation": "bottom 4\" only, tough outer layer removed, cut into 1\" pieces"
-				},
-				{
-					"amount": "1",
-					"name": "garlic head"
-				},
-				{
-					"amount": "1",
-					"unit": "tbsp",
-					"name": "peeled fresh ginger"
-				},
-				{
-					"amount": "2",
-					"unit": "tsp",
-					"name": "galangal powder"
-				},
-				{
-					"amount": "2",
-					"unit": "tbsp",
-					"name": "peeled fresh turmeric"
-				},
-				{
-					"amount": "0.5",
-					"unit": "cup",
-					"name": "shallots",
-					"preparation": "chopped"
-				},
-				{
 					"amount": "1",
 					"unit": "cup",
 					"name": "shallots",
 					"preparation": "halved"
-				},
-				{
-					"amount": "1",
-					"unit": "tbsp",
-					"name": "Thai shrimp paste"
 				},
 				{
 					"amount": "6",
@@ -1287,11 +1263,6 @@
 					"amount": "3",
 					"unit": "tbsp",
 					"name": "soy sauce"
-				},
-				{
-					"amount": "1",
-					"unit": "tbsp",
-					"name": "ground chipotle"
 				},
 				{
 					"amount": "9",
@@ -1317,6 +1288,11 @@
 				{
 					"amount": "Some",
 					"name": "Thai basil"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "ground chipotle"
 				}
 			],
 			"step": [
@@ -1337,7 +1313,59 @@
 				}
 			],
 			"forked": "[Curried Beef Stew](https://www.epicurious.com/recipes/food/views/curried-beef-stew-380591)",
-			"id": "curried-beef-stew"
+			"id": "curried-beef-stew",
+			"ingredientGroup": [
+				{
+					"name": "Curry paste",
+					"ingredient": [
+						{
+							"amount": "2",
+							"name": "dried guajillo chillies",
+							"preparation": "stemmed and seeded"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tsp",
+							"name": "kosher salt"
+						},
+						{
+							"amount": "1",
+							"name": "lemongrass stalk",
+							"preparation": "bottom 4\" only, tough outer layer removed, cut into 1\" pieces"
+						},
+						{
+							"amount": "1",
+							"name": "garlic head"
+						},
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "peeled fresh ginger"
+						},
+						{
+							"amount": "2",
+							"unit": "tsp",
+							"name": "galangal powder"
+						},
+						{
+							"amount": "2",
+							"unit": "tbsp",
+							"name": "peeled fresh turmeric"
+						},
+						{
+							"amount": "0.5",
+							"unit": "cup",
+							"name": "shallots",
+							"preparation": "chopped"
+						},
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "Thai shrimp paste"
+						}
+					]
+				}
+			]
 		}
 	]
 }
