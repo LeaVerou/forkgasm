@@ -12,14 +12,14 @@ $ig = new \InstagramAPI\Instagram($debug, $truncatedDebug);
 try {
 	$ig->login($username, $password);
 } catch (\Exception $e) {
-	echo 'Something went wrong: '.$e->text."\n";
+	echo 'Login error: ' . $e . "\n";
 	exit(0);
 }
 
 $file = fopen('export.json', 'w');
 
-$user = $ig->people->getInfoByName($exportedAccount)->user;
-$mediaCount = $user->media_count;
+$user = $ig->people->getInfoByName($exportedAccount)->getUser();
+$mediaCount = $user->getMediaCount();
 $cutoff = strtotime($cutoff);
 $places_count = 0;
 
@@ -48,7 +48,7 @@ try {
 	fwrite($file, "[" . "\n");
 
 	do {
-		$response = $ig->timeline->getUserFeed($user->pk, $maxId);
+		$response = $ig->timeline->getUserFeed($user->getPk(), $maxId);
 
 		foreach ($response->getItems() as $item) {
 			$item = json_decode(json_encode($item), true);
@@ -95,7 +95,8 @@ try {
 
 	fwrite($file, "]" . "\n");
 } catch (\Exception $e) {
-	echo 'Something went wrong: '.$e->getMessage()."\n";
+	echo 'Something went wrong: '. $e ."\n";
+	exit(0);
 }
 
 fclose($file);
