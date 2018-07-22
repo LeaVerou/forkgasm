@@ -2438,7 +2438,7 @@
 			"lat": 42.36453,
 			"lng": -71.08107,
 			"facebook_places_id": "695734907187972",
-			"city": "Cambridge, Massachusetts",
+			"city": "Cambridge, MA",
 			"pk": "438608080",
 			"image": "/images/dishes/27892678_1679564285455923_7405170513393221632_n.jpg",
 			"country": "us"
@@ -12838,7 +12838,7 @@
 					]
 				}
 			],
-			"address": "Cambridge: 765 Massachusetts Avenue, Boston MA / Lowell: 194 Middle St , Lowell MA / Salem: 281 Essex Street, Salem MA",
+			"address": "Cambridge: 765 Massachusetts Avenue, Boston MA",
 			"lat": 42.645230619073,
 			"lng": -71.312147525232,
 			"facebook_places_id": "180486401239",
