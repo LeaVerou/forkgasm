@@ -9,13 +9,14 @@
 	<label>
 		By location:
 		<meta property="countriesUsed" content="[unique(country)]">
-		<select property="countryFilter">
+		<meta property="citiesUsed" content="[unique(city where country = countryFilter)]">
+		<select property="countryFilter" style="--flag: url(/flags/[countryFilter].png)">
 			<option value="">All countries</option>
 			<option mv-multiple mv-value="countries.country where code in countriesUsed" mv-group value="[code]">[name]</option>
 		</select>
-		<select property="cityFilter" mv-if="countryFilter">
-			<option value="">All cities</option>
-			<option mv-multiple mv-value="unique(city where country = countryFilter)"></option>
+		<select property="cityFilter" mv-if="countryFilter and count(citiesUsed) > 1">
+			<option value="">All [count(citiesUsed)] cities</option>
+			<option mv-multiple mv-value="citiesUsed"></option>
 		</select>
 	</label>
 </section>
@@ -23,6 +24,7 @@
 <section>
 	<article property="restaurant" mv-multiple id="[id]" hidden="[!and(shown)]">
 		<meta property="shown" content="[!countryFilter or countryFilter = country]">
+		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">

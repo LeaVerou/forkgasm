@@ -23,6 +23,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+select {
+	font: inherit;
+	background: hsla(0,0%,100%,.6);
+}
+
 p:first-of-type {
 	margin-top: 0;
 }
@@ -149,6 +154,11 @@ h3 {
 	background: hsl(25, 100%, 90%);
 	-webkit-box-shadow: 50vw 0 hsl(25, 100%, 90%), -50vw 0 hsl(25, 100%, 90%);
 	        box-shadow: 50vw 0 hsl(25, 100%, 90%), -50vw 0 hsl(25, 100%, 90%)
+}
+
+[id="filters"] select[property="countryFilter"] {
+	background: var(--flag) no-repeat .3em 50% hsla(0,0%,100%,.6);
+	text-indent: 1em;
 }
 
 [id="filters"] input[type=search] {
