@@ -99,6 +99,12 @@ initialData.then(restaurants => {
 				let url = new URL(photo.image);
 				let filename = url.pathname.match(/[^\/]+$/);
 				let imagePath = "/images/dishes/" + filename;
+				var cwd = process.cwd();
+
+				// Touch file to create it. This is because gulp won't usually pick up created files,
+				// so the downloading should register as an edit for the thumbnails to be created.
+				fs.closeSync(fs.openSync(cwd + "/.." + imagePath, "a"));
+
 				let tempPath = "../images/dishes" + filename + ".tmp";
 				let file = fs.createWriteStream(tempPath);
 
@@ -111,8 +117,6 @@ initialData.then(restaurants => {
 					response.pipe(file);
 
 					response.on("end", () => {
-						var cwd = process.cwd();
-
 						// Move from temporary location to proper location
 						fs.rename(cwd + "/" + tempPath, cwd + "/.." + imagePath, err => {
 							if (err) {
