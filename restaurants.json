@@ -1799,7 +1799,7 @@
 			"lat": 42.36099,
 			"lng": -71.06467,
 			"facebook_places_id": "887864684563460",
-			"city": "Boston, Massachusetts",
+			"city": "Boston, MA",
 			"pk": "309875343"
 		},
 		{
@@ -9154,7 +9154,7 @@
 			"lat": 32.7483292,
 			"lng": -117.1913681,
 			"facebook_places_id": "409575819088742",
-			"city": "Old Town San Diego, CA",
+			"city": "San Diego, CA",
 			"pk": "42033237",
 			"image": "/images/dishes/14676600_1688347761477107_2679224775615709184_n.jpg",
 			"country": "us"
@@ -9831,7 +9831,7 @@
 			"city": "Toronto",
 			"pk": "101514",
 			"image": "/images/dishes/14052646_164963147289868_2278138576073916416_n.jpg",
-			"country": "us"
+			"country": "ca"
 		},
 		{
 			"id": "piccolino",
@@ -13046,7 +13046,7 @@
 			"facebook_places_id": "709719352431833",
 			"pk": "479356811",
 			"image": "/images/dishes/12826311_1164732006872784_137447180_n.jpg",
-			"city": "Somerville, CA",
+			"city": "Somerville, MA",
 			"country": "us"
 		},
 		{
