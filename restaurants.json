@@ -38,6 +38,8 @@
 			],
 			"pk": "1593295994092276",
 			"address": "2 George IV Bridge",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.1925436,
 			"lat": 55.9488265,
 			"facebook_places_id": "1593295994092276"
@@ -68,7 +70,8 @@
 			],
 			"pk": "57701034",
 			"address": "1 North West Circus Place",
-			"city": "Edinburgh, United Kingdom",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.2056368,
 			"lat": 55.9572243,
 			"facebook_places_id": "468387303189808"
@@ -148,7 +151,8 @@
 			],
 			"pk": "227845885",
 			"address": "1 Comely Bank Road, Stockbridge",
-			"city": "Edinburgh, United Kingdom",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.2144546156,
 			"lat": 55.9592961744,
 			"facebook_places_id": "130433150467615"
@@ -184,7 +188,8 @@
 			],
 			"pk": "1150403",
 			"address": "109 Hanover Street",
-			"city": "Edinburgh, United Kingdom",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"short_name": "Chez Jules",
 			"lng": -3.1976639,
 			"lat": 55.9547093,
@@ -233,7 +238,8 @@
 			],
 			"pk": "337629276572293",
 			"address": "3A St Andrew Square",
-			"city": "Edinburgh, United Kingdom",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.1926045,
 			"lat": 55.953572,
 			"facebook_places_id": "337629276572293"
@@ -262,7 +268,8 @@
 				}
 			],
 			"pk": "174098983251355",
-			"city": "EH4, Midlothian",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.2112518,
 			"lat": 55.9588535,
 			"facebook_places_id": "174098983251355"
@@ -362,7 +369,8 @@
 			],
 			"pk": "1017158293",
 			"address": "1-3 raeburn place ",
-			"city": "Edinburgh, United Kingdom",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.2101096,
 			"lat": 55.9586427,
 			"facebook_places_id": "594112954065301"
@@ -410,7 +418,8 @@
 			],
 			"pk": "249495063",
 			"address": "APELLOU 27",
-			"city": "Kos, Greece",
+			"city": "Kos",
+			"country": "gr",
 			"lng": 27.2864590019,
 			"lat": 36.8917365003,
 			"facebook_places_id": "221446401264914"
@@ -486,7 +495,8 @@
 			],
 			"pk": "20749465",
 			"address": "26 G. Averof st.  KOS // GREECE",
-			"city": "Kos, Dhodhekanisos, Greece",
+			"city": "Kos",
+			"country": "gr",
 			"lng": 27.2862839699,
 			"lat": 36.8986873755,
 			"facebook_places_id": "304434129643893"
@@ -541,7 +551,8 @@
 			],
 			"pk": "325435649",
 			"address": "Megalou Alexandrou 36",
-			"city": "Kos, Dhodhekanisos, Greece",
+			"city": "Kos",
+			"country": "gr",
 			"lng": 27.2839085668,
 			"lat": 36.8919789093,
 			"facebook_places_id": "141964702678816"
@@ -630,6 +641,7 @@
 			"pk": "269668986",
 			"address": "Kardak Cad. No 7",
 			"city": "Gümüşlük, Muğla, Turkey",
+			"country": "tr",
 			"lng": 27.2363948822,
 			"lat": 37.0595608303,
 			"facebook_places_id": "207210799337283"
@@ -662,6 +674,7 @@
 			"pk": "428369468",
 			"address": "Fenerburnu Mevki Akyarlar",
 			"city": "Turgutreis",
+			"country": "tr",
 			"lng": 27.2646988336,
 			"lat": 36.9646576411,
 			"facebook_places_id": "560142770730850"
@@ -711,7 +724,8 @@
 			],
 			"pk": "1024244531",
 			"address": "bomontiada, Tarihi Bomonti Bira Fabrikası, Birahane Sokak No:1, Bomonti Şişli",
-			"city": "Istanbul, Turkey",
+			"city": "Istanbul",
+			"country": "tr",
 			"lng": 28.98083,
 			"lat": 41.05831,
 			"facebook_places_id": "875799135821665"
