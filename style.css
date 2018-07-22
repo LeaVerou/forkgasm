@@ -143,6 +143,53 @@ h3 {
 	color: hsl(25, 100%, 50%);
 }
 
+[id="filters"] {
+	padding: 1em 0;
+	margin-top: -1em;
+	background: hsl(25, 100%, 90%);
+	-webkit-box-shadow: 50vw 0 hsl(25, 100%, 90%), -50vw 0 hsl(25, 100%, 90%);
+	        box-shadow: 50vw 0 hsl(25, 100%, 90%), -50vw 0 hsl(25, 100%, 90%)
+}
+
+[id="filters"] input[type=search] {
+	display: block;
+	width: 100%;
+	padding: .1em .5em .1em 1.4em;
+	border: none;
+	border-radius: 1em;
+	margin: 0 0 .5em -.2em;
+	background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">\
+			<text y="1em" font-size="90">🔍</text>\
+			</svg>') no-repeat .25em 50% / auto calc(100% - .3em), hsl(25, 100%, 96%);
+	background-blend-mode: luminosity, normal;
+	font-size: 200%;
+}
+
+[id="filters"] input[type=search]:focus {
+	outline: none;
+	background-color: white;
+}
+
+[id="filters"] input[type=search]::-webkit-input-placeholder {
+	color: hsl(25, 100%, 50%);
+	font-weight: 300;
+}
+
+[id="filters"] input[type=search]:-ms-input-placeholder {
+	color: hsl(25, 100%, 50%);
+	font-weight: 300;
+}
+
+[id="filters"] input[type=search]::-ms-input-placeholder {
+	color: hsl(25, 100%, 50%);
+	font-weight: 300;
+}
+
+[id="filters"] input[type=search]::placeholder {
+	color: hsl(25, 100%, 50%);
+	font-weight: 300;
+}
+
 body > main {
 	margin: 1em 2em;
 	padding: 0 calc(50% - 60em/2 - 1em)

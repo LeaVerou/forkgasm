@@ -14,7 +14,7 @@
 		<img src="/logo.svg" alt="">
 		<a href="/"><img src="/wordmark.svg" alt="forkgasm"></a>
 	</h1>
-
+	
 	<nav>
 		<a href="/index.html">Recipes</a>
 		<a href="/restaurants">Restaurants <sup>β</sup></a>
@@ -26,12 +26,27 @@
 <main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
 <div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
 
-<p>Ate a total of [count(dish)] dishes in [count(restaurant)] restaurants.</p>
+<section id="filters">
+	<input type="search" property="search" placeholder="Search [count(dish)] dishes from [count(restaurant)] restaurants in [count(countriesUsed)] countries" />
 
-<a href="#none" class="close" onclick='history.replaceState(null, "", "#");'>✖</a>
+	<label>
+		By country:
+		<meta property="countriesUsed" content="[unique(country)]">
+		<select property="countryFilter">
+			<option value="">All countries</option>
+			<option mv-multiple mv-value="countries.country where code in countriesUsed" mv-group value="[code]">[name]</option>
+		</select>
+		<!-- <select property="cityFilter" mv-if="countryFilter">
+			<option value="">All cities</option>
+			<option mv-multiple mv-value="unique(city where country = countryFilter)"></option>
+		</select> -->
+	</label>
+</section>
 
 <section>
-	<article property="restaurant" mv-multiple id="[id]">
+	<article property="restaurant" mv-multiple id="[id]" hidden="[!and(shown)]">
+		<meta property="shown" content="[!countryFilter or countryFilter = country]">
+		<meta property="shown" content="[!search or contains(restaurant, search)]">
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">
 			<a href="/restaurants/[id]">
@@ -88,3 +103,4 @@
 <script src="/forkgasm.js" async></script>
 </body>
 </html>
+

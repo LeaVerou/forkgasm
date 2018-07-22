@@ -1,5 +1,6 @@
 :root {
 	--color1: hsl(25, 100%, 50%);
+	--color1-light: hsl(25, 100%, 90%);
 	--color2: hsl(190, 67%, 42%);
 	--gray: hsl(190, 10%, 50%);
 	--light-gray: hsl(220, 10%, 95%);
@@ -144,6 +145,37 @@ body > header {
 
 h3 {
 	color: var(--color1);
+}
+
+[id="filters"] {
+	padding: 1em 0;
+	margin-top: -1em;
+	background: var(--color1-light);
+	box-shadow: 50vw 0 var(--color1-light), -50vw 0 var(--color1-light);
+
+	& input[type=search] {
+		display: block;
+		width: 100%;
+		padding: .1em .5em .1em 1.4em;
+		border: none;
+		border-radius: 1em;
+		margin: 0 0 .5em -.2em;
+		background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">\
+			<text y="1em" font-size="90">🔍</text>\
+			</svg>') no-repeat .25em 50% / auto calc(100% - .3em), hsl(25, 100%, 96%);
+		background-blend-mode: luminosity, normal;
+		font-size: 200%;
+
+		&:focus {
+			outline: none;
+			background-color: white;
+		}
+
+		&::placeholder {
+			color: var(--color1);
+			font-weight: 300;
+		}
+	}
 }
 
 body > main {
