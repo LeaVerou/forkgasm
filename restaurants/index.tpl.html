@@ -7,16 +7,16 @@
 	<input type="search" property="search" placeholder="Search [count(dish)] dishes from [count(restaurant)] restaurants in [count(countriesUsed)] countries" />
 
 	<label>
-		By country:
+		By location:
 		<meta property="countriesUsed" content="[unique(country)]">
 		<select property="countryFilter">
 			<option value="">All countries</option>
 			<option mv-multiple mv-value="countries.country where code in countriesUsed" mv-group value="[code]">[name]</option>
 		</select>
-		<!-- <select property="cityFilter" mv-if="countryFilter">
+		<select property="cityFilter" mv-if="countryFilter">
 			<option value="">All cities</option>
 			<option mv-multiple mv-value="unique(city where country = countryFilter)"></option>
-		</select> -->
+		</select>
 	</label>
 </section>
 
