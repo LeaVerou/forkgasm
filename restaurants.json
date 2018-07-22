@@ -79,7 +79,7 @@
 			"dishes": 9,
 			"visit": [
 				{
-					"date": "2018-07-21",
+					"date": "2018-07-17",
 					"dish": [
 						{
 							"image": "/images/dishes/36792579_715807482084818_4571242488949374976_n.jpg",
@@ -148,10 +148,13 @@
 			],
 			"pk": "227845885",
 			"address": "1 Comely Bank Road, Stockbridge",
-			"city": "Edinburgh, United Kingdom",
+			"city": "Edinburgh",
 			"lng": -3.2144546156,
 			"lat": 55.9592961744,
-			"facebook_places_id": "130433150467615"
+			"facebook_places_id": "130433150467615",
+			"image": "/images/dishes/36792579_715807482084818_4571242488949374976_n.jpg",
+			"url": "https://facebook.com/130433150467615",
+			"country": "scotland"
 		},
 		{
 			"id": "chez-jules-edinburgh",
