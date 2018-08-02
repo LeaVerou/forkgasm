@@ -2,7 +2,7 @@
 	"restaurant": [
 		{
 			"id": "athiri-restaurant",
-			"name": "Athiri restaurant",
+			"name": "Athiri",
 			"dishes": 10,
 			"visit": [
 				{
@@ -89,7 +89,7 @@
 		},
 		{
 			"id": "vezene",
-			"name": "Vezene Athens",
+			"name": "Vezene",
 			"dishes": 8,
 			"visit": [
 				{
@@ -8411,8 +8411,8 @@
 			"facebook_places_id": "115220028537506",
 			"pk": "2521293",
 			"image": "/images/dishes/15803562_1192498857506854_8553729147271118848_n.jpg",
-			"city": "Athens",
-			"country": "gr"
+			"city": "Nice",
+			"country": "fr"
 		},
 		{
 			"id": "flaveur",
