@@ -7,7 +7,122 @@
 			"description": "Delicious, refreshing, and super quick to make!",
 			"tag": [
 				"Lamb"
-			]
+			],
+			"ingredient": [
+				{
+					"amount": "8",
+					"name": "lamb chops"
+				},
+				{
+					"amount": "0.25",
+					"unit": "cup",
+					"name": "olive oil"
+				},
+				{
+					"amount": "4",
+					"name": "garlic cloves"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"name": "Mint-Mango Sauce",
+					"ingredient": [
+						{
+							"amount": "1",
+							"name": "medium ripe mango"
+						},
+						{
+							"amount": "1",
+							"unit": "cup",
+							"name": "fresh mint"
+						},
+						{
+							"amount": "2",
+							"name": "green onions"
+						},
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "fresh lime juice"
+						},
+						{
+							"amount": "1",
+							"name": "serrano chile",
+							"preparation": "halved and seeded"
+						},
+						{
+							"amount": "0.5",
+							"name": "ripe avocado"
+						}
+					]
+				},
+				{
+					"name": "Spice mix",
+					"ingredient": [
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "cumin",
+							"preparation": "ground"
+						},
+						{
+							"amount": "2",
+							"unit": "tsp",
+							"name": "ground coriander"
+						},
+						{
+							"amount": "2",
+							"unit": "tsp",
+							"name": "ground cinammon"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tsp",
+							"name": "turmeric"
+						},
+						{
+							"amount": "0.25",
+							"unit": "tsp",
+							"name": "cayenne pepper"
+						},
+						{
+							"amount": "0.25",
+							"unit": "tsp",
+							"name": "ground cardamom"
+						},
+						{
+							"amount": "0.125",
+							"unit": "tsp",
+							"name": "cloves",
+							"preparation": "ground"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tbsp",
+							"name": "coarse kosher salt"
+						}
+					]
+				}
+			],
+			"step": [
+				{
+					"description": "In a blender or mini food processor, blend all the sauce ingredients, and chill in the fridge."
+				},
+				{
+					"description": "Blend the olive oil and garlic and coat the lamb chops."
+				},
+				{
+					"description": "Make the spice mix, and coat the lamb chops well on both sides."
+				},
+				{
+					"description": "Grill the lamb chops on a very hot cast iron grill pan (or a BBQ if you have one!) for 2-3 minutes on each side for medium rare."
+				},
+				{
+					"description": "Done! Serve with the sauce on the side."
+				}
+			],
+			"notes": "- If you’re out of green onions, you can substitute them in the sauce with 1 shallot\n- A good way to use the spice mix is to put it in an empty spice jar and use that to sprinkle it evenly on the lamb chops.\n- This spice mix is delicious and great on so many things! We've tried it on beef, duck, even carbonara! Might be a good idea to make more than is needed for this dish and keep it around.\n- If you have sauce leftovers, it keeps well in the fridge for days in an airtight container. It may darken a bit due to the avocado but it still tastes good.",
+			"forked": "[Spiced Lamb Chops with Mint-Mango Sauce](https://www.epicurious.com/recipes/food/views/spiced-lamb-chops-with-mint-mango-sauce-109587)"
 		},
 		{
 			"name": "Papoutsakia",
