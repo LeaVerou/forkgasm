@@ -7,7 +7,68 @@
 			"description": "A healthier version of the classic dish that tastes just as good!",
 			"tag": [
 				"Bacon"
-			]
+			],
+			"ingredient": [
+				{
+					"amount": "16",
+					"unit": "oz",
+					"name": "turnip noodles"
+				},
+				{
+					"amount": "3",
+					"name": "rashers bacon"
+				},
+				{
+					"amount": "5",
+					"name": "eggs"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "parmesan",
+					"preparation": "grated"
+				},
+				{
+					"amount": "4",
+					"name": "cloves garlic",
+					"preparation": "chopped, optional"
+				},
+				{
+					"amount": "0.25",
+					"unit": "cup",
+					"name": "heavy cream"
+				},
+				{
+					"name": "Salt"
+				},
+				{
+					"name": "Pepper",
+					"preparation": "freshly ground"
+				}
+			],
+			"ingredientGroup": [],
+			"step": [
+				{
+					"description": "Cut the bacon into lardons and sauté until it's lightly cooked."
+				},
+				{
+					"description": "While the bacon is cooking, separate the yolks from 4 of the eggs. Whisk 4 yolks, 1 egg, the grated parmesan, the cream, and salt and pepper."
+				},
+				{
+					"description": "If using garlic, add it once the bacon is starting to get cooked and saute for a few more minutes until fragrant"
+				},
+				{
+					"description": "Stir in turnip noodles until they are cooked through to desired doneness"
+				},
+				{
+					"description": "Turn the heat down to very low and stir in the egg mixture. Stir well until it cooks."
+				},
+				{
+					"description": "Top with a little more ground pepper and serve!"
+				}
+			],
+			"notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer.",
+			"forked": "[Zucchini Noodle Carbonara Recipe](https://skinnyms.com/zucchini-noodle-carbonara-recipe/)"
 		},
 		{
 			"image": "http://forkgasm.com/images/40813912_2213541505597183_7740637805202109577_n.jpg",
