@@ -185,11 +185,6 @@ h3 {
 	font-weight: 300;
 }
 
-[id="filters"] input[type=search]:-ms-input-placeholder {
-	color: hsl(25, 100%, 50%);
-	font-weight: 300;
-}
-
 [id="filters"] input[type=search]::-ms-input-placeholder {
 	color: hsl(25, 100%, 50%);
 	font-weight: 300;
