@@ -1,6 +1,200 @@
 {
 	"recipe": [
 		{
+			"image": "http://forkgasm.com/images/carbonara.jpg",
+			"name": "Turnip Noodle Carbonara",
+			"id": "turnip-carbonara",
+			"description": "A healthier version of the classic dish that tastes just as good!",
+			"tag": [
+				"Bacon"
+			],
+			"ingredient": [
+				{
+					"amount": "16",
+					"unit": "oz",
+					"name": "turnip noodles"
+				},
+				{
+					"amount": "3",
+					"name": "rashers bacon"
+				},
+				{
+					"amount": "5",
+					"name": "eggs"
+				},
+				{
+					"amount": "0.5",
+					"unit": "cup",
+					"name": "parmesan",
+					"preparation": "grated"
+				},
+				{
+					"amount": "4",
+					"name": "cloves garlic",
+					"preparation": "chopped, optional"
+				},
+				{
+					"amount": "0.25",
+					"unit": "cup",
+					"name": "heavy cream"
+				},
+				{
+					"name": "Salt"
+				},
+				{
+					"name": "Pepper",
+					"preparation": "freshly ground"
+				}
+			],
+			"ingredientGroup": [],
+			"step": [
+				{
+					"description": "Cut the bacon into lardons and sauté until it's lightly cooked."
+				},
+				{
+					"description": "While the bacon is cooking, separate the yolks from 4 of the eggs. Whisk 4 yolks, 1 egg, the grated parmesan, the cream, and salt and pepper."
+				},
+				{
+					"description": "If using garlic, add it once the bacon is starting to get cooked and saute for a few more minutes until fragrant"
+				},
+				{
+					"description": "Stir in turnip noodles until they are cooked through to desired doneness"
+				},
+				{
+					"description": "Turn the heat down to very low and stir in the egg mixture. Stir well until it cooks."
+				},
+				{
+					"description": "Top with a little more ground pepper and serve!"
+				}
+			],
+			"notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer.",
+			"forked": "[Zucchini Noodle Carbonara Recipe](https://skinnyms.com/zucchini-noodle-carbonara-recipe/)"
+		},
+		{
+			"image": "http://forkgasm.com/images/40813912_2213541505597183_7740637805202109577_n.jpg",
+			"name": "Spiced lamb chops with mint-mango sauce",
+			"id": "spiced-lamb-chops-with-mint-mango-sauce",
+			"description": "Delicious, refreshing, and super quick to make!",
+			"tag": [
+				"Lamb"
+			],
+			"ingredient": [
+				{
+					"amount": "8",
+					"name": "lamb chops"
+				},
+				{
+					"amount": "0.25",
+					"unit": "cup",
+					"name": "olive oil"
+				},
+				{
+					"amount": "4",
+					"name": "garlic cloves"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"name": "Mint-Mango Sauce",
+					"ingredient": [
+						{
+							"amount": "1",
+							"name": "medium ripe mango"
+						},
+						{
+							"amount": "1",
+							"unit": "cup",
+							"name": "fresh mint"
+						},
+						{
+							"amount": "2",
+							"name": "green onions"
+						},
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "fresh lime juice"
+						},
+						{
+							"amount": "1",
+							"name": "serrano chile",
+							"preparation": "halved and seeded"
+						},
+						{
+							"amount": "0.5",
+							"name": "ripe avocado"
+						}
+					]
+				},
+				{
+					"name": "Spice mix",
+					"ingredient": [
+						{
+							"amount": "1",
+							"unit": "tbsp",
+							"name": "cumin",
+							"preparation": "ground"
+						},
+						{
+							"amount": "2",
+							"unit": "tsp",
+							"name": "ground coriander"
+						},
+						{
+							"amount": "2",
+							"unit": "tsp",
+							"name": "ground cinammon"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tsp",
+							"name": "turmeric"
+						},
+						{
+							"amount": "0.25",
+							"unit": "tsp",
+							"name": "cayenne pepper"
+						},
+						{
+							"amount": "0.25",
+							"unit": "tsp",
+							"name": "ground cardamom"
+						},
+						{
+							"amount": "0.125",
+							"unit": "tsp",
+							"name": "cloves",
+							"preparation": "ground"
+						},
+						{
+							"amount": "0.5",
+							"unit": "tbsp",
+							"name": "coarse kosher salt"
+						}
+					]
+				}
+			],
+			"step": [
+				{
+					"description": "In a blender or mini food processor, blend all the sauce ingredients, and chill in the fridge."
+				},
+				{
+					"description": "Blend the olive oil and garlic and coat the lamb chops."
+				},
+				{
+					"description": "Make the spice mix, and coat the lamb chops well on both sides."
+				},
+				{
+					"description": "Grill the lamb chops on a very hot cast iron grill pan (or a BBQ if you have one!) for 2-3 minutes on each side for medium rare."
+				},
+				{
+					"description": "Done! Serve with the sauce on the side."
+				}
+			],
+			"notes": "- If you’re out of green onions, you can substitute them in the sauce with 1 shallot\n- A good way to use the spice mix is to put it in an empty spice jar and use that to sprinkle it evenly on the lamb chops.\n- This spice mix is delicious and great on so many things! We've tried it on beef, duck, even carbonara! Might be a good idea to make more than is needed for this dish and keep it around.\n- If you have sauce leftovers, it keeps well in the fridge for days in an airtight container. It may darken a bit due to the avocado but it still tastes good.",
+			"forked": "[Spiced Lamb Chops with Mint-Mango Sauce](https://www.epicurious.com/recipes/food/views/spiced-lamb-chops-with-mint-mango-sauce-109587)"
+		},
+		{
 			"name": "Papoutsakia",
 			"id": "papoutsakia",
 			"description": "A traditional Greek dish that tastes very similar to moussaka, but is much quicker to cook. Fun fact: Papoutsakia in Greek means \"little shoes\" and a portion usually has two. However, when cooking with large American eggplants, you'll likely find that one per portion is enough.",
