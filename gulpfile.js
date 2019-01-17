@@ -47,7 +47,7 @@ function makeThumbnails(src, force) {
 	}
 	else {
 		src = ["images/*.jpg", "images/dishes/*.jpg"];
-		
+
 		var ret = gulp.src(src).pipe(filter(async file => {
 			var thumbsPath = file.path.replace(/\/[^/]+$/, "/thumbs$&");
 			var thumbExists = await exists(thumbsPath);
@@ -73,8 +73,8 @@ gulp.task("thumbnails", function() {
 });
 
 gulp.task("watch", function() {
-	gulp.watch(["**/*.src.css"], ["css"]);
-	gulp.watch(["**/*.tpl.html", "./templates/*.html"], ["html"]);
+	gulp.watch(["**/*.src.css"], gulp.series("css"));
+	gulp.watch(["**/*.tpl.html", "./templates/*.html"], gulp.series("html"));
 	gulp.watch(["images/*.jpg", "images/dishes/*.jpg"], obj => {
 		if (obj.type == "deleted") {
 			// Delete file
@@ -93,4 +93,4 @@ gulp.task("watch", function() {
 	});
 });
 
-gulp.task("default", ["css"]);
+gulp.task("default", gulp.series("css"));

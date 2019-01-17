@@ -12,7 +12,7 @@ Running `node transform.js` will import that data in `restaurants.json`.
 
 # After one or more restaurant visit(s)
 
-1. Run `php export.php 1` (adjust the number accordingly). After that, all visits are in
+1. Run `php export.php 1` (adjust the number accordingly or remove for no cutoff). After that, all visits are in. You can also use a date cutoff by editing the config file.
 2. Look in export.json to make sure the data looks ok.
 3. Make sure gulp watch is running, then run `node transform.js` to import the new data in `restaurants.json`
 4. If thumbnails are not generated, run `gulp thumbnails`

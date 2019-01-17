@@ -17,19 +17,19 @@
   },
   "homepage": "http://forkgasm.com",
   "devDependencies": {
-    "autoprefixer": "^7.2.5",
-    "gulp": "^3.9.1",
+    "autoprefixer": "^7.2.6",
+    "gulp": "^4.0.0",
     "gulp-file-include": "^1.2.0",
     "gulp-image-resize": "^0.13.0",
     "gulp-postcss": "^7.0.1",
-    "gulp-rename": "^1.2.2",
-    "postcss-custom-properties": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "postcss-custom-properties": "^6.3.1",
     "postcss-nesting": "^4.2.1",
     "postcss-selector-matches": "^3.0.1"
   },
   "dependencies": {
     "file-exists": "^5.0.1",
     "gulp-filter": "^5.1.0",
-    "stable": "^0.1.6"
+    "stable": "^0.1.8"
   }
 }
