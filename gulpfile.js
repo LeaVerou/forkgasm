@@ -88,7 +88,12 @@ gulp.task("watch", function() {
 		}
 		else {
 			// Regenerate thumbnail
-			makeThumbnails(obj.path.replace(process.cwd() + "/", ""));
+			if (obj.path === undefined) {
+				console.log("obj.path is undefined, here is obj:", obj);
+			}
+			else {
+				makeThumbnails(obj.path.replace(process.cwd() + "/", ""));
+			}
 		}
 	});
 });
