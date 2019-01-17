@@ -1,8 +1,8 @@
 {
 	"restaurant": [
 		{
-			"id": "σέμπρικο",
-			"name": "Σέμπρικο",
+			"id": "sebrico",
+			"name": "Sebrico",
 			"dishes": 6,
 			"visit": [
 				{
@@ -62,8 +62,8 @@
 			"facebook_places_id": "584403224932874"
 		},
 		{
-			"id": "όμικρον",
-			"name": "Όμικρον",
+			"id": "omikron",
+			"name": "Omikron",
 			"dishes": 5,
 			"visit": [
 				{
@@ -121,8 +121,8 @@
 			"facebook_places_id": "722274347826111"
 		},
 		{
-			"id": "nahita-restaurant",
-			"name": "Nahita Restaurant",
+			"id": "nahita",
+			"name": "Nahita",
 			"dishes": 10,
 			"visit": [
 				{
@@ -300,7 +300,7 @@
 			"facebook_places_id": "204776012931105"
 		},
 		{
-			"id": "restaurant-tetedoie",
+			"id": "tetedoie",
 			"name": "Restaurant Têtedoie",
 			"dishes": 12,
 			"visit": [
@@ -392,7 +392,7 @@
 			"facebook_places_id": "205685586595841"
 		},
 		{
-			"id": "letabli-restaurant",
+			"id": "letabli",
 			"name": "L'Établi Restaurant",
 			"dishes": 7,
 			"visit": [
@@ -621,7 +621,7 @@
 			"facebook_places_id": "364786063681808"
 		},
 		{
-			"id": "restaurant-flair-gourmandise-connivence",
+			"id": "flair",
 			"name": "Restaurant Flair Gourmandise & Connivence",
 			"dishes": 8,
 			"visit": [
@@ -692,7 +692,7 @@
 			"facebook_places_id": "332689786786918"
 		},
 		{
-			"id": "arsenic-restaurant",
+			"id": "arsenic",
 			"name": "Arsenic Restaurant",
 			"dishes": 6,
 			"visit": [
@@ -826,7 +826,7 @@
 			"facebook_places_id": "186585854701330"
 		},
 		{
-			"id": "restaurant-cuisine-dependances-lyon",
+			"id": "cuisine-dependances-lyon",
 			"name": "Restaurant Cuisine & Dépendances Lyon",
 			"dishes": 8,
 			"visit": [
@@ -956,7 +956,7 @@
 		},
 		{
 			"id": "le-comptoir-dainay",
-			"name": "le Comptoir d'AINAY",
+			"name": "Le Comptoir d'Ainay",
 			"dishes": 7,
 			"visit": [
 				{
@@ -1016,7 +1016,7 @@
 			"facebook_places_id": "134668763273846"
 		},
 		{
-			"id": "brasserie-lest---bocuse",
+			"id": "brasserie-lest-bocuse",
 			"name": "Brasserie L'EST - Bocuse",
 			"dishes": 3,
 			"visit": [
@@ -1054,7 +1054,7 @@
 		},
 		{
 			"id": "rolha-restaurante-garrafeira",
-			"name": "ROLHA Restaurante & Garrafeira",
+			"name": "Rolha Restaurante & Garrafeira",
 			"dishes": 1,
 			"visit": [
 				{
@@ -1486,7 +1486,7 @@
 			"facebook_places_id": "526545210714690"
 		},
 		{
-			"id": "restaurant-dynasty",
+			"id": "dynasty",
 			"name": "Restaurant Dynasty",
 			"dishes": 4,
 			"visit": [
