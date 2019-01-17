@@ -19,7 +19,7 @@ initialData.then(restaurants => {
 	return readJSON(input).then(data => {
 		data = data.photo || data || [];
 
-		for (var photo of data) {
+		for (let photo of data) {
 			let loc, restaurant;
 
 			if (photo.location) {
@@ -113,7 +113,7 @@ initialData.then(restaurants => {
 					process.exit();
 				});
 
-				https.get(photo.image, function(response) {
+				var request = https.get(photo.image, function(response) {
 					response.pipe(file);
 
 					response.on("end", () => {
@@ -127,6 +127,11 @@ initialData.then(restaurants => {
 							}
 						});
 					});
+				});
+
+				request.on("error", err => {
+					console.log("Error during image download:", err, photo.image);
+					process.exit();
 				});
 
 				photo.image = imagePath;
