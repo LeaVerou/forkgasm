@@ -75,7 +75,8 @@ gulp.task("thumbnails", function() {
 gulp.task("watch", function() {
 	gulp.watch(["**/*.src.css"], gulp.series("css"));
 	gulp.watch(["**/*.tpl.html", "./templates/*.html"], gulp.series("html"));
-	gulp.watch(["images/*.jpg", "images/dishes/*.jpg"], obj => {
+	var watcher = gulp.watch(["images/*.jpg", "images/dishes/*.jpg"], cb => {
+		cb();
 		if (obj.type == "deleted") {
 			// Delete file
 			var thumb = obj.path.replace("/dishes/", "/dishes/thumbs/");
@@ -95,6 +96,26 @@ gulp.task("watch", function() {
 				makeThumbnails(obj.path.replace(process.cwd() + "/", ""));
 			}
 		}
+	});
+
+	watcher.on("add", (path, stats) => {
+		console.log(`add: Making thumbnail for ${path}`);
+		makeThumbnails(path.replace(process.cwd() + "/", ""));
+	});
+
+	watcher.on("change", (path, stats) => {
+		console.log(`change: Making thumbnail for ${path}`);
+		makeThumbnails(path.replace(process.cwd() + "/", ""));
+	});
+
+	watcher.on("unlink", (path, stats) => {
+		console.log(`unlink: Deleting thumbnail for ${path}`);
+		var thumb = path.replace("/dishes/", "/dishes/thumbs/");
+		fs.unlink(thumb, err => {
+			if (err && !(err.errno == -2 && err.code == "ENOENT")) {
+				console.log("Error:", err);
+			}
+		});
 	});
 });
 
