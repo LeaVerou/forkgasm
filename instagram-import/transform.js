@@ -26,6 +26,11 @@ initialData.then(restaurants => {
 				loc = photo.location;
 				restaurant = restaurants["pk" + loc.pk];
 
+				if (Array.isArray(loc)) {
+					console.log("Some entries have no location, check data");
+					process.exit();
+				}
+
 				if (!restaurant) {
 					if (!photo.caption) {
 						// Not a restaurant and no caption? Dump.

@@ -77,25 +77,25 @@ gulp.task("watch", function() {
 	gulp.watch(["**/*.tpl.html", "./templates/*.html"], gulp.series("html"));
 	var watcher = gulp.watch(["images/*.jpg", "images/dishes/*.jpg"], cb => {
 		cb();
-		if (obj.type == "deleted") {
-			// Delete file
-			var thumb = obj.path.replace("/dishes/", "/dishes/thumbs/");
-			console.log("Deleting", thumb, "...");
-			fs.unlink(thumb, err => {
-				if (err && !(err.errno == -2 && err.code == "ENOENT")) {
-					console.log("Error:", err);
-				}
-			});
-		}
-		else {
-			// Regenerate thumbnail
-			if (obj.path === undefined) {
-				console.log("obj.path is undefined, here is obj:", obj);
-			}
-			else {
-				makeThumbnails(obj.path.replace(process.cwd() + "/", ""));
-			}
-		}
+		// if (obj.type == "deleted") {
+		// 	// Delete file
+		// 	var thumb = obj.path.replace("/dishes/", "/dishes/thumbs/");
+		// 	console.log("Deleting", thumb, "...");
+		// 	fs.unlink(thumb, err => {
+		// 		if (err && !(err.errno == -2 && err.code == "ENOENT")) {
+		// 			console.log("Error:", err);
+		// 		}
+		// 	});
+		// }
+		// else {
+		// 	// Regenerate thumbnail
+		// 	if (obj.path === undefined) {
+		// 		console.log("obj.path is undefined, here is obj:", obj);
+		// 	}
+		// 	else {
+		// 		makeThumbnails(obj.path.replace(process.cwd() + "/", ""));
+		// 	}
+		// }
 	});
 
 	watcher.on("add", (path, stats) => {
