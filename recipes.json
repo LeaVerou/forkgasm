@@ -1358,23 +1358,23 @@
 							"name": "butter or ghee"
 						},
 						{
-							"amount": "A little",
-							"name": "coconut flour"
-						},
-						{
 							"name": "brown sugar substitute",
 							"amount": "3",
 							"unit": "tbsp"
 						},
 						{
 							"name": "vanilla extract",
-							"amount": "3",
+							"amount": "4",
 							"unit": "tbsp"
 						},
 						{
 							"name": "cinammon",
 							"amount": "1",
 							"unit": "tsp"
+						},
+						{
+							"amount": "A pinch",
+							"name": "salt"
 						}
 					]
 				},
@@ -1395,6 +1395,11 @@
 							"amount": "1",
 							"name": "lemon",
 							"preparation": "juiced"
+						},
+						{
+							"amount": "2",
+							"unit": "tbsp",
+							"name": "vanilla extract"
 						}
 					]
 				},
