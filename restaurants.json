@@ -869,9 +869,9 @@
 			"facebook_places_id": "697232340471194"
 		},
 		{
-			"id": "ctc-restaurant",
-			"name": "CTC Restaurant",
-			"dishes": 13,
+			"id": "ctc",
+			"name": "CTC",
+			"dishes": 72,
 			"visit": [
 				{
 					"date": "2019-04-18",
@@ -957,14 +957,368 @@
 							"name": "Mignardises: Lemon & passion fruit macaron, raspberry macaron, violet macaron"
 						}
 					]
+				},
+				{
+					"date": "2019-01-23",
+					"dish": [
+						{
+							"image": "/images/dishes/49906964_221656925445807_8527348954711628890_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9Ox15AkTP",
+							"rating": 8.5,
+							"name": "Amuse bouche 1: Shrimp tartare with marjoram jelly"
+						},
+						{
+							"image": "/images/dishes/49380785_761582264207073_3098023052861458840_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9PUEgAvtU",
+							"rating": 7.5,
+							"name": "Amuse bouche 2: Mushroom with lemon cream and mayonnaise of smoked mussels"
+						},
+						{
+							"image": "/images/dishes/51110726_290320851686324_308646055396034721_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9PpASgkFd",
+							"rating": 8.5,
+							"name": "Bread with various kinds of seeds and extra virgin olive oil"
+						},
+						{
+							"image": "/images/dishes/50640881_237189033872014_1715539555973599613_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9QB9NAECY",
+							"rating": 9.5,
+							"name": "Amuse bouche 3: Sea urchin with carrot purée"
+						},
+						{
+							"image": "/images/dishes/50781805_868366593554699_4279964408532971672_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9QgGQg-Bl",
+							"rating": 8.5,
+							"name": "Amuse bouche 1 (alternative): Beetroot tart with wasabi and lime cream"
+						},
+						{
+							"image": "/images/dishes/50082637_1519832041482844_7773949578469476773_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9SzgSgTJ9",
+							"rating": 9,
+							"name": "Carbonara CTC: smoked egg yolk, bacon consommé, shimeji mushrooms, parmesan cheese, black truffle and parsnip noodles"
+						},
+						{
+							"image": "/images/dishes/50523487_2270384086346214_9098653053092552426_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9TVYUgFzS",
+							"rating": 9.5,
+							"name": "Sweetcorn velouté soup\nflavored with lobster, and a truffle-bergamot mousse"
+						},
+						{
+							"image": "/images/dishes/49704417_1841599572636191_3357150348753308707_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9TyH9ASVb",
+							"rating": [
+								7,
+								4
+							],
+							"name": "“Lahanodolmas”: Red cabbage stuffed with fish mousse, fermented cabbage sauce, puree of red cabbage",
+							"comment": "4/10 for Chris 7/10 for Lea"
+						},
+						{
+							"image": "/images/dishes/49907438_2032109003748863_5068741017055631294_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_S7e1gcdI",
+							"rating": 9,
+							"name": "Trout with three textures of salsify, hazelnut powder, cream of black garlic and hollandaise sauce flavored with yuzu and sanguine"
+						},
+						{
+							"image": "/images/dishes/50024451_277857496443672_825263335481193187_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_TdTbATo1",
+							"rating": 9,
+							"name": "Grilled foie gras with fresh truffle, stifado bacon sauce, and chestnut mousse"
+						},
+						{
+							"image": "/images/dishes/49906708_1999089773718468_6518490271043011064_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_UG2sAqAL",
+							"rating": 8.5,
+							"name": "Slow cooked Iberico pork with parsnip purée, confit carrots, and pickled parsnip and morchelles mushrooms"
+						},
+						{
+							"image": "/images/dishes/49342857_595177714280842_1258757067892942423_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_Um41gphD",
+							"rating": 9,
+							"name": "Lemon marshmallow with sorbet of red forest fruits and sweet red pepper of Florina"
+						},
+						{
+							"image": "/images/dishes/50082639_2206129582992834_6498862548759257477_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_VJ_mgkOO",
+							"rating": 8.5,
+							"name": "Sweet Purse of bitter chocolate, bavaroise of white chocolate with cinnamon, orange marzipan and chocolate ice cream"
+						},
+						{
+							"image": "/images/dishes/49775806_2287151754895283_6851035402645178174_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_Vk_jA8-n",
+							"name": "Mignardises and single origin espresso"
+						}
+					]
+				},
+				{
+					"date": "2019-01-18",
+					"dish": [
+						{
+							"image": "/images/dishes/49906964_221656925445807_8527348954711628890_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9Ox15AkTP",
+							"rating": 8.5,
+							"name": "Amuse bouche 1: Shrimp tartare with marjoram jelly"
+						},
+						{
+							"image": "/images/dishes/49380785_761582264207073_3098023052861458840_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9PUEgAvtU",
+							"rating": 7.5,
+							"name": "Amuse bouche 2: Mushroom with lemon cream and mayonnaise of smoked mussels"
+						},
+						{
+							"image": "/images/dishes/51110726_290320851686324_308646055396034721_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9PpASgkFd",
+							"rating": 8.5,
+							"name": "Bread with various kinds of seeds and extra virgin olive oil"
+						},
+						{
+							"image": "/images/dishes/50640881_237189033872014_1715539555973599613_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9QB9NAECY",
+							"rating": 9.5,
+							"name": "Amuse bouche 3: Sea urchin with carrot purée"
+						},
+						{
+							"image": "/images/dishes/50781805_868366593554699_4279964408532971672_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9QgGQg-Bl",
+							"rating": 8.5,
+							"name": "Amuse bouche 1 (alternative): Beetroot tart with wasabi and lime cream"
+						},
+						{
+							"image": "/images/dishes/50082637_1519832041482844_7773949578469476773_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9SzgSgTJ9",
+							"rating": 9,
+							"name": "Carbonara CTC: smoked egg yolk, bacon consommé, shimeji mushrooms, parmesan cheese, black truffle and parsnip noodles"
+						},
+						{
+							"image": "/images/dishes/50523487_2270384086346214_9098653053092552426_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9TVYUgFzS",
+							"rating": 9.5,
+							"name": "Sweetcorn velouté soup\nflavored with lobster, and a truffle-bergamot mousse"
+						},
+						{
+							"image": "/images/dishes/49704417_1841599572636191_3357150348753308707_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs9TyH9ASVb",
+							"rating": [
+								7,
+								4
+							],
+							"name": "“Lahanodolmas”: Red cabbage stuffed with fish mousse, fermented cabbage sauce, puree of red cabbage",
+							"comment": "4/10 for Chris 7/10 for Lea"
+						},
+						{
+							"image": "/images/dishes/49907438_2032109003748863_5068741017055631294_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_S7e1gcdI",
+							"rating": 9,
+							"name": "Trout with three textures of salsify, hazelnut powder, cream of black garlic and hollandaise sauce flavored with yuzu and sanguine"
+						},
+						{
+							"image": "/images/dishes/50024451_277857496443672_825263335481193187_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_TdTbATo1",
+							"rating": 9,
+							"name": "Grilled foie gras with fresh truffle, stifado bacon sauce, and chestnut mousse"
+						},
+						{
+							"image": "/images/dishes/49906708_1999089773718468_6518490271043011064_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_UG2sAqAL",
+							"rating": 8.5,
+							"name": "Slow cooked Iberico pork with parsnip purée, confit carrots, and pickled parsnip and morchelles mushrooms"
+						},
+						{
+							"image": "/images/dishes/49342857_595177714280842_1258757067892942423_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_Um41gphD",
+							"rating": 9,
+							"name": "Lemon marshmallow with sorbet of red forest fruits and sweet red pepper of Florina"
+						},
+						{
+							"image": "/images/dishes/50082639_2206129582992834_6498862548759257477_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_VJ_mgkOO",
+							"rating": 8.5,
+							"name": "Sweet Purse of bitter chocolate, bavaroise of white chocolate with cinnamon, orange marzipan and chocolate ice cream"
+						},
+						{
+							"image": "/images/dishes/49775806_2287151754895283_6851035402645178174_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bs_Vk_jA8-n",
+							"name": "Mignardises and single origin espresso"
+						}
+					]
+				},
+				{
+					"date": "2018-01-06",
+					"dish": [
+						{
+							"image": "/images/dishes/26279570_166905744070551_7678071988056752128_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdoFA2djpau",
+							"rating": 8,
+							"name": "Amuse bouche 1: Crispy bread with mayonnaise of burnt butter and pork rind"
+						},
+						{
+							"image": "/images/dishes/26067478_175270876405791_6385196603287797760_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdoWRs_DSQ4",
+							"rating": 7.5,
+							"name": "Amuse bouche 2: Popcorn flavored with truffle and maple syrup",
+							"comment": "Too sweet, and the maple was overpowering the truffle. Interesting combination nevertheless."
+						},
+						{
+							"image": "/images/dishes/26073689_145808706139505_8112252701615587328_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqsMZEDdYX",
+							"rating": 7,
+							"name": "Amuse bouche 3: “virtual walnuts“ with a shell from carob, filled with rocket and Parmesan salad"
+						},
+						{
+							"image": "/images/dishes/26304840_173136503179395_1076046370307047424_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqsovzDRVp",
+							"rating": [
+								8.5,
+								9
+							],
+							"name": "Squid ink crisps filled with anchovy and bottarga, topped with lemon cream",
+							"comment": "8.5/10 for me, 9/10 for Chris"
+						},
+						{
+							"image": "/images/dishes/26066612_600098680331857_5973476459858100224_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqtcBADAR2",
+							"rating": 8.5,
+							"name": "Trahana with smoked mussels, seaweed and sea scented foam"
+						},
+						{
+							"image": "/images/dishes/26188083_321239761616803_7372320301410942976_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdquCf-DKBH",
+							"rating": 9,
+							"name": "Shrimp ravioli with lounja, and almond paste-ginger sauce"
+						},
+						{
+							"image": "/images/dishes/25038187_139989703333391_3827400045007732736_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdquVT9jbUd",
+							"rating": 9.5,
+							"name": "Bread with poppy seeds and sour milk"
+						},
+						{
+							"image": "/images/dishes/26152276_748243728713794_5750241664882966528_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bdqu_iQjsVZ",
+							"rating": 9,
+							"name": "Sweet corn veloute flavored with lobster, truffle and bergamot espuma"
+						},
+						{
+							"image": "/images/dishes/26073867_172821050152971_9204971482130677760_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqvvpnDhv4",
+							"rating": 9,
+							"name": "Bacon Squid Tagliatelle with lard in a squid bacon consommé",
+							"comment": "The squid cracker (at the back) was completely tasteless and the squid ink mayo did not save it. However, the squid tagliatelle, the centerpiece of this course, was exquisite."
+						},
+						{
+							"image": "/images/dishes/26073883_168903700545876_7775674900815020032_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqwqgojkzK",
+							"rating": 8,
+							"name": "Fresh fish (shi drum) fricassee of buttermilk-avruga-baby lettuce and a medallion of celery"
+						},
+						{
+							"image": "/images/dishes/26072024_1022168437947335_5736894800607576064_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqxC0LDeQa",
+							"rating": 8,
+							"name": "Sautéed foie gras with stifado sauce and chestnut foam",
+							"comment": "Could have been much better if the sauce was not so overly sweet."
+						},
+						{
+							"image": "/images/dishes/25021594_394461790984575_3404527082691100672_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BdqzCZaj9OP",
+							"rating": 7,
+							"name": "Slowly roasted lamb neck with Jerusalem artichoke and rosemary"
+						},
+						{
+							"image": "/images/dishes/25037230_549342055442740_4947836495751806976_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bdqz5PPjCUd",
+							"rating": 8,
+							"name": "Cream of tangerine & white chocolate, beetroot puree, beetroot chips, and a red forest fruit & Florina red pepper ice-cream",
+							"comment": "The combination of beetroot, red fruit sorbet, and white chocolate cream was very creative. Sadly, the beetroot was not prominent enough except for the two bites that included beetroot chips."
+						}
+					]
+				},
+				{
+					"date": "2016-12-30",
+					"dish": [
+						{
+							"image": "/images/dishes/14583501_718008838349558_8152499126454452224_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOpwP_ijtU_",
+							"rating": 9.5,
+							"name": "Brioche with metsovone cheese and truffle"
+						},
+						{
+							"image": "/images/dishes/15535453_273479863066530_7432101156635017216_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOpwyRGjNS3",
+							"name": "Amouse bouche: 1. Carrot macaron with pickled carrot purée 2. Cuttlefish ink crisps with anchovy paste and lemon 3. Veal tongue"
+						},
+						{
+							"image": "/images/dishes/15801976_353589008344165_4239193563658715136_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOpw-xAjcDv",
+							"rating": 9.5,
+							"name": "Low temperature quail egg with autumn vegetables, seasonal mushrooms, and salsify, in smoked hay consommé"
+						},
+						{
+							"image": "/images/dishes/15624164_1841341189437774_5127027285869723648_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOpyYFgD1NO",
+							"rating": 8.5,
+							"name": "Trahana (Greek pasta made with sour milk) with wakame seaweed"
+						},
+						{
+							"image": "/images/dishes/14547741_1817652675170455_7544996163011739648_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOpzDTMj39f",
+							"rating": 8,
+							"name": "Scallop with sesame and pumpkin in a miso and quince glaze"
+						},
+						{
+							"image": "/images/dishes/15803190_962929180504428_6246127082661740544_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOpzw6nDlnt",
+							"rating": 9.5,
+							"name": "Corn velouté flavored with lobster and truffle"
+						},
+						{
+							"image": "/images/dishes/15624018_387572514911574_9194886718531043328_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOp1hc6DlsV",
+							"rating": 8,
+							"name": "Trout, with trumpet mushrooms, and walnuts, and a purée of beetroot, vinegar, and cocoa cream"
+						},
+						{
+							"image": "/images/dishes/15625438_340695389646032_2018312201630121984_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOp78--DZkT",
+							"rating": 8.5,
+							"name": "Cod-like fish with octopus and courgette and octopus crust"
+						},
+						{
+							"image": "/images/dishes/15623725_163424090806292_3674593135909928960_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOp8d3CD9UI",
+							"rating": 9.5,
+							"name": "Lamb with rocket sauce, walnut purée and a salad of Jerusalem artichoke, rocket and parmesan"
+						},
+						{
+							"image": "/images/dishes/14591947_131548120676233_2822880848867491840_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOp81Faj6wK",
+							"rating": 9,
+							"name": "Port glazed Ox shortribs with salsify, salsify purée, mushrooms, oxtail wrapped in salsify"
+						},
+						{
+							"image": "/images/dishes/15034710_1476640822347590_7034371667308576768_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOp_GP8jsIA",
+							"rating": 8.5,
+							"name": "White chocolate, red fruits, violet sorbet and violet meringue"
+						},
+						{
+							"image": "/images/dishes/15802513_320248831708135_5020928893440229376_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BOqBF6SDh-p",
+							"rating": 7,
+							"name": "Goodbye sweets with our menu as a QR code, and Chris at the back",
+							"comment": ":P"
+						}
+					]
 				}
 			],
-			"pk": "943573232321809",
 			"address": "Oumplianis 14 & Diocharous 27",
-			"city": "Αθήνα",
-			"lng": 23.75377,
 			"lat": 37.97301,
-			"facebook_places_id": "943573232321809"
+			"lng": 23.75377,
+			"facebook_places_id": "943573232321809",
+			"city": "Athens",
+			"pk": "943573232321809",
+			"image": "/images/dishes/26279570_166905744070551_7678071988056752128_n.jpg",
+			"country": "gr"
 		},
 		{
 			"id": "vezene",
@@ -3119,373 +3473,6 @@
 			"facebook_places_id": "242586482597777",
 			"pk": "300117366",
 			"image": "/images/dishes/25026060_141145079885177_1406405762837643264_n.jpg"
-		},
-		{
-			"id": "ctc",
-			"name": "CTC",
-			"dishes": 53,
-			"visit": [
-				{
-					"date": "2019-01-23",
-					"dish": [
-						{
-							"image": "/images/dishes/49906964_221656925445807_8527348954711628890_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9Ox15AkTP",
-							"rating": 8.5,
-							"name": "Amuse bouche 1: Shrimp tartare with marjoram jelly"
-						},
-						{
-							"image": "/images/dishes/49380785_761582264207073_3098023052861458840_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9PUEgAvtU",
-							"rating": 7.5,
-							"name": "Amuse bouche 2: Mushroom with lemon cream and mayonnaise of smoked mussels"
-						},
-						{
-							"image": "/images/dishes/51110726_290320851686324_308646055396034721_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9PpASgkFd",
-							"rating": 8.5,
-							"name": "Bread with various kinds of seeds and extra virgin olive oil"
-						},
-						{
-							"image": "/images/dishes/50640881_237189033872014_1715539555973599613_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9QB9NAECY",
-							"rating": 9.5,
-							"name": "Amuse bouche 3: Sea urchin with carrot purée"
-						},
-						{
-							"image": "/images/dishes/50781805_868366593554699_4279964408532971672_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9QgGQg-Bl",
-							"rating": 8.5,
-							"name": "Amuse bouche 1 (alternative): Beetroot tart with wasabi and lime cream"
-						},
-						{
-							"image": "/images/dishes/50082637_1519832041482844_7773949578469476773_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9SzgSgTJ9",
-							"rating": 9,
-							"name": "Carbonara CTC: smoked egg yolk, bacon consommé, shimeji mushrooms, parmesan cheese, black truffle and parsnip noodles"
-						},
-						{
-							"image": "/images/dishes/50523487_2270384086346214_9098653053092552426_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9TVYUgFzS",
-							"rating": 9.5,
-							"name": "Sweetcorn velouté soup\nflavored with lobster, and a truffle-bergamot mousse"
-						},
-						{
-							"image": "/images/dishes/49704417_1841599572636191_3357150348753308707_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9TyH9ASVb",
-							"rating": [
-								7,
-								4
-							],
-							"name": "“Lahanodolmas”: Red cabbage stuffed with fish mousse, fermented cabbage sauce, puree of red cabbage",
-							"comment": "4/10 for Chris 7/10 for Lea"
-						},
-						{
-							"image": "/images/dishes/49907438_2032109003748863_5068741017055631294_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_S7e1gcdI",
-							"rating": 9,
-							"name": "Trout with three textures of salsify, hazelnut powder, cream of black garlic and hollandaise sauce flavored with yuzu and sanguine"
-						},
-						{
-							"image": "/images/dishes/50024451_277857496443672_825263335481193187_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_TdTbATo1",
-							"rating": 9,
-							"name": "Grilled foie gras with fresh truffle, stifado bacon sauce, and chestnut mousse"
-						},
-						{
-							"image": "/images/dishes/49906708_1999089773718468_6518490271043011064_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_UG2sAqAL",
-							"rating": 8.5,
-							"name": "Slow cooked Iberico pork with parsnip purée, confit carrots, and pickled parsnip and morchelles mushrooms"
-						},
-						{
-							"image": "/images/dishes/49342857_595177714280842_1258757067892942423_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_Um41gphD",
-							"rating": 9,
-							"name": "Lemon marshmallow with sorbet of red forest fruits and sweet red pepper of Florina"
-						},
-						{
-							"image": "/images/dishes/50082639_2206129582992834_6498862548759257477_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_VJ_mgkOO",
-							"rating": 8.5,
-							"name": "Sweet Purse of bitter chocolate, bavaroise of white chocolate with cinnamon, orange marzipan and chocolate ice cream"
-						},
-						{
-							"image": "/images/dishes/49775806_2287151754895283_6851035402645178174_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_Vk_jA8-n",
-							"name": "Mignardises and single origin espresso"
-						}
-					]
-				},
-				{
-					"date": "2019-01-18",
-					"dish": [
-						{
-							"image": "/images/dishes/49906964_221656925445807_8527348954711628890_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9Ox15AkTP",
-							"rating": 8.5,
-							"name": "Amuse bouche 1: Shrimp tartare with marjoram jelly"
-						},
-						{
-							"image": "/images/dishes/49380785_761582264207073_3098023052861458840_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9PUEgAvtU",
-							"rating": 7.5,
-							"name": "Amuse bouche 2: Mushroom with lemon cream and mayonnaise of smoked mussels"
-						},
-						{
-							"image": "/images/dishes/51110726_290320851686324_308646055396034721_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9PpASgkFd",
-							"rating": 8.5,
-							"name": "Bread with various kinds of seeds and extra virgin olive oil"
-						},
-						{
-							"image": "/images/dishes/50640881_237189033872014_1715539555973599613_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9QB9NAECY",
-							"rating": 9.5,
-							"name": "Amuse bouche 3: Sea urchin with carrot purée"
-						},
-						{
-							"image": "/images/dishes/50781805_868366593554699_4279964408532971672_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9QgGQg-Bl",
-							"rating": 8.5,
-							"name": "Amuse bouche 1 (alternative): Beetroot tart with wasabi and lime cream"
-						},
-						{
-							"image": "/images/dishes/50082637_1519832041482844_7773949578469476773_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9SzgSgTJ9",
-							"rating": 9,
-							"name": "Carbonara CTC: smoked egg yolk, bacon consommé, shimeji mushrooms, parmesan cheese, black truffle and parsnip noodles"
-						},
-						{
-							"image": "/images/dishes/50523487_2270384086346214_9098653053092552426_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9TVYUgFzS",
-							"rating": 9.5,
-							"name": "Sweetcorn velouté soup\nflavored with lobster, and a truffle-bergamot mousse"
-						},
-						{
-							"image": "/images/dishes/49704417_1841599572636191_3357150348753308707_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs9TyH9ASVb",
-							"rating": [
-								7,
-								4
-							],
-							"name": "“Lahanodolmas”: Red cabbage stuffed with fish mousse, fermented cabbage sauce, puree of red cabbage",
-							"comment": "4/10 for Chris 7/10 for Lea"
-						},
-						{
-							"image": "/images/dishes/49907438_2032109003748863_5068741017055631294_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_S7e1gcdI",
-							"rating": 9,
-							"name": "Trout with three textures of salsify, hazelnut powder, cream of black garlic and hollandaise sauce flavored with yuzu and sanguine"
-						},
-						{
-							"image": "/images/dishes/50024451_277857496443672_825263335481193187_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_TdTbATo1",
-							"rating": 9,
-							"name": "Grilled foie gras with fresh truffle, stifado bacon sauce, and chestnut mousse"
-						},
-						{
-							"image": "/images/dishes/49906708_1999089773718468_6518490271043011064_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_UG2sAqAL",
-							"rating": 8.5,
-							"name": "Slow cooked Iberico pork with parsnip purée, confit carrots, and pickled parsnip and morchelles mushrooms"
-						},
-						{
-							"image": "/images/dishes/49342857_595177714280842_1258757067892942423_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_Um41gphD",
-							"rating": 9,
-							"name": "Lemon marshmallow with sorbet of red forest fruits and sweet red pepper of Florina"
-						},
-						{
-							"image": "/images/dishes/50082639_2206129582992834_6498862548759257477_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_VJ_mgkOO",
-							"rating": 8.5,
-							"name": "Sweet Purse of bitter chocolate, bavaroise of white chocolate with cinnamon, orange marzipan and chocolate ice cream"
-						},
-						{
-							"image": "/images/dishes/49775806_2287151754895283_6851035402645178174_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bs_Vk_jA8-n",
-							"name": "Mignardises and single origin espresso"
-						}
-					]
-				},
-				{
-					"date": "2018-01-06",
-					"dish": [
-						{
-							"image": "/images/dishes/26279570_166905744070551_7678071988056752128_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdoFA2djpau",
-							"rating": 8,
-							"name": "Amuse bouche 1: Crispy bread with mayonnaise of burnt butter and pork rind"
-						},
-						{
-							"image": "/images/dishes/26067478_175270876405791_6385196603287797760_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdoWRs_DSQ4",
-							"rating": 7.5,
-							"name": "Amuse bouche 2: Popcorn flavored with truffle and maple syrup",
-							"comment": "Too sweet, and the maple was overpowering the truffle. Interesting combination nevertheless."
-						},
-						{
-							"image": "/images/dishes/26073689_145808706139505_8112252701615587328_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqsMZEDdYX",
-							"rating": 7,
-							"name": "Amuse bouche 3: “virtual walnuts“ with a shell from carob, filled with rocket and Parmesan salad"
-						},
-						{
-							"image": "/images/dishes/26304840_173136503179395_1076046370307047424_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqsovzDRVp",
-							"rating": [
-								8.5,
-								9
-							],
-							"name": "Squid ink crisps filled with anchovy and bottarga, topped with lemon cream",
-							"comment": "8.5/10 for me, 9/10 for Chris"
-						},
-						{
-							"image": "/images/dishes/26066612_600098680331857_5973476459858100224_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqtcBADAR2",
-							"rating": 8.5,
-							"name": "Trahana with smoked mussels, seaweed and sea scented foam"
-						},
-						{
-							"image": "/images/dishes/26188083_321239761616803_7372320301410942976_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdquCf-DKBH",
-							"rating": 9,
-							"name": "Shrimp ravioli with lounja, and almond paste-ginger sauce"
-						},
-						{
-							"image": "/images/dishes/25038187_139989703333391_3827400045007732736_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdquVT9jbUd",
-							"rating": 9.5,
-							"name": "Bread with poppy seeds and sour milk"
-						},
-						{
-							"image": "/images/dishes/26152276_748243728713794_5750241664882966528_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bdqu_iQjsVZ",
-							"rating": 9,
-							"name": "Sweet corn veloute flavored with lobster, truffle and bergamot espuma"
-						},
-						{
-							"image": "/images/dishes/26073867_172821050152971_9204971482130677760_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqvvpnDhv4",
-							"rating": 9,
-							"name": "Bacon Squid Tagliatelle with lard in a squid bacon consommé",
-							"comment": "The squid cracker (at the back) was completely tasteless and the squid ink mayo did not save it. However, the squid tagliatelle, the centerpiece of this course, was exquisite."
-						},
-						{
-							"image": "/images/dishes/26073883_168903700545876_7775674900815020032_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqwqgojkzK",
-							"rating": 8,
-							"name": "Fresh fish (shi drum) fricassee of buttermilk-avruga-baby lettuce and a medallion of celery"
-						},
-						{
-							"image": "/images/dishes/26072024_1022168437947335_5736894800607576064_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqxC0LDeQa",
-							"rating": 8,
-							"name": "Sautéed foie gras with stifado sauce and chestnut foam",
-							"comment": "Could have been much better if the sauce was not so overly sweet."
-						},
-						{
-							"image": "/images/dishes/25021594_394461790984575_3404527082691100672_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BdqzCZaj9OP",
-							"rating": 7,
-							"name": "Slowly roasted lamb neck with Jerusalem artichoke and rosemary"
-						},
-						{
-							"image": "/images/dishes/25037230_549342055442740_4947836495751806976_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bdqz5PPjCUd",
-							"rating": 8,
-							"name": "Cream of tangerine & white chocolate, beetroot puree, beetroot chips, and a red forest fruit & Florina red pepper ice-cream",
-							"comment": "The combination of beetroot, red fruit sorbet, and white chocolate cream was very creative. Sadly, the beetroot was not prominent enough except for the two bites that included beetroot chips."
-						}
-					]
-				},
-				{
-					"date": "2016-12-30",
-					"dish": [
-						{
-							"image": "/images/dishes/14583501_718008838349558_8152499126454452224_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOpwP_ijtU_",
-							"rating": 9.5,
-							"name": "Brioche with metsovone cheese and truffle"
-						},
-						{
-							"image": "/images/dishes/15535453_273479863066530_7432101156635017216_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOpwyRGjNS3",
-							"name": "Amouse bouche: 1. Carrot macaron with pickled carrot purée 2. Cuttlefish ink crisps with anchovy paste and lemon 3. Veal tongue"
-						},
-						{
-							"image": "/images/dishes/15801976_353589008344165_4239193563658715136_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOpw-xAjcDv",
-							"rating": 9.5,
-							"name": "Low temperature quail egg with autumn vegetables, seasonal mushrooms, and salsify, in smoked hay consommé"
-						},
-						{
-							"image": "/images/dishes/15624164_1841341189437774_5127027285869723648_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOpyYFgD1NO",
-							"rating": 8.5,
-							"name": "Trahana (Greek pasta made with sour milk) with wakame seaweed"
-						},
-						{
-							"image": "/images/dishes/14547741_1817652675170455_7544996163011739648_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOpzDTMj39f",
-							"rating": 8,
-							"name": "Scallop with sesame and pumpkin in a miso and quince glaze"
-						},
-						{
-							"image": "/images/dishes/15803190_962929180504428_6246127082661740544_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOpzw6nDlnt",
-							"rating": 9.5,
-							"name": "Corn velouté flavored with lobster and truffle"
-						},
-						{
-							"image": "/images/dishes/15624018_387572514911574_9194886718531043328_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOp1hc6DlsV",
-							"rating": 8,
-							"name": "Trout, with trumpet mushrooms, and walnuts, and a purée of beetroot, vinegar, and cocoa cream"
-						},
-						{
-							"image": "/images/dishes/15625438_340695389646032_2018312201630121984_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOp78--DZkT",
-							"rating": 8.5,
-							"name": "Cod-like fish with octopus and courgette and octopus crust"
-						},
-						{
-							"image": "/images/dishes/15623725_163424090806292_3674593135909928960_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOp8d3CD9UI",
-							"rating": 9.5,
-							"name": "Lamb with rocket sauce, walnut purée and a salad of Jerusalem artichoke, rocket and parmesan"
-						},
-						{
-							"image": "/images/dishes/14591947_131548120676233_2822880848867491840_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOp81Faj6wK",
-							"rating": 9,
-							"name": "Port glazed Ox shortribs with salsify, salsify purée, mushrooms, oxtail wrapped in salsify"
-						},
-						{
-							"image": "/images/dishes/15034710_1476640822347590_7034371667308576768_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOp_GP8jsIA",
-							"rating": 8.5,
-							"name": "White chocolate, red fruits, violet sorbet and violet meringue"
-						},
-						{
-							"image": "/images/dishes/15802513_320248831708135_5020928893440229376_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BOqBF6SDh-p",
-							"rating": 7,
-							"name": "Goodbye sweets with our menu as a QR code, and Chris at the back",
-							"comment": ":P"
-						}
-					]
-				}
-			],
-			"address": "Oumplianis 14 & Diocharous 27",
-			"lat": 37.97301,
-			"lng": 23.75377,
-			"facebook_places_id": "943573232321809",
-			"city": "Athens",
-			"pk": "764845536",
-			"image": "/images/dishes/26279570_166905744070551_7678071988056752128_n.jpg",
-			"country": "gr"
 		},
 		{
 			"id": "aleria",
