@@ -679,28 +679,6 @@
 			"facebook_places_id": "100706660015365"
 		},
 		{
-			"id": "anavissos-greece",
-			"name": "Anávissos, Greece",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2019-04-28",
-					"dish": [
-						{
-							"image": "/images/dishes/57618515_2128003667312121_9032473075096069248_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/Bwy5dPpJ9Vj",
-							"name": "Easter in Greece!"
-						}
-					]
-				}
-			],
-			"pk": "247998090",
-			"short_name": "Anávissos",
-			"lng": 23.95,
-			"lat": 37.7333,
-			"facebook_places_id": "114582148558605"
-		},
-		{
 			"id": "rakor-restaurant",
 			"name": "Rakor Restaurant",
 			"dishes": 6,
