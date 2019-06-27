@@ -34,6 +34,11 @@
 					"name": "espresso"
 				},
 				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "vanilla extract"
+				},
+				{
 					"name": "Cocoa nibs for garnish",
 					"preparation": "(Optional)"
 				}
@@ -51,7 +56,7 @@
 					"description": "Beat the egg yolks with the remaining half of the icing sugar substitute."
 				},
 				{
-					"description": "Whisk the Grand Marnier and coffee into the egg yolk mixture."
+					"description": "Whisk the Grand Marnier, coffee, vanilla extract into the egg yolk mixture."
 				},
 				{
 					"description": "Whisk the egg yolk mixture into the heavy cream mixture"
