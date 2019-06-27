@@ -1,6 +1,15 @@
 {
 	"recipe": [
 		{
+			"name": "Grand Marnier & Coffee Ice Cream",
+			"id": "grand-marnier-coffee-ice-cream",
+			"description": "Easy and decadent!",
+			"tag": [
+				"Dessert",
+				"Ice Cream"
+			]
+		},
+		{
 			"image": "http://forkgasm.com/images/carbonara.jpg",
 			"name": "Turnip Noodle Carbonara",
 			"id": "turnip-carbonara",
