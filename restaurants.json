@@ -1,6 +1,77 @@
 {
 	"restaurant": [
 		{
+			"id": "gustazo-cuban-restaurant-cafe",
+			"name": "Gustazo Cuban Restaurant & Cafe",
+			"dishes": 7,
+			"visit": [
+				{
+					"date": "2019-07-03",
+					"dish": [
+						{
+							"image": "/images/dishes/64839277_739924206423220_3282001202934366599_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bzb-qbxJDqy",
+							"rating": 8.7,
+							"name": "Mani-mahi ceviche",
+							"comment": "Very good ceviche. Good balance of tanginess and sweetness."
+						},
+						{
+							"image": "/images/dishes/64976960_2376204459104230_7559371243646745434_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BzcDWy4JX8V",
+							"rating": [
+								8.5,
+								7.5
+							],
+							"name": "Maduros con Tocino: Maduros (cooking banana) wrapped in bacon, with agave, goat cheese, candied walnuts, chimichurri sauce",
+							"comment": "7.5/10 for Chris 8.5/10 for Lea"
+						},
+						{
+							"image": "/images/dishes/65188130_464911490753628_6295144283092248590_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BzcRrKoJJeY",
+							"rating": [
+								8.2,
+								7.6
+							],
+							"name": "Chicharrones: crispy pork belly, avocado purée, pineapple-orange salsa, cilantro",
+							"comment": "7.6/10 for Chris 8.2/10 for Lea"
+						},
+						{
+							"image": "/images/dishes/65031474_446547029531624_2448321218599499927_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bzhx96xJXMC",
+							"rating": 8.4,
+							"name": "Chuletas de Cordero: grilled lamb chops, hazelnut & almond romesco, mint salsa verde, arugula"
+						},
+						{
+							"image": "/images/dishes/64911936_354664005432377_819885451315207006_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/Bzm_82TJiAe",
+							"rating": 9,
+							"name": "Mariscada: Seafood stew in a coconut milk and lobster sauce with scallops, shrimp, calamari, mussels, clams"
+						},
+						{
+							"image": "/images/dishes/66053200_146288853150698_450046417976480871_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BznANQyJq_a",
+							"rating": 8,
+							"name": "Affogato"
+						},
+						{
+							"image": "/images/dishes/66767977_1475580175917410_4604071874659722918_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BznBjvGpGMZ",
+							"rating": 5,
+							"name": "Tres Leches: Three milks soaked cake, curdled dulce de leche, merengue flambé, fresh fruits",
+							"comment": "Lea: I love Tres Leches AND dulce de leche so I was really excited to try this that combines two of my favorite things, but the result was fairly disappointing. Half of it was overly sweet soft meringue, the other half very mediocre Tres Leches cake, and their sum was not greater than its parts, but quite the opposite. The fruits at the top were the tastiest of its layers, which is pretty sad. I think it might actually be the worst Tres Leches cake I’ve ever had, which sounds strong but before this, I’ve never liked one so little that I left more than half uneaten."
+						}
+					]
+				}
+			],
+			"pk": "1903906703021629",
+			"address": "2067  Massachusetts Ave",
+			"city": "Somerville, Massachusetts",
+			"country": "us",
+			"lng": -71.122846628953,
+			"lat": 42.391285468517,
+			"facebook_places_id": "1903906703021629"
+		},
+		{
 			"id": "dali-restaurant-tapas-bar",
 			"name": "Dali Restaurant & Tapas Bar",
 			"dishes": 12,
@@ -154,6 +225,7 @@
 			"pk": "1487381137989942",
 			"address": "270 Third St",
 			"city": "Cambridge, Massachusetts",
+			"country": "us",
 			"lng": -71.08203,
 			"lat": 42.36601,
 			"facebook_places_id": "1487381137989942"
@@ -251,6 +323,7 @@
 			],
 			"pk": "2583475395001770",
 			"address": "Four Seasons Hotel, One Dalton Street",
+			"country": "us",
 			"lng": -71.0845585,
 			"lat": 42.3462653,
 			"facebook_places_id": "2583475395001770"
@@ -313,6 +386,7 @@
 			],
 			"pk": "806790169",
 			"address": "257 Washington St",
+			"country": "us",
 			"lng": -71.096740023,
 			"lat": 42.379716894,
 			"facebook_places_id": "1591664484445626"
@@ -374,6 +448,7 @@
 			"pk": "6345280",
 			"address": "279A Broadway",
 			"city": "Cambridge, Massachusetts",
+			"country": "us",
 			"lng": -71.0977599,
 			"lat": 42.36829,
 			"facebook_places_id": "136688179688280"
@@ -557,6 +632,7 @@
 			],
 			"pk": "1840663652920400",
 			"address": "505  Washington St",
+			"country": "us",
 			"lng": -71.0618653545,
 			"lat": 42.354526111,
 			"facebook_places_id": "1840663652920400"
