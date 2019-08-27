@@ -7,6 +7,7 @@
 			"tag": [
 				"Dessert"
 			],
+			"image": "http://forkgasm.com/images/bread-pudding.png",
 			"ingredient": [
 				{
 					"amount": "0.5",
