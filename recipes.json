@@ -1,6 +1,14 @@
 {
 	"recipe": [
 		{
+			"name": "Tal’s tahini \"bread pudding\"",
+			"id": "tahini-bread-pudding",
+			"description": "A delicious baked dessert that takes 5 minutes to make!",
+			"tag": [
+				"Dessert"
+			]
+		},
+		{
 			"name": "Grand Marnier & Coffee Ice Cream",
 			"id": "grand-marnier-coffee-ice-cream",
 			"description": "Easy and decadent!",
