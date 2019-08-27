@@ -39,7 +39,9 @@
 					"name": "maple extract"
 				},
 				{
-					"name": "cinammon"
+					"name": "cinammon",
+					"amount": "1",
+					"unit": "tsp"
 				},
 				{
 					"name": "sesame seeds for garnish"
