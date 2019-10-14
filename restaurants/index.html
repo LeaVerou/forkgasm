@@ -50,7 +50,7 @@
 		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
 		<header>
-			<img property="image" mv-default="[first(dish.image)]">
+			<img property="image" mv-default="[first(dish.image)]" loading="lazy">
 			<a href="/restaurants/[id]">
 				<h2 property="name"></h2>
 				<p class="hide-on-read">
@@ -80,7 +80,7 @@
 			<section class="dishes">
 				<article property="dish" mv-multiple title="[name]">
 					<a href="/restaurants/[restaurant.id]/#dish-[$index + 1]-on-[date]">
-						<img src="[thumbnail(image)]">
+						<img src="[thumbnail(image)]" loading="lazy">
 						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
 						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
 						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
