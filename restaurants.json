@@ -2825,7 +2825,8 @@
 			],
 			"pk": "420685136",
 			"address": "Σίνα 50 & Αναγνωστοπούλου",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.738081159,
 			"lat": 37.981725223,
 			"facebook_places_id": "222171537856705"
@@ -2889,7 +2890,8 @@
 			],
 			"pk": "268842867",
 			"address": "Panagi Tsaldari 32-34, Melissia",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.842846645484,
 			"lat": 38.05415128,
 			"facebook_places_id": "122897674397205"
@@ -3014,7 +3016,8 @@
 			],
 			"pk": "1599951550227231",
 			"address": "Velázquez, 8",
-			"city": "Madrid, Madrid",
+			"city": "Madrid",
+			"country": "es",
 			"lng": -3.684141337,
 			"lat": 40.421894215,
 			"facebook_places_id": "1599951550227231"
@@ -3101,6 +3104,7 @@
 			],
 			"pk": "1025185902",
 			"address": "Calle de Ferraz, 2",
+			"country": "es",
 			"lng": -3.71421,
 			"lat": 40.4231399,
 			"facebook_places_id": "1671736696443286"
@@ -3178,7 +3182,8 @@
 				}
 			],
 			"pk": "969030969959611",
-			"city": "Madrid, Spain",
+			"city": "Madrid",
+			"country": "es",
 			"lng": -3.694181,
 			"lat": 40.447908,
 			"facebook_places_id": "969030969959611"
@@ -3250,6 +3255,7 @@
 			],
 			"pk": "1304691",
 			"address": "Calle de Jorge Juan, 16",
+			"country": "es",
 			"lng": -3.6858,
 			"lat": 40.42376,
 			"facebook_places_id": "164554320252982"
@@ -3279,7 +3285,8 @@
 			],
 			"pk": "1279316472164259",
 			"address": "Costanilla de los desamparados, 13",
-			"city": "Madrid, Spain",
+			"city": "Madrid",
+			"country": "es",
 			"lng": -3.69659,
 			"lat": 40.4121,
 			"facebook_places_id": "1279316472164259"
@@ -3354,7 +3361,8 @@
 			],
 			"pk": "235877096",
 			"address": "San Blas, 4.",
-			"city": "Madrid, Spain",
+			"city": "Madrid",
+			"country": "es",
 			"lng": -3.69467,
 			"lat": 40.4106499,
 			"facebook_places_id": "480127262103948"
@@ -3401,7 +3409,8 @@
 			],
 			"pk": "227705353",
 			"address": "10 Falirou Str., Makrigianni, Acropolis · Athens, Greece",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.72837,
 			"lat": 37.96671,
 			"facebook_places_id": "156707074383866"
@@ -3432,6 +3441,7 @@
 			],
 			"pk": "557358814717119",
 			"address": "Lazaraki 26 Glyfada",
+			"country": "gr",
 			"lng": 23.75239,
 			"lat": 37.8602,
 			"facebook_places_id": "557358814717119"
@@ -3578,7 +3588,8 @@
 			],
 			"pk": "8058602",
 			"address": "Lachitos 5, Kolonaki",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.752589941148,
 			"lat": 37.983065864507,
 			"facebook_places_id": "20062742545"
@@ -3671,7 +3682,8 @@
 			],
 			"pk": "1045472",
 			"address": "Leoforos Galatsiou 98",
-			"city": "Galátsion, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.750724833768,
 			"lat": 38.013522279487,
 			"facebook_places_id": "191015867592641"
@@ -3782,7 +3794,8 @@
 			],
 			"pk": "111922666005799",
 			"address": "Likavittou 16, Kolonaki ",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.73793,
 			"lat": 37.9795299,
 			"facebook_places_id": "111922666005799"
@@ -4903,6 +4916,8 @@
 			"pk": "1022484153",
 			"lng": 23.7851536274,
 			"lat": 38.0144567591,
+			"city": "Boston, MA",
+			"country": "us",
 			"facebook_places_id": "1624416387824382"
 		},
 		{
@@ -4967,9 +4982,10 @@
 			],
 			"pk": "1004698594",
 			"address": "Καραολή Δημητρίου 21, Χαλάνδρι",
-			"city": "Αθήνα",
+			"city": "Athens",
 			"lng": 23.798438689,
 			"lat": 38.020151571,
+			"country": "gr",
 			"facebook_places_id": "1441654066139032"
 		},
 		{
