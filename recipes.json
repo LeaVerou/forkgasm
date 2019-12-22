@@ -66,7 +66,7 @@
 					"description": "Done, enjoy! We actually eat it with a spoon straight from the cake tray!"
 				}
 			],
-			"notes": "- If you are not avoiding carbs, you can substitute the maple extract with maple syrup.\n- Other ingredients we've tried (not all at once!): cardamom, Grand Marnier, vanilla extract. Feel free to experiment!",
+			"notes": "- If you are not avoiding carbs, you can substitute the maple extract with maple syrup.\n- Add two bananas and a good handful of walnuts to the mix and you have banana walnut bread!\n- Other ingredients we've tried (not all at once!): cardamom, Grand Marnier, vanilla extract. Feel free to experiment!",
 			"forked": "My friend Tal's \"tahini bread\" recipe."
 		},
 		{
@@ -153,11 +153,11 @@
 					"name": "turnip noodles"
 				},
 				{
-					"amount": "3",
+					"amount": "6",
 					"name": "rashers bacon"
 				},
 				{
-					"amount": "5",
+					"amount": "6",
 					"name": "eggs"
 				},
 				{
@@ -190,7 +190,7 @@
 					"description": "Cut the bacon into lardons and sauté until it's lightly cooked."
 				},
 				{
-					"description": "While the bacon is cooking, separate the yolks from 4 of the eggs. Whisk 4 yolks, 1 egg, the grated parmesan, the cream, and salt and pepper."
+					"description": "While the bacon is cooking, separate the yolks from 4 of the eggs. Whisk the 4 yolks, 2 whole eggs, the grated parmesan, the cream, and salt and pepper."
 				},
 				{
 					"description": "If using garlic, add it once the bacon is starting to get cooked and saute for a few more minutes until fragrant"
@@ -199,13 +199,13 @@
 					"description": "Stir in turnip noodles until they are cooked through to desired doneness"
 				},
 				{
-					"description": "Turn the heat down to very low and stir in the egg mixture. Stir well until it cooks."
+					"description": "Turn the heat down to very low and stir in the egg mixture. Stir rapidly until it cooks, remove from heat."
 				},
 				{
 					"description": "Top with a little more ground pepper and serve!"
 				}
 			],
-			"notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer.",
+			"notes": "Turnip noodles are far closer to spaghetti than zucchini noodles that lose their shape. You can get them pre-spiralized from Whole Foods, or make them yourself with a spiralizer. Summer squash or butternut squash noodles are other options.\nLardons are matchstick-sized pieces of bacon. ",
 			"forked": "[Zucchini Noodle Carbonara Recipe](https://skinnyms.com/zucchini-noodle-carbonara-recipe/)"
 		},
 		{
