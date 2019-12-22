@@ -124,7 +124,8 @@
 			],
 			"pk": "103670557722147",
 			"address": "2372 Massachusetts Ave",
-			"city": "Cambridge, Massachusetts",
+			"city": "Cambridge, MA",
+			"country": "us",
 			"lng": -71.12965,
 			"lat": 42.39666,
 			"facebook_places_id": "103670557722147"
@@ -595,19 +596,83 @@
 							"name": "Chocolate and pear log with bisceglia ice cream and crème Anglaise"
 						}
 					]
+				},
+				{
+					"date": "2019-03-19",
+					"dish": [
+						{
+							"image": "/images/dishes/54513635_1136953226515928_6044788755421867028_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNL-AkHmFm",
+							"rating": 9,
+							"name": "Amuse bouche: \n1. Rice cracker, avocado cream, marinated tuna\n2. Puffy bread stuffed with Jerusalem artichoke and smoked eel"
+						},
+						{
+							"image": "/images/dishes/53086905_1096379263875372_3329485135037119523_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNMvxtnoaL",
+							"rating": 9.5,
+							"name": "Cherry tomatoes, Burrata mozzarella, basil"
+						},
+						{
+							"image": "/images/dishes/54513291_309002943115441_5639477191007864573_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNN9FbnjZw",
+							"rating": [
+								8,
+								7
+							],
+							"name": "Grouper ceviche with sauce of citrus fruits and grilled vegetables",
+							"comment": "7/10 for Chris 8/10 for Lea\nLess tangy and more sweet than a typical ceviche, not quite what we expected but not bad nevertheless."
+						},
+						{
+							"image": "/images/dishes/52912684_2248941408758033_2708851138239930666_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNO_urnXAJ",
+							"rating": 8.5,
+							"name": "Tuna with avocado cream in smoked nori"
+						},
+						{
+							"image": "/images/dishes/54446564_2163512167294502_1621558487860503728_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNQUcjHKBo",
+							"rating": 8.5,
+							"name": "Langoustine croquette with Parmesan & truffle “stones”",
+							"comment": "(Truffle “stones” not displayed, shown in next photo)"
+						},
+						{
+							"image": "/images/dishes/53186657_404234523700732_5523484209369879861_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNRmOjnhSk",
+							"name": "The Parmesan & truffle “stones” that accompanied the langoustine croquettes."
+						},
+						{
+							"image": "/images/dishes/53043902_581971552321568_8523206478744202582_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNR-wvHncF",
+							"rating": 8,
+							"name": "Smoked baby potatoes with duck, eggs, and truffle"
+						},
+						{
+							"image": "/images/dishes/54229040_357880171728276_4472208822264268088_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNSaetnrO9",
+							"rating": 8.5,
+							"name": "Valrhona profiterole with Madagascar vanilla ice cream"
+						},
+						{
+							"image": "/images/dishes/54512554_258015848408873_651010728813352727_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BvNTEz3H3Nt",
+							"rating": 7.5,
+							"name": "Baked Alaska with caramelized white chocolate ice cream and red fruit sorbet",
+							"comment": "It was a bit too sweet. Restaurant was nice enough to remove it from our bill even though we didn’t complain or anything and did eat half of it ❤️"
+						}
+					]
 				}
 			],
 			"pk": "222171537856705",
 			"address": "Σίνα 50 & Αναγνωστοπούλου",
 			"city": "Athens",
-			"country": "",
+			"country": "gr",
 			"lng": 23.738044794849,
 			"lat": 37.981658940879,
 			"facebook_places_id": "222171537856705"
 		},
 		{
 			"id": "simul",
-			"name": "SIMUL",
+			"name": "Simul",
 			"dishes": 8,
 			"visit": [
 				{
@@ -666,7 +731,8 @@
 			],
 			"pk": "1022860412",
 			"address": "Υψηλάντου 63",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.7504493,
 			"lat": 37.9779544,
 			"facebook_places_id": "1103455939672235"
@@ -688,6 +754,8 @@
 					]
 				}
 			],
+			"city": "Chiba",
+			"country": "jp",
 			"pk": "311063225650950",
 			"lng": 140.11828634663,
 			"lat": 35.609069456694,
@@ -807,7 +875,8 @@
 			],
 			"pk": "66792",
 			"address": "下京区西橋詰町798-1",
-			"city": "Kyoto, Japan",
+			"city": "Kyoto",
+			"country": "jp",
 			"lng": 135.76768798288,
 			"lat": 34.995338634789,
 			"facebook_places_id": "165939400112573"
@@ -1080,6 +1149,8 @@
 			],
 			"pk": "84905",
 			"address": "日本橋人形町2-9-12",
+			"city": "Tokyo",
+			"country": "jp",
 			"lng": 139.78357068465,
 			"lat": 35.685709041131,
 			"facebook_places_id": "117738048307509"
@@ -2907,7 +2978,8 @@
 			],
 			"pk": "1015398268",
 			"address": "10 Ksanthipou Str. & Dinokratous",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.74162,
 			"lat": 37.97789,
 			"facebook_places_id": "1208289729196512"
@@ -3200,7 +3272,8 @@
 			],
 			"pk": "242432510",
 			"address": "Vrasida 13",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.7507516146,
 			"lat": 37.9746925967,
 			"facebook_places_id": "474316969273661"
@@ -3256,6 +3329,8 @@
 			],
 			"pk": "473268076361632",
 			"address": "5 Dionysiou Areopagitou str.",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.730696566358,
 			"lat": 37.969361660535,
 			"facebook_places_id": "473268076361632"
@@ -3339,7 +3414,8 @@
 			],
 			"pk": "280133179140425",
 			"address": "Nikis 33 & Navarchou Nikodimou 3",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.73306,
 			"lat": 37.97333,
 			"facebook_places_id": "280133179140425"
@@ -3397,88 +3473,11 @@
 			],
 			"pk": "237404886",
 			"address": "Ξενοκράτους 51, ",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.74706,
 			"lat": 37.98006,
 			"facebook_places_id": "411349512286150"
-		},
-		{
-			"id": "scala-vinoteca",
-			"name": "Scala Vinoteca",
-			"dishes": 9,
-			"visit": [
-				{
-					"date": "2019-03-19",
-					"dish": [
-						{
-							"image": "/images/dishes/54513635_1136953226515928_6044788755421867028_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNL-AkHmFm",
-							"rating": 9,
-							"name": "Amuse bouche: \n1. Rice cracker, avocado cream, marinated tuna\n2. Puffy bread stuffed with Jerusalem artichoke and smoked eel"
-						},
-						{
-							"image": "/images/dishes/53086905_1096379263875372_3329485135037119523_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNMvxtnoaL",
-							"rating": 9.5,
-							"name": "Cherry tomatoes, Burrata mozzarella, basil"
-						},
-						{
-							"image": "/images/dishes/54513291_309002943115441_5639477191007864573_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNN9FbnjZw",
-							"rating": [
-								8,
-								7
-							],
-							"name": "Grouper ceviche with sauce of citrus fruits and grilled vegetables",
-							"comment": "7/10 for Chris 8/10 for Lea\nLess tangy and more sweet than a typical ceviche, not quite what we expected but not bad nevertheless."
-						},
-						{
-							"image": "/images/dishes/52912684_2248941408758033_2708851138239930666_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNO_urnXAJ",
-							"rating": 8.5,
-							"name": "Tuna with avocado cream in smoked nori"
-						},
-						{
-							"image": "/images/dishes/54446564_2163512167294502_1621558487860503728_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNQUcjHKBo",
-							"rating": 8.5,
-							"name": "Langoustine croquette with Parmesan & truffle “stones”",
-							"comment": "(Truffle “stones” not displayed, shown in next photo)"
-						},
-						{
-							"image": "/images/dishes/53186657_404234523700732_5523484209369879861_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNRmOjnhSk",
-							"name": "The Parmesan & truffle “stones” that accompanied the langoustine croquettes."
-						},
-						{
-							"image": "/images/dishes/53043902_581971552321568_8523206478744202582_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNR-wvHncF",
-							"rating": 8,
-							"name": "Smoked baby potatoes with duck, eggs, and truffle"
-						},
-						{
-							"image": "/images/dishes/54229040_357880171728276_4472208822264268088_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNSaetnrO9",
-							"rating": 8.5,
-							"name": "Valrhona profiterole with Madagascar vanilla ice cream"
-						},
-						{
-							"image": "/images/dishes/54512554_258015848408873_651010728813352727_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BvNTEz3H3Nt",
-							"rating": 7.5,
-							"name": "Baked Alaska with caramelized white chocolate ice cream and red fruit sorbet",
-							"comment": "It was a bit too sweet. Restaurant was nice enough to remove it from our bill even though we didn’t complain or anything and did eat half of it ❤️"
-						}
-					]
-				}
-			],
-			"pk": "420685136",
-			"address": "Σίνα 50 & Αναγνωστοπούλου",
-			"city": "Athens",
-			"country": "gr",
-			"lng": 23.738081159,
-			"lat": 37.981725223,
-			"facebook_places_id": "222171537856705"
 		},
 		{
 			"id": "kozis",
@@ -8526,7 +8525,8 @@
 			],
 			"pk": "280892475",
 			"address": "Kerameikou 49",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.7201328,
 			"lat": 37.9821545,
 			"facebook_places_id": "562464990505225"
