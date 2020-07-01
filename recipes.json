@@ -1,6 +1,14 @@
 {
 	"recipe": [
 		{
+			"name": "Giouvarlakia",
+			"id": "giouvarlakia",
+			"description": "A low carb version of a traditional hearty Greek dish",
+			"tag": [
+				"Greek"
+			]
+		},
+		{
 			"name": "Tal’s Tahini “bread pudding”",
 			"id": "tahini-bread-pudding",
 			"description": "A delicious baked dessert that takes 5 minutes to make!",
