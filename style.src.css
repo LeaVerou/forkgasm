@@ -389,13 +389,7 @@ ol {
 		}
 
 		& img {
-			margin-left: .5em;
-
-			&[mv-mode=edit] {
-				min-width: 2em;
-				min-height: 2em;
-				background: #ddd;
-			}
+			max-width: 100%;
 		}
 	}
 

@@ -411,13 +411,7 @@ ol {
 }
 
 	[property="step"] img {
-	margin-left: .5em;
-}
-
-	[property="step"] img[mv-mode=edit] {
-	min-width: 2em;
-	min-height: 2em;
-	background: #ddd;
+	max-width: 100%;
 }
 
 @media (min-width: 700px) {
