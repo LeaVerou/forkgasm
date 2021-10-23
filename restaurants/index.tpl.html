@@ -40,7 +40,7 @@
 		<meta property="shown" content="[!countryFilter or countryFilter = country]">
 		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
-		<meta property="shown" mv-value="!ratingFilterNumber or $fn[ratingFilterOp](rating, ratingFilterNumber)">
+		<meta property="shown" mv-value="!ratingFilterNumber or rating > 0 and $fn[ratingFilterOp](rating, ratingFilterNumber)">
 		<meta property="filtered" content="[!and(shown)]">
 
 		<header>
