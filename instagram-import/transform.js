@@ -101,7 +101,15 @@ initialData.then(restaurants => {
 				photo.date = new Date(photo.date * 1000).toISOString().match(/^[\d-]+/)[0];
 
 				// Download image from Instagram
-				let url = new URL(photo.image);
+				let url;
+				try {
+					url = new URL(photo.image);
+				}
+				catch (e) {
+					console.log("Invalid image URL: " + photo.image);
+					throw e;
+				}
+
 				let filename = url.pathname.match(/[^\/]+$/);
 				let imagePath = "/images/dishes/" + filename;
 				var cwd = process.cwd();
