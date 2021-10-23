@@ -48,7 +48,8 @@
 			"pk": "237414716",
 			"facebook_places_id": "40349269583",
 			"address": "Kyprou 50, glyfada",
-			"city": "Glyfáda, Greece",
+			"city": "Glyfáda",
+			"country": "gr",
 			"lng": 23.751287,
 			"lat": 37.864225,
 			"is_eligible_for_guides": true
@@ -99,7 +100,8 @@
 			"pk": "538431319688921",
 			"facebook_places_id": "538431319688921",
 			"address": "16-18 Rue du Château d'Eau",
-			"city": "Paris, France",
+			"city": "Paris",
+			"country": "fr",
 			"lng": 2.36065,
 			"lat": 48.86995,
 			"is_eligible_for_guides": true
@@ -232,7 +234,8 @@
 			],
 			"pk": "287666710",
 			"facebook_places_id": "165004633551985",
-			"city": "Firá, Kikladhes, Greece",
+			"city": "Firá, Kikladhes",
+			"country": "gr",
 			"lng": 25.431628189246,
 			"lat": 36.422520495304,
 			"is_eligible_for_guides": true
@@ -1104,6 +1107,7 @@
 			"lng": 23.718867224884,
 			"facebook_places_id": "459740384118510",
 			"city": "Athens",
+			"country": "gr",
 			"pk": "229851042",
 			"image": "/images/dishes/26287653_148368602619419_1619460858256031744_n.jpg",
 			"country": "gr"
@@ -1633,6 +1637,7 @@
 			"lng": 23.75377,
 			"facebook_places_id": "943573232321809",
 			"city": "Athens",
+			"country": "gr",
 			"pk": "943573232321809",
 			"image": "/images/dishes/26279570_166905744070551_7678071988056752128_n.jpg",
 			"country": "gr"
@@ -1727,7 +1732,8 @@
 			"pk": "1690617211234411",
 			"facebook_places_id": "1690617211234411",
 			"address": "Διονυσίου Αρεοπαγίτου 5",
-			"city": "Attica",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.73091,
 			"lat": 37.96955,
 			"is_eligible_for_guides": true
@@ -1800,7 +1806,8 @@
 			"pk": "2344158429146013",
 			"facebook_places_id": "2344158429146013",
 			"address": "Δορυλαίου 7",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.75566,
 			"lat": 37.98322,
 			"is_eligible_for_guides": true
@@ -1873,7 +1880,8 @@
 			],
 			"pk": "278012565",
 			"facebook_places_id": "198265800893",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.739536264287,
 			"lat": 38.021169507143,
 			"is_eligible_for_guides": true
@@ -1951,7 +1959,8 @@
 			"pk": "487033131",
 			"facebook_places_id": "766057460098456",
 			"address": " ZIRINI 2",
-			"city": "Κηφισιά",
+			"city": "Kifissia",
+			"country": "gr",
 			"lng": 23.811427762596,
 			"lat": 38.067796088796,
 			"is_eligible_for_guides": true
@@ -2010,7 +2019,8 @@
 			"pk": "768875579965350",
 			"facebook_places_id": "768875579965350",
 			"address": "Κύπρου 19 & Ναπολέοντος Ζέρβα 24",
-			"city": "Γλυφάδα",
+			"city": "Glyfada",
+			"country": "gr",
 			"lng": 23.748750686646,
 			"lat": 37.866248544005,
 			"is_eligible_for_guides": true
@@ -2053,7 +2063,8 @@
 			"pk": "966044853514927",
 			"facebook_places_id": "966044853514927",
 			"address": "Νεάπολη (Neapoli)",
-			"city": "Μυτιλήνη",
+			"city": "Mytilene",
+			"country": "gr",
 			"lng": 26.589349508286,
 			"lat": 39.072328223945,
 			"is_eligible_for_guides": true
@@ -2122,7 +2133,8 @@
 			"pk": "570086533",
 			"facebook_places_id": "344740218960111",
 			"address": "super paradise",
-			"city": "Míkonos",
+			"city": "Mykonos",
+			"country": "gr",
 			"lng": 25.36818603982,
 			"lat": 37.414242519501,
 			"is_eligible_for_guides": true
@@ -2251,7 +2263,8 @@
 			],
 			"pk": "1668436586597449",
 			"facebook_places_id": "1668436586597449",
-			"city": "Mýkonos, Kikladhes, Greece",
+			"city": "Mykonos",
+			"country": "gr",
 			"lng": 25.328772132736,
 			"lat": 37.447377154833,
 			"is_eligible_for_guides": true
@@ -2295,7 +2308,8 @@
 			],
 			"pk": "258128540",
 			"facebook_places_id": "525296124210010",
-			"city": "Mýkonos, Kikladhes, Greece",
+			"city": "Mykonos",
+			"country": "gr",
 			"lng": 25.327644745585,
 			"lat": 37.445995229922,
 			"is_eligible_for_guides": true
@@ -2334,7 +2348,8 @@
 			"pk": "1020925001",
 			"facebook_places_id": "769627536516401",
 			"address": "Dimarchou Metaxa Angelou 36",
-			"city": "Glyfádas, Attiki, Greece",
+			"city": "Glyfada",
+			"country": "gr",
 			"lng": 23.7541502,
 			"lat": 37.8598288,
 			"is_eligible_for_guides": true
