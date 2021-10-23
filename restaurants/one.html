@@ -28,8 +28,8 @@
 <a href="#none" class="close button" onclick='requestAnimationFrame(() => history.replaceState(null, "", "#"));'>✖</a>
 
 <meta property="selectedRestaurant" content="[url('restaurants')]">
-<section>
-	<article property="restaurant" mv-multiple mv-multiple-path="id=[if(selectedRestaurant)]">
+<section mv-list mv-path="id=[if(selectedRestaurant)]">
+	<article property="restaurant" mv-list-item>
 		<header>
 			<img property="image" mv-default="[first(dish.image)]">
 			<a property="url" mv-default="[facebook]">
@@ -50,33 +50,35 @@
 			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes" mv-storage="inherit">[count(dish)]</span> dishes</p>
 		</header>
 
-		<article property="visit" mv-multiple>
-			<header>
-				<h3>
-					<time datetime="2016-03-15" property="date">15 Mar 2016</time>
-					<div property="comment"></div>
-				</h3>
-				<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.averageRating)]</span>
-			</header>
-
-			<section class="dishes">
-				<article property="dish" mv-multiple title="[name]" id="[id]">
-					<a href="#[id]">
-						<img property="image" mv-uploads="images/dishes" loading="lazy">
-						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
-						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
-						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
-					</a>
-					<div class="content">
-						<h4 property="name"></h4>
+		<div class="mv-container" mv-list>
+			<article property="visit" mv-list-item>
+				<header>
+					<h3>
+						<time datetime="2016-03-15" property="date">15 Mar 2016</time>
 						<div property="comment"></div>
-						<meta property="id" content="dish-[$index + 1]-on-[date]" />
-						<a href="#[$previous.id]" class="previous button" mv-if="$previous">Previous</a>
-						<a href="#[$next.id]" class="next button" mv-if="$next">Next</a>
-					</div>
-				</article>
-			</section>
-		</article>
+					</h3>
+					<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.averageRating)]</span>
+				</header>
+
+				<section class="dishes" mv-list>
+					<article property="dish" mv-list-item title="[name]" id="[id]">
+						<a href="#[id]">
+							<img property="image" mv-uploads="images/dishes" loading="lazy">
+							<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
+							<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
+							<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
+						</a>
+						<div class="content">
+							<h4 property="name"></h4>
+							<div property="comment"></div>
+							<meta property="id" content="dish-[$index + 1]-on-[date]" />
+							<a href="#[$previous.id]" class="previous button" mv-if="$previous">Previous</a>
+							<a href="#[$next.id]" class="next button" mv-if="$next">Next</a>
+						</div>
+					</article>
+				</section>
+			</article>
+		</div>
 	</article>
 
 	<a href="?login" class="mv-login mv-logged-out">Login to edit</a>
@@ -86,7 +88,9 @@
 <div hidden mv-app="countries" mv-source="/countries.json" mv-mode="read">
 	<select id="countries">
 		<option value=""></option>
-		<option value="[code]" property="country" mv-multiple typeof>[name]</option>
+		<optgroup mv-list label="Countries">
+			<option value="[code]" property="country" mv-list-item mv-group>[name]</option>
+		</optgroup>
 	</select>
 </div>
 

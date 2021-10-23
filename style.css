@@ -330,7 +330,7 @@ ol {
 	   object-fit: scale-down;
 }
 
-.recipe-card [property=tag] {
+.recipe-card span[property=tag] {
 	padding: .3em .5em;
 	border-radius: .3em;
 	margin: 0 .2em;
@@ -382,7 +382,7 @@ ol {
 	        flex: 1;
 }
 
-	[property="step"] {
+	[property="step"][mv-list-item] {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -391,7 +391,7 @@ ol {
 		counter-increment: step
 	}
 
-	[property="step"]::before {
+	[property="step"][mv-list-item]::before {
 	content: counter(step);
 	position: absolute;
 	right: 100%;
@@ -400,17 +400,17 @@ ol {
 	font: bold 100% Helvetica Neue, sans-serif;
 }
 
-	[property="step"] > div {
+	[property="step"][mv-list-item] > div {
 	-webkit-box-flex: 1;
 	    -ms-flex: 1;
 	        flex: 1;
 }
 
-	[property="step"] p {
+	[property="step"][mv-list-item] p {
 	margin: 0;
 }
 
-	[property="step"] img {
+	[property="step"][mv-list-item] img {
 	max-width: 100%;
 }
 
@@ -429,8 +429,8 @@ ol {
 		        justify-content: space-between;
 	}
 
-	.index [mv-app="recipes"] > article,
-			.index [mv-app="recipes"] > .mv-add-recipe {
+	.index [mv-app="recipes"] article[property="recipe"],
+			.index [mv-app="recipes"] .mv-add-recipe {
 		width: calc(50% - .5em);
 	}
 
@@ -457,28 +457,28 @@ ol {
 	color: hsl(190, 67%, 42%);
 }
 
-[property="restaurant"] {
+[property="restaurant"][mv-list-item] {
 	position: relative;
 	border: 1px solid rgba(0,0,0,.2);
 	margin: 1em 0
 }
 
-[property="restaurant"] > header {
+[property="restaurant"][mv-list-item] > header {
 	padding: 1em;
 	background: hsl(220, 10%, 95%);
 }
 
-[property="restaurant"] > header > * {
+[property="restaurant"][mv-list-item] > header > * {
 	margin: 0;
 }
 
-[property="restaurant"] > header h2 {
+[property="restaurant"][mv-list-item] > header h2 {
 	font: bold 300%/1 Helvetica Neue, sans-serif;
 	letter-spacing: -.05em;
 	color: hsl(25, 100%, 50%);
 }
 
-[property="restaurant"] > header [property=rating] {
+[property="restaurant"][mv-list-item] > header [property=rating] {
 	position: absolute;
 	top: .5em;
 	right: .5em;
@@ -487,7 +487,7 @@ ol {
 	line-height: 2;
 }
 
-[property="restaurant"] > header img {
+[property="restaurant"][mv-list-item] > header img {
 	width: 8em;
 	height: 8em;
 	-o-object-fit: cover;
@@ -500,25 +500,25 @@ ol {
 
 @media (min-width: 650px) {
 
-	[property="restaurant"] > header {
+	[property="restaurant"][mv-list-item] > header {
 		padding-right: 4em;
 		padding-left: 10em;
 	}
 
-	[property="restaurant"] > header img {
+	[property="restaurant"][mv-list-item] > header img {
 		position: absolute;
 		top: 1em;
 		left: 1em;
 	}
 }
 
-[property="restaurant"] > header .stats {
+[property="restaurant"][mv-list-item] > header .stats {
 	margin: 0;
 	font-style: italic;
 	opacity: .6;
 }
 
-[property="restaurant"] .location::before {
+[property="restaurant"][mv-list-item] .location::before {
 	content: var(--flag);
 }
 

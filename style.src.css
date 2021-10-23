@@ -312,7 +312,7 @@ ol {
 		}
 	}
 
-	& [property=tag] {
+	& span[property=tag] {
 		padding: .3em .5em;
 		border-radius: .3em;
 		margin: 0 .2em;
@@ -365,7 +365,7 @@ ol {
 	flex: 1;
 }
 
-	[property="step"] {
+	[property="step"][mv-list-item] {
 		display: flex;
 		position: relative;
 		margin-bottom: .5em;
@@ -400,8 +400,8 @@ ol {
 			flex-flow: row wrap;
 			justify-content: space-between;
 
-			& > article,
-			& > .mv-add-recipe {
+			& article[property="recipe"],
+			& .mv-add-recipe {
 				width: calc(50% - .5em);
 			}
 
@@ -430,7 +430,7 @@ ol {
 	color: var(--color2);
 }
 
-[property="restaurant"] {
+[property="restaurant"][mv-list-item] {
 	position: relative;
 	border: 1px solid rgba(0,0,0,.2);
 	margin: 1em 0;

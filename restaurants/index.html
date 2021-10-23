@@ -35,17 +35,21 @@
 		<meta property="citiesUsed" content="[unique(city where country = countryFilter)]">
 		<select property="countryFilter" style="--flag: url(/flags/[countryFilter].png)">
 			<option value="">All countries</option>
-			<option mv-multiple mv-value="countries.country where code in countriesUsed" mv-group value="[code]">[name]</option>
+			<optgroup mv-list label="Countries" mv-value="countries.country where code in countriesUsed">
+				<option mv-list-item mv-group value="[code]">[name]</option>
+			</optgroup>
 		</select>
 		<select property="cityFilter" mv-if="countryFilter and count(citiesUsed) > 1">
 			<option value="">All [count(citiesUsed)] cities</option>
-			<option mv-multiple mv-value="citiesUsed"></option>
+			<optgroup mv-value="citiesUsed" label="Cities">
+				<option mv-list-item></option>
+			</optgroup>
 		</select>
 	</label>
 </section>
 
-<section>
-	<article property="restaurant" mv-multiple id="[id]" hidden="[!and(shown)]">
+<section mv-list>
+	<article property="restaurant" mv-list-item id="[id]" hidden="[!and(shown)]">
 		<meta property="shown" content="[!countryFilter or countryFilter = country]">
 		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
@@ -62,32 +66,34 @@
 
 			<p class="location" style="--flag: url(/flags/[country].png)">
 				<span property="city"></span>[if(city and country, ',')]
-				<span property="country" mv-edit="#countries"></span>
+				<span property="country" mv-editor="#countries"></span>
 			</p>
 
 			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes" mv-storage="inherit">[count(dish)]</span> dishes</p>
 		</header>
 
-		<article property="visit" mv-multiple>
-			<header>
-				<h3>
-					<time datetime="2016-03-15" property="date">15 Mar 2016</time>
-					<div property="comment"></div>
-				</h3>
-				<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.averageRating)]</span>
-			</header>
+		<div class="mv-container" mv-list="">
+			<article property="visit" mv-list-item>
+				<header>
+					<h3>
+						<time datetime="2016-03-15" property="date">15 Mar 2016</time>
+						<div property="comment"></div>
+					</h3>
+					<span property="rating" data-class="[floor(rating)]" mv-if="count(restaurant.visit) > 1">[average(dish.averageRating)]</span>
+				</header>
 
-			<section class="dishes">
-				<article property="dish" mv-multiple title="[name]">
-					<a href="/restaurants/[restaurant.id]/#dish-[$index + 1]-on-[date]">
-						<img src="[thumbnail(image)]" loading="lazy">
-						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
-						<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5">0</span>
-						<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
-					</a>
-				</article>
-			</section>
-		</article>
+				<section class="dishes" mv-list>
+					<article property="dish" mv-list-item title="[name]">
+						<a href="/restaurants/[restaurant.id]/#dish-[$index + 1]-on-[date]">
+							<img src="[thumbnail(image)]" loading="lazy">
+							<span property="rating" data-class="[floor(rating)]" mv-editor-type="number" mv-editor-min="1" mv-editor-max="10" mv-editor-step=".5">0</span>
+							<span property="rating" data-class="[floor(rating)]" mv-editor-type="number" mv-editor-min="1" mv-editor-max="10" mv-editor-step=".5">0</span>
+							<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
+						</a>
+					</article>
+				</section>
+			</article>
+		</div>
 	</article>
 
 	<a href="?login" class="mv-login mv-logged-out">Login to edit</a>
@@ -98,7 +104,9 @@
 <div hidden mv-app="countries" mv-source="/countries.json" mv-mode="read">
 	<select id="countries">
 		<option value=""></option>
-		<option value="[code]" property="country" mv-multiple typeof>[name]</option>
+		<optgroup mv-list label="Countries">
+			<option value="[code]" property="country" mv-list-item mv-group>[name]</option>
+		</optgroup>
 	</select>
 </div>
 

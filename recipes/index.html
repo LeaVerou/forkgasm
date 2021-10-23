@@ -31,63 +31,67 @@
 	<div class="mv-bar mv-ui mv-fixed"></div>
 	<meta property="selectedRecipe" mv-value="url('recipes')" />
 
-	<article property="recipe" mv-multiple style="--image: url([image])" mv-multiple-path="id=[if(selectedRecipe)]">
-		<header class="recipe-card">
-			<a href="[image]" target="_blank"><img property="image"></a>
-			<h2 property="name"></h2>
-			<p class="hide-on-read">
-				http://forkgasm.com/recipes/<span property="id" mv-default="[idify(name)]"></span>
-			</p>
-			<p property="description"></p>
-			<p class="tags">
-				<span property="tag" mv-multiple></span>
-			</p>
-		</header>
+	<div class="mv-container" mv-list mv-path="id=[if(selectedRecipe)]">
+		<article property="recipe" mv-list-item style="--image: url([image])">
+			<header class="recipe-card">
+				<a href="[image]" target="_blank"><img property="image"></a>
+				<h2 property="name"></h2>
+				<p class="hide-on-read">
+					http://forkgasm.com/recipes/<span property="id" mv-default="[idify(name)]"></span>
+				</p>
+				<p property="description"></p>
+				<p class="tags" mv-list>
+					<span property="tag" mv-list-item></span>
+				</p>
+			</header>
 
-		<div class="content">
-			<section class="ingredients">
-				<h3>Ingredients</h3>
-				<ol>
-					<li property="ingredient" mv-multiple mv-accepts="ingredient">
-						<input type="checkbox">
-						<span property="amount">1</span>
-						<span property="unit" mv-editor-list="units"></span>
-						<span property="name"></span>
-						<span property="preparation" mv-editor-list="#preparations"></span>
-					</li>
-					<li property="ingredientGroup" mv-multiple mv-initial-items="0">
-						<h4 property="name"></h4>
-						<ol>
-							<li property="ingredient" mv-multiple mv-accepts="ingredient">
-								<input type="checkbox">
-								<span property="amount">1</span>
-								<span property="unit" mv-editor-list="units"></span>
-								<span property="name"></span>
-								<span property="preparation" mv-editor-list="#preparations"></span>
-							</li>
-						</ol>
-					</li>
-				</ol>
-			</section>
+			<div class="content">
+				<section class="ingredients">
+					<h3>Ingredients</h3>
+					<ol mv-list>
+						<li property="ingredient" mv-list-item mv-accepts="ingredient">
+							<input type="checkbox">
+							<span property="amount">1</span>
+							<span property="unit" mv-editor-list="units"></span>
+							<span property="name"></span>
+							<span property="preparation" mv-editor-list="#preparations"></span>
+						</li>
+					</ol>
+					<ol mv-list>
+						<li property="ingredientGroup" mv-list-item mv-initial-items="0">
+							<h4 property="name"></h4>
+							<ol mv-list>
+								<li property="ingredient" mv-list-item mv-accepts="ingredient">
+									<input type="checkbox">
+									<span property="amount">1</span>
+									<span property="unit" mv-editor-list="units"></span>
+									<span property="name"></span>
+									<span property="preparation" mv-editor-list="#preparations"></span>
+								</li>
+							</ol>
+						</li>
+					</ol>
+				</section>
 
-			<section class="directions">
-				<h3>Directions</h3>
-				<ol>
-					<li property="step" mv-multiple>
-						<div property="description" class="markdown"></div>
-					</li>
-				</ol>
-			</section>
-		</div>
+				<section class="directions">
+					<h3>Directions</h3>
+					<ol mv-list>
+						<li property="step" mv-list-item>
+							<div property="description" class="markdown"></div>
+						</li>
+					</ol>
+				</section>
+			</div>
 
-		<h3 class="[if(!notes, 'hide-on-read')]">Notes</h3>
-		<div property="notes" class="markdown"></div>
+			<h3 class="[if(!notes, 'hide-on-read')]">Notes</h3>
+			<div property="notes" class="markdown"></div>
 
-		<footer class="[if(!forked, 'hide-on-read')]">
-			<span>Forked from</span>
-			<div property="forked" class="markdown"></div>
-		</footer>
-	</article>
+			<footer class="[if(!forked, 'hide-on-read')]">
+				<span>Forked from</span>
+				<div property="forked" class="markdown"></div>
+			</footer>
+		</article>
+	</div>
 
 	<a href="?login" class="mv-login mv-logged-out">Login to edit</a>
 
