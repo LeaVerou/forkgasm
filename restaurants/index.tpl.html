@@ -23,13 +23,26 @@
 			</optgroup>
 		</select>
 	</label>
+	<label>
+		Rating is
+		<select property="ratingFilterOp">
+			<option value="gte">&GreaterEqual;</option>
+			<option value="lte">&leq;</option>
+		</select>
+		<input type="number" min="0" max="10" step=".1" property="ratingFilterNumber">
+	</label>
 </section>
 
+<p>Showing [count(dish where !dish.restaurant.filtered)] dishes from [count(!filtered)] restaurants</p>
+
 <section mv-list>
-	<article property="restaurant" mv-list-item id="[id]" hidden="[!and(shown)]">
+	<article property="restaurant" mv-list-item id="[id]" hidden="[filtered]">
 		<meta property="shown" content="[!countryFilter or countryFilter = country]">
 		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
+		<meta property="shown" mv-value="!ratingFilterNumber or $fn[ratingFilterOp](rating, ratingFilterNumber)">
+		<meta property="filtered" content="[!and(shown)]">
+
 		<header>
 			<img property="image" mv-default="[first(dish.image)]" loading="lazy">
 			<a href="/restaurants/[id]">

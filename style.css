@@ -23,7 +23,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-select {
+select, input:where([type="text"], [type="number"]) {
+	border: 1px solid hsla(0 0% 0% / .1);
 	font: inherit;
 	background: hsla(0,0%,100%,.6);
 }
