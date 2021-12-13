@@ -1,7 +1,7 @@
 {
 	"restaurant": [
 		{
-			"id": "delta-restaurant",
+			"id": "delta",
 			"name": "Delta Restaurant",
 			"dishes": 17,
 			"visit": [
@@ -146,7 +146,7 @@
 			"is_eligible_for_guides": true
 		},
 		{
-			"id": "okio-restaurant",
+			"id": "okio",
 			"name": "Okio Restaurant",
 			"dishes": 6,
 			"visit": [
