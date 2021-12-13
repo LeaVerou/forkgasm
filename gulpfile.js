@@ -41,31 +41,36 @@ gulp.task("html", function() {
 });
 
 function makeThumbnails(src, force) {
-	if (src) {
-		console.log("Making thumbnails for ", src, "...");
-		var ret = gulp.src(src);
-	}
-	else {
-		src = ["images/*.jpg", "images/dishes/*.jpg"];
+	try {
+		if (src) {
+			console.log("Making thumbnails for ", src, "...");
+			var ret = gulp.src(src);
+		}
+		else {
+			src = ["images/*.jpg", "images/dishes/*.jpg"];
 
-		var ret = gulp.src(src).pipe(filter(async file => {
-			var thumbsPath = file.path.replace(/\/[^/]+$/, "/thumbs$&");
-			var thumbExists = await exists(thumbsPath);
-			return !thumbExists;
-		}));
-	}
+			var ret = gulp.src(src).pipe(filter(async file => {
+				var thumbsPath = file.path.replace(/\/[^/]+$/, "/thumbs$&");
+				var thumbExists = await exists(thumbsPath);
+				return !thumbExists;
+			}));
+		}
 
-	return ret.pipe(resize({
-			width: 140,
-			height: 140,
-			crop: true,
-			upscale: false,
-			cover: true,
-			noProfile: true,
-			sharpen: true,
-			filter: "Catrom"
-		}))
-		.pipe(gulp.dest(file => path.join(path.dirname(file.path), "thumbs")));
+		return ret.pipe(resize({
+				width: 140,
+				height: 140,
+				crop: true,
+				upscale: false,
+				cover: true,
+				noProfile: true,
+				sharpen: true,
+				filter: "Catrom"
+			}))
+			.pipe(gulp.dest(file => path.join(path.dirname(file.path), "thumbs")));
+	}
+	catch (e) {
+		console.error(e);
+	}
 }
 
 gulp.task("thumbnails", function() {
