@@ -141,6 +141,8 @@
 			"pk": "463555084381536",
 			"facebook_places_id": "463555084381536",
 			"address": "Λ. Συγγρού 364",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.691459520109,
 			"lat": 37.939185733475,
 			"is_eligible_for_guides": true
@@ -202,7 +204,8 @@
 			"pk": "110745497926352",
 			"facebook_places_id": "110745497926352",
 			"address": "Nikis 33 & Navarchou Nikodimou 3 Athens, Greece",
-			"city": "Αθήνα, Ελλάδα",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.732013702393,
 			"lat": 37.973274571994,
 			"is_eligible_for_guides": true
@@ -252,7 +255,8 @@
 			"pk": "251696208540402",
 			"facebook_places_id": "251696208540402",
 			"address": "Dekeleon 3, Gazi ",
-			"city": "Athens, Greece",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.71032,
 			"lat": 37.97858,
 			"is_eligible_for_guides": true
@@ -283,6 +287,8 @@
 			"pk": "2240153072902494",
 			"facebook_places_id": "2240153072902494",
 			"address": "Via duomo 343",
+			"city": "Napoli",
+			"country": "it",
 			"lng": 14.26264,
 			"lat": 40.84603,
 			"is_eligible_for_guides": true
