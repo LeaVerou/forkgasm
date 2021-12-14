@@ -33,7 +33,7 @@
 	</label>
 </section>
 
-<p>Showing [count(dish where !dish.restaurant.filtered)] dishes from [count(!filtered)] restaurants</p>
+<p class="result-count" mv-if="count(filtered) > 0">Showing [count(dish where !dish.restaurant.filtered)] dishes from [count(!filtered)] restaurants</p>
 
 <section mv-list>
 	<article property="restaurant" mv-list-item id="[id]" hidden="[filtered]">

@@ -787,3 +787,9 @@ ol {
 [property=rating][data-class="0"] {
 	display: none;
 }
+
+p.result-count {
+	margin: 1em 0;
+	font-style: italic;
+	text-align: right;
+}

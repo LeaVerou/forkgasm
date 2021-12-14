@@ -726,3 +726,9 @@ ol {
 		display: none;
 	}
 }
+
+p.result-count {
+	margin: 1em 0;
+	font-style: italic;
+	text-align: right;
+}
