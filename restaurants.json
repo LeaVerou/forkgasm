@@ -9897,6 +9897,7 @@
 			"pk": "217499",
 			"address": "6640 Washington St",
 			"city": "Yountville, CA",
+			"country": "us",
 			"lng": -122.36476,
 			"lat": 38.40442,
 			"facebook_places_id": "271853836189555"
@@ -9949,6 +9950,7 @@
 			"pk": "215351807",
 			"address": "610 Main St",
 			"city": "Napa, CA",
+			"country": "us",
 			"lng": -122.2831692818,
 			"lat": 38.2970363706,
 			"facebook_places_id": "151073131599164"
@@ -10004,6 +10006,7 @@
 			"pk": "47472055",
 			"address": "1300 Robson Street",
 			"city": "Vancouver, British Columbia",
+			"country": "ca",
 			"lng": -123.12925,
 			"lat": 49.28707,
 			"facebook_places_id": "267224826713604"
@@ -10052,6 +10055,8 @@
 			"pk": "149429792383803",
 			"lng": 23.7295424,
 			"lat": 37.9756893,
+			"city": "Athens",
+			"country": "gr",
 			"facebook_places_id": "149429792383803"
 		},
 		{
@@ -10117,6 +10122,8 @@
 			],
 			"pk": "427775810895332",
 			"address": "P. Ioakeim 38, Kolonaki",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.7443256275,
 			"lat": 37.9780287563,
 			"facebook_places_id": "427775810895332"
@@ -10219,6 +10226,8 @@
 			],
 			"pk": "263265706",
 			"address": "2ο χλμ Πολυγύρου-Βραστάμων",
+			"city": "Halkidiki",
+			"country": "gr",
 			"lng": 23.6292006304,
 			"lat": 40.2275381796,
 			"facebook_places_id": "230310493661196"
@@ -10278,6 +10287,8 @@
 				}
 			],
 			"pk": "1717450281613536",
+			"city": "Halkidiki",
+			"country": "gr",
 			"lng": 23.311885985,
 			"lat": 40.0966706866,
 			"facebook_places_id": "1717450281613536"
@@ -10320,7 +10331,8 @@
 			],
 			"pk": "1829621580436543",
 			"address": "Παραλία Βατερών,Βατερά",
-			"city": "Lesvos, Greece",
+			"city": "Vatera, Lesbos",
+			"country": "gr",
 			"lng": 26.1979293823,
 			"lat": 39.0192337039,
 			"facebook_places_id": "1829621580436543"
@@ -10391,9 +10403,9 @@
 			"lng": 26.556281326055,
 			"facebook_places_id": "1391808837737740",
 			"city": "Mytilene, Lesbos",
+			"country": "gr",
 			"pk": "237986770",
-			"image": "/images/dishes/12479308_123472304696572_1518884357_n.jpg",
-			"country": "gr"
+			"image": "/images/dishes/12479308_123472304696572_1518884357_n.jpg"
 		},
 		{
 			"id": "elia-restaurant-samos-island",
@@ -10444,6 +10456,8 @@
 			],
 			"pk": "244623299612583",
 			"address": "Παραλία Πυθαγορείου",
+			"city": "Samos",
+			"country": "gr",
 			"lng": 26.9448280334,
 			"lat": 37.6905277238,
 			"facebook_places_id": "244623299612583"
@@ -10497,7 +10511,8 @@
 			],
 			"pk": "325626714189099",
 			"address": "Πλάτανος",
-			"city": "Plátanos, Samos, Greece",
+			"city": "Plátanos, Samos",
+			"country": "gr",
 			"lng": 26.7455506325,
 			"lat": 37.7383279418,
 			"facebook_places_id": "325626714189099"
@@ -10539,24 +10554,7 @@
 							"instagram_url": "https://www.instagram.com/p/BmWdG5pl6Cu",
 							"rating": 8.5,
 							"name": "Yoghurt mousse with halva, pistachios, and sour cherry preserve"
-						}
-					]
-				}
-			],
-			"pk": "353747945148250",
-			"address": "Kalami",
-			"lng": 26.9684207,
-			"lat": 37.7655881,
-			"facebook_places_id": "353747945148250"
-		},
-		{
-			"id": "elea-restaurant",
-			"name": "Elea Restaurant",
-			"dishes": 1,
-			"visit": [
-				{
-					"date": "2018-08-11",
-					"dish": [
+						},
 						{
 							"image": "/images/dishes/37991732_493956931029137_6772055496028323840_n.jpg",
 							"instagram_url": "https://www.instagram.com/p/BmWMEt6l6Bf",
@@ -10566,15 +10564,16 @@
 					]
 				}
 			],
-			"pk": "55672229989",
-			"address": "Ino Village Hotel - Samion Agoniston 69",
-			"city": "Sámos, Greece",
-			"lng": 26.9683027267,
-			"lat": 37.7655921557,
-			"facebook_places_id": "55672229989"
+			"pk": "353747945148250",
+			"address": "Kalami",
+			"city": "Samos",
+			"country": "gr",
+			"lng": 26.9684207,
+			"lat": 37.7655881,
+			"facebook_places_id": "353747945148250"
 		},
 		{
-			"id": "σεϋχέλλες",
+			"id": "seychelles",
 			"name": "Σεϋχέλλες",
 			"dishes": 4,
 			"visit": [
@@ -10617,7 +10616,7 @@
 			"facebook_places_id": "562464990505225"
 		},
 		{
-			"id": "τζίτζικας-και-μέρμηγκας-,-χαλάνδρι",
+			"id": "tzitzikas-kai-mermigkas-chalandri",
 			"name": "Τζίτζικας Και Μέρμηγκας , Χαλάνδρι",
 			"dishes": 5,
 			"visit": [
@@ -10663,7 +10662,8 @@
 				}
 			],
 			"pk": "500169160359140",
-			"short_name": "Τζίτζικας Και Μέρμηγκας ",
+			"city": "Chalandri",
+			"country": "gr",
 			"lng": 23.8047878838,
 			"lat": 38.0203246771,
 			"facebook_places_id": "500169160359140"
