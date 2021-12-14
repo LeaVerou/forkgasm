@@ -460,7 +460,7 @@ ol {
 			line-height: 2;
 		}
 
-		& img {
+		& .avatar {
 			width: 8em;
 			height: 8em;
 			object-fit: cover;
@@ -473,7 +473,7 @@ ol {
 			padding-right: 4em;
 			padding-left: 10em;
 
-			& img {
+			& .avatar {
 				position: absolute;
 				top: 1em;
 				left: 1em;
@@ -490,6 +490,14 @@ ol {
 	& .location {
 		&::before {
 			content: var(--flag);
+		}
+	}
+
+	& .awards {
+		display: inline-block;
+
+		& img {
+			height: 1.1ex;
 		}
 	}
 }

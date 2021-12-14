@@ -1,6 +1,6 @@
 @@include("_head.html")
 
-<main mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-plugins="sort" mv-bar="with export">
+<main mv-app="restaurants" mv-source="/restaurants.json" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-plugins="sort" mv-bar="with export">
 <div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
 <a href="#none" class="close button" onclick='requestAnimationFrame(() => history.replaceState(null, "", "#"));'>✖</a>
 
@@ -8,20 +8,31 @@
 <section mv-list mv-path="id=[if(selectedRestaurant)]">
 	<article property="restaurant" mv-list-item>
 		<header>
-			<img property="image" mv-default="[first(dish.image)]">
-			<a property="url" mv-default="[facebook]">
-				<h2 property="name"></h2>
-				<p class="hide-on-read">
-					http://forkgasm.com/restaurant/<span property="id" mv-default="[idify(name)]"></span>
-				</p>
-				<meta property="facebook" content="https://facebook.com/[facebook_places_id]" />
-			</a>
+			<img property="image" class="avatar" mv-default="[first(dish.image)]">
+
+			<h2>
+				<a property="url" mv-default="[facebook]">
+					<span property="name"></span>
+				</a>
+
+				<div class="awards" mv-list mv-initial-items="0">
+					<a href="[getAwardURL(award, restaurant)]" target="_blank" property class="award" mv-list-item mv-attribute="data-award">
+						<img src="/icons/[award].svg" alt="" title="[readable(award)]">
+					</a>
+				</div>
+
+			</h2>
+			<p class="hide-on-read">
+				http://forkgasm.com/restaurant/<span property="id" mv-default="[idify(name)]"></span>
+			</p>
+			<meta property="facebook" content="https://facebook.com/[facebook_places_id]" />
+
 
 			<span property="rating" data-class="[round(rating)]">[average(dish.averageRating)]</span>
 
 			<p class="location" style="--flag: url(/flags/[country].png)">
 				<span property="city"></span>[if(city and country, ',')]
-				<span property="country" mv-edit="#countries"></span>
+				<span property="country" mv-editor="#countries"></span>
 			</p>
 
 			<p class="stats">Visited <span property="visits">[count(visit)]</span> times and tried <span property="dishes" mv-storage="inherit">[count(dish)]</span> dishes</p>
@@ -41,8 +52,8 @@
 					<article property="dish" mv-list-item title="[name]" id="[id]">
 						<a href="#[id]">
 							<img property="image" mv-uploads="images/dishes" loading="lazy">
-							<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
-							<span property="rating" data-class="[floor(rating)]" mv-edit-type="number" mv-edit-min="1" mv-edit-max="10" mv-edit-step=".5"></span>
+							<span property="rating" data-class="[floor(rating)]" mv-editor-type="number" mv-editor-min="1" mv-editor-max="10" mv-editor-step=".5"></span>
+							<span property="rating" data-class="[floor(rating)]" mv-editor-type="number" mv-editor-min="1" mv-editor-max="10" mv-editor-step=".5"></span>
 							<meta property="averageRating" content="[if(count(rating), average(rating), '')]">
 						</a>
 						<div class="content">

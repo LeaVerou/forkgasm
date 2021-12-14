@@ -24,7 +24,7 @@
 </header>
 
 
-<main class="index" mv-app="restaurants" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
+<main class="index" mv-app="restaurants" mv-source="/restaurants.json" mv-storage="https://github.com/leaverou/forkgasm/restaurants.json" mv-bar="no-login" mv-plugins="sort" mv-bar="with export">
 <div class="mv-bar mv-ui mv-fixed" mv-bar="no-login"></div>
 
 <section id="filters">
@@ -55,22 +55,33 @@
 		</select>
 		<input type="number" min="0" max="10" step=".1" property="ratingFilterNumber">
 	</label>
+	<label>
+		<input type="checkbox" property="awardFilter">
+		Show only award-winning
+	</label>
 </section>
 
-<p>Showing [count(dish where !dish.restaurant.filtered)] dishes from [count(!filtered)] restaurants</p>
+<p class="result-count" mv-if="count(filtered) > 0">Showing [count(dish where !dish.restaurant.filtered)] dishes from [count(!filtered)] restaurants</p>
 
 <section mv-list>
 	<article property="restaurant" mv-list-item id="[id]" hidden="[filtered]">
 		<meta property="shown" content="[!countryFilter or countryFilter = country]">
 		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
+		<meta property="shown" content="[!awardFilter or award.length > 0]">
 		<meta property="shown" mv-value="!ratingFilterNumber or rating > 0 and $fn[ratingFilterOp](rating, ratingFilterNumber)">
 		<meta property="filtered" content="[!and(shown)]">
 
 		<header>
-			<img property="image" mv-default="[first(dish.image)]" loading="lazy">
+			<img property="image" class="avatar" mv-default="[first(dish.image)]" loading="lazy">
 			<a href="/restaurants/[id]">
-				<h2 property="name"></h2>
+				<h2>
+					<span property="name"></span>
+
+					<div class="awards" mv-list mv-initial-items="0">
+						<img src="/icons/[award].svg" alt="" title="[readable(award)]"property class="award" mv-list-item  mv-attribute="data-award">
+					</div>
+				</h2>
 				<p class="hide-on-read">
 					http://forkgasm.com/restaurants/<span property="id" mv-default="[idify(name)]"></span>
 				</p>

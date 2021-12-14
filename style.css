@@ -488,7 +488,7 @@ ol {
 	line-height: 2;
 }
 
-[property="restaurant"][mv-list-item] > header img {
+[property="restaurant"][mv-list-item] > header .avatar {
 	width: 8em;
 	height: 8em;
 	-o-object-fit: cover;
@@ -506,7 +506,7 @@ ol {
 		padding-left: 10em;
 	}
 
-	[property="restaurant"][mv-list-item] > header img {
+	[property="restaurant"][mv-list-item] > header .avatar {
 		position: absolute;
 		top: 1em;
 		left: 1em;
@@ -521,6 +521,14 @@ ol {
 
 [property="restaurant"][mv-list-item] .location::before {
 	content: var(--flag);
+}
+
+[property="restaurant"][mv-list-item] .awards {
+	display: inline-block;
+}
+
+[property="restaurant"][mv-list-item] .awards img {
+	height: 1.1ex;
 }
 
 .visits {

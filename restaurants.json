@@ -206,6 +206,7 @@
 			"address": "Nikis 33 & Navarchou Nikodimou 3 Athens, Greece",
 			"city": "Athens",
 			"country": "gr",
+			"award": ["michelin-bibgourmand"],
 			"lng": 23.732013702393,
 			"lat": 37.973274571994,
 			"is_eligible_for_guides": true
@@ -1564,6 +1565,7 @@
 			"city": "Athens",
 			"country": "gr",
 			"pk": "229851042",
+			"award": ["michelin-star-1"],
 			"image": "/images/dishes/26287653_148368602619419_1619460858256031744_n.jpg"
 		},
 		{
@@ -2093,6 +2095,7 @@
 			"city": "Athens",
 			"country": "gr",
 			"pk": "943573232321809",
+			"award": ["michelin-star-1"],
 			"image": "/images/dishes/26279570_166905744070551_7678071988056752128_n.jpg"
 		},
 		{
@@ -5643,6 +5646,7 @@
 			"country": "gr",
 			"lng": 23.7505714,
 			"lat": 37.975019344,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "200699886641164"
 		},
 		{
@@ -5707,8 +5711,10 @@
 			"pk": "2031122813792005",
 			"address": "Ηρώνδα 8",
 			"city": "Αθήνα",
+			"country": "gr",
 			"lng": 23.74307,
 			"lat": 37.97067,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "2031122813792005"
 		},
 		{
@@ -5890,7 +5896,7 @@
 			"facebook_places_id": "407724549280956"
 		},
 		{
-			"id": "sense-restaurant",
+			"id": "sense",
 			"name": "Sense Restaurant",
 			"dishes": 6,
 			"visit": [
@@ -5944,6 +5950,7 @@
 			"country": "gr",
 			"lng": 23.730696566358,
 			"lat": 37.969361660535,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "473268076361632"
 		},
 		{
@@ -7062,8 +7069,6 @@
 		{
 			"id": "varoulko",
 			"name": "Varoulko Seaside",
-			"city": "Piraeus",
-			"country": "gr",
 			"dishes": 52,
 			"visit": [
 				{
@@ -7431,6 +7436,9 @@
 					]
 				}
 			],
+			"city": "Piraeus",
+			"country": "gr",
+			"award": ["michelin-star-1"],
 			"lat": 37.937406370033,
 			"lng": 23.658965516816,
 			"facebook_places_id": "242586482597777",
@@ -8060,9 +8068,10 @@
 			"lng": 23.717846542499,
 			"facebook_places_id": "22225521630",
 			"city": "Athens",
+			"country": "gr",
 			"pk": "15211945",
-			"image": "/images/dishes/26182083_140626916635799_3916037462643703808_n.jpg",
-			"country": "gr"
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/26182083_140626916635799_3916037462643703808_n.jpg"
 		},
 		{
 			"id": "gaku-sushi-izakaya",
@@ -9900,7 +9909,8 @@
 			"country": "us",
 			"lng": -122.36476,
 			"lat": 38.40442,
-			"facebook_places_id": "271853836189555"
+			"facebook_places_id": "271853836189555",
+			"award": ["michelin-star-3"]
 		},
 		{
 			"id": "morimoto-napa",
@@ -10989,6 +10999,7 @@
 			"country": "gr",
 			"lng": 23.75127,
 			"lat": 37.97714,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "373560416125733"
 		},
 		{
@@ -13882,9 +13893,10 @@
 			"lng": 23.7159948,
 			"facebook_places_id": "172126832823833",
 			"city": "Athens",
+			"country": "gr",
 			"pk": "1012552",
-			"image": "/images/dishes/26284851_1744115362268104_2909541524985348096_n.jpg",
-			"country": "gr"
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/26284851_1744115362268104_2909541524985348096_n.jpg"
 		},
 		{
 			"id": "akikos",
@@ -17334,9 +17346,10 @@
 			"lng": 23.793634490448,
 			"facebook_places_id": "356667731067926",
 			"city": "Athens",
+			"country": "gr",
 			"pk": "10291194",
-			"image": "/images/dishes/15875937_568577480017186_8754058331900870656_n.jpg",
-			"country": "gr"
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/15875937_568577480017186_8754058331900870656_n.jpg"
 		},
 		{
 			"id": "2-mazi",
@@ -17626,9 +17639,10 @@
 			"lng": 23.74307,
 			"facebook_places_id": "226450497368283",
 			"city": "Athens",
+			"country": "gr",
 			"pk": "243123359",
-			"image": "/images/dishes/15802919_1398947310115768_6176179198034444288_n.jpg",
-			"country": "gr"
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/15802919_1398947310115768_6176179198034444288_n.jpg"
 		},
 		{
 			"id": "manh-manh",
