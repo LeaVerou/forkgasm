@@ -801,3 +801,16 @@ p.result-count {
 	font-style: italic;
 	text-align: right;
 }
+
+.permanently-closed {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1rem;
+	background: hsl(10, 100%, 45%);
+	color: white;
+	padding: .4em .5em .5em;
+	border-radius: .2em;
+	text-transform: uppercase;
+	letter-spacing: normal;
+	white-space: nowrap;
+}

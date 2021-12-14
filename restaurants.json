@@ -560,6 +560,7 @@
 			"country": "fr",
 			"lng": 2.36065,
 			"lat": 48.86995,
+			"award": ["michelin-bibgourmand"],
 			"is_eligible_for_guides": true
 		},
 		{
@@ -2192,11 +2193,12 @@
 			"country": "gr",
 			"lng": 23.73091,
 			"lat": 37.96955,
+			"award": ["michelin-plate"],
 			"is_eligible_for_guides": true
 		},
 		{
 			"id": "fish-market",
-			"name": "Fish-Market",
+			"name": "Fish Market",
 			"dishes": 8,
 			"visit": [
 				{
@@ -2284,6 +2286,8 @@
 					]
 				}
 			],
+			"city": "Athens",
+			"country": "gr",
 			"pk": "123437852",
 			"facebook_places_id": "300061780128059",
 			"is_eligible_for_guides": true
@@ -2659,6 +2663,8 @@
 			],
 			"pk": "971314674",
 			"facebook_places_id": "982166725140726",
+			"city": "Mykonos",
+			"country": "gr",
 			"address": "Mykonos Town",
 			"lng": 25.329842,
 			"lat": 37.443609,
@@ -2860,6 +2866,8 @@
 			],
 			"pk": "327582304815014",
 			"facebook_places_id": "327582304815014",
+			"city": "Boston, MA",
+			"country": "us",
 			"address": "500 Ocean Ave",
 			"lng": -70.99104261225,
 			"lat": 42.413687562,
@@ -2937,6 +2945,8 @@
 			"pk": "1639986",
 			"facebook_places_id": "115818638440259",
 			"address": "143 1st St",
+			"city": "Boston, MA",
+			"country": "us",
 			"lng": -71.07819,
 			"lat": 42.3664,
 			"is_eligible_for_guides": true
@@ -3047,6 +3057,8 @@
 			"pk": "319978302117676",
 			"facebook_places_id": "319978302117676",
 			"address": "Aminta 6",
+			"city": "Athens",
+			"country": "gr",
 			"lng": 23.74447,
 			"lat": 37.97195,
 			"is_eligible_for_guides": true
@@ -3226,7 +3238,8 @@
 			"pk": "756097629",
 			"facebook_places_id": "822074457884752",
 			"address": "ΜΑΡΙΝΑ ΜΥΤΙΛΗΝΗΣ ",
-			"city": "Μυτιλήνη",
+			"city": "Mytilene",
+			"country": "gr",
 			"lng": 26.557077960327,
 			"lat": 39.097129004371,
 			"is_eligible_for_guides": true
@@ -4131,8 +4144,8 @@
 			"facebook_places_id": "165939400112573"
 		},
 		{
-			"id": "京洛肉料理-いっしん",
-			"name": "京洛肉料理 いっしん",
+			"id": "isshin",
+			"name": "Isshin (京洛肉料理 いっしん)",
 			"dishes": 12,
 			"visit": [
 				{
@@ -4223,6 +4236,7 @@
 			"country": "jp",
 			"lng": 135.77358285885,
 			"lat": 35.005817152856,
+			"award": ["michelin-star-2"],
 			"facebook_places_id": "282622058471318"
 		},
 		{
@@ -5348,11 +5362,12 @@
 			"country": "it",
 			"lng": 11.656225829483,
 			"lat": 46.715767140504,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "178706015642763"
 		},
 		{
 			"id": "karel-5-gastro-bistro-events",
-			"name": "Karel 5 Gastro · Bistro · Events",
+			"name": "Karel 5",
 			"dishes": 5,
 			"visit": [
 				{
@@ -5402,10 +5417,11 @@
 			],
 			"pk": "16484133",
 			"address": "Geertebolwerk 1",
-			"city": "Utrecht (stad)",
+			"city": "Utrecht",
 			"country": "nl",
 			"lng": 5.1180839538574,
 			"lat": 52.087892266101,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "100706660015365"
 		},
 		{
@@ -5798,6 +5814,7 @@
 			"pk": "249859414",
 			"address": "217 Jesmond Road",
 			"city": "Newcastle upon Tyne",
+			"country": "gb",
 			"lng": -1.5946933,
 			"lat": 54.9871586,
 			"facebook_places_id": "213129262174629"
@@ -5843,10 +5860,13 @@
 					]
 				}
 			],
+			"city": "London",
+			"country": "gb",
 			"pk": "261896530",
 			"address": "25 Old Broad St 24th Floor",
 			"lng": -0.083017697000007,
 			"lat": 51.51536517,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "464185633709484"
 		},
 		{
@@ -5890,7 +5910,8 @@
 			],
 			"pk": "39671660",
 			"address": "7 Boundary Street",
-			"city": "London, United Kingdom",
+			"city": "London",
+			"country": "gb",
 			"lng": -0.0767114,
 			"lat": 51.5244637,
 			"facebook_places_id": "407724549280956"
@@ -6286,6 +6307,7 @@
 			"country": "es",
 			"lng": -3.684141337,
 			"lat": 40.421894215,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "1599951550227231"
 		},
 		{
@@ -6373,6 +6395,7 @@
 			"country": "es",
 			"lng": -3.71421,
 			"lat": 40.4231399,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "1671736696443286"
 		},
 		{
@@ -6634,8 +6657,8 @@
 			"facebook_places_id": "480127262103948"
 		},
 		{
-			"id": "μανημανη",
-			"name": "ΜΑΝΗΜΑΝΗ",
+			"id": "mani-mani",
+			"name": "ΜΑΝΗ ΜΑΝΗ",
 			"dishes": 5,
 			"visit": [
 				{
@@ -8553,6 +8576,7 @@
 			"lat": 52.22935833,
 			"city": "Utrecht",
 			"country": "nl",
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "204776012931105"
 		},
 		{
@@ -8645,6 +8669,7 @@
 			"country": "fr",
 			"lng": 4.82339,
 			"lat": 45.75905,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "205685586595841"
 		},
 		{
@@ -8710,11 +8735,12 @@
 			"country": "fr",
 			"lng": 4.8303,
 			"lat": 45.75287,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "1422060544551444"
 		},
 		{
 			"id": "burgundy-lounge",
-			"name": "Burgundy Lounge",
+			"name": "Burgundy by Matthieu",
 			"dishes": 9,
 			"visit": [
 				{
@@ -8784,6 +8810,7 @@
 			"country": "fr",
 			"lng": 4.83212,
 			"lat": 45.76274,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "199851140208914"
 		},
 		{
@@ -9004,7 +9031,7 @@
 		},
 		{
 			"id": "les-3-domes",
-			"name": "Les 3 Dômes",
+			"name": "Les Trois Dômes",
 			"dishes": 10,
 			"visit": [
 				{
@@ -9079,6 +9106,7 @@
 			"country": "fr",
 			"lng": 4.8342593426,
 			"lat": 45.7543984426,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "186585854701330"
 		},
 		{
@@ -9507,6 +9535,7 @@
 			"country": "de",
 			"lng": 13.4278898,
 			"lat": 52.4931717,
+			"award": ["michelin-bibgourmand"],
 			"facebook_places_id": "782046448524694"
 		},
 		{
@@ -9573,6 +9602,7 @@
 			"country": "scot",
 			"lng": -4.2930798,
 			"lat": 55.8747961,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "173316892687857"
 		},
 		{
@@ -9735,9 +9765,10 @@
 			"pk": "275180912",
 			"address": "920 Sauchiehall Street",
 			"city": "Glasgow",
-			"country": "scot",
+			"country": "scotland",
 			"lng": -4.2846856,
 			"lat": 55.8657567,
+			"award": ["michelin-bibgourmand"],
 			"facebook_places_id": "526545210714690"
 		},
 		{
@@ -10023,7 +10054,7 @@
 		},
 		{
 			"id": "the-zillers",
-			"name": "The Zillers Roof Garden Resturant",
+			"name": "The Zillers Roof Garden",
 			"dishes": 5,
 			"visit": [
 				{
@@ -10305,7 +10336,7 @@
 		},
 		{
 			"id": "thalassa-restaurant-beach-bar-vatera",
-			"name": "Thalassa Restaurant & Beach Bar Vatera",
+			"name": "Thalassa Restaurant & Beach Bar",
 			"dishes": 4,
 			"visit": [
 				{
@@ -11128,6 +11159,7 @@
 			"country": "scotland",
 			"lng": -3.1728057425,
 			"lat": 55.9771074941,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "119278396344"
 		},
 		{
@@ -11238,6 +11270,7 @@
 			"address": "3 Royal Terrace",
 			"lng": -3.1807556517,
 			"lat": 55.9569410548,
+			"award": ["michelin-star-1"],
 			"facebook_places_id": "622404887787419"
 		},
 		{
@@ -11362,6 +11395,7 @@
 			"country": "scotland",
 			"lng": -3.2144546156,
 			"lat": 55.9592961744,
+			"award": ["michelin-bibgourmand"],
 			"facebook_places_id": "130433150467615"
 		},
 		{
@@ -11461,6 +11495,7 @@
 			"country": "scotland",
 			"lng": -3.1925436,
 			"lat": 55.9488265,
+			"award": ["michelin-plate"],
 			"facebook_places_id": "1593295994092276"
 		},
 		{
@@ -11654,6 +11689,8 @@
 			],
 			"pk": "246166972572630",
 			"address": "81 Holyrood Road",
+			"city": "Edinburgh",
+			"country": "scotland",
 			"lng": -3.1768481,
 			"lat": 55.9508209,
 			"facebook_places_id": "246166972572630"
@@ -11917,6 +11954,8 @@
 					]
 				}
 			],
+			"city": "Akyarlar",
+			"country": "tr",
 			"pk": "295997867",
 			"lng": 27.2895282686,
 			"lat": 36.9667959368,
@@ -12200,6 +12239,8 @@
 					]
 				}
 			],
+			"city": "Sydney",
+			"country": "au",
 			"pk": "308738295858988",
 			"lng": 151.1954318107,
 			"lat": -33.8695727084,
@@ -12331,7 +12372,7 @@
 			"country": "ca"
 		},
 		{
-			"id": "myerschang",
+			"id": "myers-chang",
 			"name": "Myers+Chang",
 			"dishes": 10,
 			"visit": [
@@ -12419,7 +12460,8 @@
 			],
 			"pk": "215551192",
 			"address": "1145 Washington St",
-			"city": "boston",
+			"city": "Boston, MA",
+			"country": "us",
 			"lng": -71.06624,
 			"lat": 42.34391,
 			"facebook_places_id": "136139996499733"
@@ -12541,8 +12583,8 @@
 			"country": "us"
 		},
 		{
-			"id": "cevicheriamoscow",
-			"name": "CEVICHERIA.moscow",
+			"id": "cevicheria",
+			"name": "Cevicheria",
 			"dishes": 14,
 			"visit": [
 				{
@@ -12648,12 +12690,14 @@
 			"lat": 55.73898,
 			"lng": 37.6053799,
 			"facebook_places_id": "712332422263220",
-			"city": "Москва",
+			"city": "Moscow",
+			"country": "ru",
+			"award": ["michelin-bibgourmand"],
 			"pk": "712332422263220"
 		},
 		{
-			"id": "white-rabbit-restaurantbar",
-			"name": "White Rabbit Restaurant&Bar",
+			"id": "white-rabbit",
+			"name": "White Rabbit",
 			"dishes": 6,
 			"visit": [
 				{
@@ -12703,7 +12747,9 @@
 			"lat": 55.74752,
 			"lng": 37.5812,
 			"facebook_places_id": "237430072951999",
-			"city": "Москва",
+			"city": "Moscow",
+			"country": "ru",
+			"award": ["michelin-star-1"],
 			"pk": "2931644"
 		},
 		{
@@ -12747,6 +12793,7 @@
 			"lng": -71.06467,
 			"facebook_places_id": "887864684563460",
 			"city": "Boston, MA",
+			"country": "us",
 			"pk": "309875343"
 		},
 		{
@@ -13069,8 +13116,8 @@
 			"country": "fr"
 		},
 		{
-			"id": "table-restaurant---bruno-verjus",
-			"name": "Table restaurant - Bruno Verjus",
+			"id": "table-bruno-verjus",
+			"name": "Table - Bruno Verjus",
 			"dishes": 6,
 			"visit": [
 				{
@@ -13124,13 +13171,15 @@
 			"lng": 2.37586,
 			"facebook_places_id": "100780473450219",
 			"city": "Paris",
+			"country": "fr",
 			"pk": "85356035",
-			"image": "/images/dishes/30078611_1900524080238263_8458390382357512192_n.jpg",
-			"country": "fr"
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/30078611_1900524080238263_8458390382357512192_n.jpg"
+
 		},
 		{
-			"id": "restaurant-pottoka-paris",
-			"name": "Restaurant Pottoka Paris",
+			"id": "pottoka",
+			"name": "Pottoka",
 			"dishes": 6,
 			"visit": [
 				{
@@ -13181,13 +13230,15 @@
 			"lng": 2.30253,
 			"facebook_places_id": "238820949462345",
 			"city": "Paris",
+			"country": "fr",
+			"award": ["michelin-bibgourmand"],
 			"pk": "240313507",
-			"image": "/images/dishes/30077589_166949994132204_426766517674180608_n.jpg",
-			"country": "fr"
+			"image": "/images/dishes/30077589_166949994132204_426766517674180608_n.jpg"
+
 		},
 		{
-			"id": "pierre-sang-in-oberkampf-restaurant",
-			"name": "Pierre Sang In Oberkampf (Restaurant)",
+			"id": "pierre-sang-in-oberkampf",
+			"name": "Pierre Sang In Oberkampf",
 			"dishes": 6,
 			"visit": [
 				{
@@ -13238,9 +13289,10 @@
 			"lng": 2.37236,
 			"facebook_places_id": "242260742559573",
 			"pk": "689988161",
-			"image": "/images/dishes/30084567_2032667667002250_2416988726950363136_n.jpg",
 			"city": "Paris",
-			"country": "fr"
+			"country": "fr",
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/30084567_2032667667002250_2416988726950363136_n.jpg"
 		},
 		{
 			"id": "butterbrot",
@@ -13348,7 +13400,7 @@
 		},
 		{
 			"id": "premiere",
-			"name": "Première Restaurant & Lounge Bar",
+			"name": "Première",
 			"dishes": 16,
 			"visit": [
 				{
@@ -13676,6 +13728,7 @@
 		{
 			"id": "funky-gourmet",
 			"name": "Funky Gourmet",
+			"closed": true,
 			"dishes": 35,
 			"visit": [
 				{
@@ -14005,9 +14058,10 @@
 			"lng": -122.40463,
 			"facebook_places_id": "107390295964289",
 			"city": "San Francisco, CA",
+			"country": "us",
 			"pk": "345356",
-			"image": "/images/dishes/23507419_889863794501220_2463408810794942464_n.jpg",
-			"country": "us"
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/23507419_889863794501220_2463408810794942464_n.jpg"
 		},
 		{
 			"id": "izakaya-rintaro",
@@ -14091,9 +14145,11 @@
 			"lng": -122.41507,
 			"facebook_places_id": "380137492035351",
 			"city": "San Francisco, CA",
+			"country": "us",
 			"pk": "313449802",
-			"image": "/images/dishes/23498463_719724104886004_3565495245695090688_n.jpg",
-			"country": "us"
+			"award": ["michelin-bibgourmand"],
+			"image": "/images/dishes/23498463_719724104886004_3565495245695090688_n.jpg"
+
 		},
 		{
 			"id": "hopscotch",
@@ -14197,9 +14253,10 @@
 			"lng": -122.2631419,
 			"facebook_places_id": "792479367448237",
 			"pk": "235354770",
-			"image": "/images/dishes/23417174_1109660169169137_2972349803872124928_n.jpg",
 			"city": "Oakland, CA",
-			"country": "us"
+			"country": "us",
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/23417174_1109660169169137_2972349803872124928_n.jpg"
 		},
 		{
 			"id": "mokutanya",
@@ -14268,9 +14325,9 @@
 			"lng": -122.3630371,
 			"facebook_places_id": "133800006685956",
 			"city": "Burlingame, CA",
+			"country": "us",
 			"pk": "5898539",
-			"image": "/images/dishes/23416439_1936472863259243_1859912703947046912_n.jpg",
-			"country": "us"
+			"image": "/images/dishes/23416439_1936472863259243_1859912703947046912_n.jpg"
 		},
 		{
 			"id": "restaurant-gordon-ramsay",
@@ -14395,9 +14452,10 @@
 			"lng": -0.16200004704881,
 			"facebook_places_id": "107909719288098",
 			"city": "London",
+			"country": "gb",
 			"pk": "2295360",
-			"image": "/images/dishes/22860595_2029269393976733_4053859217960861696_n.jpg",
-			"country": "gb"
+			"award": ["michelin-star-3"],
+			"image": "/images/dishes/22860595_2029269393976733_4053859217960861696_n.jpg"
 		},
 		{
 			"id": "dishoom",
@@ -14451,9 +14509,10 @@
 			"lng": -0.1269118,
 			"facebook_places_id": "109165852443238",
 			"city": "London",
+			"country": "gb",
+			"award": ["michelin-plate"],
 			"pk": "2035",
-			"image": "/images/dishes/22802822_125526381470494_2110363018754785280_n.jpg",
-			"country": "gb"
+			"image": "/images/dishes/22802822_125526381470494_2110363018754785280_n.jpg"
 		},
 		{
 			"id": "dinner-by-heston-blumenthal",
@@ -14526,9 +14585,10 @@
 			"lng": -0.16024621299645,
 			"facebook_places_id": "139734949419719",
 			"pk": "1349767",
-			"image": "/images/dishes/22802078_170146070236423_2552485371657060352_n.jpg",
 			"city": "London",
-			"country": "gb"
+			"country": "gb",
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/22802078_170146070236423_2552485371657060352_n.jpg"
 		},
 		{
 			"id": "brasserie-joel",
@@ -14763,9 +14823,10 @@
 			"lng": 2.1687567518282,
 			"facebook_places_id": "139621776051967",
 			"city": "Barcelona",
+			"country": "es",
 			"pk": "237322387",
-			"image": "/images/dishes/22709257_851107315014558_5534513965935099904_n.jpg",
-			"country": "es"
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/22709257_851107315014558_5534513965935099904_n.jpg"
 		},
 		{
 			"id": "la-taverna-del-clinic",
@@ -15354,9 +15415,11 @@
 			"lng": -3.6862,
 			"facebook_places_id": "182847601732588",
 			"city": "Madrid",
+			"country": "es",
 			"pk": "235501400",
-			"image": "/images/dishes/21435890_879019282246112_2557800277721743360_n.jpg",
-			"country": "es"
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/21435890_879019282246112_2557800277721743360_n.jpg"
+
 		},
 		{
 			"id": "mavrikos-restaurant",
@@ -16071,9 +16134,10 @@
 			"lng": -73.991997241974,
 			"facebook_places_id": "104003084297",
 			"city": "New York, NY",
+			"country": "us",
 			"pk": "218732211",
-			"image": "/images/dishes/18513936_327535674331063_6784523378066718720_n.jpg",
-			"country": "us"
+			"closed": true,
+			"image": "/images/dishes/18513936_327535674331063_6784523378066718720_n.jpg"
 		},
 		{
 			"id": "estela",
@@ -16186,8 +16250,8 @@
 			"country": "us"
 		},
 		{
-			"id": "casa-enrique-lic",
-			"name": "Casa Enrique LIC",
+			"id": "casa-enrique",
+			"name": "Casa Enrique",
 			"dishes": 4,
 			"visit": [
 				{
@@ -16226,9 +16290,11 @@
 			"lng": -73.954414937146,
 			"facebook_places_id": "116364858466882",
 			"city": "New York, NY",
+			"country": "us",
 			"pk": "10727247",
-			"image": "/images/dishes/18644815_224819774674972_2664180394236051456_n.jpg",
-			"country": "us"
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/18644815_224819774674972_2664180394236051456_n.jpg"
+
 		},
 		{
 			"id": "ootoya-ny",
@@ -16554,9 +16620,10 @@
 			"lng": 139.70373840524,
 			"facebook_places_id": "768775139833071",
 			"city": "Tokyo",
+			"country": "jp",
 			"pk": "412544546",
-			"image": "/images/dishes/18013313_222402368240728_630606734989197312_n.jpg",
-			"country": "jp"
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/18013313_222402368240728_630606734989197312_n.jpg"
 		},
 		{
 			"id": "little-donkey",
@@ -17560,9 +17627,11 @@
 			"lng": 7.27188,
 			"facebook_places_id": "148693208515225",
 			"city": "Nice",
+			"country": "fr",
 			"pk": "108883073",
-			"image": "/images/dishes/15876181_1295860580451951_3936064968159395840_n.jpg",
-			"country": "fr"
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/15876181_1295860580451951_3936064968159395840_n.jpg"
+
 		},
 		{
 			"id": "spondi",
@@ -17754,9 +17823,10 @@
 			"lng": 2.3370099,
 			"facebook_places_id": "862068317185940",
 			"city": "Paris",
+			"country": "fr",
 			"pk": "697371328",
-			"image": "/images/dishes/15258880_1831025340516323_4242490968965644288_n.jpg",
-			"country": "fr"
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/15258880_1831025340516323_4242490968965644288_n.jpg"
 		},
 		{
 			"id": "le-petit-retro",
@@ -18118,13 +18188,14 @@
 			"lng": 103.83667544469,
 			"facebook_places_id": "676141985750695",
 			"pk": "237834243",
-			"image": "/images/dishes/15258995_1249275391813710_3853103444294369280_n.jpg",
 			"city": "Singapore",
-			"country": "sg"
+			"country": "sg",
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/15258995_1249275391813710_3853103444294369280_n.jpg"
 		},
 		{
 			"id": "guo-se-tian-xiang",
-			"name": "GUO SE TIAN XIANG",
+			"name": "Guo Se Tian Xiang",
 			"dishes": 2,
 			"visit": [
 				{
@@ -18151,9 +18222,9 @@
 			"lng": 103.8435,
 			"facebook_places_id": "327435044278773",
 			"pk": "327435044278773",
-			"image": "/images/dishes/14596896_1815939888688886_3224616232716075008_n.jpg",
 			"city": "Singapore",
-			"country": "sg"
+			"country": "sg",
+			"image": "/images/dishes/14596896_1815939888688886_3224616232716075008_n.jpg"
 		},
 		{
 			"id": "cure",
@@ -18260,9 +18331,11 @@
 			"lng": 103.8413999,
 			"facebook_places_id": "1499291710360795",
 			"city": "Singapore",
+			"country": "sg",
 			"pk": "870525138",
-			"image": "/images/dishes/15099427_1742843166040195_6296530301996761088_n.jpg",
-			"country": "sg"
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/15099427_1742843166040195_6296530301996761088_n.jpg"
+
 		},
 		{
 			"id": "song-of-india",
@@ -18317,8 +18390,9 @@
 			"facebook_places_id": "190737101105276",
 			"city": "Singapore",
 			"pk": "900967559",
-			"image": "/images/dishes/15099552_1784520228469436_8825074357714812928_n.jpg",
-			"country": "sg"
+			"country": "sg",
+			"award": ["michelin-star-1"],
+			"image": "/images/dishes/15099552_1784520228469436_8825074357714812928_n.jpg"
 		},
 		{
 			"id": "omotenashi-dining-gosso",
@@ -18589,9 +18663,10 @@
 			"lng": -117.169685,
 			"facebook_places_id": "418215008231694",
 			"city": "San Diego, CA",
+			"country": "us",
 			"pk": "329890494",
-			"image": "/images/dishes/14718542_1801004410156602_4927635937413824512_n.jpg",
-			"country": "us"
+			"award": ["michelin-bibgourmand"],
+			"image": "/images/dishes/14718542_1801004410156602_4927635937413824512_n.jpg"
 		},
 		{
 			"id": "juniper-ivy",
@@ -18656,9 +18731,10 @@
 			"lng": -117.1713,
 			"facebook_places_id": "543482805704452",
 			"city": "San Diego, CA",
+			"country": "us",
 			"pk": "218809200",
-			"image": "/images/dishes/14714479_744104429070319_6377554348934692864_n.jpg",
-			"country": "us"
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/14714479_744104429070319_6377554348934692864_n.jpg"
 		},
 		{
 			"id": "wine-vault-bistro",
@@ -19945,9 +20021,12 @@
 			"lng": -43.47786,
 			"facebook_places_id": "160848117301103",
 			"city": "Rio de Janeiro",
+			"country": "br",
 			"pk": "1971454",
-			"image": "/images/dishes/14052572_1105302169553820_589927487_n.jpg",
-			"country": "br"
+			"award": ["michelin-star-1"],
+			"closed": true,
+			"image": "/images/dishes/14052572_1105302169553820_589927487_n.jpg"
+
 		},
 		{
 			"id": "zaza-bistro-tropical",
@@ -19994,8 +20073,8 @@
 			"country": "br"
 		},
 		{
-			"id": "oro-restaurante",
-			"name": "ORO Restaurante",
+			"id": "oro",
+			"name": "Oro",
 			"dishes": 17,
 			"visit": [
 				{
@@ -20110,9 +20189,10 @@
 			"lng": -43.22474,
 			"facebook_places_id": "201130556591025",
 			"city": "Rio de Janeiro",
+			"country": "br",
 			"pk": "2304094",
-			"image": "/images/dishes/14156615_244527085942164_431420459_n.jpg",
-			"country": "br"
+			"award": ["michelin-star-2"],
+			"image": "/images/dishes/14156615_244527085942164_431420459_n.jpg"
 		},
 		{
 			"id": "olympe",
@@ -20209,9 +20289,11 @@
 			"lng": -43.20665,
 			"facebook_places_id": "113627598714214",
 			"pk": "1507951",
-			"image": "/images/dishes/14063226_1822449934642673_915748851_n.jpg",
 			"city": "Rio de Janeiro",
-			"country": "br"
+			"country": "br",
+			"award": ["michelin-star-1"],
+			"closed": true,
+			"image": "/images/dishes/14063226_1822449934642673_915748851_n.jpg"
 		},
 		{
 			"id": "cafe-do-alto",
@@ -22098,9 +22180,10 @@
 			"lng": -122.40922584727,
 			"facebook_places_id": "201569603357635",
 			"city": "San Francisco, CA",
+			"country": "us",
 			"pk": "220803772",
 			"image": "/images/dishes/13108759_1644904575730291_1759593385_n.jpg",
-			"country": "us"
+			"award": ["michelin-star-1"]
 		},
 		{
 			"id": "aster",
@@ -22891,8 +22974,8 @@
 			"country": "de"
 		},
 		{
-			"id": "bissac---restaurant---paris",
-			"name": "Bissac - Restaurant - Paris",
+			"id": "bissac",
+			"name": "Bissac",
 			"dishes": 1,
 			"visit": [
 				{
@@ -23100,9 +23183,10 @@
 			"lng": -73.98679,
 			"facebook_places_id": "130224970345976",
 			"city": "New York, NY",
+			"country": "us",
 			"pk": "235928904",
-			"image": "/images/dishes/11378452_1613801068877610_1942678468_n.jpg",
-			"country": "us"
+			"award": ["michelin-plate"],
+			"image": "/images/dishes/11378452_1613801068877610_1942678468_n.jpg"
 		},
 		{
 			"id": "cafe-luna",

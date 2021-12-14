@@ -14,7 +14,7 @@ function thumbnail(url) {
 
 
 function getAwardURL(award, restaurant) {
-	if (!award) {
+	if (!award || !award.startsWith) {
 		return null;
 	}
 
