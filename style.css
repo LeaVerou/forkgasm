@@ -150,6 +150,8 @@ h3 {
 }
 
 [id="filters"] {
+	display: grid;
+	grid-template-rows: auto auto;
 	padding: 1em 0;
 	margin-top: -1em;
 	background: hsl(25, 100%, 90%);
@@ -163,7 +165,8 @@ h3 {
 }
 
 [id="filters"] input[type=search] {
-	display: block;
+	grid-row: 1;
+	grid-column-end: span 4;
 	width: 100%;
 	padding: .1em .5em .1em 1.4em;
 	border: none;
@@ -194,6 +197,38 @@ h3 {
 [id="filters"] input[type=search]::placeholder {
 	color: hsl(25, 100%, 50%);
 	font-weight: 300;
+}
+
+[id="filters"] > label {
+	grid-row: 2;
+}
+
+#award-filter select {
+	display: block;
+}
+
+#award-filter option {
+	background: var(--icon) right / auto .8em no-repeat;
+	padding-right: 1.4em;
+}
+
+button.clear[mv-action] {
+	background: hsl(0 0% 100% / .2);
+	border: none;
+	color: black;
+	-webkit-filter: invert() contrast(2) brightness(1.5);
+	        filter: invert() contrast(2) brightness(1.5);
+	border-radius: 50%;
+	cursor: pointer;
+	width: 1.7em;
+	height: 1.7em;
+	line-height: 1.45;
+	padding: .2em 0 0;
+	font-size: .6em
+}
+
+button.clear[mv-action]:hover {
+	background: hsl(0 0% 100% / .3);
 }
 
 body > main {

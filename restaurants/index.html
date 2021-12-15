@@ -30,7 +30,7 @@
 <section id="filters">
 	<input type="search" property="search" placeholder="Search [count(dish)] dishes from [count(restaurant)] restaurants in [count(countriesUsed)] countries" />
 
-	<label>
+	<label id="location-filter">
 		By location:
 		<meta property="countriesUsed" content="[unique(country)]">
 		<meta property="citiesUsed" content="[unique(city where country = countryFilter)]">
@@ -47,7 +47,7 @@
 			</optgroup>
 		</select>
 	</label>
-	<label>
+	<label id="rating-filter">
 		Rating is
 		<select property="ratingFilterOp">
 			<option value="gte">&GreaterEqual;</option>
@@ -55,9 +55,15 @@
 		</select>
 		<input type="number" min="0" max="10" step=".1" property="ratingFilterNumber">
 	</label>
-	<label>
-		<input type="checkbox" property="awardFilter">
-		Show only award-winning
+	<label id="award-filter">
+		By award: <button class="clear" mv-action="set(awardFilter, null)" title="Clear filter" mv-if="awardFilter">✖️</button>
+		<select property="awardFilter" multiple>
+			<option value="michelin-star-1" style="--icon: url('icons/michelin-star-1.svg')">1 Michelin star</option>
+			<option value="michelin-star-2" style="--icon: url('icons/michelin-star-2.svg')">2 Michelin stars</option>
+			<option value="michelin-star-3" style="--icon: url('icons/michelin-star-3.svg')">3 Michelin stars</option>
+			<option value="michelin-bibgourmand" style="--icon: url('icons/michelin-bibgourmand.svg')">Michelin Bib Gourmand</option>
+			<option value="michelin-plate" style="--icon: url('icons/michelin-plate.svg')">Michelin Plate</option>
+		</select>
 	</label>
 </section>
 
@@ -68,7 +74,7 @@
 		<meta property="shown" content="[!countryFilter or countryFilter = country]">
 		<meta property="shown" content="[!cityFilter or cityFilter = city]">
 		<meta property="shown" content="[!search or contains(restaurant, search)]">
-		<meta property="shown" content="[!awardFilter or award.length > 0]">
+		<meta property="shown" content="[!awardFilter or intersects(award, split(awardFilter, ','))]">
 		<meta property="shown" mv-value="!ratingFilterNumber or rating > 0 and $fn[ratingFilterOp](rating, ratingFilterNumber)">
 		<meta property="filtered" content="[!and(shown)]">
 
