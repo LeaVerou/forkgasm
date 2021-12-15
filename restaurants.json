@@ -503,8 +503,8 @@
 			],
 			"pk": "237414716",
 			"facebook_places_id": "40349269583",
-			"address": "Kyprou 50, glyfada",
-			"city": "Glyfáda",
+			"address": "Kyprou 50, Glyfada",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.751287,
 			"lat": 37.864225,
@@ -621,6 +621,8 @@
 			],
 			"pk": "109600861433361",
 			"facebook_places_id": "109600861433361",
+			"city": "Paris",
+			"country": "fr",
 			"lng": 2.335425,
 			"lat": 48.8534307,
 			"is_eligible_for_guides": true
@@ -691,7 +693,7 @@
 			],
 			"pk": "287666710",
 			"facebook_places_id": "165004633551985",
-			"city": "Firá, Kikladhes",
+			"city": "Santorini",
 			"country": "gr",
 			"lng": 25.431628189246,
 			"lat": 36.422520495304,
@@ -801,6 +803,8 @@
 			"pk": "1637843279863391",
 			"facebook_places_id": "1637843279863391",
 			"address": "Oia",
+			"city": "Santorini",
+			"country": "gr",
 			"lng": 25.377758019326,
 			"lat": 36.461741549312,
 			"is_eligible_for_guides": true
@@ -903,6 +907,8 @@
 			"pk": "361416431179054",
 			"facebook_places_id": "361416431179054",
 			"address": "Main Street",
+			"city": "Santorini",
+			"country": "gr",
 			"lng": 25.385541915894,
 			"lat": 36.461960092121,
 			"is_eligible_for_guides": true
@@ -2418,8 +2424,8 @@
 			],
 			"pk": "487033131",
 			"facebook_places_id": "766057460098456",
-			"address": " ZIRINI 2",
-			"city": "Kifissia",
+			"address": " Zirini 2, Kifissia",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.811427762596,
 			"lat": 38.067796088796,
@@ -2478,15 +2484,15 @@
 			],
 			"pk": "768875579965350",
 			"facebook_places_id": "768875579965350",
-			"address": "Κύπρου 19 & Ναπολέοντος Ζέρβα 24",
-			"city": "Glyfada",
+			"address": "Κύπρου 19 & Ναπολέοντος Ζέρβα 24, Glyfada",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.748750686646,
 			"lat": 37.866248544005,
 			"is_eligible_for_guides": true
 		},
 		{
-			"id": "--istoriko",
+			"id": "istoriko",
 			"name": "Ιστορικό - Istoriko",
 			"dishes": 4,
 			"visit": [
@@ -2809,8 +2815,8 @@
 			],
 			"pk": "1020925001",
 			"facebook_places_id": "769627536516401",
-			"address": "Dimarchou Metaxa Angelou 36",
-			"city": "Glyfada",
+			"address": "Dimarchou Metaxa Angelou 36, Glyfada",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.7541502,
 			"lat": 37.8598288,
@@ -3385,8 +3391,8 @@
 				}
 			],
 			"pk": "103670557722147",
-			"address": "2372 Massachusetts Ave",
-			"city": "Cambridge, MA",
+			"address": "2372 Massachusetts Ave, Cambridge",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.12965,
 			"lat": 42.39666,
@@ -3732,11 +3738,11 @@
 					]
 				}
 			],
-			"address": "14 Tyler St",
+			"address": "14 Tyler St, Somerville",
 			"lat": 42.381890882552,
 			"lng": -71.106098610897,
 			"facebook_places_id": "48543295897",
-			"city": "Somerville, MA",
+			"city": "Boston, MA",
 			"pk": "815516363",
 			"image": "/images/dishes/19120802_381762118885325_8463974471202504704_n.jpg",
 			"country": "us"
@@ -4657,11 +4663,11 @@
 					]
 				}
 			],
-			"address": "853 Main St",
+			"address": "853 Main St, Cambridge",
 			"lat": 42.36345,
 			"lng": -71.09866,
 			"facebook_places_id": "43420979382",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "368670",
 			"image": "/images/dishes/31571426_634434460233097_2149758674996822016_n.jpg",
 			"country": "us"
@@ -4730,8 +4736,8 @@
 				}
 			],
 			"pk": "1903906703021629",
-			"address": "2067  Massachusetts Ave",
-			"city": "Somerville, Massachusetts",
+			"address": "2067  Massachusetts Ave, Somerville",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.122846628953,
 			"lat": 42.391285468517,
@@ -4835,11 +4841,11 @@
 					]
 				}
 			],
-			"address": "415 Washington St",
+			"address": "415 Washington St, Somerville",
 			"lat": 42.37836,
 			"lng": -71.10685,
 			"facebook_places_id": "106160332771255",
-			"city": "Somerville, MA",
+			"city": "Boston, MA",
 			"country": "us",
 			"pk": "224433978",
 			"image": "/images/dishes/13732184_1740043636256064_736650955_n.jpg"
@@ -4889,8 +4895,8 @@
 				}
 			],
 			"pk": "1487381137989942",
-			"address": "270 Third St",
-			"city": "Cambridge, Massachusetts",
+			"address": "270 Third St, Cambridge",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.08203,
 			"lat": 42.36601,
@@ -4989,6 +4995,7 @@
 			],
 			"pk": "2583475395001770",
 			"address": "Four Seasons Hotel, One Dalton Street",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.0845585,
 			"lat": 42.3462653,
@@ -5051,7 +5058,8 @@
 				}
 			],
 			"pk": "806790169",
-			"address": "257 Washington St",
+			"address": "257 Washington St, Somerville",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.096740023,
 			"lat": 42.379716894,
@@ -5112,8 +5120,8 @@
 				}
 			],
 			"pk": "6345280",
-			"address": "279A Broadway",
-			"city": "Cambridge, Massachusetts",
+			"address": "279A Broadway, Cambridge",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.0977599,
 			"lat": 42.36829,
@@ -5298,6 +5306,7 @@
 			],
 			"pk": "1840663652920400",
 			"address": "505  Washington St",
+			"city": "Boston, MA",
 			"country": "us",
 			"lng": -71.0618653545,
 			"lat": 42.354526111,
@@ -5726,7 +5735,7 @@
 			],
 			"pk": "2031122813792005",
 			"address": "Ηρώνδα 8",
-			"city": "Αθήνα",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.74307,
 			"lat": 37.97067,
@@ -5814,7 +5823,7 @@
 			"pk": "249859414",
 			"address": "217 Jesmond Road",
 			"city": "Newcastle upon Tyne",
-			"country": "gb",
+			"country": "england",
 			"lng": -1.5946933,
 			"lat": 54.9871586,
 			"facebook_places_id": "213129262174629"
@@ -5861,7 +5870,7 @@
 				}
 			],
 			"city": "London",
-			"country": "gb",
+			"country": "england",
 			"pk": "261896530",
 			"address": "25 Old Broad St 24th Floor",
 			"lng": -0.083017697000007,
@@ -5911,7 +5920,7 @@
 			"pk": "39671660",
 			"address": "7 Boundary Street",
 			"city": "London",
-			"country": "gb",
+			"country": "england",
 			"lng": -0.0767114,
 			"lat": 51.5244637,
 			"facebook_places_id": "407724549280956"
@@ -6392,6 +6401,7 @@
 			],
 			"pk": "1025185902",
 			"address": "Calle de Ferraz, 2",
+			"city": "Madrid",
 			"country": "es",
 			"lng": -3.71421,
 			"lat": 40.4231399,
@@ -6544,6 +6554,7 @@
 			],
 			"pk": "1304691",
 			"address": "Calle de Jorge Juan, 16",
+			"city": "Madrid",
 			"country": "es",
 			"lng": -3.6858,
 			"lat": 40.42376,
@@ -6730,6 +6741,7 @@
 			],
 			"pk": "557358814717119",
 			"address": "Lazaraki 26 Glyfada",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.75239,
 			"lat": 37.8602,
@@ -7459,7 +7471,8 @@
 					]
 				}
 			],
-			"city": "Piraeus",
+			"address": "Piraeus",
+			"city": "Athens",
 			"country": "gr",
 			"award": ["michelin-star-1"],
 			"lat": 37.937406370033,
@@ -10371,8 +10384,8 @@
 				}
 			],
 			"pk": "1829621580436543",
-			"address": "Παραλία Βατερών,Βατερά",
-			"city": "Vatera, Lesbos",
+			"address": "Beach of Vatera, Vatera",
+			"city": "Lesbos",
 			"country": "gr",
 			"lng": 26.1979293823,
 			"lat": 39.0192337039,
@@ -10439,11 +10452,11 @@
 					]
 				}
 			],
-			"address": "Χριστουγέννων 1944",
+			"address": "Χριστουγέννων 1944, Mytilene",
 			"lat": 39.103110699418,
 			"lng": 26.556281326055,
 			"facebook_places_id": "1391808837737740",
-			"city": "Mytilene, Lesbos",
+			"city": "Lesbos",
 			"country": "gr",
 			"pk": "237986770",
 			"image": "/images/dishes/12479308_123472304696572_1518884357_n.jpg"
@@ -10552,7 +10565,7 @@
 			],
 			"pk": "325626714189099",
 			"address": "Πλάτανος",
-			"city": "Plátanos, Samos",
+			"city": "Samos",
 			"country": "gr",
 			"lng": 26.7455506325,
 			"lat": 37.7383279418,
@@ -10700,10 +10713,28 @@
 							"comment": "7/10 for Rafaella"
 						}
 					]
+				},
+				{
+					"date": "2017-08-12",
+					"dish": [
+						{
+							"image": "/images/dishes/20759797_142627866324829_6943697434446921728_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BXtLfAOjdil",
+							"rating": 8.5,
+							"name": "Greek salad"
+						},
+						{
+							"image": "/images/dishes/20759502_146203692629861_3602716591923396608_n.jpg",
+							"instagram_url": "https://www.instagram.com/p/BXtMJL4DfHp",
+							"rating": 8,
+							"name": "Twist on classic Greek dish \"kagianas\""
+						}
+					]
 				}
 			],
 			"pk": "500169160359140",
-			"city": "Chalandri",
+			"address": "Chalandri",
+			"city": "Athens",
 			"country": "gr",
 			"lng": 23.8047878838,
 			"lat": 38.0203246771,
@@ -12573,11 +12604,11 @@
 					]
 				}
 			],
-			"address": "233 Cardinal Medeiros Ave.",
+			"address": "233 Cardinal Medeiros Ave, Cambridge",
 			"lat": 42.367676308265,
 			"lng": -71.091198921204,
 			"facebook_places_id": "232765707214160",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "232765707214160",
 			"image": "/images/dishes/22070627_1646366868741575_3178120656231333888_n.jpg",
 			"country": "us"
@@ -13015,11 +13046,11 @@
 					]
 				}
 			],
-			"address": "134 Hampshire St",
+			"address": "134 Hampshire St, Cambridge",
 			"lat": 42.37055,
 			"lng": -71.09713,
 			"facebook_places_id": "135284166498331",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "1509727",
 			"image": "/images/dishes/30829912_2110832805804981_919183843850715136_n.jpg",
 			"url": "https://facebook.com/135284166498331",
@@ -13389,11 +13420,11 @@
 					]
 				}
 			],
-			"address": "650 E Kendall St",
+			"address": "650 E Kendall St, Cambridge",
 			"lat": 42.36453,
 			"lng": -71.08107,
 			"facebook_places_id": "695734907187972",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "438608080",
 			"image": "/images/dishes/27892678_1679564285455923_7405170513393221632_n.jpg",
 			"country": "us"
@@ -13716,13 +13747,13 @@
 					]
 				}
 			],
-			"address": "Φιλίππου 5, Μικρολίμανο, Πειραιάς",
+			"address": "Φιλίππου 5, Μικρολίμανο, Piraeus",
 			"lat": 37.9431406,
 			"lng": 23.6599768,
 			"facebook_places_id": "133092190098115",
 			"pk": "224673919",
 			"image": "/images/dishes/26072459_205128496710466_8265732056563056640_n.jpg",
-			"city": "Piraeus",
+			"city": "Athens",
 			"country": "gr"
 		},
 		{
@@ -14452,7 +14483,7 @@
 			"lng": -0.16200004704881,
 			"facebook_places_id": "107909719288098",
 			"city": "London",
-			"country": "gb",
+			"country": "england",
 			"pk": "2295360",
 			"award": ["michelin-star-3"],
 			"image": "/images/dishes/22860595_2029269393976733_4053859217960861696_n.jpg"
@@ -14509,7 +14540,7 @@
 			"lng": -0.1269118,
 			"facebook_places_id": "109165852443238",
 			"city": "London",
-			"country": "gb",
+			"country": "england",
 			"award": ["michelin-plate"],
 			"pk": "2035",
 			"image": "/images/dishes/22802822_125526381470494_2110363018754785280_n.jpg"
@@ -14586,7 +14617,7 @@
 			"facebook_places_id": "139734949419719",
 			"pk": "1349767",
 			"city": "London",
-			"country": "gb",
+			"country": "england",
 			"award": ["michelin-star-2"],
 			"image": "/images/dishes/22802078_170146070236423_2552485371657060352_n.jpg"
 		},
@@ -14627,7 +14658,7 @@
 			"city": "London",
 			"pk": "120834981288827",
 			"image": "/images/dishes/22710858_1978924669059203_1959131404876906496_n.jpg",
-			"country": "gb"
+			"country": "england"
 		},
 		{
 			"id": "park-plaza-westminster-bridge-london",
@@ -14653,7 +14684,7 @@
 			"city": "London",
 			"pk": "852391",
 			"image": "/images/dishes/22793775_1572376859482713_6867398817902231552_n.jpg",
-			"country": "gb"
+			"country": "england"
 		},
 		{
 			"id": "yurbban-passage",
@@ -15561,37 +15592,6 @@
 			"city": "Rhodes",
 			"pk": "876575610",
 			"image": "/images/dishes/21149121_1537488916307566_2012501106583666688_n.jpg",
-			"country": "gr"
-		},
-		{
-			"id": "ο-τζίτζικας-και-ο-μέρμηγκας",
-			"name": "Ο Τζίτζικας Και Ο Μέρμηγκας",
-			"dishes": 2,
-			"visit": [
-				{
-					"date": "2017-08-12",
-					"dish": [
-						{
-							"image": "/images/dishes/20759797_142627866324829_6943697434446921728_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BXtLfAOjdil",
-							"rating": 8.5,
-							"name": "Greek salad"
-						},
-						{
-							"image": "/images/dishes/20759502_146203692629861_3602716591923396608_n.jpg",
-							"instagram_url": "https://www.instagram.com/p/BXtMJL4DfHp",
-							"rating": 8,
-							"name": "Twist on classic Greek dish \"kagianas\""
-						}
-					]
-				}
-			],
-			"lat": 38.020349605769,
-			"lng": 23.804797743494,
-			"facebook_places_id": "269513349745508",
-			"pk": "297679070",
-			"image": "/images/dishes/20759797_142627866324829_6943697434446921728_n.jpg",
-			"city": "Chalandri",
 			"country": "gr"
 		},
 		{
@@ -16698,11 +16698,11 @@
 					]
 				}
 			],
-			"address": "505 Massachusetts avenue ",
+			"address": "505 Massachusetts Ave, Cambridge",
 			"lat": 42.3642899,
 			"lng": -71.10154,
 			"facebook_places_id": "799858680114697",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "799858680114697",
 			"image": "/images/dishes/17933826_1364289886950808_1382152576438370304_n.jpg",
 			"country": "us"
@@ -16905,11 +16905,11 @@
 					]
 				}
 			],
-			"address": "1166 Cambridge St",
+			"address": "1166 Cambridge St, Cambridge",
 			"lat": 42.3730623,
 			"lng": -71.0967376,
 			"facebook_places_id": "295088290592597",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "48403479",
 			"image": "/images/dishes/17125519_723286707840380_4127560822400483328_n.jpg",
 			"country": "us"
@@ -18475,11 +18475,11 @@
 					]
 				}
 			],
-			"address": "1001 Massachusetts Ave",
+			"address": "1001 Massachusetts Ave, Cambridge",
 			"lat": 42.3695133,
 			"lng": -71.1112867,
 			"facebook_places_id": "1627922390824173",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "1014956377",
 			"image": "/images/dishes/15046893_585375024981004_2906428369480450048_n.jpg",
 			"country": "us"
@@ -19542,7 +19542,7 @@
 			"city": "Sheffield",
 			"pk": "216009203",
 			"image": "/images/dishes/14488079_1796824510600330_3051750061114392576_n.jpg",
-			"country": "gb"
+			"country": "england"
 		},
 		{
 			"id": "tavern-road",
@@ -19846,11 +19846,11 @@
 					]
 				}
 			],
-			"address": "4 Cambridge Ctr",
+			"address": "4 Cambridge Ctr, Cambridge",
 			"lat": 42.363895978773,
 			"lng": -71.087470811449,
 			"facebook_places_id": "159050177486055",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "2752184",
 			"image": "/images/dishes/14350930_202344310183889_411075120_n.jpg",
 			"country": "us"
@@ -20607,7 +20607,8 @@
 					]
 				}
 			],
-			"city": "Molyvos, Lesbos",
+			"address": "Molyvos",
+			"city": "Lesbos",
 			"country": "gr",
 			"lat": 39.368984161165,
 			"lng": 26.168484091759,
@@ -20648,7 +20649,8 @@
 			"lat": 39.019313562495,
 			"lng": 26.198068252462,
 			"facebook_places_id": "568450069879642",
-			"city": "Vatera, Lesbos",
+			"address": "Vatera",
+			"city": "Lesbos",
 			"pk": "327786537",
 			"image": "/images/dishes/13687397_316036568744631_408314943_n.jpg",
 			"country": "gr"
@@ -20697,12 +20699,13 @@
 				}
 			],
 			"address": "Ενπλώ",
+			"city": "At sea",
+			"country": "gr",
 			"lat": 37.941849826626,
 			"lng": 23.625099,
 			"facebook_places_id": "213070562057864",
 			"pk": "9462337",
-			"image": "/images/dishes/13744098_1570512239921077_662954066_n.jpg",
-			"country": "gr"
+			"image": "/images/dishes/13744098_1570512239921077_662954066_n.jpg"
 		},
 		{
 			"id": "estragon",
@@ -20787,11 +20790,11 @@
 					]
 				}
 			],
-			"address": "150 Highland Ave",
+			"address": "150 Highland Ave, Somerville",
 			"lat": 42.38823,
 			"lng": -71.1033099,
 			"facebook_places_id": "147418678636441",
-			"city": "Somerville, MA",
+			"city": "Boston, MA",
 			"pk": "512162",
 			"image": "/images/dishes/13736000_1116142305102311_313356263_n.jpg",
 			"country": "us"
@@ -21178,11 +21181,11 @@
 					]
 				}
 			],
-			"address": "118 Beacon St",
+			"address": "118 Beacon St, Somerville",
 			"lat": 42.378216952192,
 			"lng": -71.106156062436,
 			"facebook_places_id": "289267167369",
-			"city": "Somerville, MA",
+			"city": "Boston, MA",
 			"pk": "1342751",
 			"image": "/images/dishes/13743305_1577595092536471_1517237687_n.jpg",
 			"country": "us"
@@ -21236,11 +21239,11 @@
 					]
 				}
 			],
-			"address": "14 JFK St",
+			"address": "14 JFK St, Cambridge",
 			"lat": 42.37317,
 			"lng": -71.11931,
 			"facebook_places_id": "153388104674944",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "2773",
 			"image": "/images/dishes/13725578_1594815624150427_1746703173_n.jpg",
 			"country": "us"
@@ -21261,13 +21264,13 @@
 					]
 				}
 			],
-			"address": "148 1st St",
+			"address": "148 1st St, Cambridge",
 			"lat": 42.366486106671,
 			"lng": -71.077877962978,
 			"facebook_places_id": "813055368707158",
 			"pk": "340814652",
 			"image": "/images/dishes/13739449_300974136914701_958339098_n.jpg",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"country": "us"
 		},
 		{
@@ -21286,13 +21289,13 @@
 					]
 				}
 			],
-			"address": "765 massaccusetts ave",
+			"address": "765 massaccusetts Ave, Cambridge",
 			"lat": 42.36663,
 			"lng": -71.10547,
 			"facebook_places_id": "420323301325327",
 			"pk": "637826466",
 			"image": "/images/dishes/13725470_148060632285987_596971913_n.jpg",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"country": "us"
 		},
 		{
@@ -21652,11 +21655,11 @@
 					]
 				}
 			],
-			"address": "Aerodromio-Kratigos",
+			"address": "Aerodromio-Kratigos, Mytilene",
 			"lat": 39.056672015634,
 			"lng": 26.602307631749,
 			"facebook_places_id": "548857068504691",
-			"city": "Mytilene, Lesbos",
+			"city": "Lesbos",
 			"pk": "268968293",
 			"image": "/images/dishes/13597809_1635118530139568_117818266_n.jpg",
 			"country": "gr"
@@ -22346,11 +22349,11 @@
 					]
 				}
 			],
-			"address": "89 Holland St",
+			"address": "89 Holland St, Somerville",
 			"lat": 42.39888,
 			"lng": -71.12423,
 			"facebook_places_id": "400369520035544",
-			"city": "Somerville, MA",
+			"city": "Boston, MA",
 			"pk": "221398589",
 			"image": "/images/dishes/13129537_977415342349166_1851887937_n.jpg",
 			"country": "us"
@@ -22381,18 +22384,18 @@
 					]
 				}
 			],
-			"address": "1071 Cambridge St",
+			"address": "1071 Cambridge St, Cambridge",
 			"lat": 42.37307,
 			"lng": -71.09512,
 			"facebook_places_id": "364535557032439",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "712459874",
 			"image": "/images/dishes/13129707_1565360860423620_167957108_n.jpg",
 			"country": "us"
 		},
 		{
-			"id": "life-alive",
-			"name": "Life Alive",
+			"id": "life-alive-cambridge",
+			"name": "Life Alive Cambridge",
 			"dishes": 1,
 			"visit": [
 				{
@@ -22406,11 +22409,11 @@
 					]
 				}
 			],
-			"address": "Cambridge: 765 Massachusetts Avenue, Boston MA",
+			"address": "765 Massachusetts Avenue, Cambridge",
 			"lat": 42.645230619073,
 			"lng": -71.312147525232,
 			"facebook_places_id": "180486401239",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "291461876",
 			"image": "/images/dishes/13150861_962309997219600_2023961240_n.jpg",
 			"country": "us"
@@ -22524,13 +22527,13 @@
 					]
 				}
 			],
-			"address": "795 Main St",
+			"address": "795 Main St, Cambridge",
 			"lat": 42.36334,
 			"lng": -71.09713,
 			"facebook_places_id": "120882861257634",
 			"pk": "405102",
 			"image": "/images/dishes/12934905_223619394668529_310692925_n.jpg",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"country": "us"
 		},
 		{
@@ -22583,11 +22586,11 @@
 					]
 				}
 			],
-			"address": "5 Cambridge Ctr",
+			"address": "5 Cambridge Ctr, Cambridge",
 			"lat": 42.36259069,
 			"lng": -71.08803189,
 			"facebook_places_id": "108494675902589",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "605473",
 			"image": "/images/dishes/12819054_1306284242721070_1495467764_n.jpg",
 			"country": "us"
@@ -22608,13 +22611,13 @@
 					]
 				}
 			],
-			"address": "99 Broadway",
+			"address": "99 Broadway, Somerville",
 			"lat": 42.38761,
 			"lng": -71.08281,
 			"facebook_places_id": "709719352431833",
 			"pk": "479356811",
 			"image": "/images/dishes/12826311_1164732006872784_137447180_n.jpg",
-			"city": "Somerville, MA",
+			"city": "Boston, MA",
 			"country": "us"
 		},
 		{
@@ -22658,11 +22661,11 @@
 					]
 				}
 			],
-			"address": "56 Jfk St",
+			"address": "56 Jfk St, Cambridge",
 			"lat": 42.37179,
 			"lng": -71.12062,
 			"facebook_places_id": "146399635474979",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "9167883",
 			"image": "/images/dishes/12797784_798629276909321_83913851_n.jpg",
 			"country": "us"
@@ -22889,11 +22892,11 @@
 					]
 				}
 			],
-			"address": "145 1st St",
+			"address": "145 1st St, Cambridge",
 			"lat": 42.36631,
 			"lng": -71.07805,
 			"facebook_places_id": "115666261795800",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"pk": "671758",
 			"image": "/images/dishes/12070794_773012462821045_521611836_n.jpg",
 			"country": "us"
@@ -22914,13 +22917,13 @@
 					]
 				}
 			],
-			"address": "73 Ames St",
+			"address": "73 Ames St, Cambridge",
 			"lat": 42.363197409348,
 			"lng": -71.087978516522,
 			"facebook_places_id": "571447026292917",
 			"pk": "416947639",
 			"image": "/images/dishes/12105226_307612316076056_2018197190_n.jpg",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"country": "us"
 		},
 		{
@@ -23099,7 +23102,8 @@
 			"facebook_places_id": "488180447859746",
 			"pk": "274254286",
 			"image": "/images/dishes/11881630_418646145005880_419137847_n.jpg",
-			"city": "Molyvos, Lesbos",
+			"address": "Molyvos",
+			"city": "Lesbos",
 			"country": "gr"
 		},
 		{
@@ -23118,11 +23122,11 @@
 					]
 				}
 			],
-			"address": "9 Babcock St",
+			"address": "9 Babcock St, Brookline",
 			"lat": 42.34355,
 			"lng": -71.12282,
 			"facebook_places_id": "117741074919395",
-			"city": "Brookline, MA",
+			"city": "Boston, MA",
 			"pk": "191559",
 			"image": "/images/dishes/11375996_100230443655957_1879486219_n.jpg",
 			"country": "us"
@@ -23204,11 +23208,11 @@
 					]
 				}
 			],
-			"address": "612 Main Street",
+			"address": "612 Main Street, Cambridge",
 			"lat": 42.3627822,
 			"lng": -71.0927848,
 			"facebook_places_id": "128187787867",
-			"city": "Cambridge, MA",
+			"city": "Boston, MA",
 			"country": "us",
 			"pk": "5978",
 			"image": "/images/dishes/11380936_442664372582999_1519587570_n.jpg"
