@@ -9612,7 +9612,7 @@
 			"pk": "553577",
 			"address": "12 Ashton Lane",
 			"city": "Glasgow",
-			"country": "scot",
+			"country": "scotland",
 			"lng": -4.2930798,
 			"lat": 55.8747961,
 			"award": ["michelin-plate"],
@@ -9644,7 +9644,7 @@
 			"pk": "228387915",
 			"address": "64 Albion Street",
 			"city": "Glasgow",
-			"country": "scot",
+			"country": "scotland",
 			"lng": -4.244349817,
 			"lat": 55.8582571827,
 			"facebook_places_id": "388829341198107"
@@ -9701,7 +9701,7 @@
 			"pk": "162272",
 			"address": "84-86 Albion Street",
 			"city": "Glasgow",
-			"country": "scot",
+			"country": "scotland",
 			"lng": -4.2439933,
 			"lat": 55.8583717,
 			"facebook_places_id": "160925753924424"
