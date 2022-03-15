@@ -45,7 +45,8 @@
 				},
 				{
 					"amount": "2",
-					"name": "scallions"
+					"name": "scallions",
+					"preparation": "chopped"
 				},
 				{
 					"name": "nutritional yeast"
@@ -57,6 +58,10 @@
 					"amount": "0.5",
 					"name": "lemon",
 					"preparation": "juiced"
+				},
+				{
+					"name": "Dill",
+					"preparation": "(optional)"
 				}
 			],
 			"ingredientGroup": [
@@ -70,12 +75,20 @@
 			],
 			"step": [
 				{
-					"description": "In a large frying pan cook the cauliflower rice and the onion with butter and the concentrated chicken stock until the cauliflower rice starts drying a bit and the onion becomes translucent (if not using frozen cauliflower rice you may need to cook the onion before adding the cauliflower rice)"
+					"description": "In a large frying pan cook the cauliflower rice and the onion with butter and the concentrated chicken stock until the cauliflower rice starts drying a bit and the onion becomes translucent (if not using frozen cauliflower rice you may need to cook the onion before adding the cauliflower rice). Do not add butter to the pan first, you can just cook it all together."
 				},
 				{
 					"description": "Move the mixture away from the center of the pan and pour some olive oil in the center. When it heats up, add the chopped garlic.."
 				},
-				{}
+				{
+					"description": "After the garlic becomes a little fragrant, mix it all together and add the spinach. Mix well and keep stirring until the spinach defrosts."
+				},
+				{
+					"description": "Once the spinach defrosts, add the spring onion and the dill and sprinkle with a generous amount of nutritional yeast. Stir well and salt to taste."
+				},
+				{
+					"description": "Add the lemon juice, give it a good stir and serve!"
+				}
 			]
 		},
 		{
