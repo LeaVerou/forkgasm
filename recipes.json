@@ -7,6 +7,24 @@
 			"tag": [
 				"Greek",
 				"Vegetarian"
+			],
+			"image": "http://forkgasm.com/images/spanakorizo.png",
+			"ingredient": [
+				{
+					"amount": "1"
+				}
+			],
+			"ingredientGroup": [
+				{
+					"ingredient": [
+						{
+							"amount": "1"
+						}
+					]
+				}
+			],
+			"step": [
+				{}
 			]
 		},
 		{
