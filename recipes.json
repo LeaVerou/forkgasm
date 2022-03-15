@@ -11,7 +11,52 @@
 			"image": "http://forkgasm.com/images/spanakorizo.png",
 			"ingredient": [
 				{
-					"amount": "1"
+					"amount": "500",
+					"unit": "g",
+					"name": "cauliflower rice (frozen ok)"
+				},
+				{
+					"amount": "2",
+					"unit": "oz",
+					"name": "butter"
+				},
+				{
+					"name": "olive oil"
+				},
+				{
+					"amount": "1",
+					"unit": "lbs",
+					"name": "chopped spinach (frozen ok)"
+				},
+				{
+					"amount": "2",
+					"unit": "tsp",
+					"name": "concentrated chicken stock (e.g. Better than Bouillon)"
+				},
+				{
+					"name": "yellow onion",
+					"preparation": "chopped/diced"
+				},
+				{
+					"amount": "5",
+					"unit": "cloves",
+					"name": "garlic",
+					"preparation": "chopped"
+				},
+				{
+					"amount": "2",
+					"name": "scallions"
+				},
+				{
+					"name": "nutritional yeast"
+				},
+				{
+					"name": "salt"
+				},
+				{
+					"amount": "0.5",
+					"name": "lemon",
+					"preparation": "juiced"
 				}
 			],
 			"ingredientGroup": [
@@ -24,6 +69,12 @@
 				}
 			],
 			"step": [
+				{
+					"description": "In a large frying pan cook the cauliflower rice and the onion with butter and the concentrated chicken stock until the cauliflower rice starts drying a bit and the onion becomes translucent (if not using frozen cauliflower rice you may need to cook the onion before adding the cauliflower rice)"
+				},
+				{
+					"description": "Move the mixture away from the center of the pan and pour some olive oil in the center. When it heats up, add the chopped garlic.."
+				},
 				{}
 			]
 		},
