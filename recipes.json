@@ -1,6 +1,14 @@
 {
 	"recipe": [
 		{
+			"name": "Moussaka",
+			"id": "moussaka",
+			"description": "The Greek staple",
+			"tag": [
+				"Greek"
+			]
+		},
+		{
 			"name": "Spanakorizo",
 			"id": "spanakorizo",
 			"description": "A low carb twist on the Greek classic, using cauliflower rice",
