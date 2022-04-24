@@ -6,6 +6,124 @@
 			"description": "The Greek staple",
 			"tag": [
 				"Greek"
+			],
+			"ingredient": [
+				{}
+			],
+			"ingredientGroup": [
+				{
+					"name": "Bottom layer: Eggplants",
+					"ingredient": [
+						{
+							"amount": "1",
+							"name": "Eggplants"
+						},
+						{
+							"name": "Olive oil"
+						},
+						{
+							"name": "Salt"
+						}
+					]
+				},
+				{
+					"name": "Middle layer: Mince",
+					"ingredient": [
+						{
+							"amount": "1.5",
+							"unit": "kg",
+							"name": "ground beef"
+						},
+						{
+							"amount": "3",
+							"name": "large onions"
+						},
+						{
+							"amount": "3",
+							"name": "garlic cloves"
+						},
+						{
+							"amount": "700gr",
+							"name": "tomato pureé"
+						},
+						{
+							"amount": "3",
+							"unit": "tbsp",
+							"name": "sugar"
+						},
+						{
+							"name": "Metaxa or other cognac"
+						},
+						{
+							"amount": "4",
+							"name": "bay leaves"
+						},
+						{
+							"name": "olive oil"
+						},
+						{
+							"name": "salt"
+						},
+						{
+							"name": "black pepper"
+						}
+					]
+				},
+				{
+					"name": "Top layer: Béchamel",
+					"ingredient": [
+						{
+							"amount": "1.5",
+							"unit": "lt",
+							"name": "milk"
+						},
+						{
+							"amount": "150",
+							"unit": "gr",
+							"name": "butter"
+						},
+						{
+							"amount": "150",
+							"unit": "gr",
+							"name": "flour"
+						},
+						{
+							"amount": "1",
+							"name": "onion"
+						},
+						{
+							"name": "cloves"
+						},
+						{
+							"name": "ground nutmeg"
+						},
+						{
+							"amount": "1-2",
+							"name": "eggs"
+						},
+						{
+							"name": "Graviera or other hard yellow cheese",
+							"preparation": "grated"
+						},
+						{
+							"name": "salt"
+						},
+						{
+							"name": "black pepper"
+						}
+					]
+				}
+			],
+			"step": [
+				{
+					"description": "**Bottom layer:** Slice the eggplants, length-wise into 8mm slices.\nPut them on a pan, add salt and drizzle olive oil.\nBake them at 170-180C for 10-15 minutes."
+				},
+				{
+					"description": "**Middle layer:** \n1. Finely chop the onions and garlic cloves and fry them in the olive oil in high heat.\n2. Add the mince and bay leaves and reduce heat to medium.\n3. Pour the Metaxa.\n4. Add the cinnamon stick and remove it after 10 minutes.\n5. Add the tomato pureé and sugar and stir well.\n6. Cook the mixture until the mince is brown."
+				},
+				{
+					"description": "**Béchamel:** \n1. Heat up the milk in a pot (do not let it boil!). Peel the onion, stick several cloves in it, then add it in the milk pot.\n2. In a separate pot, melt the butter and then whisk it with the flour very well. \n3. **Take the pot off the heat** and slowly add milk with a ladle (similarly to how we add stock to risotto) as you keep whisking in big circles. **This is the most challenging part of the entire dish**: If there are lumps you can’t get rid of, the bechamel is destroyed.\n4. After adding all the milk, put it on the heat again and stir very frequently, until thick (but not too thick).\n5. Take it off the heat and add ground nutmeg (a lot, don't be afraid of it), salt, pepper to taste and stir well.\nUse a tablespoon to mix in the parts it the corners of the bottom of the pot as the whisk doesn’t go there.\nAt the end add the eggs and optionally some grated cheese and stir well.\nPour over the mince in the pan and add grated cheese on top."
+				}
 			]
 		},
 		{
