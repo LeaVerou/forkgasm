@@ -13,7 +13,8 @@
 					"name": "Bottom layer: Eggplants",
 					"ingredient": [
 						{
-							"name": "Eggplants"
+							"name": "large eggplants",
+							"unit": "3"
 						},
 						{
 							"name": "Olive oil"
@@ -120,6 +121,9 @@
 				},
 				{
 					"description": "**Béchamel:** \n1. Heat up the milk in a pot (do not let it boil!). Peel the onion, stick several cloves in it, then add it in the milk pot.\n2. In a separate pot, melt the butter and then whisk it with the flour very well. \n3. **Take the pot off the heat** and slowly add milk with a ladle (similarly to how we add stock to risotto) as you keep whisking in big circles. **This is the most challenging part of the entire dish**: If there are lumps you can’t get rid of, the bechamel is destroyed.\n4. After adding all the milk, put it on the heat again and stir very frequently, until thick (but not too thick).\n5. Take it off the heat and add ground nutmeg (a lot, don't be afraid of it), salt, pepper to taste and stir well.\nUse a tablespoon to mix in the parts at the corners of the bottom of the pot as the whisk doesn’t go there.\n6. In the end add the eggs and optionally some grated cheese and stir well.\n7. Pour over the mince in the pan and add grated cheese on top."
+				},
+				{
+					"description": "**Putting it all together**:\n1. Preheat oven at 170C.\n2. Smear butter all over the pan making it sure it goes everywhere, even on the sides and then sprinkle with toast crumbs everywhere.\n3. Add a horizontal layer of eggplant and cover the gaps with vertically placed eggplant slices.\n4. Add a layer of the cooked mince, making sure it goes everywhere.\n5.Add the béchamel sauce, making sure it goes everywhere.\n6. Add grated cheese on top.\n7. Bake at 170C until it starts to look slightly roasted, about 20 minutes. You don’t want to cook them too long, otherwise they start going bitter."
 				}
 			]
 		},
