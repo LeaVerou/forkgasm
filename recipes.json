@@ -2017,6 +2017,14 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Ghormeh Sabzi",
+			"id": "ghormeh-sabzi",
+			"description": "Elika's mom's recipe",
+			"tag": [
+				"Persian"
+			]
 		}
 	]
 }
