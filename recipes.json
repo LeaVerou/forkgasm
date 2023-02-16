@@ -836,6 +836,9 @@
 				},
 				{
 					"name": "salt"
+				},
+				{
+					"name": "parsley"
 				}
 			],
 			"step": [
