@@ -325,6 +325,16 @@
 			],
 			"ingredient": [
 				{
+					"amount": "2",
+					"name": "bananas"
+				},
+				{
+					"amount": "1",
+					"unit": "cup",
+					"name": "walnuts or pecans",
+					"preparation": "in pieces"
+				},
+				{
 					"amount": "0.5",
 					"unit": "cup",
 					"name": "tahini"
@@ -339,14 +349,14 @@
 					"name": "baking powder"
 				},
 				{
-					"amount": "30",
+					"amount": "40",
 					"unit": "g",
 					"name": "honey"
 				},
 				{
 					"amount": "3",
 					"unit": "tbsp",
-					"name": "Sukrin Gold or brown sugar"
+					"name": "brown sugar or Sukrin Gold"
 				},
 				{
 					"amount": "1",
@@ -357,32 +367,31 @@
 					"name": "cinammon",
 					"amount": "1",
 					"unit": "tsp"
-				},
-				{
-					"name": "sesame seeds for garnish"
 				}
 			],
-			"ingredientGroup": [
-				{
-					"ingredient": []
-				}
-			],
+			"ingredientGroup": [],
 			"step": [
 				{
-					"description": "Beat all ingredients together really well in a blender."
+					"description": "In a blender beat all eggs until homogeneous."
 				},
 				{
-					"description": "Pour mixture in an oiled cake tray (we suggest sesame oil for the oiling) and sprinkle with sesame seeds."
+					"description": "Add the rest of the ingredients except the bananas and walnuts and beat until smooth"
 				},
 				{
-					"description": "Bake for 25-30 minutes at 345F (convection bake is better). Depending on your oven, you may want to turn it around (horizontally) after 15 minutes to ensure even baking."
+					"description": "Add bananas (in large pieces) and half of the walnuts and beat until smooth"
 				},
 				{
-					"description": "Done, enjoy! We actually eat it with a spoon straight from the cake tray!"
+					"description": "Pour mixture in an oiled cake tray (you can use sesame oil for the oiling) and sprinkle with the rest of the walnut pieces evenly."
+				},
+				{
+					"description": "Cover with tin foil and bake for 30-40 minutes at 175C/345F (convection bake is better). Depending on your oven, you may want to turn it around (horizontally) after 15 minutes to ensure even baking."
+				},
+				{
+					"description": "Done! It may be a little gooey at first but will be fine when it cools down."
 				}
 			],
-			"notes": "- If you are not avoiding carbs, you can substitute the maple extract with maple syrup.\n- Add two bananas and a good handful of walnuts to the mix and you have banana walnut bread!\n- Other ingredients we've tried (not all at once!): cardamom, Grand Marnier, vanilla extract. Feel free to experiment!",
-			"forked": "My friend Tal's \"tahini bread\" recipe."
+			"notes": "- Make sure to shake the tahini jar well before measuring the 0.5 cup of tahini. Don't just pour, use a spoon to get the thicker stuff that tends to sink at the bottom.\n- Really nice when hot with vanilla or honey ice cream!\n- If you are not avoiding carbs, you can substitute the maple extract with maple syrup (make sure to adjust the honey accordingly).",
+			"forked": "[Tal’s Tahini “bread pudding”](https://forkgasm.com/recipes/flourless-banana-bread)"
 		},
 		{
 			"name": "Tal’s Tahini “bread pudding”",
