@@ -19,7 +19,7 @@
   "devDependencies": {
     "autoprefixer": "^7.2.6",
     "gulp": "^4.0.0",
-    "gulp-file-include": "^1.2.0",
+    "gulp-file-include": "^2.3.0",
     "gulp-image-resize": "^0.13.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.4.0",
