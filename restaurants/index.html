@@ -34,7 +34,7 @@
 		By location:
 		<meta property="countriesUsed" content="[unique(country)]">
 		<meta property="citiesUsed" content="[unique(city where country = countryFilter)]">
-		<select property="countryFilter" style="--flag: url(/flags/[countryFilter].png)">
+		<select property="countryFilter" style="--flag: url(/flags/[countryFilter].png)" mv-default="[url('country')]">
 			<option value="">All countries</option>
 			<optgroup mv-list label="Countries" mv-value="countries.country where code in countriesUsed">
 				<option mv-list-item mv-group value="[code]">[name]</option>
