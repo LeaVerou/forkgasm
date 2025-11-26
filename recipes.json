@@ -2205,6 +2205,60 @@
 			"description": "A versatile tomato sauce that can be used for pizza, pasta, whatever",
 			"tag": [
 				"Sauce"
+			],
+			"ingredient": [
+				{
+					"amount": "200",
+					"unit": "g",
+					"name": "tomato concentrate/paste"
+				},
+				{
+					"amount": "5",
+					"unit": "cloves",
+					"name": "garlic"
+				},
+				{
+					"amount": "1",
+					"unit": "tsp",
+					"name": "basil",
+					"preparation": "dried or frozen. 1 tbsp if fresh"
+				},
+				{
+					"amount": "3",
+					"unit": "tbsp",
+					"name": "dry red wine"
+				},
+				{
+					"amount": "1",
+					"unit": "tbsp",
+					"name": "soy sauce"
+				},
+				{
+					"amount": "2",
+					"unit": "tsp",
+					"name": "Worcestershire sauce "
+				},
+				{
+					"amount": "1-2",
+					"unit": "tsp",
+					"name": "brown sugar or honey"
+				},
+				{
+					"name": "oregano"
+				},
+				{
+					"name": "pepper",
+					"preparation": "to taste"
+				}
+			],
+			"ingredientGroup": [],
+			"step": [
+				{
+					"description": "Blend all together in a blender or mini food processor"
+				},
+				{
+					"description": "Cook at medium-low heat for 5-10 minutes or to taste (the tomatoes will taste less acidic, the garlic will be less pungent, and it will have thickened a bit)"
+				}
 			]
 		}
 	]
